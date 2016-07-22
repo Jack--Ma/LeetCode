@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C4130DAC1D40AC0C00AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DAB1D40AC0C00AB673F /* main.cpp */; };
+		C4130DB71D40BE9800AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DB61D40BE9800AB673F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C4130DA71D40AC0C00AB673F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C4130DB21D40BE9800AB673F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		C4130DA91D40AC0C00AB673F /* 1-Two_Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-Two_Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4130DAB1D40AC0C00AB673F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4130DB41D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-Median_of_Two_Sorted_Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4130DB61D40BE9800AB673F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C4130DA61D40AC0C00AB673F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4130DB11D40BE9800AB673F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				C4130DAA1D40AC0C00AB673F /* 1-Two_Sum */,
+				C4130DB51D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				C4130DA91D40AC0C00AB673F /* 1-Two_Sum */,
+				C4130DB41D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				C4130DAB1D40AC0C00AB673F /* main.cpp */,
 			);
 			path = "1-Two_Sum";
+			sourceTree = "<group>";
+		};
+		C4130DB51D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				C4130DB61D40BE9800AB673F /* main.cpp */,
+			);
+			path = "4-Median_of_Two_Sorted_Arrays";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = C4130DA91D40AC0C00AB673F /* 1-Two_Sum */;
 			productType = "com.apple.product-type.tool";
 		};
+		C4130DB31D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4130DB81D40BE9800AB673F /* Build configuration list for PBXNativeTarget "4-Median_of_Two_Sorted_Arrays" */;
+			buildPhases = (
+				C4130DB01D40BE9800AB673F /* Sources */,
+				C4130DB11D40BE9800AB673F /* Frameworks */,
+				C4130DB21D40BE9800AB673F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4-Median_of_Two_Sorted_Arrays";
+			productName = "4-Median_of_Two_Sorted_Arrays";
+			productReference = C4130DB41D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = JackMa;
 				TargetAttributes = {
 					C4130DA81D40AC0C00AB673F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C4130DB31D40BE9800AB673F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				C4130DA81D40AC0C00AB673F /* 1-Two_Sum */,
+				C4130DB31D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4130DAC1D40AC0C00AB673F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4130DB01D40BE9800AB673F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4130DB71D40BE9800AB673F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +278,20 @@
 			};
 			name = Release;
 		};
+		C4130DB91D40BE9800AB673F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4130DBA1D40BE9800AB673F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -237,6 +309,14 @@
 			buildConfigurations = (
 				C4130DAE1D40AC0C00AB673F /* Debug */,
 				C4130DAF1D40AC0C00AB673F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4130DB81D40BE9800AB673F /* Build configuration list for PBXNativeTarget "4-Median_of_Two_Sorted_Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4130DB91D40BE9800AB673F /* Debug */,
+				C4130DBA1D40BE9800AB673F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

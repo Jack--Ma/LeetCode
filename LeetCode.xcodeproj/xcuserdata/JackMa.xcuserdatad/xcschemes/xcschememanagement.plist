@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>4-Median_of_Two_Sorted_Arrays.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>LeetCode.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>C4130DA81D40AC0C00AB673F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4130DB31D40BE9800AB673F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
