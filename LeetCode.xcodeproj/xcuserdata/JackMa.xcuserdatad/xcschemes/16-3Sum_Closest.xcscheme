@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4130D9A1D40AA9600AB673F"
-               BuildableName = "LeetCode"
-               BlueprintName = "LeetCode"
+               BlueprintIdentifier = "C4D85DCD1D438B600092E613"
+               BuildableName = "16-3Sum_Closest"
+               BlueprintName = "16-3Sum_Closest"
                ReferencedContainer = "container:LeetCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C4130D9A1D40AA9600AB673F"
-            BuildableName = "LeetCode"
-            BlueprintName = "LeetCode"
+            BlueprintIdentifier = "C4D85DCD1D438B600092E613"
+            BuildableName = "16-3Sum_Closest"
+            BlueprintName = "16-3Sum_Closest"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C4130D9A1D40AA9600AB673F"
-            BuildableName = "LeetCode"
-            BlueprintName = "LeetCode"
+            BlueprintIdentifier = "C4D85DCD1D438B600092E613"
+            BuildableName = "16-3Sum_Closest"
+            BlueprintName = "16-3Sum_Closest"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C4130D9A1D40AA9600AB673F"
-            BuildableName = "LeetCode"
-            BlueprintName = "LeetCode"
+            BlueprintIdentifier = "C4D85DCD1D438B600092E613"
+            BuildableName = "16-3Sum_Closest"
+            BlueprintName = "16-3Sum_Closest"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
