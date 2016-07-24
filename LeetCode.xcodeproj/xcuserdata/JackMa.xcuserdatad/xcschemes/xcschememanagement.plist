@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>18-4Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>4-Median_of_Two_Sorted_Arrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>C4D85DCD1D438B600092E613</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4D85DD91D443F430092E613</key>
 		<dict>
 			<key>primary</key>
 			<true/>
