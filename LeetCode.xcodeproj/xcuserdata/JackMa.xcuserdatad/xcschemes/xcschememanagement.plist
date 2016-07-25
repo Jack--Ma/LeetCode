@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>27-Remove_Element.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>4-Median_of_Two_Sorted_Arrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>C44BB83D1D45BB150058B979</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44BB8481D45E77B0058B979</key>
 		<dict>
 			<key>primary</key>
 			<true/>
