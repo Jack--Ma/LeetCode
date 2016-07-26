@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>33-Search_in_Rotated_Sorted_Array.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>4-Median_of_Two_Sorted_Arrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -78,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>C44BB8531D46EA390058B979</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44BB85E1D4729B90058B979</key>
 		<dict>
 			<key>primary</key>
 			<true/>
