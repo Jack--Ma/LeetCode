@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>39-Combination_Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>4-Median_of_Two_Sorted_Arrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -108,6 +113,11 @@
 			<true/>
 		</dict>
 		<key>C44BB8741D4836B10058B979</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44BB87F1D4856A50058B979</key>
 		<dict>
 			<key>primary</key>
 			<true/>
