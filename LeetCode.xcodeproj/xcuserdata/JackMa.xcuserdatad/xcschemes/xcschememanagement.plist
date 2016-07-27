@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>35-Search_Insert_Position.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>4-Median_of_Two_Sorted_Arrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -98,6 +103,11 @@
 			<true/>
 		</dict>
 		<key>C44BB8691D4743510058B979</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44BB8741D4836B10058B979</key>
 		<dict>
 			<key>primary</key>
 			<true/>
