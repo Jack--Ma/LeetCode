@@ -11,6 +11,7 @@
 		C4130DB71D40BE9800AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DB61D40BE9800AB673F /* main.cpp */; };
 		C438E2B91D48973D00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2B81D48973D00DDA9D3 /* main.cpp */; };
 		C438E2C41D49CADF00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2C31D49CADF00DDA9D3 /* main.cpp */; };
+		C438E2CF1D49ED7B00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2CE1D49ED7B00DDA9D3 /* main.cpp */; };
 		C44BB8411D45BB150058B979 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C44BB8401D45BB150058B979 /* main.cpp */; };
 		C44BB84C1D45E77B0058B979 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C44BB84B1D45E77B0058B979 /* main.cpp */; };
 		C44BB8571D46EA390058B979 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C44BB8561D46EA390058B979 /* main.cpp */; };
@@ -54,6 +55,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C438E2BF1D49CADF00DDA9D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C438E2CA1D49ED7B00DDA9D3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -181,6 +191,8 @@
 		C438E2B81D48973D00DDA9D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C438E2C11D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "42-Trapping_Rain_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C438E2C31D49CADF00DDA9D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C438E2CC1D49ED7B00DDA9D3 /* 45-Jump_Game_II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "45-Jump_Game_II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C438E2CE1D49ED7B00DDA9D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C44BB83E1D45BB150058B979 /* 26-Remove_Duplicates_from_Sorted_Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26-Remove_Duplicates_from_Sorted_Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44BB8401D45BB150058B979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C44BB8491D45E77B0058B979 /* 27-Remove_Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27-Remove_Element"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +243,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C438E2BE1D49CADF00DDA9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C438E2C91D49ED7B00DDA9D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,6 +363,7 @@
 				C44BB8971D4887D80058B979 /* 40-Combination_Sum_II */,
 				C438E2B71D48973D00DDA9D3 /* 41-First_Missing_Positive */,
 				C438E2C21D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */,
+				C438E2CD1D49ED7B00DDA9D3 /* 45-Jump_Game_II */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -367,6 +387,7 @@
 				C44BB8961D4887D80058B979 /* 40-Combination_Sum_II */,
 				C438E2B61D48973D00DDA9D3 /* 41-First_Missing_Positive */,
 				C438E2C11D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */,
+				C438E2CC1D49ED7B00DDA9D3 /* 45-Jump_Game_II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -401,6 +422,14 @@
 				C438E2C31D49CADF00DDA9D3 /* main.cpp */,
 			);
 			path = "42-Trapping_Rain_Water";
+			sourceTree = "<group>";
+		};
+		C438E2CD1D49ED7B00DDA9D3 /* 45-Jump_Game_II */ = {
+			isa = PBXGroup;
+			children = (
+				C438E2CE1D49ED7B00DDA9D3 /* main.cpp */,
+			);
+			path = "45-Jump_Game_II";
 			sourceTree = "<group>";
 		};
 		C44BB83F1D45BB150058B979 /* 26-Remove_Duplicates_from_Sorted_Array */ = {
@@ -568,6 +597,23 @@
 			name = "42-Trapping_Rain_Water";
 			productName = "42-Trapping_Rain_Water";
 			productReference = C438E2C11D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */;
+			productType = "com.apple.product-type.tool";
+		};
+		C438E2CB1D49ED7B00DDA9D3 /* 45-Jump_Game_II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C438E2D01D49ED7B00DDA9D3 /* Build configuration list for PBXNativeTarget "45-Jump_Game_II" */;
+			buildPhases = (
+				C438E2C81D49ED7B00DDA9D3 /* Sources */,
+				C438E2C91D49ED7B00DDA9D3 /* Frameworks */,
+				C438E2CA1D49ED7B00DDA9D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "45-Jump_Game_II";
+			productName = "45-Jump_Game_II";
+			productReference = C438E2CC1D49ED7B00DDA9D3 /* 45-Jump_Game_II */;
 			productType = "com.apple.product-type.tool";
 		};
 		C44BB83D1D45BB150058B979 /* 26-Remove_Duplicates_from_Sorted_Array */ = {
@@ -795,6 +841,9 @@
 					C438E2C01D49CADF00DDA9D3 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					C438E2CB1D49ED7B00DDA9D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					C44BB83D1D45BB150058B979 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -861,6 +910,7 @@
 				C44BB8951D4887D80058B979 /* 40-Combination_Sum_II */,
 				C438E2B51D48973D00DDA9D3 /* 41-First_Missing_Positive */,
 				C438E2C01D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */,
+				C438E2CB1D49ED7B00DDA9D3 /* 45-Jump_Game_II */,
 			);
 		};
 /* End PBXProject section */
@@ -895,6 +945,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C438E2C41D49CADF00DDA9D3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C438E2C81D49ED7B00DDA9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C438E2CF1D49ED7B00DDA9D3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,6 +1192,20 @@
 			};
 			name = Release;
 		};
+		C438E2D11D49ED7B00DDA9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C438E2D21D49ED7B00DDA9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C44BB8421D45BB150058B979 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1345,6 +1417,14 @@
 			buildConfigurations = (
 				C438E2C61D49CADF00DDA9D3 /* Debug */,
 				C438E2C71D49CADF00DDA9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C438E2D01D49ED7B00DDA9D3 /* Build configuration list for PBXNativeTarget "45-Jump_Game_II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C438E2D11D49ED7B00DDA9D3 /* Debug */,
+				C438E2D21D49ED7B00DDA9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

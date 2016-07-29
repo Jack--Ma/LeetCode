@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>45-Jump_Game_II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -108,6 +113,11 @@
 			<true/>
 		</dict>
 		<key>C438E2C01D49CADF00DDA9D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C438E2CB1D49ED7B00DDA9D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
