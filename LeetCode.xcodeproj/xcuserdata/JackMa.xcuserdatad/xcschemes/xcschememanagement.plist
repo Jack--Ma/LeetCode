@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>53-Maximum_Subarray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>C419D2421D4B244B000B4F20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C419D24D1D4B3AEC000B4F20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
