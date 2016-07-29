@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>48-Rotate_Image.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -103,6 +108,11 @@
 			<true/>
 		</dict>
 		<key>C4130DB31D40BE9800AB673F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C419D2421D4B244B000B4F20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
