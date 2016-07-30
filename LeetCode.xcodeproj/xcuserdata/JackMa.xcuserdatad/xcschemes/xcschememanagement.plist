@@ -99,6 +99,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>54-Spiral_Matrix.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -123,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>C419D24D1D4B3AEC000B4F20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C419D2581D4B6A63000B4F20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
