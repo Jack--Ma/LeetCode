@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>3-Longest_Substring_Without_Repeating_Characters.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>31-Next_Permutation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -133,6 +138,11 @@
 			<true/>
 		</dict>
 		<key>C419D2581D4B6A63000B4F20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C419D2631D4DDEE7000B4F20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
