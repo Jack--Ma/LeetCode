@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>30-Substring_with_Concatenation_of_All_Words.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>31-Next_Permutation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -143,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>C419D2631D4DDEE7000B4F20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C419D2911D4EF604000B4F20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
