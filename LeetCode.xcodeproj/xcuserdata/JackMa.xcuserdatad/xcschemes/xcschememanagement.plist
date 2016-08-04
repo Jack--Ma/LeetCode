@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>36-Valid_Sudoku.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>39-Combination_Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -228,6 +233,11 @@
 			<true/>
 		</dict>
 		<key>C4D85DD91D443F430092E613</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4FC33C11D52C114001B5F2F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
