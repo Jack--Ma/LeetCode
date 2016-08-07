@@ -14,6 +14,7 @@
 		C419D25C1D4B6A63000B4F20 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C419D25B1D4B6A63000B4F20 /* main.cpp */; };
 		C419D2671D4DDEE7000B4F20 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C419D2661D4DDEE7000B4F20 /* main.cpp */; };
 		C419D2951D4EF604000B4F20 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C419D2941D4EF604000B4F20 /* main.cpp */; };
+		C4209A2B1D532F80009DB1E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4209A2A1D532F80009DB1E7 /* main.cpp */; };
 		C438E2B91D48973D00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2B81D48973D00DDA9D3 /* main.cpp */; };
 		C438E2C41D49CADF00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2C31D49CADF00DDA9D3 /* main.cpp */; };
 		C438E2CF1D49ED7B00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2CE1D49ED7B00DDA9D3 /* main.cpp */; };
@@ -88,6 +89,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C419D2901D4EF604000B4F20 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C4209A261D532F80009DB1E7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -257,6 +267,8 @@
 		C419D2661D4DDEE7000B4F20 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C419D2921D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30-Substring_with_Concatenation_of_All_Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C419D2941D4EF604000B4F20 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4209A281D532F80009DB1E7 /* 37-Sudoku_Solver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "37-Sudoku_Solver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4209A2A1D532F80009DB1E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C438E2B61D48973D00DDA9D3 /* 41-First_Missing_Positive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "41-First_Missing_Positive"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C438E2B81D48973D00DDA9D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C438E2C11D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "42-Trapping_Rain_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -336,6 +348,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C419D28F1D4EF604000B4F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4209A251D532F80009DB1E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -484,6 +503,7 @@
 				C419D2651D4DDEE7000B4F20 /* 3-Longest_Substring_Without_Repeating_Characters */,
 				C419D2931D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */,
 				C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */,
+				C4209A291D532F80009DB1E7 /* 37-Sudoku_Solver */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -514,6 +534,7 @@
 				C419D2641D4DDEE7000B4F20 /* 3-Longest_Substring_Without_Repeating_Characters */,
 				C419D2921D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */,
 				C4FC33C21D52C114001B5F2F /* 36-Valid_Sudoku */,
+				C4209A281D532F80009DB1E7 /* 37-Sudoku_Solver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -572,6 +593,14 @@
 				C419D2941D4EF604000B4F20 /* main.cpp */,
 			);
 			path = "30-Substring_with_Concatenation_of_All_Words";
+			sourceTree = "<group>";
+		};
+		C4209A291D532F80009DB1E7 /* 37-Sudoku_Solver */ = {
+			isa = PBXGroup;
+			children = (
+				C4209A2A1D532F80009DB1E7 /* main.cpp */,
+			);
+			path = "37-Sudoku_Solver";
 			sourceTree = "<group>";
 		};
 		C438E2B71D48973D00DDA9D3 /* 41-First_Missing_Positive */ = {
@@ -822,6 +851,23 @@
 			name = "30-Substring_with_Concatenation_of_All_Words";
 			productName = "30-Substring_with_Concatenation_of_All_Words";
 			productReference = C419D2921D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */;
+			productType = "com.apple.product-type.tool";
+		};
+		C4209A271D532F80009DB1E7 /* 37-Sudoku_Solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4209A2E1D532F80009DB1E7 /* Build configuration list for PBXNativeTarget "37-Sudoku_Solver" */;
+			buildPhases = (
+				C4209A241D532F80009DB1E7 /* Sources */,
+				C4209A251D532F80009DB1E7 /* Frameworks */,
+				C4209A261D532F80009DB1E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "37-Sudoku_Solver";
+			productName = "37-Sudoku_Solver";
+			productReference = C4209A281D532F80009DB1E7 /* 37-Sudoku_Solver */;
 			productType = "com.apple.product-type.tool";
 		};
 		C438E2B51D48973D00DDA9D3 /* 41-First_Missing_Positive */ = {
@@ -1126,6 +1172,9 @@
 					C419D2911D4EF604000B4F20 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					C4209A271D532F80009DB1E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					C438E2B51D48973D00DDA9D3 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -1211,6 +1260,7 @@
 				C419D2631D4DDEE7000B4F20 /* 3-Longest_Substring_Without_Repeating_Characters */,
 				C419D2911D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */,
 				C4FC33C11D52C114001B5F2F /* 36-Valid_Sudoku */,
+				C4209A271D532F80009DB1E7 /* 37-Sudoku_Solver */,
 			);
 		};
 /* End PBXProject section */
@@ -1269,6 +1319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C419D2951D4EF604000B4F20 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4209A241D532F80009DB1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4209A2B1D532F80009DB1E7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1582,6 +1640,20 @@
 			};
 			name = Release;
 		};
+		C4209A2C1D532F80009DB1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4209A2D1D532F80009DB1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C438E2BA1D48973D00DDA9D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1881,6 +1953,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C4209A2E1D532F80009DB1E7 /* Build configuration list for PBXNativeTarget "37-Sudoku_Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4209A2C1D532F80009DB1E7 /* Debug */,
+				C4209A2D1D532F80009DB1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C438E2BC1D48973D00DDA9D3 /* Build configuration list for PBXNativeTarget "41-First_Missing_Positive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2023,6 +2103,7 @@
 				C4FC33C71D52C115001B5F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

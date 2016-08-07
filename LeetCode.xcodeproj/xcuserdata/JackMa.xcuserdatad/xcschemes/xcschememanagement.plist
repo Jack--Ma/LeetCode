@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>37-Sudoku_Solver.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>39-Combination_Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -158,6 +163,11 @@
 			<true/>
 		</dict>
 		<key>C419D2911D4EF604000B4F20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4209A271D532F80009DB1E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
