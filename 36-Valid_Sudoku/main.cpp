@@ -12,6 +12,62 @@
 
 using namespace std;
 
+//Better answer
+bool bestIsValidSudoku(vector<vector<char>> &board) {
+    //check row
+    for (int i = 0; i < 9; i++) {
+        vector<bool> row_chars(9, false);
+        for (int j = 0; j < 9; j++) {
+            int k = board[i][j] - '0';
+            if (isdigit(board[i][j])) {
+                if (row_chars[k-1] || k == 0) {
+                    return false;
+                }
+                row_chars[k-1] = true;
+            }
+        }
+    }
+    
+    //check col
+    for (int i = 0; i < 9; i++) {
+        vector<bool> col_chars(9, false);
+        for (int j = 0; j < 9; j++) {
+            int k = board[j][i] - '0';
+            if (isdigit(board[j][i])) {
+                if (col_chars[k-1] || k == 0) {
+                    return false;
+                }
+                col_chars[k-1] = true;
+            }
+        }
+    }
+    
+    //check 3*3 area
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            int row_begin = i * 3;
+            int col_begin = j * 3;
+            vector<bool> area_chars(9, false);
+            
+            for (int m = row_begin; m < row_begin+3; m++) {
+                for (int n = col_begin; n < col_begin+3; n++) {
+                    int k = board[m][n] - '0';
+                    
+                    if (isdigit(board[m][n])) {
+                        if (area_chars[k-1] || k == 0) {
+                            return false;
+                        }
+                        
+                        area_chars[k-1] = true;
+                    }
+                }
+            }
+        }
+    }
+    return true;
+}
+
+//My answer
 bool checkValid(vector<char> &chars) {
     unordered_set<char> set_chars(chars.begin(), chars.end());
     if (chars.size() != set_chars.size()) {
@@ -71,7 +127,7 @@ int main(int argc, const char * argv[]) {
         {'7','.','.','.','.','.','.','.','.'},
         {'8','.','.','.','.','.','.','.','.'},
         {'9','.','.','.','.','.','.','.','.'}};
-    cout << isValidSudoku(board) << endl;
+    cout << bestIsValidSudoku(board) << endl;
     
     return 0;
 }
