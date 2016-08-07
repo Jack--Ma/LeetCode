@@ -114,6 +114,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>49-Group_Anagrams.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>53-Maximum_Subarray.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -223,6 +228,11 @@
 			<true/>
 		</dict>
 		<key>C44BB8951D4887D80058B979</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4ADC0391D572CD7000F647B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
