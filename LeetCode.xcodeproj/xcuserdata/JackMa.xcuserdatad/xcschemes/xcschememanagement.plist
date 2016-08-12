@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>32_Longest_Valid_Parentheses.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>33-Search_in_Rotated_Sorted_Array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -203,6 +208,11 @@
 			<true/>
 		</dict>
 		<key>C43C86C21D5B10E300D3712C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C43C86CE1D5D5B4E00D3712C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
