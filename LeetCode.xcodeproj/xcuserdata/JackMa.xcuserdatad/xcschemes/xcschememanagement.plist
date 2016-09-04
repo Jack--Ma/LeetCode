@@ -144,6 +144,11 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>85-Maximal_Rectangle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -258,6 +263,11 @@
 			<true/>
 		</dict>
 		<key>C45237181D5848BE00205120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4635AE71D7BC5830012CD4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
