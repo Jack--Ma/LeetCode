@@ -149,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
+		<key>94-Binary_Tree_Inorder_Traversal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -268,6 +273,11 @@
 			<true/>
 		</dict>
 		<key>C4635AE71D7BC5830012CD4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4635AF21D7C17EE0012CD4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
