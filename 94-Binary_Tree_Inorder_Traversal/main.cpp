@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -18,6 +19,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+//Method 1, DFS
 void inorder(TreeNode *root, vector<int> &result) {
     if (root == NULL) {
         return;
@@ -34,6 +36,26 @@ vector<int> inorderTraversal(TreeNode *root) {
     return result;
 }
 
+//Method 2, Use stack presents a DFS search
+vector<int> inorderTraversal2(TreeNode *root) {
+    vector<int> result;
+    stack<TreeNode *> stack;
+    
+    while (root != NULL || !stack.empty()) {
+        if (root != NULL) {
+            stack.push(root);
+            root = root->left;
+        } else {
+            root = stack.top();
+            result.push_back(root->val);
+            stack.pop();
+            root = root->right;
+        }
+    }
+    return result;
+}
+
+//层次遍历生成二叉树
 TreeNode buildTree(vector<int> &nums) {
     if (nums.size() == 0) {
         return NULL;
