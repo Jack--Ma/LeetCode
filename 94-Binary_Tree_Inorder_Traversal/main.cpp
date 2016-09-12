@@ -55,6 +55,39 @@ vector<int> inorderTraversal2(TreeNode *root) {
     return result;
 }
 
+//http://www.cnblogs.com/AnnieKim/archive/2013/06/15/MorrisTraversal.html#3367088
+//Method3, use Morris Traversal(Threaded binary tree) to serach all node
+//使用线索二叉树，利用叶子结点的右空指针指向前驱结点，返回上一个node
+vector<int> inorderTraversal3(TreeNode *root) {
+    vector<int> result;
+    TreeNode *cur = root, *pre = NULL;
+    while (cur != NULL) {
+        if (cur->left == NULL) {
+            result.push_back(cur->val);
+            cur = cur->right;
+        } else {
+            //在当前节点的左子树中找到当前节点在中序遍历下的前驱节点
+            pre = cur->left;
+            while (pre->right != NULL && pre->right != cur) {
+                pre = pre->right;
+            }
+            //如果前驱节点的右孩子为空，将它的右孩子设置为当前节点。当前节点更新为当前节点的左孩子。
+            if (pre->right == NULL) {
+                pre->right = cur;
+                cur = cur->left;
+            }
+            //如果前驱节点的右孩子为当前节点，将它的右孩子重新设为空（恢复树的形状）。当前节点更新为当前节点的右孩子。
+            else {
+                pre->right = NULL;
+                result.push_back(cur->val);
+                cur = cur->right;
+            }
+        }
+    }
+    
+    return result;
+}
+
 //层次遍历生成二叉树
 TreeNode buildTree(vector<int> &nums) {
     if (nums.size() == 0) {
