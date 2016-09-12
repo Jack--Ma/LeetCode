@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>2-Add_Two_Numbers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>26-Remove_Duplicates_from_Sorted_Array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -198,6 +203,11 @@
 			<true/>
 		</dict>
 		<key>C4209A271D532F80009DB1E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C42A7B1F1D864E400039DE1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
