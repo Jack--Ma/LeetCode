@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>32</integer>
 		</dict>
+		<key>23-Merge_k_Sorted_Lists.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
 		<key>26-Remove_Duplicates_from_Sorted_Array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -308,6 +313,11 @@
 			<true/>
 		</dict>
 		<key>C4A0431C1D89164300551755</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4A0432D1D89233A00551755</key>
 		<dict>
 			<key>primary</key>
 			<true/>
