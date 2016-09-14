@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>19-Remove_Nth_Node_From_End_of_List.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
 		<key>2-Add_Two_Numbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -288,6 +293,11 @@
 			<true/>
 		</dict>
 		<key>C4635AF21D7C17EE0012CD4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4A043111D890B2000551755</key>
 		<dict>
 			<key>primary</key>
 			<true/>
