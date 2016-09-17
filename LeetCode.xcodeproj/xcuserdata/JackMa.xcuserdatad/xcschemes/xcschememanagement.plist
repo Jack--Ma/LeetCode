@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>33</integer>
 		</dict>
+		<key>24-Swap_Nodes_in_Pairs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
 		<key>26-Remove_Duplicates_from_Sorted_Array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -303,6 +308,11 @@
 			<true/>
 		</dict>
 		<key>C4635AF21D7C17EE0012CD4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C49F2FF31D8C39EA004E8E43</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C44BB8481D45E77B0058B979"
-               BuildableName = "27-Remove_Element"
-               BlueprintName = "27-Remove_Element"
+               BlueprintIdentifier = "C49F2FF31D8C39EA004E8E43"
+               BuildableName = "24-Swap_Nodes_in_Pairs"
+               BlueprintName = "24-Swap_Nodes_in_Pairs"
                ReferencedContainer = "container:LeetCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C44BB8481D45E77B0058B979"
-            BuildableName = "27-Remove_Element"
-            BlueprintName = "27-Remove_Element"
+            BlueprintIdentifier = "C49F2FF31D8C39EA004E8E43"
+            BuildableName = "24-Swap_Nodes_in_Pairs"
+            BlueprintName = "24-Swap_Nodes_in_Pairs"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C44BB8481D45E77B0058B979"
-            BuildableName = "27-Remove_Element"
-            BlueprintName = "27-Remove_Element"
+            BlueprintIdentifier = "C49F2FF31D8C39EA004E8E43"
+            BuildableName = "24-Swap_Nodes_in_Pairs"
+            BlueprintName = "24-Swap_Nodes_in_Pairs"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C44BB8481D45E77B0058B979"
-            BuildableName = "27-Remove_Element"
-            BlueprintName = "27-Remove_Element"
+            BlueprintIdentifier = "C49F2FF31D8C39EA004E8E43"
+            BuildableName = "24-Swap_Nodes_in_Pairs"
+            BlueprintName = "24-Swap_Nodes_in_Pairs"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
