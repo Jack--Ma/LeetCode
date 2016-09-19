@@ -174,6 +174,11 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>82-Remove_Duplicates_from_Sorted_List_II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>84-Largest_Rectangle_in_Histogram.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -348,6 +353,11 @@
 			<true/>
 		</dict>
 		<key>C4A738031D8F6905007B8AFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4A738121D8F7D6F007B8AFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
