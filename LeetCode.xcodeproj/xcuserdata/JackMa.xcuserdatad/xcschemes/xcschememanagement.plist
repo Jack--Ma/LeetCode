@@ -194,6 +194,11 @@
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
+		<key>86-Partition_List.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
 		<key>94-Binary_Tree_Inorder_Traversal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -373,6 +378,11 @@
 			<true/>
 		</dict>
 		<key>C4ADC0391D572CD7000F647B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4B643C21D92506D00056FEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
