@@ -209,6 +209,11 @@
 			<key>orderHint</key>
 			<integer>39</integer>
 		</dict>
+		<key>9-Palindrome_Number.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
 		<key>94-Binary_Tree_Inorder_Traversal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -333,6 +338,11 @@
 			<true/>
 		</dict>
 		<key>C45237181D5848BE00205120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C45620EF1D94C50D008F81B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
