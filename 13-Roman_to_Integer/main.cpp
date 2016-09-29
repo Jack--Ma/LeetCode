@@ -9,9 +9,11 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <unordered_map>
 
 using namespace std;
 
+//normal method, time is O(n^2)
 int romanToInt(string s) {
     int result = 0;
     vector<string> keys = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
@@ -40,7 +42,32 @@ int romanToInt(string s) {
     return result;
 }
 
+//best method, time is O(n)
+int romanToInt_best(string s) {
+    int result = 0;
+    unordered_map<char, int> map = {
+        {'I',1},
+        {'V',5},
+        {'X',10},
+        {'L',50},
+        {'C',100},
+        {'D',500},
+        {'M',1000}};
+    
+    for (int i = 0; i < s.size(); i++) {
+        if (map.count(s[i]) == 0) return 0;
+        result += map[s[i]];
+        //若当前字符大于前一个字符，说明这两个字符是一个整体，则需要减掉上一个字符对应的值
+        if (i != 0 && map[s[i]] > map[s[i-1]]) {
+            result -= 2*(map[s[i-1]]);
+        }
+    }
+    
+    return result;
+}
+
 int main(int argc, const char * argv[]) {
     cout << romanToInt("MCMXCVI") << endl;
+    cout << romanToInt_best("MCMXCVI") << endl;
     return 0;
 }
