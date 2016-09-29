@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>43</integer>
 		</dict>
+		<key>13-Roman_to_Integer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
 		<key>15-3Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -273,6 +278,11 @@
 			<true/>
 		</dict>
 		<key>C42A7B1F1D864E400039DE1B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C43616921D99181500FB468B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
