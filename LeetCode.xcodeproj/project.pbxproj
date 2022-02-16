@@ -18,6 +18,7 @@
 		C4209A2B1D532F80009DB1E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4209A2A1D532F80009DB1E7 /* main.cpp */; };
 		C42241DD27BC5EF300E5B034 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241DC27BC5EF300E5B034 /* main.cpp */; };
 		C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E127BC5F4100E5B034 /* ContainsDuplicate.cpp */; };
+		C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */; };
 		C42A7B231D864E400039DE1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42A7B221D864E400039DE1B /* main.cpp */; };
 		C43616961D99181500FB468B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C43616951D99181500FB468B /* main.cpp */; };
 		C438E2B91D48973D00DDA9D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C438E2B81D48973D00DDA9D3 /* main.cpp */; };
@@ -517,6 +518,8 @@
 		C42241E127BC5F4100E5B034 /* ContainsDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainsDuplicate.cpp; sourceTree = "<group>"; };
 		C42241E227BC5F4100E5B034 /* ContainsDuplicate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContainsDuplicate.hpp; sourceTree = "<group>"; };
 		C42241E427BC601F00E5B034 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumSubarray.cpp; sourceTree = "<group>"; };
+		C42241E727BC6CA900E5B034 /* MaximumSubarray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumSubarray.hpp; sourceTree = "<group>"; };
 		C42A7B201D864E400039DE1B /* 2-Add_Two_Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-Add_Two_Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42A7B221D864E400039DE1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C43616931D99181500FB468B /* 13-Roman_to_Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-Roman_to_Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1087,6 +1090,15 @@
 			path = "LeetCode-main";
 			sourceTree = "<group>";
 		};
+		C42241E527BC6C8700E5B034 /* 53. Maximum Subarray  */ = {
+			isa = PBXGroup;
+			children = (
+				C42241E727BC6CA900E5B034 /* MaximumSubarray.hpp */,
+				C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */,
+			);
+			path = "53. Maximum Subarray ";
+			sourceTree = "<group>";
+		};
 		C42A7B211D864E400039DE1B /* 2-Add_Two_Numbers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1341,6 +1353,7 @@
 		C4A7380D1D8F69BC007B8AFE /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C42241E527BC6C8700E5B034 /* 53. Maximum Subarray  */,
 				C42241D527BC5E7900E5B034 /* 217. Contains Duplicate */,
 				C4130DAA1D40AC0C00AB673F /* 1-Two_Sum */,
 				C4130DB51D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */,
@@ -2589,6 +2602,7 @@
 			files = (
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
+				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

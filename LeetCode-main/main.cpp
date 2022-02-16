@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ContainsDuplicate.hpp"
+#include "MaximumSubarray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testContainsDuplicate();
+    testMaxSubArray();
     return 0;
 }
