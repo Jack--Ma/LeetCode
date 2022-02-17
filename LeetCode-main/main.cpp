@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "TwoSum.hpp"
+#include "MergeSortedArray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testTwoSum();
+    testMerge();
     return 0;
 }
