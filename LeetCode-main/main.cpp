@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "MaximumSubarray.hpp"
+#include "TwoSum.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMaxSubArray();
+    testTwoSum();
     return 0;
 }
