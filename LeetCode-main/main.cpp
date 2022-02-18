@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "MergeSortedArray.hpp"
+#include "IntersectionOfTwoArraysII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMerge();
+    testIntersect();
     return 0;
 }
