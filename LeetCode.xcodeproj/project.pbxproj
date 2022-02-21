@@ -60,6 +60,7 @@
 		C4A7381A1D8F8EB9007B8AFE /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A738221D8FAB80007B8AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A738211D8FAB80007B8AFE /* main.cpp */; };
 		C4A738261D8FAB85007B8AFE /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
+		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -590,6 +591,8 @@
 		C4A738151D8F7D6F007B8AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A7381F1D8FAB80007B8AFE /* 83-Remove_Duplicates_from_Sorted_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "83-Remove_Duplicates_from_Sorted_List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A738211D8FAB80007B8AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReshapeTheMatrix.cpp; sourceTree = "<group>"; };
+		C4A8858F27C13E6600EC168C /* ReshapeTheMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReshapeTheMatrix.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1401,6 +1404,7 @@
 		C4A7380D1D8F69BC007B8AFE /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A8858C27C13E0100EC168C /* 566. Reshape the Matrix  */,
 				C4A337D927BF8F4900B1DBAD /* 121. Best Time to Buy and Sell Stock  */,
 				C4A337D527BE944F00B1DBAD /* 350. Intersection of Two Arrays II  */,
 				C4A337D127BDDA7800B1DBAD /* 88. Merge Sorted Array  */,
@@ -1445,6 +1449,15 @@
 				C4A738211D8FAB80007B8AFE /* main.cpp */,
 			);
 			path = "83-Remove_Duplicates_from_Sorted_List";
+			sourceTree = "<group>";
+		};
+		C4A8858C27C13E0100EC168C /* 566. Reshape the Matrix  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8858F27C13E6600EC168C /* ReshapeTheMatrix.hpp */,
+				C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */,
+			);
+			path = "566. Reshape the Matrix ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -2655,6 +2668,7 @@
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
+				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
