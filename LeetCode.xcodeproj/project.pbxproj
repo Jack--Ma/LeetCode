@@ -63,6 +63,7 @@
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
 		C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859227C3E37F00EC168C /* Pascal'sTriangle.cpp */; };
 		C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859627C471EC00EC168C /* ValidSudoku.cpp */; };
+		C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -599,6 +600,8 @@
 		C4A8859327C3E37F00EC168C /* Pascal'sTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Pascal'sTriangle.hpp"; sourceTree = "<group>"; };
 		C4A8859627C471EC00EC168C /* ValidSudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
 		C4A8859727C471EC00EC168C /* ValidSudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidSudoku.hpp; sourceTree = "<group>"; };
+		C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchA2DMatrix.cpp; sourceTree = "<group>"; };
+		C4A8859B27C5C4D900EC168C /* SearchA2DMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchA2DMatrix.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1410,6 +1413,7 @@
 		C4A7380D1D8F69BC007B8AFE /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A8859927C5C4BC00EC168C /* 74. Search a 2D Matrix  */,
 				C4A8859527C471DB00EC168C /* 36. Valid Sudoku  */,
 				C4A8859127C3E36100EC168C /* 118. Pascal's Triangle  */,
 				C4A8858C27C13E0100EC168C /* 566. Reshape the Matrix  */,
@@ -1484,6 +1488,15 @@
 				C4A8859627C471EC00EC168C /* ValidSudoku.cpp */,
 			);
 			path = "36. Valid Sudoku ";
+			sourceTree = "<group>";
+		};
+		C4A8859927C5C4BC00EC168C /* 74. Search a 2D Matrix  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8859B27C5C4D900EC168C /* SearchA2DMatrix.hpp */,
+				C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */,
+			);
+			path = "74. Search a 2D Matrix ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -2698,6 +2711,7 @@
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
+				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,

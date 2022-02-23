@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ValidSudoku.hpp"
+#include "SearchA2DMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testIsValidSudoku();
+    testSearchMatrix();
     return 0;
 }
