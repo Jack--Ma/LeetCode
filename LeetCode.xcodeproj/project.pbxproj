@@ -62,6 +62,7 @@
 		C4A738261D8FAB85007B8AFE /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
 		C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859227C3E37F00EC168C /* Pascal'sTriangle.cpp */; };
+		C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859627C471EC00EC168C /* ValidSudoku.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -596,6 +597,8 @@
 		C4A8858F27C13E6600EC168C /* ReshapeTheMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReshapeTheMatrix.hpp; sourceTree = "<group>"; };
 		C4A8859227C3E37F00EC168C /* Pascal'sTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Pascal'sTriangle.cpp"; sourceTree = "<group>"; };
 		C4A8859327C3E37F00EC168C /* Pascal'sTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Pascal'sTriangle.hpp"; sourceTree = "<group>"; };
+		C4A8859627C471EC00EC168C /* ValidSudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidSudoku.cpp; sourceTree = "<group>"; };
+		C4A8859727C471EC00EC168C /* ValidSudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidSudoku.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1407,6 +1410,7 @@
 		C4A7380D1D8F69BC007B8AFE /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A8859527C471DB00EC168C /* 36. Valid Sudoku  */,
 				C4A8859127C3E36100EC168C /* 118. Pascal's Triangle  */,
 				C4A8858C27C13E0100EC168C /* 566. Reshape the Matrix  */,
 				C4A337D927BF8F4900B1DBAD /* 121. Best Time to Buy and Sell Stock  */,
@@ -1471,6 +1475,15 @@
 				C4A8859227C3E37F00EC168C /* Pascal'sTriangle.cpp */,
 			);
 			path = "118. Pascal's Triangle ";
+			sourceTree = "<group>";
+		};
+		C4A8859527C471DB00EC168C /* 36. Valid Sudoku  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8859727C471EC00EC168C /* ValidSudoku.hpp */,
+				C4A8859627C471EC00EC168C /* ValidSudoku.cpp */,
+			);
+			path = "36. Valid Sudoku ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -2679,6 +2692,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
+				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,

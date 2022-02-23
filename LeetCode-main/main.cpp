@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "Pascal'sTriangle.hpp"
+#include "ValidSudoku.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testGenerate();
+    testIsValidSudoku();
     return 0;
 }
