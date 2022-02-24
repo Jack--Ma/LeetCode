@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "RansomNote.hpp"
+#include "ValidAnagram.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testCanConstruct();
+    testIsAnagram();
     return 0;
 }

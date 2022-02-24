@@ -76,6 +76,7 @@
 		C4D85DDD1D443F430092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DDC1D443F430092E613 /* main.cpp */; };
 		C4FC33C51D52C115001B5F2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FC33C41D52C115001B5F2F /* main.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
+		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -627,6 +628,8 @@
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
+		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
+		CB15B67627C7A94A00B4AFA1 /* ValidAnagram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidAnagram.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1509,6 +1512,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				CB15B67427C7A93A00B4AFA1 /* 242. Valid Anagram  */,
 				CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */,
 				C4A8859E27C670D200EC168C /* 387. First Unique Character in a String  */,
 			);
@@ -1616,6 +1620,15 @@
 				CB15A52927C730A900B4AFA1 /* RansomNote.cpp */,
 			);
 			path = "383. Ransom Note ";
+			sourceTree = "<group>";
+		};
+		CB15B67427C7A93A00B4AFA1 /* 242. Valid Anagram  */ = {
+			isa = PBXGroup;
+			children = (
+				CB15B67627C7A94A00B4AFA1 /* ValidAnagram.hpp */,
+				CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */,
+			);
+			path = "242. Valid Anagram ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2740,6 +2753,7 @@
 			files = (
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
+				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
