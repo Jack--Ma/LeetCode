@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "FirstUniqueCharacterInAString.hpp"
+#include "RansomNote.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFirstUniqChar();
+    testCanConstruct();
     return 0;
 }

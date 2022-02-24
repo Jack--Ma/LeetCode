@@ -75,6 +75,7 @@
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
 		C4D85DDD1D443F430092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DDC1D443F430092E613 /* main.cpp */; };
 		C4FC33C51D52C115001B5F2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FC33C41D52C115001B5F2F /* main.cpp */; };
+		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -624,6 +625,8 @@
 		C4D85DDC1D443F430092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4FC33C21D52C114001B5F2F /* 36-Valid_Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36-Valid_Sudoku"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
+		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1506,6 +1509,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */,
 				C4A8859E27C670D200EC168C /* 387. First Unique Character in a String  */,
 			);
 			path = String;
@@ -1603,6 +1607,15 @@
 				C4FC33C41D52C115001B5F2F /* main.cpp */,
 			);
 			path = "36-Valid_Sudoku";
+			sourceTree = "<group>";
+		};
+		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
+			isa = PBXGroup;
+			children = (
+				CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */,
+				CB15A52927C730A900B4AFA1 /* RansomNote.cpp */,
+			);
+			path = "383. Ransom Note ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2735,6 +2748,7 @@
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
+				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 			);
