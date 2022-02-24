@@ -64,6 +64,7 @@
 		C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859227C3E37F00EC168C /* Pascal'sTriangle.cpp */; };
 		C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859627C471EC00EC168C /* ValidSudoku.cpp */; };
 		C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */; };
+		C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859F27C670F900EC168C /* FirstUniqueCharacterInAString.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -602,6 +603,8 @@
 		C4A8859727C471EC00EC168C /* ValidSudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidSudoku.hpp; sourceTree = "<group>"; };
 		C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchA2DMatrix.cpp; sourceTree = "<group>"; };
 		C4A8859B27C5C4D900EC168C /* SearchA2DMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchA2DMatrix.hpp; sourceTree = "<group>"; };
+		C4A8859F27C670F900EC168C /* FirstUniqueCharacterInAString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstUniqueCharacterInAString.cpp; sourceTree = "<group>"; };
+		C4A885A027C670F900EC168C /* FirstUniqueCharacterInAString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstUniqueCharacterInAString.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -966,6 +969,7 @@
 				C4A7380C1D8F69A9007B8AFE /* Hash Table */,
 				C4A7380B1D8F697F007B8AFE /* Linked List */,
 				C4B643E21D9260C100056FEC /* Math */,
+				C4A8859D27C670B500EC168C /* String */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1497,6 +1501,23 @@
 				C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */,
 			);
 			path = "74. Search a 2D Matrix ";
+			sourceTree = "<group>";
+		};
+		C4A8859D27C670B500EC168C /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8859E27C670D200EC168C /* 387. First Unique Character in a String  */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		C4A8859E27C670D200EC168C /* 387. First Unique Character in a String  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A885A027C670F900EC168C /* FirstUniqueCharacterInAString.hpp */,
+				C4A8859F27C670F900EC168C /* FirstUniqueCharacterInAString.cpp */,
+			);
+			path = "387. First Unique Character in a String ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -2707,6 +2728,7 @@
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
+				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,

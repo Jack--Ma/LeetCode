@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "SearchA2DMatrix.hpp"
+#include "FirstUniqueCharacterInAString.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSearchMatrix();
+    testFirstUniqChar();
     return 0;
 }
