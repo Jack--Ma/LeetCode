@@ -77,6 +77,8 @@
 		C4FC33C51D52C115001B5F2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FC33C41D52C115001B5F2F /* main.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
+		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
+		CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -630,6 +632,8 @@
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
 		CB15B67627C7A94A00B4AFA1 /* ValidAnagram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidAnagram.hpp; sourceTree = "<group>"; };
+		CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycle.cpp; sourceTree = "<group>"; };
+		CB15B67D27C7B2FC00B4AFA1 /* LinkedListCycle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListCycle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1617,6 +1621,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				CB15B67B27C7B2DA00B4AFA1 /* 141. Linked List Cycle  */,
 				C42A7B211D864E400039DE1B /* 2-Add_Two_Numbers */,
 				C4A043131D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */,
 				C4A0431E1D89164400551755 /* 21-Merge_Two_Sorted_Lists */,
@@ -1629,6 +1634,15 @@
 				C4B643C41D92506D00056FEC /* 86-Partition_List */,
 			);
 			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		CB15B67B27C7B2DA00B4AFA1 /* 141. Linked List Cycle  */ = {
+			isa = PBXGroup;
+			children = (
+				CB15B67D27C7B2FC00B4AFA1 /* LinkedListCycle.hpp */,
+				CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */,
+			);
+			path = "141. Linked List Cycle ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2762,9 +2776,11 @@
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
+				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
+				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
