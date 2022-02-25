@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "MergeTwoSortedLists.hpp"
+#include "RemoveLinkedListElements.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMergeTwoLists();
+    testRemoveElements();
     return 0;
 }
