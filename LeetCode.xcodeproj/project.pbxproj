@@ -79,6 +79,7 @@
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
 		CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
+		CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B68127C876B500B4AFA1 /* MergeTwoSortedLists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -634,6 +635,8 @@
 		CB15B67627C7A94A00B4AFA1 /* ValidAnagram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidAnagram.hpp; sourceTree = "<group>"; };
 		CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycle.cpp; sourceTree = "<group>"; };
 		CB15B67D27C7B2FC00B4AFA1 /* LinkedListCycle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListCycle.hpp; sourceTree = "<group>"; };
+		CB15B68127C876B500B4AFA1 /* MergeTwoSortedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedLists.cpp; sourceTree = "<group>"; };
+		CB15B68227C876B500B4AFA1 /* MergeTwoSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoSortedLists.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1621,6 +1624,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				CB15B68027C8769800B4AFA1 /* 21. Merge Two Sorted Lists  */,
 				CB15B67B27C7B2DA00B4AFA1 /* 141. Linked List Cycle  */,
 				C42A7B211D864E400039DE1B /* 2-Add_Two_Numbers */,
 				C4A043131D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */,
@@ -1643,6 +1647,15 @@
 				CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */,
 			);
 			path = "141. Linked List Cycle ";
+			sourceTree = "<group>";
+		};
+		CB15B68027C8769800B4AFA1 /* 21. Merge Two Sorted Lists  */ = {
+			isa = PBXGroup;
+			children = (
+				CB15B68227C876B500B4AFA1 /* MergeTwoSortedLists.hpp */,
+				CB15B68127C876B500B4AFA1 /* MergeTwoSortedLists.cpp */,
+			);
+			path = "21. Merge Two Sorted Lists ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2767,6 +2780,7 @@
 			files = (
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
+				CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,

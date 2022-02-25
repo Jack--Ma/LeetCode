@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "LinkedListCycle.hpp"
+#include "MergeTwoSortedLists.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testHasCycle();
+    testMergeTwoLists();
     return 0;
 }

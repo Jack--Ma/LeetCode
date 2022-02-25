@@ -22,4 +22,6 @@ struct ListNode {
 
 ListNode *buildList(vector<int> nums);
 
+void outputList(ListNode *head);
+
 #endif /* ListNode_hpp */

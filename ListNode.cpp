@@ -24,3 +24,12 @@ ListNode *buildList(vector<int> nums) {
     
     return root;
 }
+
+void outputList(ListNode *head) {
+    ListNode *p = head;
+    while (p != NULL) {
+        cout << p->val << " ";
+        p = p->next;
+    }
+    cout << endl;
+}
