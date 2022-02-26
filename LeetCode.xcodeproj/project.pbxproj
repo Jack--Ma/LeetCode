@@ -66,6 +66,7 @@
 		C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859A27C5C4D900EC168C /* SearchA2DMatrix.cpp */; };
 		C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8859F27C670F900EC168C /* FirstUniqueCharacterInAString.cpp */; };
 		C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A885A327C9169200EC168C /* RemoveLinkedListElements.cpp */; };
+		C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A885A727C9269900EC168C /* ReverseLinkedList.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -613,6 +614,8 @@
 		C4A885A027C670F900EC168C /* FirstUniqueCharacterInAString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstUniqueCharacterInAString.hpp; sourceTree = "<group>"; };
 		C4A885A327C9169200EC168C /* RemoveLinkedListElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveLinkedListElements.cpp; sourceTree = "<group>"; };
 		C4A885A427C9169200EC168C /* RemoveLinkedListElements.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveLinkedListElements.hpp; sourceTree = "<group>"; };
+		C4A885A727C9269900EC168C /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
+		C4A885A827C9269900EC168C /* ReverseLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseLinkedList.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1530,6 +1533,15 @@
 			path = "203. Remove Linked List Elements ";
 			sourceTree = "<group>";
 		};
+		C4A885A627C9268C00EC168C /* 206. Reverse Linked List  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A885A827C9269900EC168C /* ReverseLinkedList.hpp */,
+				C4A885A727C9269900EC168C /* ReverseLinkedList.cpp */,
+			);
+			path = "206. Reverse Linked List ";
+			sourceTree = "<group>";
+		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
 			isa = PBXGroup;
 			children = (
@@ -1636,6 +1648,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4A885A627C9268C00EC168C /* 206. Reverse Linked List  */,
 				C4A885A227C9167A00EC168C /* 203. Remove Linked List Elements  */,
 				CB15B68027C8769800B4AFA1 /* 21. Merge Two Sorted Lists  */,
 				CB15B67B27C7B2DA00B4AFA1 /* 141. Linked List Cycle  */,
@@ -2805,6 +2818,7 @@
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,
+				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,

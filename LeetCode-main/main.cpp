@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "RemoveLinkedListElements.hpp"
+#include "ReverseLinkedList.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testRemoveElements();
+    testReverseList();
     return 0;
 }
