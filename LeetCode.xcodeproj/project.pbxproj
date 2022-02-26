@@ -52,6 +52,7 @@
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
 		C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337DA27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp */; };
+		C4A511E227C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A511E027C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp */; };
 		C4A737FB1D8E5E45007B8AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A737FA1D8E5E45007B8AFE /* main.cpp */; };
 		C4A737FF1D8E6ECC007B8AFE /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A738071D8F6905007B8AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A738061D8F6905007B8AFE /* main.cpp */; };
@@ -594,6 +595,8 @@
 		C4A337D727BE947F00B1DBAD /* IntersectionOfTwoArraysII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntersectionOfTwoArraysII.hpp; sourceTree = "<group>"; };
 		C4A337DA27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimeToBuyAndSellStock.cpp; sourceTree = "<group>"; };
 		C4A337DB27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BestTimeToBuyAndSellStock.hpp; sourceTree = "<group>"; };
+		C4A511E027C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesFromSortedList.cpp; sourceTree = "<group>"; };
+		C4A511E127C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveDuplicatesFromSortedList.hpp; sourceTree = "<group>"; };
 		C4A737F81D8E5E45007B8AFE /* 25-Reverse_Nodes_in_k-Group */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "25-Reverse_Nodes_in_k-Group"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A737FA1D8E5E45007B8AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A738041D8F6905007B8AFE /* 61-Rotate_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "61-Rotate_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1383,6 +1386,15 @@
 			path = "121. Best Time to Buy and Sell Stock ";
 			sourceTree = "<group>";
 		};
+		C4A511DE27C9CED00004D026 /* 83. Remove Duplicates from Sorted List  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A511E127C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.hpp */,
+				C4A511E027C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp */,
+			);
+			path = "83. Remove Duplicates from Sorted List ";
+			sourceTree = "<group>";
+		};
 		C4A737F91D8E5E45007B8AFE /* 25-Reverse_Nodes_in_k-Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -1648,6 +1660,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4A511DE27C9CED00004D026 /* 83. Remove Duplicates from Sorted List  */,
 				C4A885A627C9268C00EC168C /* 206. Reverse Linked List  */,
 				C4A885A227C9167A00EC168C /* 203. Remove Linked List Elements  */,
 				CB15B68027C8769800B4AFA1 /* 21. Merge Two Sorted Lists  */,
@@ -2812,6 +2825,7 @@
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
+				C4A511E227C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
