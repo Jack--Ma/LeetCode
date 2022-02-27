@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "RemoveDuplicatesFromSortedList.hpp"
+#include "ValidParentheses.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testDeleteDuplicates();
+    testIsValid();
     return 0;
 }
