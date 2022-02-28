@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ValidParentheses.hpp"
+#include "ImplementQueueUsingStacks.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testIsValid();
+    testMyQueue();
     return 0;
 }
