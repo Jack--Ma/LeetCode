@@ -6,6 +6,7 @@
 //  Copyright © 2022 JackMa. All rights reserved.
 //
 
+#include <stack>
 #include "BinaryTreePreorderTraversal.hpp"
 
 /**
@@ -24,6 +25,26 @@ static inline void _preorderTraversal(TreeNode *root, vector<int> &nums) {
     nums.push_back(root->val);
     _preorderTraversal(root->left, nums);
     _preorderTraversal(root->right, nums);
+}
+
+/// preorder by use stack
+/// 1. Add root node into stack, loop stack when it's not empty
+/// 2. Pop stack top node
+/// 3. Add right node into stack, add left node into stack
+static inline void _preorderTraversal_stack(TreeNode *root, vector<int> &nums) {
+    stack<TreeNode *> tempStack;
+    tempStack.push(root);
+    
+    while (!tempStack.empty()) {
+        nums.push_back(tempStack.top()->val);
+        tempStack.pop();
+        if (root->right != NULL) {
+            tempStack.push(root->right);
+        }
+        if (root->left != NULL) {
+            tempStack.push(root->left);
+        }
+    }
 }
 
 vector<int> Solution::preorderTraversal(TreeNode *root) {

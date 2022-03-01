@@ -1457,6 +1457,7 @@
 				C489C5D627CD2690002A6D34 /* 145. Binary Tree Postorder Traversal  */,
 				C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */,
 				C4A511ED27CC515C0004D026 /* 144. Binary Tree Preorder Traversal  */,
+				C4635AF41D7C17EE0012CD4B /* 94-Binary_Tree_Inorder_Traversal */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -1509,7 +1510,6 @@
 				C43C86D01D5D5B4E00D3712C /* 32_Longest_Valid_Parentheses */,
 				C43C86C41D5B10E300D3712C /* 84-Largest_Rectangle_in_Histogram */,
 				C4635AE91D7BC5830012CD4B /* 85-Maximal_Rectangle */,
-				C4635AF41D7C17EE0012CD4B /* 94-Binary_Tree_Inorder_Traversal */,
 			);
 			name = "Hash Table";
 			sourceTree = "<group>";

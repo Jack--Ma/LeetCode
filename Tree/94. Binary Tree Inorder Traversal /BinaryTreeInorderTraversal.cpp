@@ -6,6 +6,7 @@
 //  Copyright © 2022 JackMa. All rights reserved.
 //
 
+#include <stack>
 #include "BinaryTreeInorderTraversal.hpp"
 
 /**
@@ -23,6 +24,26 @@ static inline void _inorderTraversal(TreeNode *root, vector<int> &nums) {
     _inorderTraversal(root->left, nums);
     nums.push_back(root->val);
     _inorderTraversal(root->right, nums);
+}
+
+/// inorder by use stack
+/// 1. loop tree and stack
+/// 2. when node is not null, continue loop it's left node until left node is null
+/// 3. when node is null, mean this tree branch ended, and stack top node is this node's parent node, and loop parent node's right node
+static inline void _inorderTraversal_stack(TreeNode *root, vector<int> &nums) {
+    stack<TreeNode *> tempStack;
+    
+    while (root != NULL || !tempStack.empty()) {
+        if (root != NULL) {
+            tempStack.push(root);
+            root = root->left;
+        } else {
+            root = tempStack.top();
+            nums.push_back(root->val);
+            tempStack.pop();
+            root = root->right;
+        }
+    }
 }
 
 vector<int> Solution::inorderTraversal(TreeNode *root) {
