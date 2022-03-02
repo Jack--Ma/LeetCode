@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "BinaryTreeLevelOrderTraversal.hpp"
+#include "MaximumDepthOfBinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLevelOrder();
+    testMaxDepth();
     return 0;
 }
