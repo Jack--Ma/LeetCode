@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "BinaryTreePostorderTraversal.hpp"
+#include "BinaryTreeLevelOrderTraversal.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPostorderTraversal();
+    testLevelOrder();
     return 0;
 }
