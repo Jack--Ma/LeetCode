@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "SymmetricTree.hpp"
+#include "InvertBinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testIsSymmetric();
+    testInvertTree();
     return 0;
 }
