@@ -42,6 +42,7 @@
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
 		C489C5E127D04687002A6D34 /* InvertBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DF27D04687002A6D34 /* InvertBinaryTree.cpp */; };
+		C489C5E527D0533C002A6D34 /* PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5E327D0533C002A6D34 /* PathSum.cpp */; };
 		C49F2FF71D8C39EA004E8E43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49F2FF61D8C39EA004E8E43 /* main.cpp */; };
 		C49F2FFB1D8C39F3004E8E43 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A043151D890B2000551755 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043141D890B2000551755 /* main.cpp */; };
@@ -593,6 +594,8 @@
 		C489C5DC27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumDepthOfBinaryTree.hpp; sourceTree = "<group>"; };
 		C489C5DF27D04687002A6D34 /* InvertBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InvertBinaryTree.cpp; sourceTree = "<group>"; };
 		C489C5E027D04687002A6D34 /* InvertBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InvertBinaryTree.hpp; sourceTree = "<group>"; };
+		C489C5E327D0533C002A6D34 /* PathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PathSum.cpp; sourceTree = "<group>"; };
+		C489C5E427D0533C002A6D34 /* PathSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PathSum.hpp; sourceTree = "<group>"; };
 		C49F2FF41D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-Swap_Nodes_in_Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043121D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Remove_Nth_Node_From_End_of_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1369,6 +1372,15 @@
 			path = "226. Invert Binary Tree ";
 			sourceTree = "<group>";
 		};
+		C489C5E227D05330002A6D34 /* 112. Path Sum  */ = {
+			isa = PBXGroup;
+			children = (
+				C489C5E427D0533C002A6D34 /* PathSum.hpp */,
+				C489C5E327D0533C002A6D34 /* PathSum.cpp */,
+			);
+			path = "112. Path Sum ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1484,6 +1496,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C489C5E227D05330002A6D34 /* 112. Path Sum  */,
 				C489C5DE27D04674002A6D34 /* 226. Invert Binary Tree  */,
 				CB15D99327CF0AA200B4AFA1 /* 101. Symmetric Tree  */,
 				C489C5DA27CEF8AE002A6D34 /* 104. Maximum Depth of Binary Tree  */,
@@ -2967,6 +2980,7 @@
 				C4A511E727CA68300004D026 /* ValidParentheses.cpp in Sources */,
 				C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
+				C489C5E527D0533C002A6D34 /* PathSum.cpp in Sources */,
 				CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */,
