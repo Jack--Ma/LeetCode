@@ -11,6 +11,8 @@
 
 #include <stdio.h>
 
+extern int NullTreeNodeVal;
+
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -22,6 +24,8 @@ struct TreeNode {
 
 TreeNode* buildTree(vector<int> nums);
 
-void outputTree(TreeNode *node);
+bool isLeafNode(TreeNode *node);
+
+void outputTree(TreeNode *root);
 
 #endif /* TreeNode_hpp */

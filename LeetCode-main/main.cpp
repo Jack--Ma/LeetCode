@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testHasPathSum();
+    vector<int> nums = {5,4,8,11,4,13,4,7,2,1,2,NullTreeNodeVal,3,4};
+    outputTree(buildTree(nums));
     return 0;
 }
