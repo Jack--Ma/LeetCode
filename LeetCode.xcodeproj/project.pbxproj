@@ -91,6 +91,7 @@
 		CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B68127C876B500B4AFA1 /* MergeTwoSortedLists.cpp */; };
 		CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99027CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp */; };
+		CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -670,6 +671,8 @@
 		CB15B68227C876B500B4AFA1 /* MergeTwoSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoSortedLists.hpp; sourceTree = "<group>"; };
 		CB15D99027CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeLevelOrderTraversal.cpp; sourceTree = "<group>"; };
 		CB15D99127CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeLevelOrderTraversal.hpp; sourceTree = "<group>"; };
+		CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SymmetricTree.cpp; sourceTree = "<group>"; };
+		CB15D99527CF0AB400B4AFA1 /* SymmetricTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SymmetricTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1469,6 +1472,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				CB15D99327CF0AA200B4AFA1 /* 101. Symmetric Tree  */,
 				C489C5DA27CEF8AE002A6D34 /* 104. Maximum Depth of Binary Tree  */,
 				CB15D98F27CE560C00B4AFA1 /* 102. Binary Tree Level Order Traversal  */,
 				C489C5D627CD2690002A6D34 /* 145. Binary Tree Postorder Traversal  */,
@@ -1807,6 +1811,15 @@
 				CB15D99027CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp */,
 			);
 			path = "102. Binary Tree Level Order Traversal ";
+			sourceTree = "<group>";
+		};
+		CB15D99327CF0AA200B4AFA1 /* 101. Symmetric Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				CB15D99527CF0AB400B4AFA1 /* SymmetricTree.hpp */,
+				CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */,
+			);
+			path = "101. Symmetric Tree ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2942,6 +2955,7 @@
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
 				CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
+				CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */,
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
 				C4A511E227C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
