@@ -51,7 +51,7 @@ TreeNode* _invertTree_queue(TreeNode *root)  {
     // use queue traverse tree node
     while (!treeQueue.empty()) {
         // treeQueue store tree's node in some level
-        int queueSize = (int)nodeQueue.size();
+        int queueSize = (int)treeQueue.size();
         for (int i = 0; i < queueSize; i++) {
             TreeNode *node = treeQueue.front();
             treeQueue.pop();
