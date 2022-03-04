@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "SearchInABinarySearchTree.hpp"
+#include "InsertIntoABinarySearchTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSearchBST();
+    testInsertIntoBST();
     return 0;
 }
