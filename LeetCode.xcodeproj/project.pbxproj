@@ -1038,7 +1038,7 @@
 				C4A9455427D3AD2F00E452DC /* Array */,
 				C4A9455527D3AE5500E452DC /* Hash Table */,
 				CB15B67A27C7B10800B4AFA1 /* Linked List */,
-				C4B643E21D9260C100056FEC /* Math */,
+				C4A9455727D3AEB400E452DC /* Math */,
 				C4A8859D27C670B500EC168C /* String */,
 				C4A511E327CA68100004D026 /* Stack */,
 				C4A511EC27CC51490004D026 /* Tree */,
@@ -1760,6 +1760,19 @@
 			path = "Hash Table";
 			sourceTree = "<group>";
 		};
+		C4A9455727D3AEB400E452DC /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				C4B643DC1D9260AC00056FEC /* 7-Reverse_Integer */,
+				C4B643E81D9279D800056FEC /* 8-String_to_Integer */,
+				C45620F11D94C50D008F81B9 /* 9-Palindrome_Number */,
+				C4A18EC81D98A5D500FF6791 /* 12-Integer_to_Roman */,
+				C43616941D99181500FB468B /* 13-Roman_to_Integer */,
+				C416E6A81D9CC0400039047D /* 29-Divide_Two_Integers */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
 			isa = PBXGroup;
 			children = (
@@ -1782,19 +1795,6 @@
 				C4B643DD1D9260AC00056FEC /* main.cpp */,
 			);
 			path = "7-Reverse_Integer";
-			sourceTree = "<group>";
-		};
-		C4B643E21D9260C100056FEC /* Math */ = {
-			isa = PBXGroup;
-			children = (
-				C4B643DC1D9260AC00056FEC /* 7-Reverse_Integer */,
-				C4B643E81D9279D800056FEC /* 8-String_to_Integer */,
-				C45620F11D94C50D008F81B9 /* 9-Palindrome_Number */,
-				C4A18EC81D98A5D500FF6791 /* 12-Integer_to_Roman */,
-				C43616941D99181500FB468B /* 13-Roman_to_Integer */,
-				C416E6A81D9CC0400039047D /* 29-Divide_Two_Integers */,
-			);
-			name = Math;
 			sourceTree = "<group>";
 		};
 		C4B643E81D9279D800056FEC /* 8-String_to_Integer */ = {
