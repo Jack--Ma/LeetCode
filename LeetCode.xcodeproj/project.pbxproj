@@ -1035,7 +1035,7 @@
 				C4D85DD51D43D0B50092E613 /* README.md */,
 				C42241DB27BC5EF300E5B034 /* LeetCode-main */,
 				C4A511F127CC51A10004D026 /* Library */,
-				C4A7380D1D8F69BC007B8AFE /* Array */,
+				C4A9455427D3AD2F00E452DC /* Array */,
 				C4A7380C1D8F69A9007B8AFE /* Hash Table */,
 				CB15B67A27C7B10800B4AFA1 /* Linked List */,
 				C4B643E21D9260C100056FEC /* Math */,
@@ -1306,6 +1306,7 @@
 		C44BB8811D4856A50058B979 /* 39-Combination_Sum */ = {
 			isa = PBXGroup;
 			children = (
+				C44BB8761D4836B10058B979 /* 35-Search_Insert_Position */,
 				C44BB8821D4856A50058B979 /* main.cpp */,
 			);
 			path = "39-Combination_Sum";
@@ -1608,43 +1609,6 @@
 			name = "Hash Table";
 			sourceTree = "<group>";
 		};
-		C4A7380D1D8F69BC007B8AFE /* Array */ = {
-			isa = PBXGroup;
-			children = (
-				C4A8859927C5C4BC00EC168C /* 74. Search a 2D Matrix  */,
-				C4A8859527C471DB00EC168C /* 36. Valid Sudoku  */,
-				C4A8859127C3E36100EC168C /* 118. Pascal's Triangle  */,
-				C4A8858C27C13E0100EC168C /* 566. Reshape the Matrix  */,
-				C4A337D927BF8F4900B1DBAD /* 121. Best Time to Buy and Sell Stock  */,
-				C4A337D527BE944F00B1DBAD /* 350. Intersection of Two Arrays II  */,
-				C4A337D127BDDA7800B1DBAD /* 88. Merge Sorted Array  */,
-				C4A337CD27BD55F600B1DBAD /* 1. Two Sum  */,
-				C42241E527BC6C8700E5B034 /* 53. Maximum Subarray  */,
-				C42241D527BC5E7900E5B034 /* 217. Contains Duplicate */,
-				C4130DAA1D40AC0C00AB673F /* 1-Two_Sum */,
-				C4130DB51D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */,
-				C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */,
-				C4D85DC41D41ED7A0092E613 /* 15-3Sum */,
-				C4D85DCF1D438B610092E613 /* 16-3Sum_Closest */,
-				C4D85DDB1D443F430092E613 /* 18-4Sum */,
-				C44BB83F1D45BB150058B979 /* 26-Remove_Duplicates_from_Sorted_Array */,
-				C44BB84A1D45E77B0058B979 /* 27-Remove_Element */,
-				C44BB8551D46EA390058B979 /* 31-Next_Permutation */,
-				C44BB8601D4729B90058B979 /* 33-Search_in_Rotated_Sorted_Array */,
-				C44BB86B1D4743510058B979 /* 34_Search_for_a_Range */,
-				C44BB8761D4836B10058B979 /* 35-Search_Insert_Position */,
-				C44BB8811D4856A50058B979 /* 39-Combination_Sum */,
-				C44BB8971D4887D80058B979 /* 40-Combination_Sum_II */,
-				C438E2B71D48973D00DDA9D3 /* 41-First_Missing_Positive */,
-				C438E2C21D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */,
-				C438E2CD1D49ED7B00DDA9D3 /* 45-Jump_Game_II */,
-				C419D2441D4B244B000B4F20 /* 48-Rotate_Image */,
-				C419D24F1D4B3AED000B4F20 /* 53-Maximum_Subarray */,
-				C419D25A1D4B6A63000B4F20 /* 54-Spiral_Matrix */,
-			);
-			name = Array;
-			sourceTree = "<group>";
-		};
 		C4A738141D8F7D6F007B8AFE /* 82-Remove_Duplicates_from_Sorted_List_II */ = {
 			isa = PBXGroup;
 			children = (
@@ -1750,6 +1714,50 @@
 				C4A9455027D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp */,
 			);
 			path = "235. Lowest Common Ancestor of a Binary Search Tree ";
+			sourceTree = "<group>";
+		};
+		C4A9455327D3AA8500E452DC /* Array Old */ = {
+			isa = PBXGroup;
+			children = (
+				C4130DAA1D40AC0C00AB673F /* 1-Two_Sum */,
+				C4130DB51D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */,
+				C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */,
+				C4D85DC41D41ED7A0092E613 /* 15-3Sum */,
+				C4D85DCF1D438B610092E613 /* 16-3Sum_Closest */,
+				C4D85DDB1D443F430092E613 /* 18-4Sum */,
+				C44BB83F1D45BB150058B979 /* 26-Remove_Duplicates_from_Sorted_Array */,
+				C44BB84A1D45E77B0058B979 /* 27-Remove_Element */,
+				C44BB8551D46EA390058B979 /* 31-Next_Permutation */,
+				C44BB8601D4729B90058B979 /* 33-Search_in_Rotated_Sorted_Array */,
+				C44BB86B1D4743510058B979 /* 34_Search_for_a_Range */,
+				C44BB8811D4856A50058B979 /* 39-Combination_Sum */,
+				C44BB8971D4887D80058B979 /* 40-Combination_Sum_II */,
+				C438E2B71D48973D00DDA9D3 /* 41-First_Missing_Positive */,
+				C438E2C21D49CADF00DDA9D3 /* 42-Trapping_Rain_Water */,
+				C438E2CD1D49ED7B00DDA9D3 /* 45-Jump_Game_II */,
+				C419D2441D4B244B000B4F20 /* 48-Rotate_Image */,
+				C419D24F1D4B3AED000B4F20 /* 53-Maximum_Subarray */,
+				C419D25A1D4B6A63000B4F20 /* 54-Spiral_Matrix */,
+			);
+			path = "Array Old";
+			sourceTree = "<group>";
+		};
+		C4A9455427D3AD2F00E452DC /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8859927C5C4BC00EC168C /* 74. Search a 2D Matrix  */,
+				C4A8859527C471DB00EC168C /* 36. Valid Sudoku  */,
+				C4A8859127C3E36100EC168C /* 118. Pascal's Triangle  */,
+				C4A8858C27C13E0100EC168C /* 566. Reshape the Matrix  */,
+				C4A337D927BF8F4900B1DBAD /* 121. Best Time to Buy and Sell Stock  */,
+				C4A337D527BE944F00B1DBAD /* 350. Intersection of Two Arrays II  */,
+				C4A337D127BDDA7800B1DBAD /* 88. Merge Sorted Array  */,
+				C4A337CD27BD55F600B1DBAD /* 1. Two Sum  */,
+				C42241E527BC6C8700E5B034 /* 53. Maximum Subarray  */,
+				C42241D527BC5E7900E5B034 /* 217. Contains Duplicate */,
+				C4A9455327D3AA8500E452DC /* Array Old */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
