@@ -45,6 +45,7 @@
 		C489C5E527D0533C002A6D34 /* PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5E327D0533C002A6D34 /* PathSum.cpp */; };
 		C489C5E927D10DD6002A6D34 /* SearchInABinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5E727D10DD6002A6D34 /* SearchInABinarySearchTree.cpp */; };
 		C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5EB27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp */; };
+		C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5EF27D19ADF002A6D34 /* ValidateBinarySearchTree.cpp */; };
 		C49F2FF71D8C39EA004E8E43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49F2FF61D8C39EA004E8E43 /* main.cpp */; };
 		C49F2FFB1D8C39F3004E8E43 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A043151D890B2000551755 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043141D890B2000551755 /* main.cpp */; };
@@ -602,6 +603,8 @@
 		C489C5E827D10DD6002A6D34 /* SearchInABinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchInABinarySearchTree.hpp; sourceTree = "<group>"; };
 		C489C5EB27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertIntoABinarySearchTree.cpp; sourceTree = "<group>"; };
 		C489C5EC27D11719002A6D34 /* InsertIntoABinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsertIntoABinarySearchTree.hpp; sourceTree = "<group>"; };
+		C489C5EF27D19ADF002A6D34 /* ValidateBinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidateBinarySearchTree.cpp; sourceTree = "<group>"; };
+		C489C5F027D19ADF002A6D34 /* ValidateBinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidateBinarySearchTree.hpp; sourceTree = "<group>"; };
 		C49F2FF41D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-Swap_Nodes_in_Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043121D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Remove_Nth_Node_From_End_of_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1405,6 +1408,15 @@
 			path = "701. Insert into a Binary Search Tree ";
 			sourceTree = "<group>";
 		};
+		C489C5EE27D19ACE002A6D34 /* 98. Validate Binary Search Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C489C5F027D19ADF002A6D34 /* ValidateBinarySearchTree.hpp */,
+				C489C5EF27D19ADF002A6D34 /* ValidateBinarySearchTree.cpp */,
+			);
+			path = "98. Validate Binary Search Tree ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1520,6 +1532,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C489C5EE27D19ACE002A6D34 /* 98. Validate Binary Search Tree  */,
 				C489C5EA27D11703002A6D34 /* 701. Insert into a Binary Search Tree  */,
 				C489C5E627D10DBB002A6D34 /* 700. Search in a Binary Search Tree  */,
 				C489C5E227D05330002A6D34 /* 112. Path Sum  */,
@@ -2996,6 +3009,7 @@
 			files = (
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
+				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
 				C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */,
 				C489C5E127D04687002A6D34 /* InvertBinaryTree.cpp in Sources */,
