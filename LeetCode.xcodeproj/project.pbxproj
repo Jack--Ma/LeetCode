@@ -1036,7 +1036,7 @@
 				C42241DB27BC5EF300E5B034 /* LeetCode-main */,
 				C4A511F127CC51A10004D026 /* Library */,
 				C4A9455427D3AD2F00E452DC /* Array */,
-				C4A7380C1D8F69A9007B8AFE /* Hash Table */,
+				C4A9455527D3AE5500E452DC /* Hash Table */,
 				CB15B67A27C7B10800B4AFA1 /* Linked List */,
 				C4B643E21D9260C100056FEC /* Math */,
 				C4A8859D27C670B500EC168C /* String */,
@@ -1593,22 +1593,6 @@
 			path = "61-Rotate_List";
 			sourceTree = "<group>";
 		};
-		C4A7380C1D8F69A9007B8AFE /* Hash Table */ = {
-			isa = PBXGroup;
-			children = (
-				C419D2651D4DDEE7000B4F20 /* 3-Longest_Substring_Without_Repeating_Characters */,
-				C419D2931D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */,
-				C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */,
-				C4209A291D532F80009DB1E7 /* 37-Sudoku_Solver */,
-				C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */,
-				C452371A1D5848BE00205120 /* 76-Minimum_Window_Substring */,
-				C43C86D01D5D5B4E00D3712C /* 32_Longest_Valid_Parentheses */,
-				C43C86C41D5B10E300D3712C /* 84-Largest_Rectangle_in_Histogram */,
-				C4635AE91D7BC5830012CD4B /* 85-Maximal_Rectangle */,
-			);
-			name = "Hash Table";
-			sourceTree = "<group>";
-		};
 		C4A738141D8F7D6F007B8AFE /* 82-Remove_Duplicates_from_Sorted_List_II */ = {
 			isa = PBXGroup;
 			children = (
@@ -1758,6 +1742,22 @@
 				C4A9455327D3AA8500E452DC /* Array Old */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		C4A9455527D3AE5500E452DC /* Hash Table */ = {
+			isa = PBXGroup;
+			children = (
+				C419D2651D4DDEE7000B4F20 /* 3-Longest_Substring_Without_Repeating_Characters */,
+				C419D2931D4EF604000B4F20 /* 30-Substring_with_Concatenation_of_All_Words */,
+				C43C86D01D5D5B4E00D3712C /* 32_Longest_Valid_Parentheses */,
+				C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */,
+				C4209A291D532F80009DB1E7 /* 37-Sudoku_Solver */,
+				C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */,
+				C452371A1D5848BE00205120 /* 76-Minimum_Window_Substring */,
+				C43C86C41D5B10E300D3712C /* 84-Largest_Rectangle_in_Histogram */,
+				C4635AE91D7BC5830012CD4B /* 85-Maximal_Rectangle */,
+			);
+			path = "Hash Table";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
