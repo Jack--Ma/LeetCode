@@ -81,6 +81,7 @@
 		C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A885A327C9169200EC168C /* RemoveLinkedListElements.cpp */; };
 		C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A885A727C9269900EC168C /* ReverseLinkedList.cpp */; };
 		C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9454C27D3303B00E452DC /* TwoSumIV.cpp */; };
+		C4A9455227D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9455027D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -660,6 +661,8 @@
 		C4A885A827C9269900EC168C /* ReverseLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseLinkedList.hpp; sourceTree = "<group>"; };
 		C4A9454C27D3303B00E452DC /* TwoSumIV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSumIV.cpp; sourceTree = "<group>"; };
 		C4A9454D27D3303B00E452DC /* TwoSumIV.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSumIV.hpp; sourceTree = "<group>"; };
+		C4A9455027D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LowestCommonAncestorOfABinarySearchTree.cpp; sourceTree = "<group>"; };
+		C4A9455127D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LowestCommonAncestorOfABinarySearchTree.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1535,6 +1538,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C4A9454F27D376BB00E452DC /* 235. Lowest Common Ancestor of a Binary Search Tree  */,
 				C4A9454B27D316F800E452DC /* 653. Two Sum IV - Input is a BST  */,
 				C489C5EE27D19ACE002A6D34 /* 98. Validate Binary Search Tree  */,
 				C489C5EA27D11703002A6D34 /* 701. Insert into a Binary Search Tree  */,
@@ -1737,6 +1741,15 @@
 				C4A9454C27D3303B00E452DC /* TwoSumIV.cpp */,
 			);
 			path = "653. Two Sum IV - Input is a BST ";
+			sourceTree = "<group>";
+		};
+		C4A9454F27D376BB00E452DC /* 235. Lowest Common Ancestor of a Binary Search Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9455127D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.hpp */,
+				C4A9455027D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp */,
+			);
+			path = "235. Lowest Common Ancestor of a Binary Search Tree ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3055,6 +3068,7 @@
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
+				C4A9455227D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
