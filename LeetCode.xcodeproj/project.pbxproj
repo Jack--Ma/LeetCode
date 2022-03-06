@@ -83,6 +83,7 @@
 		C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9454C27D3303B00E452DC /* TwoSumIV.cpp */; };
 		C4A9455227D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9455027D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp */; };
 		C4A9455C27D3B08B00E452DC /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9455A27D3B08B00E452DC /* SingleNumber.cpp */; };
+		C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9455E27D4676E00E452DC /* MajorityElement.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -666,6 +667,8 @@
 		C4A9455127D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LowestCommonAncestorOfABinarySearchTree.hpp; sourceTree = "<group>"; };
 		C4A9455A27D3B08B00E452DC /* SingleNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		C4A9455B27D3B08B00E452DC /* SingleNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleNumber.hpp; sourceTree = "<group>"; };
+		C4A9455E27D4676E00E452DC /* MajorityElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MajorityElement.cpp; sourceTree = "<group>"; };
+		C4A9455F27D4676E00E452DC /* MajorityElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MajorityElement.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1732,6 +1735,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A9455D27D4676200E452DC /* 169. Majority Element  */,
 				C4A9455827D3B06200E452DC /* 136. Single Number  */,
 				C4A8859927C5C4BC00EC168C /* 74. Search a 2D Matrix  */,
 				C4A8859527C471DB00EC168C /* 36. Valid Sudoku  */,
@@ -1784,6 +1788,15 @@
 				C4A9455A27D3B08B00E452DC /* SingleNumber.cpp */,
 			);
 			path = "136. Single Number ";
+			sourceTree = "<group>";
+		};
+		C4A9455D27D4676200E452DC /* 169. Majority Element  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9455F27D4676E00E452DC /* MajorityElement.hpp */,
+				C4A9455E27D4676E00E452DC /* MajorityElement.cpp */,
+			);
+			path = "169. Majority Element ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3069,6 +3082,7 @@
 				C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
 				C489C5E527D0533C002A6D34 /* PathSum.cpp in Sources */,
+				C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */,
 				CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */,
