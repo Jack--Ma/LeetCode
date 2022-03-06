@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "MajorityElement.hpp"
+#include "3Sum.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMajorityElement();
+    testThreeSum();
     return 0;
 }
