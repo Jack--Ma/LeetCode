@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "3Sum.hpp"
+#include "SortColors.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testThreeSum();
+    testSortColors();
     return 0;
 }

@@ -85,6 +85,8 @@
 		C4A9455C27D3B08B00E452DC /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9455A27D3B08B00E452DC /* SingleNumber.cpp */; };
 		C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9455E27D4676E00E452DC /* MajorityElement.cpp */; };
 		C4A9456427D4C70800E452DC /* 3Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9456227D4C70800E452DC /* 3Sum.cpp */; };
+		C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9456627D513AB00E452DC /* SortColors.cpp */; };
+		C4A9456B27D586F100E452DC /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9456927D586F100E452DC /* Helper.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -672,6 +674,10 @@
 		C4A9455F27D4676E00E452DC /* MajorityElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MajorityElement.hpp; sourceTree = "<group>"; };
 		C4A9456227D4C70800E452DC /* 3Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sum.cpp; sourceTree = "<group>"; };
 		C4A9456327D4C70800E452DC /* 3Sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 3Sum.hpp; sourceTree = "<group>"; };
+		C4A9456627D513AB00E452DC /* SortColors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortColors.cpp; sourceTree = "<group>"; };
+		C4A9456727D513AB00E452DC /* SortColors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortColors.hpp; sourceTree = "<group>"; };
+		C4A9456927D586F100E452DC /* Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Helper.cpp; sourceTree = "<group>"; };
+		C4A9456A27D586F100E452DC /* Helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Helper.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1582,6 +1588,8 @@
 				C4A043241D8916C000551755 /* ListNode.cpp */,
 				C4A511F327CC51C30004D026 /* TreeNode.hpp */,
 				C4A511F227CC51C30004D026 /* TreeNode.cpp */,
+				C4A9456A27D586F100E452DC /* Helper.hpp */,
+				C4A9456927D586F100E452DC /* Helper.cpp */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -1738,6 +1746,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A9456527D5139900E452DC /* 75. Sort Colors  */,
 				C4A9456127D4C6FA00E452DC /* 15. 3Sum  */,
 				C4A9455D27D4676200E452DC /* 169. Majority Element  */,
 				C4A9455827D3B06200E452DC /* 136. Single Number  */,
@@ -1810,6 +1819,15 @@
 				C4A9456227D4C70800E452DC /* 3Sum.cpp */,
 			);
 			path = "15. 3Sum ";
+			sourceTree = "<group>";
+		};
+		C4A9456527D5139900E452DC /* 75. Sort Colors  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9456727D513AB00E452DC /* SortColors.hpp */,
+				C4A9456627D513AB00E452DC /* SortColors.cpp */,
+			);
+			path = "75. Sort Colors ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3089,6 +3107,7 @@
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C489C5E927D10DD6002A6D34 /* SearchInABinarySearchTree.cpp in Sources */,
+				C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */,
 				C4A511F027CC516F0004D026 /* BinaryTreePreorderTraversal.cpp in Sources */,
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A511E727CA68300004D026 /* ValidParentheses.cpp in Sources */,
@@ -3106,6 +3125,7 @@
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
 				C4A9455C27D3B08B00E452DC /* SingleNumber.cpp in Sources */,
+				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,

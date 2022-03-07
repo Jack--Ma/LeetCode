@@ -18,4 +18,6 @@
 
 using namespace std;
 
+#include "Helper.hpp"
+
 #endif /* PrefixHeader_pch */
