@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "DesignHashMap.hpp"
+#include "Pascal'sTriangleII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMyHashMap();
+    testGetRow();
     return 0;
 }
