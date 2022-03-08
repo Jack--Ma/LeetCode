@@ -13,4 +13,6 @@
 
 extern void printVector(const vector<int> &v);
 
+extern void printVector(const vector<vector<int>> &v);
+
 #endif /* Helper_hpp */

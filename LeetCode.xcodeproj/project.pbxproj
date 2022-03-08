@@ -107,6 +107,7 @@
 		CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B68127C876B500B4AFA1 /* MergeTwoSortedLists.cpp */; };
 		CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99027CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp */; };
 		CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */; };
+		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -718,6 +719,8 @@
 		CB15D99127CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeLevelOrderTraversal.hpp; sourceTree = "<group>"; };
 		CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SymmetricTree.cpp; sourceTree = "<group>"; };
 		CB15D99527CF0AB400B4AFA1 /* SymmetricTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SymmetricTree.hpp; sourceTree = "<group>"; };
+		CB8C3C2827D7515E00576C6D /* RotateImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
+		CB8C3C2927D7515E00576C6D /* RotateImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateImage.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1755,6 +1758,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				CB8C3C2727D7514B00576C6D /* 48. Rotate Image  */,
 				C4A9457427D6E53C00E452DC /* 119. Pascal's Triangle II  */,
 				C4A9457027D665F200E452DC /* 706. Design HashMap  */,
 				C4A9456C27D5959B00E452DC /* 56. Merge Intervals  */,
@@ -2015,6 +2019,15 @@
 				CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */,
 			);
 			path = "101. Symmetric Tree ";
+			sourceTree = "<group>";
+		};
+		CB8C3C2727D7514B00576C6D /* 48. Rotate Image  */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C3C2927D7515E00576C6D /* RotateImage.hpp */,
+				CB8C3C2827D7515E00576C6D /* RotateImage.cpp */,
+			);
+			path = "48. Rotate Image ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3169,6 +3182,7 @@
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
+				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
 				C4A9457727D6E5E300E452DC /* Pascal'sTriangleII.cpp in Sources */,
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,

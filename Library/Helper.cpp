@@ -14,3 +14,9 @@ void printVector(const vector<int> &v) {
     }
     cout << endl;
 }
+
+void printVector(const vector<vector<int>> &v) {
+    for (int i = 0; i < v.size(); i++) {
+        printVector(v[i]);
+    }
+}
