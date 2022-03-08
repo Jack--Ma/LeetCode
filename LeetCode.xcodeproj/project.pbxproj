@@ -88,6 +88,7 @@
 		C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9456627D513AB00E452DC /* SortColors.cpp */; };
 		C4A9456B27D586F100E452DC /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9456927D586F100E452DC /* Helper.cpp */; };
 		C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9456D27D595AE00E452DC /* MergeIntervals.cpp */; };
+		C4A9457327D665FC00E452DC /* DesignHashMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9457127D665FC00E452DC /* DesignHashMap.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -681,6 +682,8 @@
 		C4A9456A27D586F100E452DC /* Helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Helper.hpp; sourceTree = "<group>"; };
 		C4A9456D27D595AE00E452DC /* MergeIntervals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
 		C4A9456E27D595AE00E452DC /* MergeIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeIntervals.hpp; sourceTree = "<group>"; };
+		C4A9457127D665FC00E452DC /* DesignHashMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DesignHashMap.cpp; sourceTree = "<group>"; };
+		C4A9457227D665FC00E452DC /* DesignHashMap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DesignHashMap.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1749,6 +1752,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A9457027D665F200E452DC /* 706. Design HashMap  */,
 				C4A9456C27D5959B00E452DC /* 56. Merge Intervals  */,
 				C4A9456527D5139900E452DC /* 75. Sort Colors  */,
 				C4A9456127D4C6FA00E452DC /* 15. 3Sum  */,
@@ -1841,6 +1845,15 @@
 				C4A9456D27D595AE00E452DC /* MergeIntervals.cpp */,
 			);
 			path = "56. Merge Intervals ";
+			sourceTree = "<group>";
+		};
+		C4A9457027D665F200E452DC /* 706. Design HashMap  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9457227D665FC00E452DC /* DesignHashMap.hpp */,
+				C4A9457127D665FC00E452DC /* DesignHashMap.cpp */,
+			);
+			path = "706. Design HashMap ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3135,6 +3148,7 @@
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,
 				C4A511E227C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp in Sources */,
 				C4A9456427D4C70800E452DC /* 3Sum.cpp in Sources */,
+				C4A9457327D665FC00E452DC /* DesignHashMap.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,

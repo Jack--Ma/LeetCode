@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "MergeIntervals.hpp"
+#include "DesignHashMap.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMergeIntervals();
+    testMyHashMap();
     return 0;
 }
