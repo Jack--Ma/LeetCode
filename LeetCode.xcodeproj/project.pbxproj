@@ -93,6 +93,7 @@
 		C4A9457B27D82BD000E452DC /* SearchA2DMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9457927D82BD000E452DC /* SearchA2DMatrixII.cpp */; };
 		C4A9457F27D8BA8C00E452DC /* Non-overlappingIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9457D27D8BA8C00E452DC /* Non-overlappingIntervals.cpp */; };
 		C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */; };
+		C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458527DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -698,6 +699,8 @@
 		C4A9457E27D8BA8C00E452DC /* Non-overlappingIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Non-overlappingIntervals.hpp"; sourceTree = "<group>"; };
 		C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IncreasingTripletSubsequence.cpp; sourceTree = "<group>"; };
 		C4A9458227D98B2E00E452DC /* IncreasingTripletSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IncreasingTripletSubsequence.hpp; sourceTree = "<group>"; };
+		C4A9458527DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProductOfArrayExceptSelf.cpp; sourceTree = "<group>"; };
+		C4A9458627DA4FA000E452DC /* ProductOfArrayExceptSelf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProductOfArrayExceptSelf.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1770,6 +1773,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A9458427DA4F9100E452DC /* 238. Product of Array Except Self  */,
 				C4A9458027D98B2100E452DC /* 334. Increasing Triplet Subsequence  */,
 				C4A9457C27D8BA6700E452DC /* 435. Non-overlapping Intervals  */,
 				C4A9457827D82BA600E452DC /* 240. Search a 2D Matrix II  */,
@@ -1914,6 +1918,15 @@
 				C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */,
 			);
 			path = "334. Increasing Triplet Subsequence ";
+			sourceTree = "<group>";
+		};
+		C4A9458427DA4F9100E452DC /* 238. Product of Array Except Self  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9458627DA4FA000E452DC /* ProductOfArrayExceptSelf.hpp */,
+				C4A9458527DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp */,
+			);
+			path = "238. Product of Array Except Self ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3231,6 +3244,7 @@
 				C4A511E227C9CEEA0004D026 /* RemoveDuplicatesFromSortedList.cpp in Sources */,
 				C4A9456427D4C70800E452DC /* 3Sum.cpp in Sources */,
 				C4A9457327D665FC00E452DC /* DesignHashMap.cpp in Sources */,
+				C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
