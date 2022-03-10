@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "Non-overlappingIntervals.hpp"
+#include "IncreasingTripletSubsequence.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testEraseOverlapIntervals();
+    testIncreasingTriplet();
     return 0;
 }

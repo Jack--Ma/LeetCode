@@ -92,6 +92,7 @@
 		C4A9457727D6E5E300E452DC /* Pascal'sTriangleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9457527D6E5E300E452DC /* Pascal'sTriangleII.cpp */; };
 		C4A9457B27D82BD000E452DC /* SearchA2DMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9457927D82BD000E452DC /* SearchA2DMatrixII.cpp */; };
 		C4A9457F27D8BA8C00E452DC /* Non-overlappingIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9457D27D8BA8C00E452DC /* Non-overlappingIntervals.cpp */; };
+		C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
@@ -695,6 +696,8 @@
 		C4A9457A27D82BD000E452DC /* SearchA2DMatrixII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchA2DMatrixII.hpp; sourceTree = "<group>"; };
 		C4A9457D27D8BA8C00E452DC /* Non-overlappingIntervals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Non-overlappingIntervals.cpp"; sourceTree = "<group>"; };
 		C4A9457E27D8BA8C00E452DC /* Non-overlappingIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Non-overlappingIntervals.hpp"; sourceTree = "<group>"; };
+		C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IncreasingTripletSubsequence.cpp; sourceTree = "<group>"; };
+		C4A9458227D98B2E00E452DC /* IncreasingTripletSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IncreasingTripletSubsequence.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1767,6 +1770,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A9458027D98B2100E452DC /* 334. Increasing Triplet Subsequence  */,
 				C4A9457C27D8BA6700E452DC /* 435. Non-overlapping Intervals  */,
 				C4A9457827D82BA600E452DC /* 240. Search a 2D Matrix II  */,
 				CB8C3C2B27D77C7F00576C6D /* 59. Spiral Matrix II  */,
@@ -1901,6 +1905,15 @@
 				C4A9457D27D8BA8C00E452DC /* Non-overlappingIntervals.cpp */,
 			);
 			path = "435. Non-overlapping Intervals ";
+			sourceTree = "<group>";
+		};
+		C4A9458027D98B2100E452DC /* 334. Increasing Triplet Subsequence  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9458227D98B2E00E452DC /* IncreasingTripletSubsequence.hpp */,
+				C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */,
+			);
+			path = "334. Increasing Triplet Subsequence ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3192,6 +3205,7 @@
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
 				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
+				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
 				C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */,
 				C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */,
