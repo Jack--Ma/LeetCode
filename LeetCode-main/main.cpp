@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "LongestPalindrome.hpp"
+#include "WordPattern.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLongestPalindrome();
+    testWordPattern();
     return 0;
 }

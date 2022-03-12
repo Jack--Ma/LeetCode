@@ -48,6 +48,7 @@
 		C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5EF27D19ADF002A6D34 /* ValidateBinarySearchTree.cpp */; };
 		C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E9E6327DC41D40063E280 /* AddStrings.cpp */; };
 		C48E9E6927DC74880063E280 /* LongestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E9E6727DC74880063E280 /* LongestPalindrome.cpp */; };
+		C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E9E6B27DC89540063E280 /* WordPattern.cpp */; };
 		C49F2FF71D8C39EA004E8E43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49F2FF61D8C39EA004E8E43 /* main.cpp */; };
 		C49F2FFB1D8C39F3004E8E43 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A043151D890B2000551755 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043141D890B2000551755 /* main.cpp */; };
@@ -628,6 +629,8 @@
 		C48E9E6427DC41D40063E280 /* AddStrings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddStrings.hpp; sourceTree = "<group>"; };
 		C48E9E6727DC74880063E280 /* LongestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindrome.cpp; sourceTree = "<group>"; };
 		C48E9E6827DC74880063E280 /* LongestPalindrome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindrome.hpp; sourceTree = "<group>"; };
+		C48E9E6B27DC89540063E280 /* WordPattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WordPattern.cpp; sourceTree = "<group>"; };
+		C48E9E6C27DC89540063E280 /* WordPattern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WordPattern.hpp; sourceTree = "<group>"; };
 		C49F2FF41D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-Swap_Nodes_in_Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043121D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Remove_Nth_Node_From_End_of_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1493,6 +1496,15 @@
 			path = "409. Longest Palindrome ";
 			sourceTree = "<group>";
 		};
+		C48E9E6A27DC894A0063E280 /* 290. Word Pattern  */ = {
+			isa = PBXGroup;
+			children = (
+				C48E9E6C27DC89540063E280 /* WordPattern.hpp */,
+				C48E9E6B27DC89540063E280 /* WordPattern.cpp */,
+			);
+			path = "290. Word Pattern ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1719,6 +1731,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				C48E9E6A27DC894A0063E280 /* 290. Word Pattern  */,
 				C48E9E6627DC74400063E280 /* 409. Longest Palindrome  */,
 				C48E9E6227DC41C80063E280 /* 415. Add Strings  */,
 				CB15B67427C7A93A00B4AFA1 /* 242. Valid Anagram  */,
@@ -3290,6 +3303,7 @@
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
+				C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */,
 				C4A9455C27D3B08B00E452DC /* SingleNumber.cpp in Sources */,
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
