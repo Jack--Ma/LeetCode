@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "SubarraySumEqualsK.hpp"
+#include "AddStrings.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSubarraySum();
+    testAddStrings();
     return 0;
 }
