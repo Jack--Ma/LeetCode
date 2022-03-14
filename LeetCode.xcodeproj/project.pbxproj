@@ -108,6 +108,7 @@
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
 		C4D85DDD1D443F430092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DDC1D443F430092E613 /* main.cpp */; };
+		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4FC33C51D52C115001B5F2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FC33C41D52C115001B5F2F /* main.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
@@ -733,6 +734,8 @@
 		C4D85DD51D43D0B50092E613 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4D85DDA1D443F430092E613 /* 18-4Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-4Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DDC1D443F430092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
+		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4FC33C21D52C114001B5F2F /* 36-Valid_Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36-Valid_Sudoku"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
@@ -1743,6 +1746,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */,
 				C48E9E6E27DCE65B0063E280 /* 763. Partition Labels  */,
 				C48E9E6A27DC894A0063E280 /* 290. Word Pattern  */,
 				C48E9E6627DC74400063E280 /* 409. Longest Palindrome  */,
@@ -2056,6 +2060,15 @@
 				C4D85DDC1D443F430092E613 /* main.cpp */,
 			);
 			path = "18-4Sum";
+			sourceTree = "<group>";
+		};
+		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E610F327DE510600B56DED /* GroupAnagrams.hpp */,
+				C4E610F227DE510600B56DED /* GroupAnagrams.cpp */,
+			);
+			path = "49. Group Anagrams ";
 			sourceTree = "<group>";
 		};
 		C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */ = {
@@ -3305,6 +3318,7 @@
 				C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */,
 				C4A9457F27D8BA8C00E452DC /* Non-overlappingIntervals.cpp in Sources */,
 				CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */,
 				C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */,

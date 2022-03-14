@@ -11,8 +11,28 @@
 
 #include <stdio.h>
 
-extern void printVector(const vector<int> &v);
+template <typename T>
+std::ostream& operator<<(std::ostream& output, std::vector<T> const& values) {
+    for (auto const& value : values) {
+        output << value << " ";
+    }
+    output << endl;
+    return output;
+}
 
-extern void printVector(const vector<vector<int>> &v);
+template <typename T>
+void printVector(vector<T> const& v) {
+    for (auto const& i: v) {
+        cout << i << " ";
+    }
+    cout << endl;
+}
+
+template <typename T>
+void printVector(vector<vector<T>> const& v) {
+    for (vector<T> const& i : v) {
+        printVector(i);
+    }
+}
 
 #endif /* Helper_hpp */

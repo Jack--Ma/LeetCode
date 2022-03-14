@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "PartitionLabels.hpp"
+#include "GroupAnagrams.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPartitionLabels();
+    testGroupAnagrams();
     return 0;
 }
