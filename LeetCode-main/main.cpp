@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "GroupAnagrams.hpp"
+#include "MultiplyStrings.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testGroupAnagrams();
+    testMultiply();
     return 0;
 }
