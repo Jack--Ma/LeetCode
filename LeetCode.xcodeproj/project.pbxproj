@@ -111,6 +111,7 @@
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
+		C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */; };
 		C4FC33C51D52C115001B5F2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FC33C41D52C115001B5F2F /* main.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
@@ -742,6 +743,8 @@
 		C4E610F727DF7B1A00B56DED /* MultiplyStrings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MultiplyStrings.hpp; sourceTree = "<group>"; };
 		C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatedDNASequences.cpp; sourceTree = "<group>"; };
 		C4E610FB27DFA2CD00B56DED /* RepeatedDNASequences.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedDNASequences.hpp; sourceTree = "<group>"; };
+		C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSubstring.cpp; sourceTree = "<group>"; };
+		C4E610FF27E0F8F000B56DED /* LongestPalindromicSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindromicSubstring.hpp; sourceTree = "<group>"; };
 		C4FC33C21D52C114001B5F2F /* 36-Valid_Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36-Valid_Sudoku"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
@@ -1752,6 +1755,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				C4E610FD27E0F8DF00B56DED /* 5. Longest Palindromic Substring  */,
 				C4E610F927DFA2C100B56DED /* 187. Repeated DNA Sequences  */,
 				C4E610F527DF7B0F00B56DED /* 43. Multiply Strings  */,
 				C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */,
@@ -2095,6 +2099,15 @@
 				C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */,
 			);
 			path = "187. Repeated DNA Sequences ";
+			sourceTree = "<group>";
+		};
+		C4E610FD27E0F8DF00B56DED /* 5. Longest Palindromic Substring  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E610FF27E0F8F000B56DED /* LongestPalindromicSubstring.hpp */,
+				C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */,
+			);
+			path = "5. Longest Palindromic Substring ";
 			sourceTree = "<group>";
 		};
 		C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */ = {
@@ -3356,6 +3369,7 @@
 				C4A9457327D665FC00E452DC /* DesignHashMap.cpp in Sources */,
 				C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
+				C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
 				C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */,
