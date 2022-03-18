@@ -105,6 +105,7 @@
 		C4B643DE1D9260AC00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643DD1D9260AC00056FEC /* main.cpp */; };
 		C4B643EA1D9279D800056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643E91D9279D800056FEC /* main.cpp */; };
 		C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */; };
+		C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -731,6 +732,8 @@
 		C4B643E91D9279D800056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		C4C9D34227E36B37007067BB /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
+		C4C9D34627E380BC007067BB /* LinkedListCycleII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListCycleII.hpp; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2054,6 +2057,15 @@
 			path = "2. Add Two Numbers ";
 			sourceTree = "<group>";
 		};
+		C4C9D34427E380AC007067BB /* 142. Linked List Cycle II  */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D34627E380BC007067BB /* LinkedListCycleII.hpp */,
+				C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */,
+			);
+			path = "142. Linked List Cycle II ";
+			sourceTree = "<group>";
+		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
 			isa = PBXGroup;
 			children = (
@@ -2151,6 +2163,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D34427E380AC007067BB /* 142. Linked List Cycle II  */,
 				C4C9D34027E36B22007067BB /* 2. Add Two Numbers  */,
 				C4A511DE27C9CED00004D026 /* 83. Remove Duplicates from Sorted List  */,
 				C4A885A627C9268C00EC168C /* 206. Reverse Linked List  */,
@@ -3364,6 +3377,7 @@
 				C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */,
 				C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */,
 				C4A511F027CC516F0004D026 /* BinaryTreePreorderTraversal.cpp in Sources */,
+				C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */,
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A511E727CA68300004D026 /* ValidParentheses.cpp in Sources */,
 				C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */,
