@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "IntersectionOfTwoLinkedLists.hpp"
+#include "RemoveDuplicatesFromSortedListII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testGetIntersectionNode();
+    testDeleteDuplicatesII();
     return 0;
 }

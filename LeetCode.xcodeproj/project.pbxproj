@@ -107,6 +107,7 @@
 		C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */; };
 		C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */; };
 		C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34927E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp */; };
+		C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34D27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -737,6 +738,8 @@
 		C4C9D34627E380BC007067BB /* LinkedListCycleII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListCycleII.hpp; sourceTree = "<group>"; };
 		C4C9D34927E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntersectionOfTwoLinkedLists.cpp; sourceTree = "<group>"; };
 		C4C9D34A27E4204D007067BB /* IntersectionOfTwoLinkedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntersectionOfTwoLinkedLists.hpp; sourceTree = "<group>"; };
+		C4C9D34D27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesFromSortedListII.cpp; sourceTree = "<group>"; };
+		C4C9D34E27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveDuplicatesFromSortedListII.hpp; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2078,6 +2081,15 @@
 			path = "160. Intersection of Two Linked Lists ";
 			sourceTree = "<group>";
 		};
+		C4C9D34C27E4ECA9007067BB /* 82. Remove Duplicates from Sorted List II  */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D34E27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.hpp */,
+				C4C9D34D27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp */,
+			);
+			path = "82. Remove Duplicates from Sorted List II ";
+			sourceTree = "<group>";
+		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
 			isa = PBXGroup;
 			children = (
@@ -2175,6 +2187,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D34C27E4ECA9007067BB /* 82. Remove Duplicates from Sorted List II  */,
 				C4C9D34827E4203B007067BB /* 160. Intersection of Two Linked Lists  */,
 				C4C9D34427E380AC007067BB /* 142. Linked List Cycle II  */,
 				C4C9D34027E36B22007067BB /* 2. Add Two Numbers  */,
@@ -3412,6 +3425,7 @@
 				C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */,
+				C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
 				C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */,
