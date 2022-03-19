@@ -108,6 +108,7 @@
 		C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */; };
 		C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34927E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp */; };
 		C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34D27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp */; };
+		C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35127E5D1EA007067BB /* SwapNodesInPairs.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -740,6 +741,8 @@
 		C4C9D34A27E4204D007067BB /* IntersectionOfTwoLinkedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntersectionOfTwoLinkedLists.hpp; sourceTree = "<group>"; };
 		C4C9D34D27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesFromSortedListII.cpp; sourceTree = "<group>"; };
 		C4C9D34E27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveDuplicatesFromSortedListII.hpp; sourceTree = "<group>"; };
+		C4C9D35127E5D1EA007067BB /* SwapNodesInPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwapNodesInPairs.cpp; sourceTree = "<group>"; };
+		C4C9D35227E5D1EA007067BB /* SwapNodesInPairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwapNodesInPairs.hpp; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2090,6 +2093,15 @@
 			path = "82. Remove Duplicates from Sorted List II ";
 			sourceTree = "<group>";
 		};
+		C4C9D35027E5D1D5007067BB /* 24. Swap Nodes in Pairs  */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D35227E5D1EA007067BB /* SwapNodesInPairs.hpp */,
+				C4C9D35127E5D1EA007067BB /* SwapNodesInPairs.cpp */,
+			);
+			path = "24. Swap Nodes in Pairs ";
+			sourceTree = "<group>";
+		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
 			isa = PBXGroup;
 			children = (
@@ -2187,6 +2199,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D35027E5D1D5007067BB /* 24. Swap Nodes in Pairs  */,
 				C4C9D34C27E4ECA9007067BB /* 82. Remove Duplicates from Sorted List II  */,
 				C4C9D34827E4203B007067BB /* 160. Intersection of Two Linked Lists  */,
 				C4C9D34427E380AC007067BB /* 142. Linked List Cycle II  */,
@@ -3399,6 +3412,7 @@
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */,
+				C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */,
 				C489C5E927D10DD6002A6D34 /* SearchInABinarySearchTree.cpp in Sources */,
 				C4A9457B27D82BD000E452DC /* SearchA2DMatrixII.cpp in Sources */,
 				C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */,
