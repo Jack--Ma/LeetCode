@@ -110,6 +110,7 @@
 		C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34D27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp */; };
 		C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35127E5D1EA007067BB /* SwapNodesInPairs.cpp */; };
 		C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35527E616A5007067BB /* DesignLinkedList.cpp */; };
+		C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -746,6 +747,8 @@
 		C4C9D35227E5D1EA007067BB /* SwapNodesInPairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwapNodesInPairs.hpp; sourceTree = "<group>"; };
 		C4C9D35527E616A5007067BB /* DesignLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DesignLinkedList.cpp; sourceTree = "<group>"; };
 		C4C9D35627E616A5007067BB /* DesignLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DesignLinkedList.hpp; sourceTree = "<group>"; };
+		C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ReverseNodesInK-Group.cpp"; sourceTree = "<group>"; };
+		C4C9D35A27E62FBD007067BB /* ReverseNodesInK-Group.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "ReverseNodesInK-Group.hpp"; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2114,6 +2117,15 @@
 			path = "707. Design Linked List ";
 			sourceTree = "<group>";
 		};
+		C4C9D35827E62FAA007067BB /* 25. Reverse Nodes in k-Group  */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D35A27E62FBD007067BB /* ReverseNodesInK-Group.hpp */,
+				C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */,
+			);
+			path = "25. Reverse Nodes in k-Group ";
+			sourceTree = "<group>";
+		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
 			isa = PBXGroup;
 			children = (
@@ -2211,6 +2223,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D35827E62FAA007067BB /* 25. Reverse Nodes in k-Group  */,
 				C4C9D35427E6169C007067BB /* 707. Design Linked List  */,
 				C4C9D35027E5D1D5007067BB /* 24. Swap Nodes in Pairs  */,
 				C4C9D34C27E4ECA9007067BB /* 82. Remove Duplicates from Sorted List II  */,
@@ -3471,6 +3484,7 @@
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
+				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
