@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ReorderList.hpp"
+#include "MinStack.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testReorderList();
+    testMinStack();
     return 0;
 }

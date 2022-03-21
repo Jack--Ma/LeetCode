@@ -112,6 +112,7 @@
 		C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35527E616A5007067BB /* DesignLinkedList.cpp */; };
 		C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */; };
 		C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35D27E7867D007067BB /* ReorderList.cpp */; };
+		C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36127E8B2E9007067BB /* MinStack.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -752,6 +753,8 @@
 		C4C9D35A27E62FBD007067BB /* ReverseNodesInK-Group.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "ReverseNodesInK-Group.hpp"; sourceTree = "<group>"; };
 		C4C9D35D27E7867D007067BB /* ReorderList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
 		C4C9D35E27E7867D007067BB /* ReorderList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReorderList.hpp; sourceTree = "<group>"; };
+		C4C9D36127E8B2E9007067BB /* MinStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
+		C4C9D36227E8B2E9007067BB /* MinStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinStack.hpp; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1641,6 +1644,7 @@
 		C4A511E327CA68100004D026 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D36027E8B2DE007067BB /* 155. Min Stack */,
 				C4A511E827CB25160004D026 /* 232. Implement Queue using Stacks  */,
 				C4A511E427CA681C0004D026 /* 20. Valid Parentheses  */,
 			);
@@ -2136,6 +2140,15 @@
 				C4C9D35D27E7867D007067BB /* ReorderList.cpp */,
 			);
 			path = "143. Reorder List ";
+			sourceTree = "<group>";
+		};
+		C4C9D36027E8B2DE007067BB /* 155. Min Stack */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D36227E8B2E9007067BB /* MinStack.hpp */,
+				C4C9D36127E8B2E9007067BB /* MinStack.cpp */,
+			);
+			path = "155. Min Stack";
 			sourceTree = "<group>";
 		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
@@ -3451,6 +3464,7 @@
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
+				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */,
 				C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */,
