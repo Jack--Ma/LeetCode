@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ReverseNodesInK-Group.hpp"
+#include "ReorderList.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testReverseKGroup();
+    testReorderList();
     return 0;
 }

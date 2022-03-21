@@ -111,6 +111,7 @@
 		C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35127E5D1EA007067BB /* SwapNodesInPairs.cpp */; };
 		C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35527E616A5007067BB /* DesignLinkedList.cpp */; };
 		C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */; };
+		C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35D27E7867D007067BB /* ReorderList.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -749,6 +750,8 @@
 		C4C9D35627E616A5007067BB /* DesignLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DesignLinkedList.hpp; sourceTree = "<group>"; };
 		C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ReverseNodesInK-Group.cpp"; sourceTree = "<group>"; };
 		C4C9D35A27E62FBD007067BB /* ReverseNodesInK-Group.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "ReverseNodesInK-Group.hpp"; sourceTree = "<group>"; };
+		C4C9D35D27E7867D007067BB /* ReorderList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReorderList.cpp; sourceTree = "<group>"; };
+		C4C9D35E27E7867D007067BB /* ReorderList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReorderList.hpp; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2126,6 +2129,15 @@
 			path = "25. Reverse Nodes in k-Group ";
 			sourceTree = "<group>";
 		};
+		C4C9D35C27E78674007067BB /* 143. Reorder List  */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D35E27E7867D007067BB /* ReorderList.hpp */,
+				C4C9D35D27E7867D007067BB /* ReorderList.cpp */,
+			);
+			path = "143. Reorder List ";
+			sourceTree = "<group>";
+		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
 			isa = PBXGroup;
 			children = (
@@ -2223,6 +2235,7 @@
 		CB15B67A27C7B10800B4AFA1 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D35C27E78674007067BB /* 143. Reorder List  */,
 				C4C9D35827E62FAA007067BB /* 25. Reverse Nodes in k-Group  */,
 				C4C9D35427E6169C007067BB /* 707. Design Linked List  */,
 				C4C9D35027E5D1D5007067BB /* 24. Swap Nodes in Pairs  */,
@@ -3428,6 +3441,7 @@
 				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
 				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
 				C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */,
+				C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
 				C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */,
 				C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */,
