@@ -57,14 +57,26 @@ int _findTheWinner(queue<int> queue, int k) {
 
 // solution by use reverse
 int _findThWinner(int n, int k) {
-    int res = 0;
-    for (int i = 1; i <= n ; i++) {
-        res = (res + k) % i;
+    int result = 0;
+
+    /**
+     recursion formula: f(n, k) = (f(n−1, k) + k) % n
+     in every loop, the result go forward in k step
+     eg n = 5, k = 2
+     i = 1: result's index = f(1, 2) = 0    3
+     i = 2: result's index = f(2, 2) = 0    3 5
+     i = 3: result's index = f(3, 2) = 2    5 1 3
+     i = 4: result's index = f(4, 2) = 0    3 4 5 1
+     i = 5: result's index = f(5, 2) = 2    1 2 3 4 5
+     */
+    for (int i = 1; i <= n; i++) {
+        result = (result + k) % i;
     }
-    return res + 1;
+    return result + 1;
 }
 
 int Solution::findTheWinner(int n, int k) {
+    return _findThWinner(n, k);
     if (n <= 1) {
         return n;
     }
