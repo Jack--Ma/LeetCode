@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "MinStack.hpp"
+#include "MinimumRemoveToMakeValidParentheses.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMinStack();
+    testMinRemoveToMakeValid();
     return 0;
 }

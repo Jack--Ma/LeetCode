@@ -113,6 +113,7 @@
 		C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35927E62FBD007067BB /* ReverseNodesInK-Group.cpp */; };
 		C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D35D27E7867D007067BB /* ReorderList.cpp */; };
 		C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36127E8B2E9007067BB /* MinStack.cpp */; };
+		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4D85DBB1D41DF540092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DBA1D41DF540092E613 /* main.cpp */; };
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
@@ -755,6 +756,8 @@
 		C4C9D35E27E7867D007067BB /* ReorderList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReorderList.hpp; sourceTree = "<group>"; };
 		C4C9D36127E8B2E9007067BB /* MinStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		C4C9D36227E8B2E9007067BB /* MinStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinStack.hpp; sourceTree = "<group>"; };
+		C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumRemoveToMakeValidParentheses.cpp; sourceTree = "<group>"; };
+		C4C9D36627E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumRemoveToMakeValidParentheses.hpp; sourceTree = "<group>"; };
 		C4D85DB81D41DF540092E613 /* 11-Container_With_Most_Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-Container_With_Most_Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC31D41ED7A0092E613 /* 15-3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1644,6 +1647,7 @@
 		C4A511E327CA68100004D026 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				C4C9D36427E8DC5B007067BB /* 1249. Minimum Remove to Make Valid Parentheses  */,
 				C4C9D36027E8B2DE007067BB /* 155. Min Stack */,
 				C4A511E827CB25160004D026 /* 232. Implement Queue using Stacks  */,
 				C4A511E427CA681C0004D026 /* 20. Valid Parentheses  */,
@@ -2149,6 +2153,15 @@
 				C4C9D36127E8B2E9007067BB /* MinStack.cpp */,
 			);
 			path = "155. Min Stack";
+			sourceTree = "<group>";
+		};
+		C4C9D36427E8DC5B007067BB /* 1249. Minimum Remove to Make Valid Parentheses  */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D36627E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.hpp */,
+				C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */,
+			);
+			path = "1249. Minimum Remove to Make Valid Parentheses ";
 			sourceTree = "<group>";
 		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
@@ -3513,6 +3526,7 @@
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
+				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
