@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ConvertSortedArrayToBinarySearchTree.hpp"
+#include "ConstructBinaryTreeFromPreorderAndInorderTraversal.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSortedArrayToBST();
+    testConstructBinaryTreeFromPreorderAndInorderTraversal();
     return 0;
 }
