@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C402A06327EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06127EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp */; };
 		C4130DAC1D40AC0C00AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DAB1D40AC0C00AB673F /* main.cpp */; };
 		C4130DB71D40BE9800AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DB61D40BE9800AB673F /* main.cpp */; };
 		C416E6AA1D9CC0400039047D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C416E6A91D9CC0400039047D /* main.cpp */; };
@@ -562,6 +563,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C402A06127EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSortedArrayToBinarySearchTree.cpp; sourceTree = "<group>"; };
+		C402A06227EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConvertSortedArrayToBinarySearchTree.hpp; sourceTree = "<group>"; };
 		C4130DA91D40AC0C00AB673F /* 1-Two_Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-Two_Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4130DAB1D40AC0C00AB673F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4130DB41D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-Median_of_Two_Sorted_Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1131,6 +1134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C402A06027EAACF80083C036 /* 108. Convert Sorted Array to Binary Search Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C402A06227EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.hpp */,
+				C402A06127EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp */,
+			);
+			path = "108. Convert Sorted Array to Binary Search Tree ";
+			sourceTree = "<group>";
+		};
 		C4130D921D40AA9600AB673F = {
 			isa = PBXGroup;
 			children = (
@@ -1680,6 +1692,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C402A06027EAACF80083C036 /* 108. Convert Sorted Array to Binary Search Tree  */,
 				C4A9454F27D376BB00E452DC /* 235. Lowest Common Ancestor of a Binary Search Tree  */,
 				C4A9454B27D316F800E452DC /* 653. Two Sum IV - Input is a BST  */,
 				C489C5EE27D19ACE002A6D34 /* 98. Validate Binary Search Tree  */,
@@ -3480,6 +3493,7 @@
 				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
 				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
 				C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */,
+				C402A06327EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp in Sources */,
 				C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
 				C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */,
