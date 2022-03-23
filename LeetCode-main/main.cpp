@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "BinaryTreeZigzagLevelOrderTraversal.hpp"
+#include "BinaryTreeRightSideView.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testZigzagLevelOrder();
+    testRightSideView();
     return 0;
 }

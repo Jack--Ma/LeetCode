@@ -10,6 +10,7 @@
 		C402A06327EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06127EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp */; };
 		C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06527EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp */; };
 		C402A06B27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06927EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp */; };
+		C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06D27EB70270083C036 /* BinaryTreeRightSideView.cpp */; };
 		C4130DAC1D40AC0C00AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DAB1D40AC0C00AB673F /* main.cpp */; };
 		C4130DB71D40BE9800AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DB61D40BE9800AB673F /* main.cpp */; };
 		C416E6AA1D9CC0400039047D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C416E6A91D9CC0400039047D /* main.cpp */; };
@@ -571,6 +572,8 @@
 		C402A06627EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConstructBinaryTreeFromPreorderAndInorderTraversal.hpp; sourceTree = "<group>"; };
 		C402A06927EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeZigzagLevelOrderTraversal.cpp; sourceTree = "<group>"; };
 		C402A06A27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeZigzagLevelOrderTraversal.hpp; sourceTree = "<group>"; };
+		C402A06D27EB70270083C036 /* BinaryTreeRightSideView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeRightSideView.cpp; sourceTree = "<group>"; };
+		C402A06E27EB70270083C036 /* BinaryTreeRightSideView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeRightSideView.hpp; sourceTree = "<group>"; };
 		C4130DA91D40AC0C00AB673F /* 1-Two_Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-Two_Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4130DAB1D40AC0C00AB673F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4130DB41D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-Median_of_Two_Sorted_Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1167,6 +1170,15 @@
 			path = "103. Binary Tree Zigzag Level Order Traversal ";
 			sourceTree = "<group>";
 		};
+		C402A06C27EB70180083C036 /* 199. Binary Tree Right Side View  */ = {
+			isa = PBXGroup;
+			children = (
+				C402A06E27EB70270083C036 /* BinaryTreeRightSideView.hpp */,
+				C402A06D27EB70270083C036 /* BinaryTreeRightSideView.cpp */,
+			);
+			path = "199. Binary Tree Right Side View ";
+			sourceTree = "<group>";
+		};
 		C4130D921D40AA9600AB673F = {
 			isa = PBXGroup;
 			children = (
@@ -1716,6 +1728,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C402A06C27EB70180083C036 /* 199. Binary Tree Right Side View  */,
 				C402A06827EB4D770083C036 /* 103. Binary Tree Zigzag Level Order Traversal  */,
 				C402A06427EABFEC0083C036 /* 105. Construct Binary Tree from Preorder and Inorder Traversal  */,
 				C402A06027EAACF80083C036 /* 108. Convert Sorted Array to Binary Search Tree  */,
@@ -3531,6 +3544,7 @@
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
+				C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */,
 				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */,
