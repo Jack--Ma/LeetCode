@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "ConstructBinaryTreeFromPreorderAndInorderTraversal.hpp"
+#include "BinaryTreeZigzagLevelOrderTraversal.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testConstructBinaryTreeFromPreorderAndInorderTraversal();
+    testZigzagLevelOrder();
     return 0;
 }
