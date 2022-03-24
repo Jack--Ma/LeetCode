@@ -11,6 +11,7 @@
 		C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06527EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp */; };
 		C402A06B27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06927EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp */; };
 		C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A06D27EB70270083C036 /* BinaryTreeRightSideView.cpp */; };
+		C402A07327EB7C460083C036 /* PathSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402A07127EB7C460083C036 /* PathSumII.cpp */; };
 		C4130DAC1D40AC0C00AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DAB1D40AC0C00AB673F /* main.cpp */; };
 		C4130DB71D40BE9800AB673F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4130DB61D40BE9800AB673F /* main.cpp */; };
 		C416E6AA1D9CC0400039047D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C416E6A91D9CC0400039047D /* main.cpp */; };
@@ -574,6 +575,8 @@
 		C402A06A27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeZigzagLevelOrderTraversal.hpp; sourceTree = "<group>"; };
 		C402A06D27EB70270083C036 /* BinaryTreeRightSideView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeRightSideView.cpp; sourceTree = "<group>"; };
 		C402A06E27EB70270083C036 /* BinaryTreeRightSideView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeRightSideView.hpp; sourceTree = "<group>"; };
+		C402A07127EB7C460083C036 /* PathSumII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumII.cpp; sourceTree = "<group>"; };
+		C402A07227EB7C460083C036 /* PathSumII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PathSumII.hpp; sourceTree = "<group>"; };
 		C4130DA91D40AC0C00AB673F /* 1-Two_Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-Two_Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4130DAB1D40AC0C00AB673F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4130DB41D40BE9800AB673F /* 4-Median_of_Two_Sorted_Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-Median_of_Two_Sorted_Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1179,6 +1182,15 @@
 			path = "199. Binary Tree Right Side View ";
 			sourceTree = "<group>";
 		};
+		C402A07027EB7C100083C036 /* 113. Path Sum II  */ = {
+			isa = PBXGroup;
+			children = (
+				C402A07227EB7C460083C036 /* PathSumII.hpp */,
+				C402A07127EB7C460083C036 /* PathSumII.cpp */,
+			);
+			path = "113. Path Sum II ";
+			sourceTree = "<group>";
+		};
 		C4130D921D40AA9600AB673F = {
 			isa = PBXGroup;
 			children = (
@@ -1728,6 +1740,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C402A07027EB7C100083C036 /* 113. Path Sum II  */,
 				C402A06C27EB70180083C036 /* 199. Binary Tree Right Side View  */,
 				C402A06827EB4D770083C036 /* 103. Binary Tree Zigzag Level Order Traversal  */,
 				C402A06427EABFEC0083C036 /* 105. Construct Binary Tree from Preorder and Inorder Traversal  */,
@@ -3565,6 +3578,7 @@
 				C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */,
 				C4A9457F27D8BA8C00E452DC /* Non-overlappingIntervals.cpp in Sources */,
 				CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				C402A07327EB7C460083C036 /* PathSumII.cpp in Sources */,
 				C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */,
 				C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */,
 				CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */,

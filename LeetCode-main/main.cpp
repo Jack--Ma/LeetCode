@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "BinaryTreeRightSideView.hpp"
+#include "PathSumII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testRightSideView();
+    testPathSumII();
     return 0;
 }
