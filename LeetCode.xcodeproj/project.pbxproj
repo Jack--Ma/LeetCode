@@ -125,6 +125,7 @@
 		C4D85DC61D41ED7A0092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DC51D41ED7A0092E613 /* main.cpp */; };
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
 		C4D85DDD1D443F430092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DDC1D443F430092E613 /* main.cpp */; };
+		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
@@ -788,6 +789,8 @@
 		C4D85DD51D43D0B50092E613 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4D85DDA1D443F430092E613 /* 18-4Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-4Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D85DDC1D443F430092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthSmallestElementInABST.cpp; sourceTree = "<group>"; };
+		C4E3856C27EE2A820024DDFF /* KthSmallestElementInABST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthSmallestElementInABST.hpp; sourceTree = "<group>"; };
 		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
 		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -1752,6 +1755,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */,
 				C402A07427ECB33A0083C036 /* 450. Delete Node in a BST  */,
 				C402A07027EB7C100083C036 /* 113. Path Sum II  */,
 				C402A06C27EB70180083C036 /* 199. Binary Tree Right Side View  */,
@@ -2285,6 +2289,15 @@
 				C4D85DDC1D443F430092E613 /* main.cpp */,
 			);
 			path = "18-4Sum";
+			sourceTree = "<group>";
+		};
+		C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3856C27EE2A820024DDFF /* KthSmallestElementInABST.hpp */,
+				C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */,
+			);
+			path = "230. Kth Smallest Element in a BST ";
 			sourceTree = "<group>";
 		};
 		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
@@ -3602,6 +3615,7 @@
 				C48E9E6927DC74880063E280 /* LongestPalindrome.cpp in Sources */,
 				C4A9457327D665FC00E452DC /* DesignHashMap.cpp in Sources */,
 				C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */,
+				C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
 				C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */,
 				C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */,
