@@ -126,6 +126,7 @@
 		C4D85DD11D438B610092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DD01D438B610092E613 /* main.cpp */; };
 		C4D85DDD1D443F430092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DDC1D443F430092E613 /* main.cpp */; };
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
+		C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */; };
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
@@ -791,6 +792,8 @@
 		C4D85DDC1D443F430092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthSmallestElementInABST.cpp; sourceTree = "<group>"; };
 		C4E3856C27EE2A820024DDFF /* KthSmallestElementInABST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthSmallestElementInABST.hpp; sourceTree = "<group>"; };
+		C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTreeIterator.cpp; sourceTree = "<group>"; };
+		C4E3857027EEBBDC0024DDFF /* BinarySearchTreeIterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTreeIterator.hpp; sourceTree = "<group>"; };
 		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
 		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -1755,6 +1758,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C4E3856E27EEBBC90024DDFF /* 173. Binary Search Tree Iterator  */,
 				C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */,
 				C402A07427ECB33A0083C036 /* 450. Delete Node in a BST  */,
 				C402A07027EB7C100083C036 /* 113. Path Sum II  */,
@@ -2298,6 +2302,15 @@
 				C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */,
 			);
 			path = "230. Kth Smallest Element in a BST ";
+			sourceTree = "<group>";
+		};
+		C4E3856E27EEBBC90024DDFF /* 173. Binary Search Tree Iterator  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3857027EEBBDC0024DDFF /* BinarySearchTreeIterator.hpp */,
+				C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */,
+			);
+			path = "173. Binary Search Tree Iterator ";
 			sourceTree = "<group>";
 		};
 		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
@@ -3572,6 +3585,7 @@
 				C402A06B27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
 				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
 				C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */,
+				C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */,
 				C402A06327EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp in Sources */,
 				C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,

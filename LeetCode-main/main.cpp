@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "KthSmallestElementInABST.hpp"
+#include "BinarySearchTreeIterator.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testKthSmallest();
+    testBSTIterator();
     return 0;
 }
