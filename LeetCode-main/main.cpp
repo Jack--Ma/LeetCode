@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "BinarySearchTreeIterator.hpp"
+#include "LowestCommonAncestorOfABinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testBSTIterator();
+    testLowestCommonAncestorOfBinaryTree();
     return 0;
 }

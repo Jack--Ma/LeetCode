@@ -24,6 +24,9 @@ struct TreeNode {
 
 TreeNode* buildTree(vector<int> nums);
 
+/// find key node with preorder traverse
+TreeNode* findTreeNode(TreeNode *root, int key);
+
 bool isLeafNode(TreeNode *node);
 
 void outputTree(TreeNode *root);

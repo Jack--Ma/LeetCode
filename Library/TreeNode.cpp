@@ -21,6 +21,24 @@ TreeNode* buildTree(vector<int> nums) {
     return _buildTree(nums, 0);
 }
 
+TreeNode* findTreeNode(TreeNode *root, int key) {
+    if (!root) {
+        return NULL;
+    }
+    if (root->val == key) {
+        return root;
+    }
+    TreeNode *left = findTreeNode(root->left, key);
+    if (left) {
+        return left;
+    }
+    TreeNode *right = findTreeNode(root->right, key);
+    if (right) {
+        return right;
+    }
+    return NULL;
+}
+
 bool isLeafNode(TreeNode *node) {
     if (!node) {
         return false;

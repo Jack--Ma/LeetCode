@@ -127,6 +127,7 @@
 		C4D85DDD1D443F430092E613 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D85DDC1D443F430092E613 /* main.cpp */; };
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
 		C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */; };
+		C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */; };
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
@@ -794,6 +795,8 @@
 		C4E3856C27EE2A820024DDFF /* KthSmallestElementInABST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthSmallestElementInABST.hpp; sourceTree = "<group>"; };
 		C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTreeIterator.cpp; sourceTree = "<group>"; };
 		C4E3857027EEBBDC0024DDFF /* BinarySearchTreeIterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTreeIterator.hpp; sourceTree = "<group>"; };
+		C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LowestCommonAncestorOfABinaryTree.cpp; sourceTree = "<group>"; };
+		C4E3857427EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LowestCommonAncestorOfABinaryTree.hpp; sourceTree = "<group>"; };
 		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
 		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -1758,6 +1761,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C4E3857227EF2BF30024DDFF /* 236. Lowest Common Ancestor of a Binary Tree  */,
 				C4E3856E27EEBBC90024DDFF /* 173. Binary Search Tree Iterator  */,
 				C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */,
 				C402A07427ECB33A0083C036 /* 450. Delete Node in a BST  */,
@@ -2311,6 +2315,15 @@
 				C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */,
 			);
 			path = "173. Binary Search Tree Iterator ";
+			sourceTree = "<group>";
+		};
+		C4E3857227EF2BF30024DDFF /* 236. Lowest Common Ancestor of a Binary Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3857427EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.hpp */,
+				C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */,
+			);
+			path = "236. Lowest Common Ancestor of a Binary Tree ";
 			sourceTree = "<group>";
 		};
 		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
@@ -3655,6 +3668,7 @@
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
+				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
 				C4A9455227D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp in Sources */,
 			);
