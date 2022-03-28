@@ -128,6 +128,7 @@
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
 		C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */; };
 		C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */; };
+		C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */; };
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
@@ -797,6 +798,8 @@
 		C4E3857027EEBBDC0024DDFF /* BinarySearchTreeIterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTreeIterator.hpp; sourceTree = "<group>"; };
 		C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LowestCommonAncestorOfABinaryTree.cpp; sourceTree = "<group>"; };
 		C4E3857427EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LowestCommonAncestorOfABinaryTree.hpp; sourceTree = "<group>"; };
+		C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SerializeAndDeserializeBinaryTree.cpp; sourceTree = "<group>"; };
+		C4E3857827F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SerializeAndDeserializeBinaryTree.hpp; sourceTree = "<group>"; };
 		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
 		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -1761,6 +1764,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C4E3857627F014FE0024DDFF /* 297. Serialize and Deserialize Binary Tree  */,
 				C4E3857227EF2BF30024DDFF /* 236. Lowest Common Ancestor of a Binary Tree  */,
 				C4E3856E27EEBBC90024DDFF /* 173. Binary Search Tree Iterator  */,
 				C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */,
@@ -2324,6 +2328,15 @@
 				C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */,
 			);
 			path = "236. Lowest Common Ancestor of a Binary Tree ";
+			sourceTree = "<group>";
+		};
+		C4E3857627F014FE0024DDFF /* 297. Serialize and Deserialize Binary Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3857827F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.hpp */,
+				C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */,
+			);
+			path = "297. Serialize and Deserialize Binary Tree ";
 			sourceTree = "<group>";
 		};
 		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
@@ -3663,6 +3676,7 @@
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
+				C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
 				C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */,
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,

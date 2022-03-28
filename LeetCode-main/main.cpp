@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "LowestCommonAncestorOfABinaryTree.hpp"
+#include "SerializeAndDeserializeBinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLowestCommonAncestorOfBinaryTree();
+    testSerializeAndDeserializeBinaryTree();
     return 0;
 }
