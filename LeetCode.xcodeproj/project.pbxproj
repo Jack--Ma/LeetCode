@@ -129,6 +129,7 @@
 		C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */; };
 		C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */; };
 		C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */; };
+		C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857C27F1F28F0024DDFF /* FindTheTownJudge.cpp */; };
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
@@ -800,6 +801,8 @@
 		C4E3857427EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LowestCommonAncestorOfABinaryTree.hpp; sourceTree = "<group>"; };
 		C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SerializeAndDeserializeBinaryTree.cpp; sourceTree = "<group>"; };
 		C4E3857827F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SerializeAndDeserializeBinaryTree.hpp; sourceTree = "<group>"; };
+		C4E3857C27F1F28F0024DDFF /* FindTheTownJudge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheTownJudge.cpp; sourceTree = "<group>"; };
+		C4E3857D27F1F28F0024DDFF /* FindTheTownJudge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheTownJudge.hpp; sourceTree = "<group>"; };
 		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
 		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -1228,6 +1231,7 @@
 				C4A8859D27C670B500EC168C /* String */,
 				C4A511E327CA68100004D026 /* Stack */,
 				C4A511EC27CC51490004D026 /* Tree */,
+				C4E3857A27F1F2770024DDFF /* Graph */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2337,6 +2341,23 @@
 				C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */,
 			);
 			path = "297. Serialize and Deserialize Binary Tree ";
+			sourceTree = "<group>";
+		};
+		C4E3857A27F1F2770024DDFF /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3857B27F1F2830024DDFF /* 997. Find the Town Judge  */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		C4E3857B27F1F2830024DDFF /* 997. Find the Town Judge  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3857D27F1F28F0024DDFF /* FindTheTownJudge.hpp */,
+				C4E3857C27F1F28F0024DDFF /* FindTheTownJudge.cpp */,
+			);
+			path = "997. Find the Town Judge ";
 			sourceTree = "<group>";
 		};
 		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
@@ -3667,6 +3688,7 @@
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
+				C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */,
 				C48E9E7127DCE6690063E280 /* PartitionLabels.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
 				C4A9457727D6E5E300E452DC /* Pascal'sTriangleII.cpp in Sources */,
