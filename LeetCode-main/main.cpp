@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "FindTheTownJudge.hpp"
+#include "MinimumNumberOfVerticesToReachAllNodes.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFindJudge();
+    testFindSmallestSetOfVertices();
     return 0;
 }
