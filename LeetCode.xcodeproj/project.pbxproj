@@ -131,6 +131,7 @@
 		C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857727F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp */; };
 		C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857C27F1F28F0024DDFF /* FindTheTownJudge.cpp */; };
 		C4E3858227F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3858027F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp */; };
+		C4E3858627F2AAE10024DDFF /* KeysAndRooms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3858427F2AAE10024DDFF /* KeysAndRooms.cpp */; };
 		C4E610F427DE510600B56DED /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F227DE510600B56DED /* GroupAnagrams.cpp */; };
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
@@ -806,6 +807,8 @@
 		C4E3857D27F1F28F0024DDFF /* FindTheTownJudge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheTownJudge.hpp; sourceTree = "<group>"; };
 		C4E3858027F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumNumberOfVerticesToReachAllNodes.cpp; sourceTree = "<group>"; };
 		C4E3858127F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumNumberOfVerticesToReachAllNodes.hpp; sourceTree = "<group>"; };
+		C4E3858427F2AAE10024DDFF /* KeysAndRooms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeysAndRooms.cpp; sourceTree = "<group>"; };
+		C4E3858527F2AAE10024DDFF /* KeysAndRooms.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeysAndRooms.hpp; sourceTree = "<group>"; };
 		C4E610F227DE510600B56DED /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAnagrams.cpp; sourceTree = "<group>"; };
 		C4E610F327DE510600B56DED /* GroupAnagrams.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroupAnagrams.hpp; sourceTree = "<group>"; };
 		C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
@@ -2349,6 +2352,7 @@
 		C4E3857A27F1F2770024DDFF /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				C4E3858327F2AAD50024DDFF /* 841. Keys and Rooms  */,
 				C4E3857F27F20BC70024DDFF /* 1557. Minimum Number of Vertices to Reach All Nodes  */,
 				C4E3857B27F1F2830024DDFF /* 997. Find the Town Judge  */,
 			);
@@ -2371,6 +2375,15 @@
 				C4E3858027F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp */,
 			);
 			path = "1557. Minimum Number of Vertices to Reach All Nodes ";
+			sourceTree = "<group>";
+		};
+		C4E3858327F2AAD50024DDFF /* 841. Keys and Rooms  */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3858527F2AAE10024DDFF /* KeysAndRooms.hpp */,
+				C4E3858427F2AAE10024DDFF /* KeysAndRooms.cpp */,
+			);
+			path = "841. Keys and Rooms ";
 			sourceTree = "<group>";
 		};
 		C4E610F127DE50FB00B56DED /* 49. Group Anagrams  */ = {
@@ -3713,6 +3726,7 @@
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
 				C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
+				C4E3858627F2AAE10024DDFF /* KeysAndRooms.cpp in Sources */,
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
 				C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */,
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
