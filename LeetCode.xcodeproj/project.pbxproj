@@ -106,6 +106,7 @@
 		C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458527DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp */; };
 		C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458927DA593100E452DC /* SubarraySumEqualsK.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
+		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4B643DE1D9260AC00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643DD1D9260AC00056FEC /* main.cpp */; };
@@ -758,6 +759,8 @@
 		C4A9458A27DA593100E452DC /* SubarraySumEqualsK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubarraySumEqualsK.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
+		C4B2524227F4BB620040706B /* KthLargestElementInAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthLargestElementInAnArray.hpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B643C51D92506D00056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643DB1D9260AC00056FEC /* 7-Reverse_Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7-Reverse_Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1238,6 +1241,7 @@
 				C4A511E327CA68100004D026 /* Stack */,
 				C4A511EC27CC51490004D026 /* Tree */,
 				C4E3857A27F1F2770024DDFF /* Graph */,
+				C4B2523F27F4B3070040706B /* Heap */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2156,6 +2160,23 @@
 				C4ADC03C1D572CD7000F647B /* main.cpp */,
 			);
 			path = "49-Group_Anagrams";
+			sourceTree = "<group>";
+		};
+		C4B2523F27F4B3070040706B /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				C4B2524027F4B3140040706B /* 215. Kth Largest Element in an Array  */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		C4B2524027F4B3140040706B /* 215. Kth Largest Element in an Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4B2524227F4BB620040706B /* KthLargestElementInAnArray.hpp */,
+				C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */,
+			);
+			path = "215. Kth Largest Element in an Array ";
 			sourceTree = "<group>";
 		};
 		C4B643C41D92506D00056FEC /* 86-Partition_List */ = {
@@ -3663,6 +3684,7 @@
 				C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
 				C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */,
+				C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */,
 				C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */,
 				C402A07727ECB3500083C036 /* DeleteNodeInABST.cpp in Sources */,
 				C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */,
