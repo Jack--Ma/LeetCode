@@ -23,6 +23,21 @@ void testSortArray() {
     printVector(Solution().sortArray(nums));
 }
 
+/// Bubble sort array
+vector<int> _sortArray_bubble_sort(vector<int> &nums) {
+    const int size = (int)nums.size();
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - 1 - i; j++) {
+            // constantly swap the bigger number forward
+            if (nums[j+1] < nums[j]) {
+                swap(nums[j+1], nums[j]);
+            }
+        }
+    }
+    
+    return nums;
+}
+
 /// Quick sort array
 vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
     if (low >= high) {
@@ -53,7 +68,7 @@ vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
 
 vector<int> Solution::sortArray(vector<int> &nums) {
     vector<int> result;
-    result = _sortArray_quick_sort(nums, 0, (int)nums.size() - 1);
+    result = _sortArray_bubble_sort(nums);
     
     return result;
 }
