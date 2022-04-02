@@ -23,6 +23,22 @@ void testSortArray() {
     printVector(Solution().sortArray(nums));
 }
 
+/// Select sort array
+vector<int> _sortArray_select_sort(vector<int> &nums) {
+    for (int i = 0; i < nums.size(); i++) {
+        // find the smallest number
+        int minIndex = i;
+        for (int j = i+1; j < nums.size(); j++) {
+            if (nums[j] < nums[minIndex]) {
+                minIndex = j;
+            }
+        }
+        // move minimum index to i index
+        swap(nums[i], nums[minIndex]);
+    }
+    return nums;
+}
+
 /// Bubble sort array
 vector<int> _sortArray_bubble_sort(vector<int> &nums) {
     const int size = (int)nums.size();
@@ -68,7 +84,7 @@ vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
 
 vector<int> Solution::sortArray(vector<int> &nums) {
     vector<int> result;
-    result = _sortArray_bubble_sort(nums);
+    result = _sortArray_select_sort(nums);
     
     return result;
 }
