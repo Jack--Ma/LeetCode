@@ -23,6 +23,28 @@ void testSortArray() {
     printVector(Solution().sortArray(nums));
 }
 
+/// Insert sort array
+vector<int> _sortArray_insert_sort(vector<int> &nums) {
+    // fast point to the pivot index, from 1 to size-1
+    int fast = 1;
+    while (fast < nums.size()) {
+        int fastVale = nums[fast];
+        // slow point range is [0, fast-1], and reverse order
+        int slow = fast - 1;
+        while (slow >= 0) {
+            int slowValue = nums[slow];
+            // if slowValue is bigger, keep move slow backward
+            if (slowValue > fastVale) {
+                swap(nums[slow], nums[slow+1]);
+            }
+            slow--;
+        }
+        fast++;
+    }
+    
+    return nums;
+}
+
 /// Select sort array
 vector<int> _sortArray_select_sort(vector<int> &nums) {
     for (int i = 0; i < nums.size(); i++) {
@@ -84,7 +106,7 @@ vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
 
 vector<int> Solution::sortArray(vector<int> &nums) {
     vector<int> result;
-    result = _sortArray_select_sort(nums);
+    result = _sortArray_insert_sort(nums);
     
     return result;
 }
