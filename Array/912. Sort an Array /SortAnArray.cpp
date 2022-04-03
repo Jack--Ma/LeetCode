@@ -8,6 +8,8 @@
 
 #include "SortAnArray.hpp"
 
+vector<int> _sortArray_insert_sort(vector<int> &nums);
+
 /**
  Given an array of integers nums, sort the array in ascending order.
 
@@ -21,6 +23,40 @@
 void testSortArray() {
     vector<int> nums = {5,1,1,2,0,0,-1,-6};
     printVector(Solution().sortArray(nums));
+}
+
+// Bucket sort array
+void _sortingArray_bucket_sort(vector<int> &nums) {
+    int maxValue = nums[0], minValue = nums[0];
+    for (int i = 1; i < nums.size(); i ++) {
+        minValue = min(minValue, nums[i]);
+        maxValue = max(maxValue, nums[i]);
+    }
+    
+    // count of bucket
+    const int BUCKET_COUNT = 5;
+    // number count of a bucket
+    int bucketCapacity = (maxValue - minValue) / BUCKET_COUNT + 1;
+    
+    // build bucket
+    vector<vector<int>> buckets(BUCKET_COUNT, vector<int>());
+    
+    // distribute all number into bucket
+    for (int i = 0; i < nums.size(); i++) {
+        int num = nums[i];
+        int bucketIndex = (num - minValue) / bucketCapacity;
+        buckets[bucketIndex].push_back(num);
+    }
+    
+    vector<int> result;
+    for (vector<int> bucket : buckets) {
+        // sort every bucket numbers
+        _sortArray_insert_sort(bucket);
+        // and merge all buckets
+        result.insert(result.end(), bucket.begin(), bucket.end());
+    }
+    
+    nums = result;
 }
 
 /// Counting sort array
@@ -162,7 +198,7 @@ vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
 }
 
 vector<int> Solution::sortArray(vector<int> &nums) {
-    _sortArray_counting_sort(nums);
+    _sortingArray_bucket_sort(nums);
     
     return nums;
 }
