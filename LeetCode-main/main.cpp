@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "SortAnArray.hpp"
+#include "TopKFrequentElements.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSortArray();
+    testTopKFrequent();
     return 0;
 }

@@ -108,6 +108,7 @@
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
+		C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524927F995F00040706B /* TopKFrequentElements.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4B643DE1D9260AC00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643DD1D9260AC00056FEC /* main.cpp */; };
@@ -764,6 +765,8 @@
 		C4B2524227F4BB620040706B /* KthLargestElementInAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthLargestElementInAnArray.hpp; sourceTree = "<group>"; };
 		C4B2524527F73CE80040706B /* SortAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortAnArray.cpp; sourceTree = "<group>"; };
 		C4B2524627F73CE80040706B /* SortAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortAnArray.hpp; sourceTree = "<group>"; };
+		C4B2524927F995F00040706B /* TopKFrequentElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopKFrequentElements.cpp; sourceTree = "<group>"; };
+		C4B2524A27F995F00040706B /* TopKFrequentElements.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TopKFrequentElements.hpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B643C51D92506D00056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643DB1D9260AC00056FEC /* 7-Reverse_Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7-Reverse_Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2169,6 +2172,7 @@
 		C4B2523F27F4B3070040706B /* Heap */ = {
 			isa = PBXGroup;
 			children = (
+				C4B2524827F995E70040706B /* 347. Top K Frequent Elements  */,
 				C4B2524027F4B3140040706B /* 215. Kth Largest Element in an Array  */,
 			);
 			path = Heap;
@@ -2190,6 +2194,15 @@
 				C4B2524527F73CE80040706B /* SortAnArray.cpp */,
 			);
 			path = "912. Sort an Array ";
+			sourceTree = "<group>";
+		};
+		C4B2524827F995E70040706B /* 347. Top K Frequent Elements  */ = {
+			isa = PBXGroup;
+			children = (
+				C4B2524A27F995F00040706B /* TopKFrequentElements.hpp */,
+				C4B2524927F995F00040706B /* TopKFrequentElements.cpp */,
+			);
+			path = "347. Top K Frequent Elements ";
 			sourceTree = "<group>";
 		};
 		C4B643C41D92506D00056FEC /* 86-Partition_List */ = {
@@ -3766,6 +3779,7 @@
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
 				C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */,
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
+				C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
