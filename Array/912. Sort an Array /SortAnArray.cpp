@@ -19,8 +19,33 @@
  */
 
 void testSortArray() {
-    vector<int> nums = {5,1,1,2,0,0};
+    vector<int> nums = {5,1,1,2,0,0,-1,-6};
     printVector(Solution().sortArray(nums));
+}
+
+/// Counting sort array
+void _sortArray_counting_sort(vector<int> &nums) {
+    // find the max abs(value) in nums, value may less than zero
+    int maxValue = nums[0];
+    for (int i = 1; i < nums.size(); i ++) {
+        maxValue = max(maxValue, abs(nums[i]));
+    }
+    // num range is [0, maxValue]
+    vector<int> numCounting(maxValue+1, 0);
+    for (int i = 0; i < nums.size(); i ++) {
+        int num = nums[i];
+        numCounting[num]++;
+    }
+    
+    vector<int> result;
+    for (int i = 0; i < numCounting.size(); i++) {
+        int count = numCounting[i];
+        while (count-- > 0) {
+            result.push_back(i);
+        }
+    }
+    
+    nums = result;
 }
 
 /// Merge sort array
@@ -137,7 +162,7 @@ vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
 }
 
 vector<int> Solution::sortArray(vector<int> &nums) {
-    _sortArray_merge_sort(nums, 0, nums.size() - 1);
+    _sortArray_counting_sort(nums);
     
     return nums;
 }
