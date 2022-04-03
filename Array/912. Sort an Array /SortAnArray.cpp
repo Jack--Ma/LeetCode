@@ -23,6 +23,38 @@ void testSortArray() {
     printVector(Solution().sortArray(nums));
 }
 
+/// Merge sort array
+void _sortArray_merge_sort(vector<int> &nums, int left, int right) {
+    void (^MergeBlock)(vector<int>&, int, int, int) = ^(vector<int>& nums, int left, int right, int mid) {
+        // merge two sub-array, sub-array is sorted
+        // left array is nums[left, mid], right array is nums[mid+1, right]
+        vector<int> leftArray(nums.begin() + left, nums.begin() + mid + 1);
+        vector<int> rightArray(nums.begin() + mid + 1, nums.begin() + right + 1);
+        // set the last value is INT_MAX
+        leftArray.push_back(INT_MAX);
+        rightArray.push_back(INT_MAX);
+        int p = 0, q = 0;
+        // replace nums[left, right] with leftArray and rightArray
+        for (int i = left; i <= right; i++) {
+            if (leftArray[p] < rightArray[q]) {
+                nums[i] = leftArray[p];
+                p++;
+            } else {
+                nums[i] = rightArray[q];
+                q++;
+            }
+        }
+    };
+    
+    if (left >= right) {
+        return;
+    }
+    int mid = (left + right) / 2;
+    _sortArray_merge_sort(nums, left, mid);
+    _sortArray_merge_sort(nums, mid+1, right);
+    MergeBlock(nums, left, right, mid);
+}
+
 /// Insert sort array
 vector<int> _sortArray_insert_sort(vector<int> &nums) {
     // fast point to the pivot index, from 1 to size-1
@@ -105,8 +137,7 @@ vector<int> _sortArray_quick_sort(vector<int> &nums, int low, int high) {
 }
 
 vector<int> Solution::sortArray(vector<int> &nums) {
-    vector<int> result;
-    result = _sortArray_insert_sort(nums);
+    _sortArray_merge_sort(nums, 0, nums.size() - 1);
     
-    return result;
+    return nums;
 }
