@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "TopKFrequentElements.hpp"
+#include "SortCharactersByFrequency.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testTopKFrequent();
+    testFrequencySort();
     return 0;
 }
