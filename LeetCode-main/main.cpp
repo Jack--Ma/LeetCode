@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "SortCharactersByFrequency.hpp"
+#include "KClosestPointsToOrigin.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFrequencySort();
+    testKClosest();
     return 0;
 }

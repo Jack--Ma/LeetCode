@@ -110,6 +110,7 @@
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
 		C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524927F995F00040706B /* TopKFrequentElements.cpp */; };
 		C4B2524F27F9FA580040706B /* SortCharactersByFrequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524D27F9FA580040706B /* SortCharactersByFrequency.cpp */; };
+		C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2525127FAE9B60040706B /* KClosestPointsToOrigin.cpp */; };
 		C4B643C61D92506D00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643C51D92506D00056FEC /* main.cpp */; };
 		C4B643CA1D92507200056FEC /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4B643DE1D9260AC00056FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B643DD1D9260AC00056FEC /* main.cpp */; };
@@ -770,6 +771,8 @@
 		C4B2524A27F995F00040706B /* TopKFrequentElements.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TopKFrequentElements.hpp; sourceTree = "<group>"; };
 		C4B2524D27F9FA580040706B /* SortCharactersByFrequency.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortCharactersByFrequency.cpp; sourceTree = "<group>"; };
 		C4B2524E27F9FA580040706B /* SortCharactersByFrequency.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortCharactersByFrequency.hpp; sourceTree = "<group>"; };
+		C4B2525127FAE9B60040706B /* KClosestPointsToOrigin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KClosestPointsToOrigin.cpp; sourceTree = "<group>"; };
+		C4B2525227FAE9B60040706B /* KClosestPointsToOrigin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KClosestPointsToOrigin.hpp; sourceTree = "<group>"; };
 		C4B643C31D92506D00056FEC /* 86-Partition_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "86-Partition_List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B643C51D92506D00056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643DB1D9260AC00056FEC /* 7-Reverse_Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7-Reverse_Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2175,6 +2178,7 @@
 		C4B2523F27F4B3070040706B /* Heap */ = {
 			isa = PBXGroup;
 			children = (
+				C4B2525027FAE9A90040706B /* 973. K Closest Points to Origin  */,
 				C4B2524C27F9FA4F0040706B /* 451. Sort Characters By Frequency  */,
 				C4B2524827F995E70040706B /* 347. Top K Frequent Elements  */,
 				C4B2524027F4B3140040706B /* 215. Kth Largest Element in an Array  */,
@@ -2216,6 +2220,15 @@
 				C4B2524D27F9FA580040706B /* SortCharactersByFrequency.cpp */,
 			);
 			path = "451. Sort Characters By Frequency ";
+			sourceTree = "<group>";
+		};
+		C4B2525027FAE9A90040706B /* 973. K Closest Points to Origin  */ = {
+			isa = PBXGroup;
+			children = (
+				C4B2525227FAE9B60040706B /* KClosestPointsToOrigin.hpp */,
+				C4B2525127FAE9B60040706B /* KClosestPointsToOrigin.cpp */,
+			);
+			path = "973. K Closest Points to Origin ";
 			sourceTree = "<group>";
 		};
 		C4B643C41D92506D00056FEC /* 86-Partition_List */ = {
@@ -3739,6 +3752,7 @@
 				C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */,
 				C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */,
 				C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */,
+				C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */,
 				C489C5E927D10DD6002A6D34 /* SearchInABinarySearchTree.cpp in Sources */,
 				C4A9457B27D82BD000E452DC /* SearchA2DMatrixII.cpp in Sources */,
 				C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */,
