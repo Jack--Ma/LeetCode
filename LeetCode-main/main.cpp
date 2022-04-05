@@ -7,12 +7,13 @@
 //
 
 #include <iostream>
-#include "EscapeFromTheGame.hpp"
+#include "BinarySearch.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testEscapeFromTheGame();
+    testBinarySearch();
+    
     return 0;
 }
