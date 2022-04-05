@@ -35,4 +35,7 @@ void printVector(vector<vector<T>> const& v) {
     }
 }
 
+/// split string to array
+vector<string> string_split(const string &str, const string &pattern);
+
 #endif /* Helper_hpp */
