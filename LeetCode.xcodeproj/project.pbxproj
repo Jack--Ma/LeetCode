@@ -56,6 +56,8 @@
 		C48E9E6927DC74880063E280 /* LongestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E9E6727DC74880063E280 /* LongestPalindrome.cpp */; };
 		C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E9E6B27DC89540063E280 /* WordPattern.cpp */; };
 		C48E9E7127DCE6690063E280 /* PartitionLabels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E9E6F27DCE6690063E280 /* PartitionLabels.cpp */; };
+		C493919727FBE39700E2CF01 /* EscapeFromTheGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C493919527FBE39700E2CF01 /* EscapeFromTheGame.cpp */; };
+		C493919B27FBE89700E2CF01 /* ClimbTheStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C493919927FBE89700E2CF01 /* ClimbTheStairs.cpp */; };
 		C49F2FF71D8C39EA004E8E43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49F2FF61D8C39EA004E8E43 /* main.cpp */; };
 		C49F2FFB1D8C39F3004E8E43 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A043151D890B2000551755 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043141D890B2000551755 /* main.cpp */; };
@@ -679,6 +681,10 @@
 		C48E9E6C27DC89540063E280 /* WordPattern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WordPattern.hpp; sourceTree = "<group>"; };
 		C48E9E6F27DCE6690063E280 /* PartitionLabels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PartitionLabels.cpp; sourceTree = "<group>"; };
 		C48E9E7027DCE6690063E280 /* PartitionLabels.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartitionLabels.hpp; sourceTree = "<group>"; };
+		C493919527FBE39700E2CF01 /* EscapeFromTheGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EscapeFromTheGame.cpp; sourceTree = "<group>"; };
+		C493919627FBE39700E2CF01 /* EscapeFromTheGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EscapeFromTheGame.hpp; sourceTree = "<group>"; };
+		C493919927FBE89700E2CF01 /* ClimbTheStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbTheStairs.cpp; sourceTree = "<group>"; };
+		C493919A27FBE89700E2CF01 /* ClimbTheStairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClimbTheStairs.hpp; sourceTree = "<group>"; };
 		C49F2FF41D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-Swap_Nodes_in_Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043121D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Remove_Nth_Node_From_End_of_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1254,6 +1260,7 @@
 				C4A511EC27CC51490004D026 /* Tree */,
 				C4E3857A27F1F2770024DDFF /* Graph */,
 				C4B2523F27F4B3070040706B /* Heap */,
+				C493919227FBE30900E2CF01 /* Paiza */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1670,6 +1677,33 @@
 				C48E9E6F27DCE6690063E280 /* PartitionLabels.cpp */,
 			);
 			path = "763. Partition Labels ";
+			sourceTree = "<group>";
+		};
+		C493919227FBE30900E2CF01 /* Paiza */ = {
+			isa = PBXGroup;
+			children = (
+				C493919827FBE86E00E2CF01 /* A052 */,
+				C493919327FBE32800E2CF01 /* A055 */,
+			);
+			path = Paiza;
+			sourceTree = "<group>";
+		};
+		C493919327FBE32800E2CF01 /* A055 */ = {
+			isa = PBXGroup;
+			children = (
+				C493919627FBE39700E2CF01 /* EscapeFromTheGame.hpp */,
+				C493919527FBE39700E2CF01 /* EscapeFromTheGame.cpp */,
+			);
+			path = A055;
+			sourceTree = "<group>";
+		};
+		C493919827FBE86E00E2CF01 /* A052 */ = {
+			isa = PBXGroup;
+			children = (
+				C493919A27FBE89700E2CF01 /* ClimbTheStairs.hpp */,
+				C493919927FBE89700E2CF01 /* ClimbTheStairs.cpp */,
+			);
+			path = A052;
 			sourceTree = "<group>";
 		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
@@ -3762,6 +3796,7 @@
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A511E727CA68300004D026 /* ValidParentheses.cpp in Sources */,
 				C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */,
+				C493919B27FBE89700E2CF01 /* ClimbTheStairs.cpp in Sources */,
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
 				C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */,
 				C489C5E527D0533C002A6D34 /* PathSum.cpp in Sources */,
@@ -3811,6 +3846,7 @@
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
+				C493919727FBE39700E2CF01 /* EscapeFromTheGame.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
 				C4A9455227D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp in Sources */,
 			);
