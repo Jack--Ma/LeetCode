@@ -60,6 +60,7 @@
 		C493919E27FC782D00E2CF01 /* ClimbTheStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C493919D27FC782D00E2CF01 /* ClimbTheStairs.cpp */; };
 		C49391A127FC783300E2CF01 /* EscapeFromTheGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A027FC783300E2CF01 /* EscapeFromTheGame.cpp */; };
 		C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */; };
+		C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */; };
 		C49F2FF71D8C39EA004E8E43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49F2FF61D8C39EA004E8E43 /* main.cpp */; };
 		C49F2FFB1D8C39F3004E8E43 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A043151D890B2000551755 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043141D890B2000551755 /* main.cpp */; };
@@ -691,6 +692,8 @@
 		C49391A027FC783300E2CF01 /* EscapeFromTheGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EscapeFromTheGame.cpp; sourceTree = "<group>"; };
 		C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstBadVersion.cpp; sourceTree = "<group>"; };
 		C49391A427FC7C6D00E2CF01 /* FirstBadVersion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstBadVersion.hpp; sourceTree = "<group>"; };
+		C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInsertPosition.cpp; sourceTree = "<group>"; };
+		C49391A827FC8E0900E2CF01 /* SearchInsertPosition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchInsertPosition.hpp; sourceTree = "<group>"; };
 		C49F2FF41D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-Swap_Nodes_in_Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043121D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Remove_Nth_Node_From_End_of_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1689,6 +1692,7 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */,
 				C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */,
 				C493918E27FB4A8700E2CF01 /* 704. Binary Search */,
 			);
@@ -1738,6 +1742,15 @@
 				C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */,
 			);
 			path = "278. First Bad Version ";
+			sourceTree = "<group>";
+		};
+		C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */ = {
+			isa = PBXGroup;
+			children = (
+				C49391A827FC8E0900E2CF01 /* SearchInsertPosition.hpp */,
+				C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */,
+			);
+			path = "35. Search Insert Position ";
 			sourceTree = "<group>";
 		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
@@ -3860,6 +3873,7 @@
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
+				C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */,
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
 				C4E3858227F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp in Sources */,
 				C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */,
