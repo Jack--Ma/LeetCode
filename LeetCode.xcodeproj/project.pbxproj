@@ -110,6 +110,7 @@
 		C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458127D98B2E00E452DC /* IncreasingTripletSubsequence.cpp */; };
 		C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458527DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp */; };
 		C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458927DA593100E452DC /* SubarraySumEqualsK.cpp */; };
+		C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -776,6 +777,8 @@
 		C4A9458627DA4FA000E452DC /* ProductOfArrayExceptSelf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProductOfArrayExceptSelf.hpp; sourceTree = "<group>"; };
 		C4A9458927DA593100E452DC /* SubarraySumEqualsK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubarraySumEqualsK.cpp; sourceTree = "<group>"; };
 		C4A9458A27DA593100E452DC /* SubarraySumEqualsK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubarraySumEqualsK.hpp; sourceTree = "<group>"; };
+		C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SquaresOfASortedArray.cpp; sourceTree = "<group>"; };
+		C4ABA57827FC979A00E64BA2 /* SquaresOfASortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SquaresOfASortedArray.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -1692,6 +1695,7 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C4ABA57627FC978B00E64BA2 /* 977. Squares of a Sorted Array  */,
 				C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */,
 				C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */,
 				C493918E27FB4A8700E2CF01 /* 704. Binary Search */,
@@ -2246,6 +2250,15 @@
 				C4A9458927DA593100E452DC /* SubarraySumEqualsK.cpp */,
 			);
 			path = "560. Subarray Sum Equals K";
+			sourceTree = "<group>";
+		};
+		C4ABA57627FC978B00E64BA2 /* 977. Squares of a Sorted Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA57827FC979A00E64BA2 /* SquaresOfASortedArray.hpp */,
+				C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */,
+			);
+			path = "977. Squares of a Sorted Array ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3882,6 +3895,7 @@
 				C49391A127FC783300E2CF01 /* EscapeFromTheGame.cpp in Sources */,
 				C4A9457727D6E5E300E452DC /* Pascal'sTriangleII.cpp in Sources */,
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,
+				C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */,
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,

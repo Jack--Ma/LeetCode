@@ -35,6 +35,15 @@ void printVector(vector<vector<T>> const& v) {
     }
 }
 
+template <class _Tp, class _Map>
+inline vector<_Tp> vector_map(vector<_Tp> __first, _Map __map) {
+    vector<_Tp> __result;
+    for (_Tp _i : __first) {
+        __result.push_back(__map(_i));
+    }
+    return __result;
+}
+
 /// split string to array
 vector<string> string_split(const string &str, const string &pattern);
 

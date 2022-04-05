@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "SearchInsertPosition.hpp"
+#include "SquaresOfASortedArray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSearchInsertPosition();
+    testSquaresOfASortedArray();
     
     return 0;
 }
