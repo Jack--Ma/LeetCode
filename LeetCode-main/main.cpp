@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "BinarySearch.hpp"
+#include "FirstBadVersion.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testBinarySearch();
+    testFirstBadVersion();
     
     return 0;
 }

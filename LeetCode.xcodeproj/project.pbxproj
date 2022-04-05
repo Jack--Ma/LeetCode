@@ -59,6 +59,7 @@
 		C493919127FB4CB500E2CF01 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C493918F27FB4CB500E2CF01 /* BinarySearch.cpp */; };
 		C493919E27FC782D00E2CF01 /* ClimbTheStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C493919D27FC782D00E2CF01 /* ClimbTheStairs.cpp */; };
 		C49391A127FC783300E2CF01 /* EscapeFromTheGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A027FC783300E2CF01 /* EscapeFromTheGame.cpp */; };
+		C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */; };
 		C49F2FF71D8C39EA004E8E43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49F2FF61D8C39EA004E8E43 /* main.cpp */; };
 		C49F2FFB1D8C39F3004E8E43 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043241D8916C000551755 /* ListNode.cpp */; };
 		C4A043151D890B2000551755 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A043141D890B2000551755 /* main.cpp */; };
@@ -688,6 +689,8 @@
 		C493919D27FC782D00E2CF01 /* ClimbTheStairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbTheStairs.cpp; sourceTree = "<group>"; };
 		C493919F27FC783300E2CF01 /* EscapeFromTheGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EscapeFromTheGame.hpp; sourceTree = "<group>"; };
 		C49391A027FC783300E2CF01 /* EscapeFromTheGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EscapeFromTheGame.cpp; sourceTree = "<group>"; };
+		C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstBadVersion.cpp; sourceTree = "<group>"; };
+		C49391A427FC7C6D00E2CF01 /* FirstBadVersion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstBadVersion.hpp; sourceTree = "<group>"; };
 		C49F2FF41D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-Swap_Nodes_in_Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043121D890B2000551755 /* 19-Remove_Nth_Node_From_End_of_List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Remove_Nth_Node_From_End_of_List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1686,6 +1689,7 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */,
 				C493918E27FB4A8700E2CF01 /* 704. Binary Search */,
 			);
 			path = Algorithm;
@@ -1725,6 +1729,15 @@
 				C493919D27FC782D00E2CF01 /* ClimbTheStairs.cpp */,
 			);
 			path = A052;
+			sourceTree = "<group>";
+		};
+		C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */ = {
+			isa = PBXGroup;
+			children = (
+				C49391A427FC7C6D00E2CF01 /* FirstBadVersion.hpp */,
+				C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */,
+			);
+			path = "278. First Bad Version ";
 			sourceTree = "<group>";
 		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
@@ -3869,6 +3882,7 @@
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
+				C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
 				C4A9455227D376CE00E452DC /* LowestCommonAncestorOfABinarySearchTree.cpp in Sources */,
 			);
