@@ -1695,10 +1695,8 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				C4ABA57627FC978B00E64BA2 /* 977. Squares of a Sorted Array  */,
-				C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */,
-				C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */,
-				C493918E27FB4A8700E2CF01 /* 704. Binary Search */,
+				C4ABA57C27FCA01900E64BA2 /* Two Pointers */,
+				C4ABA57B27FCA00E00E64BA2 /* Binary Search */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -2259,6 +2257,24 @@
 				C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */,
 			);
 			path = "977. Squares of a Sorted Array ";
+			sourceTree = "<group>";
+		};
+		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */,
+				C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */,
+				C493918E27FB4A8700E2CF01 /* 704. Binary Search */,
+			);
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
+		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA57627FC978B00E64BA2 /* 977. Squares of a Sorted Array  */,
+			);
+			path = "Two Pointers";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
