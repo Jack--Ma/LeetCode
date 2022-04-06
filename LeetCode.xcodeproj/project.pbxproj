@@ -111,6 +111,7 @@
 		C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458527DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp */; };
 		C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A9458927DA593100E452DC /* SubarraySumEqualsK.cpp */; };
 		C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */; };
+		C4ABA58027FCA0B900E64BA2 /* RotateArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA57E27FCA0B900E64BA2 /* RotateArray.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -779,6 +780,8 @@
 		C4A9458A27DA593100E452DC /* SubarraySumEqualsK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubarraySumEqualsK.hpp; sourceTree = "<group>"; };
 		C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SquaresOfASortedArray.cpp; sourceTree = "<group>"; };
 		C4ABA57827FC979A00E64BA2 /* SquaresOfASortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SquaresOfASortedArray.hpp; sourceTree = "<group>"; };
+		C4ABA57E27FCA0B900E64BA2 /* RotateArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateArray.cpp; sourceTree = "<group>"; };
+		C4ABA57F27FCA0B900E64BA2 /* RotateArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateArray.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -2272,9 +2275,19 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				C4ABA57D27FCA0AD00E64BA2 /* 189. Rotate Array  */,
 				C4ABA57627FC978B00E64BA2 /* 977. Squares of a Sorted Array  */,
 			);
 			path = "Two Pointers";
+			sourceTree = "<group>";
+		};
+		C4ABA57D27FCA0AD00E64BA2 /* 189. Rotate Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA57F27FCA0B900E64BA2 /* RotateArray.hpp */,
+				C4ABA57E27FCA0B900E64BA2 /* RotateArray.cpp */,
+			);
+			path = "189. Rotate Array ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3852,6 +3865,7 @@
 				C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */,
 				C489C5E127D04687002A6D34 /* InvertBinaryTree.cpp in Sources */,
+				C4ABA58027FCA0B900E64BA2 /* RotateArray.cpp in Sources */,
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
