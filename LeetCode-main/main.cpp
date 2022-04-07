@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "MoveZeroes.hpp"
+#include "TwoSumII-InputArrayIsSorted.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMoveZeroes();
+    testTwoSumII();
     
     return 0;
 }

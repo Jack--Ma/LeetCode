@@ -113,6 +113,7 @@
 		C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA57727FC979A00E64BA2 /* SquaresOfASortedArray.cpp */; };
 		C4ABA58027FCA0B900E64BA2 /* RotateArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA57E27FCA0B900E64BA2 /* RotateArray.cpp */; };
 		C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58227FDE69900E64BA2 /* MoveZeroes.cpp */; };
+		C4ABA58827FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -785,6 +786,8 @@
 		C4ABA57F27FCA0B900E64BA2 /* RotateArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateArray.hpp; sourceTree = "<group>"; };
 		C4ABA58227FDE69900E64BA2 /* MoveZeroes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MoveZeroes.cpp; sourceTree = "<group>"; };
 		C4ABA58327FDE69900E64BA2 /* MoveZeroes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MoveZeroes.hpp; sourceTree = "<group>"; };
+		C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "TwoSumII-InputArrayIsSorted.cpp"; sourceTree = "<group>"; };
+		C4ABA58727FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "TwoSumII-InputArrayIsSorted.hpp"; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -2278,6 +2281,7 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				C4ABA58527FDF81C00E64BA2 /* 167. Two Sum II - Input Array Is Sorted */,
 				C4ABA58127FDE67600E64BA2 /* 283. Move Zeroes  */,
 				C4ABA57D27FCA0AD00E64BA2 /* 189. Rotate Array  */,
 				C4ABA57627FC978B00E64BA2 /* 977. Squares of a Sorted Array  */,
@@ -2301,6 +2305,15 @@
 				C4ABA58227FDE69900E64BA2 /* MoveZeroes.cpp */,
 			);
 			path = "283. Move Zeroes ";
+			sourceTree = "<group>";
+		};
+		C4ABA58527FDF81C00E64BA2 /* 167. Two Sum II - Input Array Is Sorted */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA58727FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.hpp */,
+				C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */,
+			);
+			path = "167. Two Sum II - Input Array Is Sorted";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3903,6 +3916,7 @@
 				C493919E27FC782D00E2CF01 /* ClimbTheStairs.cpp in Sources */,
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
 				C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */,
+				C4ABA58827FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp in Sources */,
 				C489C5E527D0533C002A6D34 /* PathSum.cpp in Sources */,
 				C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */,
 				C4A9457F27D8BA8C00E452DC /* Non-overlappingIntervals.cpp in Sources */,
