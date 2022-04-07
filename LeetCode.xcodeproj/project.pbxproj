@@ -159,6 +159,7 @@
 		CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99027CE563300B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp */; };
 		CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */; };
 		CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C412E27FF10EE00A3658A /* ReverseString.cpp */; };
+		CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */; };
 		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 		CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */; };
 /* End PBXBuildFile section */
@@ -876,6 +877,8 @@
 		CB15D99527CF0AB400B4AFA1 /* SymmetricTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SymmetricTree.hpp; sourceTree = "<group>"; };
 		CB2C412E27FF10EE00A3658A /* ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseString.cpp; sourceTree = "<group>"; };
 		CB2C412F27FF10EE00A3658A /* ReverseString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseString.hpp; sourceTree = "<group>"; };
+		CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsInAStringIII.cpp; sourceTree = "<group>"; };
+		CB2C413327FF145D00A3658A /* ReverseWordsInAStringIII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseWordsInAStringIII.hpp; sourceTree = "<group>"; };
 		CB8C3C2827D7515E00576C6D /* RotateImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
 		CB8C3C2927D7515E00576C6D /* RotateImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateImage.hpp; sourceTree = "<group>"; };
 		CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
@@ -2284,6 +2287,7 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				CB2C413127FF144900A3658A /* 557. Reverse Words in a String III  */,
 				CB2C412D27FF10E000A3658A /* 344. Reverse String  */,
 				C4ABA58527FDF81C00E64BA2 /* 167. Two Sum II - Input Array Is Sorted */,
 				C4ABA58127FDE67600E64BA2 /* 283. Move Zeroes  */,
@@ -2747,6 +2751,15 @@
 				CB2C412E27FF10EE00A3658A /* ReverseString.cpp */,
 			);
 			path = "344. Reverse String ";
+			sourceTree = "<group>";
+		};
+		CB2C413127FF144900A3658A /* 557. Reverse Words in a String III  */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C413327FF145D00A3658A /* ReverseWordsInAStringIII.hpp */,
+				CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */,
+			);
+			path = "557. Reverse Words in a String III ";
 			sourceTree = "<group>";
 		};
 		CB8C3C2727D7514B00576C6D /* 48. Rotate Image  */ = {
@@ -3960,6 +3973,7 @@
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */,
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
+				CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */,
 				C4E3858227F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp in Sources */,
 				C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */,
 				C48E9E7127DCE6690063E280 /* PartitionLabels.cpp in Sources */,

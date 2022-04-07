@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "ReverseString.hpp"
+#include "ReverseWordsInAStringIII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testReverseString();
+    testReverseWordsInAStringIII();
     
     return 0;
 }
