@@ -114,6 +114,7 @@
 		C4ABA58027FCA0B900E64BA2 /* RotateArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA57E27FCA0B900E64BA2 /* RotateArray.cpp */; };
 		C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58227FDE69900E64BA2 /* MoveZeroes.cpp */; };
 		C4ABA58827FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */; };
+		C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -790,6 +791,8 @@
 		C4ABA58327FDE69900E64BA2 /* MoveZeroes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MoveZeroes.hpp; sourceTree = "<group>"; };
 		C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "TwoSumII-InputArrayIsSorted.cpp"; sourceTree = "<group>"; };
 		C4ABA58727FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "TwoSumII-InputArrayIsSorted.hpp"; sourceTree = "<group>"; };
+		C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiddleOfTheLinkedList.cpp; sourceTree = "<group>"; };
+		C4ABA58B27FF46E500E64BA2 /* MiddleOfTheLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiddleOfTheLinkedList.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -2287,6 +2290,7 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				C4ABA58927FF46CB00E64BA2 /* 876. Middle of the Linked List  */,
 				CB2C413127FF144900A3658A /* 557. Reverse Words in a String III  */,
 				CB2C412D27FF10E000A3658A /* 344. Reverse String  */,
 				C4ABA58527FDF81C00E64BA2 /* 167. Two Sum II - Input Array Is Sorted */,
@@ -2322,6 +2326,15 @@
 				C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */,
 			);
 			path = "167. Two Sum II - Input Array Is Sorted";
+			sourceTree = "<group>";
+		};
+		C4ABA58927FF46CB00E64BA2 /* 876. Middle of the Linked List  */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA58B27FF46E500E64BA2 /* MiddleOfTheLinkedList.hpp */,
+				C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */,
+			);
+			path = "876. Middle of the Linked List ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3986,6 +3999,7 @@
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
+				C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
 				C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
 				C4E3858627F2AAE10024DDFF /* KeysAndRooms.cpp in Sources */,
