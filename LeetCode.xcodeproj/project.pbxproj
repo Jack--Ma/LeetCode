@@ -115,6 +115,7 @@
 		C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58227FDE69900E64BA2 /* MoveZeroes.cpp */; };
 		C4ABA58827FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */; };
 		C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */; };
+		C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -793,6 +794,8 @@
 		C4ABA58727FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "TwoSumII-InputArrayIsSorted.hpp"; sourceTree = "<group>"; };
 		C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiddleOfTheLinkedList.cpp; sourceTree = "<group>"; };
 		C4ABA58B27FF46E500E64BA2 /* MiddleOfTheLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiddleOfTheLinkedList.hpp; sourceTree = "<group>"; };
+		C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSwipe.cpp; sourceTree = "<group>"; };
+		C4ABA593280090A000E64BA2 /* LongestSwipe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSwipe.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -1731,6 +1734,7 @@
 		C493919227FBE30900E2CF01 /* Paiza */ = {
 			isa = PBXGroup;
 			children = (
+				C4ABA5912800906800E64BA2 /* A057 */,
 				C493919827FBE86E00E2CF01 /* A052 */,
 				C493919327FBE32800E2CF01 /* A055 */,
 			);
@@ -2335,6 +2339,15 @@
 				C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */,
 			);
 			path = "876. Middle of the Linked List ";
+			sourceTree = "<group>";
+		};
+		C4ABA5912800906800E64BA2 /* A057 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA593280090A000E64BA2 /* LongestSwipe.hpp */,
+				C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */,
+			);
+			path = A057;
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3915,6 +3928,7 @@
 			files = (
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
+				C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */,
 				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
 				C402A06B27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
 				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
