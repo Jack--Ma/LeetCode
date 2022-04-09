@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "LargestRectangleInHistogram.hpp"
+#include "MaximalRectangle.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLargestRectangleInHistogram();
+    testMaximalRectangle();
     
     return 0;
 }

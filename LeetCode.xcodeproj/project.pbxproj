@@ -118,6 +118,7 @@
 		C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */; };
 		C4ABA5982801233800E64BA2 /* BossHome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA5962801233800E64BA2 /* BossHome.cpp */; };
 		C4AC28F628015A1D0036E6DB /* LargestRectangleInHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AC28F428015A1D0036E6DB /* LargestRectangleInHistogram.cpp */; };
+		C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AC28F82801D2310036E6DB /* MaximalRectangle.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -802,6 +803,8 @@
 		C4ABA5972801233800E64BA2 /* BossHome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BossHome.hpp; sourceTree = "<group>"; };
 		C4AC28F428015A1D0036E6DB /* LargestRectangleInHistogram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangleInHistogram.cpp; sourceTree = "<group>"; };
 		C4AC28F528015A1D0036E6DB /* LargestRectangleInHistogram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LargestRectangleInHistogram.hpp; sourceTree = "<group>"; };
+		C4AC28F82801D2310036E6DB /* MaximalRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
+		C4AC28F92801D2310036E6DB /* MaximalRectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximalRectangle.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -1872,6 +1875,7 @@
 		C4A511E327CA68100004D026 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				C4AC28F72801D21F0036E6DB /* 85. Maximal Rectangle  */,
 				C4AC28F328015A110036E6DB /* 84. Largest Rectangle in Histogram  */,
 				C4C9D36827E9A7E8007067BB /* 1823. Find the Winner of the Circular Game  */,
 				C4C9D36427E8DC5B007067BB /* 1249. Minimum Remove to Make Valid Parentheses  */,
@@ -2374,6 +2378,15 @@
 				C4AC28F428015A1D0036E6DB /* LargestRectangleInHistogram.cpp */,
 			);
 			path = "84. Largest Rectangle in Histogram ";
+			sourceTree = "<group>";
+		};
+		C4AC28F72801D21F0036E6DB /* 85. Maximal Rectangle  */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC28F92801D2310036E6DB /* MaximalRectangle.hpp */,
+				C4AC28F82801D2310036E6DB /* MaximalRectangle.cpp */,
+			);
+			path = "85. Maximal Rectangle ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3979,6 +3992,7 @@
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
 				C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */,
 				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
+				C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,
 				C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */,
 				CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */,
