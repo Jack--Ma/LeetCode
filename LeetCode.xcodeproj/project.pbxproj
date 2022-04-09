@@ -116,6 +116,7 @@
 		C4ABA58827FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */; };
 		C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */; };
 		C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */; };
+		C4ABA5982801233800E64BA2 /* BossHome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA5962801233800E64BA2 /* BossHome.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -796,6 +797,8 @@
 		C4ABA58B27FF46E500E64BA2 /* MiddleOfTheLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiddleOfTheLinkedList.hpp; sourceTree = "<group>"; };
 		C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSwipe.cpp; sourceTree = "<group>"; };
 		C4ABA593280090A000E64BA2 /* LongestSwipe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSwipe.hpp; sourceTree = "<group>"; };
+		C4ABA5962801233800E64BA2 /* BossHome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BossHome.cpp; sourceTree = "<group>"; };
+		C4ABA5972801233800E64BA2 /* BossHome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BossHome.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -1734,6 +1737,7 @@
 		C493919227FBE30900E2CF01 /* Paiza */ = {
 			isa = PBXGroup;
 			children = (
+				C4ABA5952801232300E64BA2 /* S039 */,
 				C4ABA5912800906800E64BA2 /* A057 */,
 				C493919827FBE86E00E2CF01 /* A052 */,
 				C493919327FBE32800E2CF01 /* A055 */,
@@ -2348,6 +2352,15 @@
 				C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */,
 			);
 			path = A057;
+			sourceTree = "<group>";
+		};
+		C4ABA5952801232300E64BA2 /* S039 */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA5972801233800E64BA2 /* BossHome.hpp */,
+				C4ABA5962801233800E64BA2 /* BossHome.cpp */,
+			);
+			path = S039;
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3939,6 +3952,7 @@
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
 				C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */,
 				C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */,
+				C4ABA5982801233800E64BA2 /* BossHome.cpp in Sources */,
 				C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */,
 				C402A07727ECB3500083C036 /* DeleteNodeInABST.cpp in Sources */,
 				C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */,
