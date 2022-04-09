@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "MaximalRectangle.hpp"
+#include "RemoveNthNodeFromEndOfList.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMaximalRectangle();
+    testRemoveNthFromEnd();
     
     return 0;
 }
