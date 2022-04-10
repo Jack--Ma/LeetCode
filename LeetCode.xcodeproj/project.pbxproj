@@ -115,11 +115,12 @@
 		C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58227FDE69900E64BA2 /* MoveZeroes.cpp */; };
 		C4ABA58827FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58627FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.cpp */; };
 		C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */; };
+		C4ABA59027FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58E27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp */; };
 		C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */; };
 		C4ABA5982801233800E64BA2 /* BossHome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA5962801233800E64BA2 /* BossHome.cpp */; };
 		C4AC28F628015A1D0036E6DB /* LargestRectangleInHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AC28F428015A1D0036E6DB /* LargestRectangleInHistogram.cpp */; };
 		C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AC28F82801D2310036E6DB /* MaximalRectangle.cpp */; };
-		C4ABA59027FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ABA58E27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp */; };
+		C4AC28FF2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4AC28FD2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.cpp */; };
 		C4ADC03D1D572CD7000F647B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4ADC03C1D572CD7000F647B /* main.cpp */; };
 		C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */; };
 		C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524527F73CE80040706B /* SortAnArray.cpp */; };
@@ -798,6 +799,8 @@
 		C4ABA58727FDF83800E64BA2 /* TwoSumII-InputArrayIsSorted.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "TwoSumII-InputArrayIsSorted.hpp"; sourceTree = "<group>"; };
 		C4ABA58A27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiddleOfTheLinkedList.cpp; sourceTree = "<group>"; };
 		C4ABA58B27FF46E500E64BA2 /* MiddleOfTheLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiddleOfTheLinkedList.hpp; sourceTree = "<group>"; };
+		C4ABA58E27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNthNodeFromEndOfList.cpp; sourceTree = "<group>"; };
+		C4ABA58F27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveNthNodeFromEndOfList.hpp; sourceTree = "<group>"; };
 		C4ABA592280090A000E64BA2 /* LongestSwipe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSwipe.cpp; sourceTree = "<group>"; };
 		C4ABA593280090A000E64BA2 /* LongestSwipe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSwipe.hpp; sourceTree = "<group>"; };
 		C4ABA5962801233800E64BA2 /* BossHome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BossHome.cpp; sourceTree = "<group>"; };
@@ -806,8 +809,8 @@
 		C4AC28F528015A1D0036E6DB /* LargestRectangleInHistogram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LargestRectangleInHistogram.hpp; sourceTree = "<group>"; };
 		C4AC28F82801D2310036E6DB /* MaximalRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximalRectangle.cpp; sourceTree = "<group>"; };
 		C4AC28F92801D2310036E6DB /* MaximalRectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximalRectangle.hpp; sourceTree = "<group>"; };
-		C4ABA58E27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNthNodeFromEndOfList.cpp; sourceTree = "<group>"; };
-		C4ABA58F27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveNthNodeFromEndOfList.hpp; sourceTree = "<group>"; };
+		C4AC28FD2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSubstringWithoutRepeatingCharacters.cpp; sourceTree = "<group>"; };
+		C4AC28FE2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSubstringWithoutRepeatingCharacters.hpp; sourceTree = "<group>"; };
 		C4ADC03A1D572CD7000F647B /* 49-Group_Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49-Group_Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ADC03C1D572CD7000F647B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B2524127F4BB620040706B /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
@@ -1728,6 +1731,7 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C4AC28FB2801E7F00036E6DB /* Sliding Window */,
 				C4ABA57C27FCA01900E64BA2 /* Two Pointers */,
 				C4ABA57B27FCA00E00E64BA2 /* Binary Search */,
 			);
@@ -2357,6 +2361,15 @@
 			path = "876. Middle of the Linked List ";
 			sourceTree = "<group>";
 		};
+		C4ABA58D27FFC39700E64BA2 /* 19. Remove Nth Node From End of List  */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABA58F27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.hpp */,
+				C4ABA58E27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp */,
+			);
+			path = "19. Remove Nth Node From End of List ";
+			sourceTree = "<group>";
+		};
 		C4ABA5912800906800E64BA2 /* A057 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2391,15 +2404,23 @@
 				C4AC28F82801D2310036E6DB /* MaximalRectangle.cpp */,
 			);
 			path = "85. Maximal Rectangle ";
-            sourceTree = "<group>";
-        };
-		C4ABA58D27FFC39700E64BA2 /* 19. Remove Nth Node From End of List  */ = {
+			sourceTree = "<group>";
+		};
+		C4AC28FB2801E7F00036E6DB /* Sliding Window */ = {
 			isa = PBXGroup;
 			children = (
-				C4ABA58F27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.hpp */,
-				C4ABA58E27FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp */,
+				C4AC28FC2801E8020036E6DB /* 3. Longest Substring Without Repeating Characters  */,
 			);
-			path = "19. Remove Nth Node From End of List ";
+			path = "Sliding Window";
+			sourceTree = "<group>";
+		};
+		C4AC28FC2801E8020036E6DB /* 3. Longest Substring Without Repeating Characters  */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC28FE2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.hpp */,
+				C4AC28FD2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.cpp */,
+			);
+			path = "3. Longest Substring Without Repeating Characters ";
 			sourceTree = "<group>";
 		};
 		C4ADC03B1D572CD7000F647B /* 49-Group_Anagrams */ = {
@@ -3989,6 +4010,7 @@
 				C402A06327EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp in Sources */,
 				C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
+				C4AC28FF2801E8110036E6DB /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
 				C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */,
 				C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */,
 				C4ABA5982801233800E64BA2 /* BossHome.cpp in Sources */,
