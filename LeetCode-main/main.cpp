@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "LongestSubstringWithoutRepeatingCharacters.hpp"
+#include "PermutationInString.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLengthOfLongestSubstring();
+    testPermutationInString();
     
     return 0;
 }
