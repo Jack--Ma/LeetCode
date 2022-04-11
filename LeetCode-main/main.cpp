@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "PermutationInString.hpp"
+#include "FindAllAnagramsInAString.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPermutationInString();
+    testFindAllAnagramsInAString();
     
     return 0;
 }

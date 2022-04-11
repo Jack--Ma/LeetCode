@@ -45,6 +45,7 @@
 		C4635AEB1D7BC5830012CD4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4635AEA1D7BC5830012CD4B /* main.cpp */; };
 		C4635AF61D7C17EE0012CD4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4635AF51D7C17EE0012CD4B /* main.cpp */; };
 		C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFB2802B7540022DEEC /* PermutationInString.cpp */; };
+		C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -676,6 +677,8 @@
 		C4635AF51D7C17EE0012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C481ECFB2802B7540022DEEC /* PermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationInString.cpp; sourceTree = "<group>"; };
 		C481ECFC2802B7540022DEEC /* PermutationInString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermutationInString.hpp; sourceTree = "<group>"; };
+		C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindAllAnagramsInAString.cpp; sourceTree = "<group>"; };
+		C481ED0028047D380022DEEC /* FindAllAnagramsInAString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindAllAnagramsInAString.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -1632,6 +1635,15 @@
 			path = "567. Permutation in String ";
 			sourceTree = "<group>";
 		};
+		C481ECFE28047D2A0022DEEC /* 438. Find All Anagrams in a String  */ = {
+			isa = PBXGroup;
+			children = (
+				C481ED0028047D380022DEEC /* FindAllAnagramsInAString.hpp */,
+				C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */,
+			);
+			path = "438. Find All Anagrams in a String ";
+			sourceTree = "<group>";
+		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2421,6 +2433,7 @@
 		C4AC28FB2801E7F00036E6DB /* Sliding Window */ = {
 			isa = PBXGroup;
 			children = (
+				C481ECFE28047D2A0022DEEC /* 438. Find All Anagrams in a String  */,
 				C481ECFA2802B7480022DEEC /* 567. Permutation in String  */,
 				C4AC28FC2801E8020036E6DB /* 3. Longest Substring Without Repeating Characters  */,
 			);
@@ -4100,6 +4113,7 @@
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,
 				C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */,
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
+				C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
