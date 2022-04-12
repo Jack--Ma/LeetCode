@@ -171,6 +171,7 @@
 		CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C412E27FF10EE00A3658A /* ReverseString.cpp */; };
 		CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */; };
 		CB619F7328051C6500E5E737 /* MaxAreaOfIsland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB619F7128051C6500E5E737 /* MaxAreaOfIsland.cpp */; };
+		CB61B0EF28056F9D00E5E737 /* MergeTwoBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0ED28056F9A00E5E737 /* MergeTwoBinaryTrees.cpp */; };
 		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 		CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */; };
 /* End PBXBuildFile section */
@@ -912,6 +913,8 @@
 		CB2C413327FF145D00A3658A /* ReverseWordsInAStringIII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseWordsInAStringIII.hpp; sourceTree = "<group>"; };
 		CB619F7128051C6500E5E737 /* MaxAreaOfIsland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxAreaOfIsland.cpp; sourceTree = "<group>"; };
 		CB619F7228051C6500E5E737 /* MaxAreaOfIsland.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxAreaOfIsland.hpp; sourceTree = "<group>"; };
+		CB61B0ED28056F9A00E5E737 /* MergeTwoBinaryTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoBinaryTrees.cpp; sourceTree = "<group>"; };
+		CB61B0EE28056F9A00E5E737 /* MergeTwoBinaryTrees.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoBinaryTrees.hpp; sourceTree = "<group>"; };
 		CB8C3C2827D7515E00576C6D /* RotateImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
 		CB8C3C2927D7515E00576C6D /* RotateImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateImage.hpp; sourceTree = "<group>"; };
 		CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
@@ -1653,6 +1656,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				CB61B0EC28056F7900E5E737 /* 617. Merge Two Binary Trees  */,
 				CB619F7028051C4800E5E737 /* 695. Max Area of Island  */,
 				C481ED032804826A0022DEEC /* 733. Flood Fill  */,
 			);
@@ -2921,6 +2925,15 @@
 			path = "695. Max Area of Island ";
 			sourceTree = "<group>";
 		};
+		CB61B0EC28056F7900E5E737 /* 617. Merge Two Binary Trees  */ = {
+			isa = PBXGroup;
+			children = (
+				CB61B0EE28056F9A00E5E737 /* MergeTwoBinaryTrees.hpp */,
+				CB61B0ED28056F9A00E5E737 /* MergeTwoBinaryTrees.cpp */,
+			);
+			path = "617. Merge Two Binary Trees ";
+			sourceTree = "<group>";
+		};
 		CB8C3C2727D7514B00576C6D /* 48. Rotate Image  */ = {
 			isa = PBXGroup;
 			children = (
@@ -4074,6 +4087,7 @@
 				C4C9D35727E616A5007067BB /* DesignLinkedList.cpp in Sources */,
 				C4B2524327F4BB620040706B /* KthLargestElementInAnArray.cpp in Sources */,
 				C4ABA5982801233800E64BA2 /* BossHome.cpp in Sources */,
+				CB61B0EF28056F9D00E5E737 /* MergeTwoBinaryTrees.cpp in Sources */,
 				C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */,
 				C402A07727ECB3500083C036 /* DeleteNodeInABST.cpp in Sources */,
 				C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */,
