@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "MergeTwoBinaryTrees.hpp"
+#include "PopulatingNextRightPointersInEachNode.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMergeTwoBinaryTrees();
+    testPopulatingNextRightPointersInEachNode();
     
     return 0;
 }
