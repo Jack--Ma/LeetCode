@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "PopulatingNextRightPointersInEachNode.hpp"
+#include "01Matrix.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPopulatingNextRightPointersInEachNode();
+    test01Matrix();
     
     return 0;
 }
