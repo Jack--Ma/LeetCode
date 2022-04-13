@@ -84,6 +84,7 @@
 		C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524927F995F00040706B /* TopKFrequentElements.cpp */; };
 		C4B2524F27F9FA580040706B /* SortCharactersByFrequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524D27F9FA580040706B /* SortCharactersByFrequency.cpp */; };
 		C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2525127FAE9B60040706B /* KClosestPointsToOrigin.cpp */; };
+		C4B684472807116500B41B2F /* RottingOranges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B684452807116500B41B2F /* RottingOranges.cpp */; };
 		C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */; };
 		C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */; };
 		C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34927E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp */; };
@@ -334,6 +335,8 @@
 		C4B643C51D92506D00056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643DD1D9260AC00056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B643E91D9279D800056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4B684452807116500B41B2F /* RottingOranges.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RottingOranges.cpp; sourceTree = "<group>"; };
+		C4B684462807116500B41B2F /* RottingOranges.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RottingOranges.hpp; sourceTree = "<group>"; };
 		C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		C4C9D34227E36B37007067BB /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
 		C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
@@ -781,6 +784,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C4B684442807115B00B41B2F /* 994. Rotting Oranges  */,
 				C481ED072805CFE10022DEEC /* 542. 01 Matrix  */,
 				CB61B0F02805A62300E5E737 /* 116. Populating Next Right Pointers in Each Node  */,
 				CB61B0EC28056F7900E5E737 /* 617. Merge Two Binary Trees  */,
@@ -1704,6 +1708,15 @@
 			path = "8-String_to_Integer";
 			sourceTree = "<group>";
 		};
+		C4B684442807115B00B41B2F /* 994. Rotting Oranges  */ = {
+			isa = PBXGroup;
+			children = (
+				C4B684462807116500B41B2F /* RottingOranges.hpp */,
+				C4B684452807116500B41B2F /* RottingOranges.cpp */,
+			);
+			path = "994. Rotting Oranges ";
+			sourceTree = "<group>";
+		};
 		C4C9D34027E36B22007067BB /* 2. Add Two Numbers  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2253,6 +2266,7 @@
 				C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */,
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
 				C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */,
+				C4B684472807116500B41B2F /* RottingOranges.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
