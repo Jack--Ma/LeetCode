@@ -923,6 +923,7 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C4B684482807256100B41B2F /* Recursion */,
 				C481ED022804825D0022DEEC /* BFS & DFS */,
 				C4AC28FB2801E7F00036E6DB /* Sliding Window */,
 				C4ABA57C27FCA01900E64BA2 /* Two Pointers */,
@@ -1715,6 +1716,13 @@
 				C4B684452807116500B41B2F /* RottingOranges.cpp */,
 			);
 			path = "994. Rotting Oranges ";
+			sourceTree = "<group>";
+		};
+		C4B684482807256100B41B2F /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recursion;
 			sourceTree = "<group>";
 		};
 		C4C9D34027E36B22007067BB /* 2. Add Two Numbers  */ = {

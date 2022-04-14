@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "RottingOranges.hpp"
+#include "MergeTwoSortedLists.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testRottingOranges();
+    testMergeTwoLists();
     
     return 0;
 }
