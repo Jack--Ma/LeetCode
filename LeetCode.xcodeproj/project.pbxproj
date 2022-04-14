@@ -85,6 +85,7 @@
 		C4B2524F27F9FA580040706B /* SortCharactersByFrequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2524D27F9FA580040706B /* SortCharactersByFrequency.cpp */; };
 		C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B2525127FAE9B60040706B /* KClosestPointsToOrigin.cpp */; };
 		C4B684472807116500B41B2F /* RottingOranges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B684452807116500B41B2F /* RottingOranges.cpp */; };
+		C4B6844B2807B3FF00B41B2F /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B684492807B3FF00B41B2F /* Combinations.cpp */; };
 		C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */; };
 		C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */; };
 		C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34927E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp */; };
@@ -337,6 +338,8 @@
 		C4B643E91D9279D800056FEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4B684452807116500B41B2F /* RottingOranges.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RottingOranges.cpp; sourceTree = "<group>"; };
 		C4B684462807116500B41B2F /* RottingOranges.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RottingOranges.hpp; sourceTree = "<group>"; };
+		C4B684492807B3FF00B41B2F /* Combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
+		C4B6844A2807B3FF00B41B2F /* Combinations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Combinations.hpp; sourceTree = "<group>"; };
 		C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		C4C9D34227E36B37007067BB /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
 		C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
@@ -1721,8 +1724,18 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				C4B6844C2807B40300B41B2F /* 77. Combinations  */,
 			);
 			path = Recursion;
+			sourceTree = "<group>";
+		};
+		C4B6844C2807B40300B41B2F /* 77. Combinations  */ = {
+			isa = PBXGroup;
+			children = (
+				C4B6844A2807B3FF00B41B2F /* Combinations.hpp */,
+				C4B684492807B3FF00B41B2F /* Combinations.cpp */,
+			);
+			path = "77. Combinations ";
 			sourceTree = "<group>";
 		};
 		C4C9D34027E36B22007067BB /* 2. Add Two Numbers  */ = {
@@ -2258,6 +2271,7 @@
 				C4ABA59027FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp in Sources */,
 				C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */,
 				C4A9455C27D3B08B00E452DC /* SingleNumber.cpp in Sources */,
+				C4B6844B2807B3FF00B41B2F /* Combinations.cpp in Sources */,
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
