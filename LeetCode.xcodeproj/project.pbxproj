@@ -123,6 +123,7 @@
 		CB61B0F62805A71800E5E737 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0F42805A71800E5E737 /* Node.cpp */; };
 		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 		CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */; };
+		CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFE2431280830EC00B191C1 /* Permutations.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -418,6 +419,8 @@
 		CB8C3C2927D7515E00576C6D /* RotateImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateImage.hpp; sourceTree = "<group>"; };
 		CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
 		CB8C3C2D27D77C9F00576C6D /* SpiralMatrixII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpiralMatrixII.hpp; sourceTree = "<group>"; };
+		CBFE2431280830EC00B191C1 /* Permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
+		CBFE2432280830EC00B191C1 /* Permutations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Permutations.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1724,6 +1727,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				CBFE2430280830E100B191C1 /* 46. Permutations  */,
 				C4B6844C2807B40300B41B2F /* 77. Combinations  */,
 			);
 			path = Recursion;
@@ -2133,6 +2137,15 @@
 			path = "59. Spiral Matrix II ";
 			sourceTree = "<group>";
 		};
+		CBFE2430280830E100B191C1 /* 46. Permutations  */ = {
+			isa = PBXGroup;
+			children = (
+				CBFE2432280830EC00B191C1 /* Permutations.hpp */,
+				CBFE2431280830EC00B191C1 /* Permutations.cpp */,
+			);
+			path = "46. Permutations ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2219,6 +2232,7 @@
 				C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
+				CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */,
 				C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */,
 				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
 				C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */,
