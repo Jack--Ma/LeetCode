@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "MergeTwoSortedLists.hpp"
+#include "ReverseLinkedList.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMergeTwoLists();
+    testReverseList();
     
     return 0;
 }

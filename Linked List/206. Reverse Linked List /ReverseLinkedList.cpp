@@ -13,8 +13,23 @@
  Output: [5,4,3,2,1]
  */
 
+/// solution by use recursion
+ListNode * _reverseList_recursion(ListNode *head, ListNode *prev, ListNode *next) {
+    if (!head) {
+        return prev;
+    }
+    next = head->next;
+    head->next = prev;
+    prev = head;
+    head = next;
+    return _reverseList_recursion(head, prev, next);
+}
+
 // my soluton
 ListNode* Solution::reverseList(ListNode *head) {
+//    ListNode *result = _reverseList_recursion(head, nullptr, head);
+//    return result;
+    
     ListNode *reverseHead = nullptr;
     ListNode *p = head;
     while (p != NULL) {
