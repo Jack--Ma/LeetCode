@@ -124,6 +124,7 @@
 		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 		CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */; };
 		CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFE2431280830EC00B191C1 /* Permutations.cpp */; };
+		CBFE24372808500D00B191C1 /* LetterCasePermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFE24352808500C00B191C1 /* LetterCasePermutation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -421,6 +422,8 @@
 		CB8C3C2D27D77C9F00576C6D /* SpiralMatrixII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpiralMatrixII.hpp; sourceTree = "<group>"; };
 		CBFE2431280830EC00B191C1 /* Permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutations.cpp; sourceTree = "<group>"; };
 		CBFE2432280830EC00B191C1 /* Permutations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Permutations.hpp; sourceTree = "<group>"; };
+		CBFE24352808500C00B191C1 /* LetterCasePermutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LetterCasePermutation.cpp; sourceTree = "<group>"; };
+		CBFE24362808500C00B191C1 /* LetterCasePermutation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LetterCasePermutation.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1727,6 +1730,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				CBFE24342808500100B191C1 /* 784. Letter Case Permutation  */,
 				CBFE2430280830E100B191C1 /* 46. Permutations  */,
 				C4B6844C2807B40300B41B2F /* 77. Combinations  */,
 			);
@@ -2146,6 +2150,15 @@
 			path = "46. Permutations ";
 			sourceTree = "<group>";
 		};
+		CBFE24342808500100B191C1 /* 784. Letter Case Permutation  */ = {
+			isa = PBXGroup;
+			children = (
+				CBFE24362808500C00B191C1 /* LetterCasePermutation.hpp */,
+				CBFE24352808500C00B191C1 /* LetterCasePermutation.cpp */,
+			);
+			path = "784. Letter Case Permutation ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2281,6 +2294,7 @@
 				C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C481ED06280482730022DEEC /* FloodFill.cpp in Sources */,
+				CBFE24372808500D00B191C1 /* LetterCasePermutation.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
 				C4ABA59027FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp in Sources */,
 				C48E9E6D27DC89540063E280 /* WordPattern.cpp in Sources */,
