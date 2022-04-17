@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "PowerOfTwo.hpp"
+#include "NumberOf1Bits.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPowerOfTwo();
+    testNumberOf1Bits();
     
     return 0;
 }
