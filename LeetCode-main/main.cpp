@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "NumberOf1Bits.hpp"
+#include "ReverseBits.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testNumberOf1Bits();
+    testReverseBits();
     
     return 0;
 }

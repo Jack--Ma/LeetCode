@@ -39,6 +39,7 @@
 		C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */; };
 		C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */; };
 		C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */; };
+		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -238,6 +239,8 @@
 		C49BE773280C2F29008ACB59 /* PowerOfTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwo.hpp; sourceTree = "<group>"; };
 		C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
 		C49BE777280C366C008ACB59 /* NumberOf1Bits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOf1Bits.hpp; sourceTree = "<group>"; };
+		C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseBits.cpp; sourceTree = "<group>"; };
+		C49BE77B280C46AB008ACB59 /* ReverseBits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseBits.hpp; sourceTree = "<group>"; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043141D890B2000551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0431F1D89164400551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1017,6 +1020,7 @@
 		C49BE770280C2F11008ACB59 /* Bit Manipulation */ = {
 			isa = PBXGroup;
 			children = (
+				C49BE779280C46A3008ACB59 /* 190. Reverse Bits  */,
 				C49BE775280C365F008ACB59 /* 191. Number of 1 Bits  */,
 				C49BE771280C2F15008ACB59 /* 231. Power of Two  */,
 			);
@@ -1039,6 +1043,15 @@
 				C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */,
 			);
 			path = "191. Number of 1 Bits ";
+			sourceTree = "<group>";
+		};
+		C49BE779280C46A3008ACB59 /* 190. Reverse Bits  */ = {
+			isa = PBXGroup;
+			children = (
+				C49BE77B280C46AB008ACB59 /* ReverseBits.hpp */,
+				C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */,
+			);
+			path = "190. Reverse Bits ";
 			sourceTree = "<group>";
 		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
@@ -2409,6 +2422,7 @@
 				C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
 				C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */,
+				C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */,
 				C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
 				C4E3858627F2AAE10024DDFF /* KeysAndRooms.cpp in Sources */,
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
