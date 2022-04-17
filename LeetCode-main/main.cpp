@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "Triangle.hpp"
+#include "PowerOfTwo.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testTriangle();
+    testPowerOfTwo();
     
     return 0;
 }
