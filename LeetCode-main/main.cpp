@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "HouseRobber.hpp"
+#include "Triangle.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testHouseRobber();
+    testTriangle();
     
     return 0;
 }
