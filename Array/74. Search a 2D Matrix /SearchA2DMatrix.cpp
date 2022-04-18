@@ -16,8 +16,50 @@
  Output: false
  */
 
+bool _searchMatrix_binary_search(vector<vector<int>> &matrix, int target) {
+    const int height = (int)matrix.size();
+    const int width = (int)matrix[0].size();
+    int left = 0, right = height - 1;
+    int i = (left + right) / 2;
+    // binary search find target row index
+    vector<int> targetRow;
+    while (left <= right) {
+        vector<int> row = matrix[i];
+        if (row[0] <= target && target <= row[width-1]) {
+            targetRow = row;
+            break;
+        } else if (target < row[0]) {
+            right = i - 1;
+        } else if (target > row[width-1]) {
+            left = i + 1;
+        }
+        i = (left + right) / 2;
+    }
+    if (targetRow.empty()) {
+        return false;
+    }
+    
+    left = 0, right = width - 1;
+    i = (left + right) / 2;
+    // binary search find target column index
+    while (left <= right) {
+        int num = targetRow[i];
+        if (num == target) {
+            return true;
+        } else if (target < num) {
+            right = i - 1;
+        } else if (target > num) {
+            left = i + 1;
+        }
+        i = (left + right) / 2;
+    }
+    
+    return false;
+}
+
 // my solution
 bool Solution::searchMatrix(vector<vector<int>> &matrix, int target) {
+    return _searchMatrix_binary_search(matrix, target);
     int rowSize = (int)matrix.size();
     int colSize = (int)matrix[0].size();
     
@@ -54,5 +96,6 @@ void testSearchMatrix() {
         {10,11,16,20},
         {23,30,34,60}
     };
-    Solution().searchMatrix(matrix, 11);
+    matrix = {{1}};
+    cout << Solution().searchMatrix(matrix, 0) << endl;
 }

@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "SearchInRotatedSortedArray.hpp"
+#include "SearchA2DMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSearchInRotatedSortedArray();
+    testSearchMatrix();
     
     return 0;
 }
