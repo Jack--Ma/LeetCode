@@ -40,6 +40,7 @@
 		C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */; };
 		C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */; };
 		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
+		C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE782280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -241,6 +242,8 @@
 		C49BE777280C366C008ACB59 /* NumberOf1Bits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOf1Bits.hpp; sourceTree = "<group>"; };
 		C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseBits.cpp; sourceTree = "<group>"; };
 		C49BE77B280C46AB008ACB59 /* ReverseBits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseBits.hpp; sourceTree = "<group>"; };
+		C49BE782280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindFirstandLastPositionOfElementInSortedArray.cpp; sourceTree = "<group>"; };
+		C49BE783280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindFirstandLastPositionOfElementInSortedArray.hpp; sourceTree = "<group>"; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043141D890B2000551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0431F1D89164400551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1054,6 +1057,15 @@
 			path = "190. Reverse Bits ";
 			sourceTree = "<group>";
 		};
+		C49BE781280C55B1008ACB59 /* 34. Find First and Last Position of Element in Sorted Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C49BE783280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.hpp */,
+				C49BE782280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp */,
+			);
+			path = "34. Find First and Last Position of Element in Sorted Array ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1565,6 +1577,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C49BE781280C55B1008ACB59 /* 34. Find First and Last Position of Element in Sorted Array  */,
 				C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */,
 				C49391A227FC7C6300E2CF01 /* 278. First Bad Version  */,
 				C493918E27FB4A8700E2CF01 /* 704. Binary Search */,
@@ -2432,6 +2445,7 @@
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
+				C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */,
 				C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
 				C4AC28F628015A1D0036E6DB /* LargestRectangleInHistogram.cpp in Sources */,

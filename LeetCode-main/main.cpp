@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "ReverseBits.hpp"
+#include "FindFirstandLastPositionOfElementInSortedArray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testReverseBits();
+    testFindFirstandLastPositionOfElementInSortedArray();
     
     return 0;
 }
