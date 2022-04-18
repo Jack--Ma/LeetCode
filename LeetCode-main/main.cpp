@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "FindFirstandLastPositionOfElementInSortedArray.hpp"
+#include "SearchInRotatedSortedArray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFindFirstandLastPositionOfElementInSortedArray();
+    testSearchInRotatedSortedArray();
     
     return 0;
 }
