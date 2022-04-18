@@ -42,6 +42,7 @@
 		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
 		C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE782280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp */; };
 		C49BE788280D554A008ACB59 /* SearchInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE786280D554A008ACB59 /* SearchInRotatedSortedArray.cpp */; };
+		C49BE78C280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE78A280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -247,6 +248,8 @@
 		C49BE783280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindFirstandLastPositionOfElementInSortedArray.hpp; sourceTree = "<group>"; };
 		C49BE786280D554A008ACB59 /* SearchInRotatedSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInRotatedSortedArray.cpp; sourceTree = "<group>"; };
 		C49BE787280D554A008ACB59 /* SearchInRotatedSortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchInRotatedSortedArray.hpp; sourceTree = "<group>"; };
+		C49BE78A280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindMinimumInRotatedSortedArray.cpp; sourceTree = "<group>"; };
+		C49BE78B280DA426008ACB59 /* FindMinimumInRotatedSortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindMinimumInRotatedSortedArray.hpp; sourceTree = "<group>"; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043141D890B2000551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0431F1D89164400551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1078,6 +1081,15 @@
 			path = "33. Search in Rotated Sorted Array ";
 			sourceTree = "<group>";
 		};
+		C49BE789280DA41A008ACB59 /* 153. Find Minimum in Rotated Sorted Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C49BE78B280DA426008ACB59 /* FindMinimumInRotatedSortedArray.hpp */,
+				C49BE78A280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp */,
+			);
+			path = "153. Find Minimum in Rotated Sorted Array ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1589,6 +1601,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C49BE789280DA41A008ACB59 /* 153. Find Minimum in Rotated Sorted Array  */,
 				C49BE785280D553E008ACB59 /* 33. Search in Rotated Sorted Array  */,
 				C49BE781280C55B1008ACB59 /* 34. Find First and Last Position of Element in Sorted Array  */,
 				C49391A627FC8DFE00E2CF01 /* 35. Search Insert Position  */,
@@ -2358,6 +2371,7 @@
 				C402A07727ECB3500083C036 /* DeleteNodeInABST.cpp in Sources */,
 				C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */,
 				C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */,
+				C49BE78C280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp in Sources */,
 				CB15B68327C876B500B4AFA1 /* MergeTwoSortedLists.cpp in Sources */,
 				C489C5E127D04687002A6D34 /* InvertBinaryTree.cpp in Sources */,
 				C4ABA58027FCA0B900E64BA2 /* RotateArray.cpp in Sources */,
