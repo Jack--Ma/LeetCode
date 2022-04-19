@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "3Sum.hpp"
+#include "BackspaceStringCompare.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testThreeSum();
+    testBackspaceStringCompare();
     
     return 0;
 }
