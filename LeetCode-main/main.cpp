@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "RemoveDuplicatesFromSortedListII.hpp"
+#include "3Sum.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testDeleteDuplicatesII();
+    testThreeSum();
     
     return 0;
 }
