@@ -132,6 +132,7 @@
 		CB61B0F32805A63A00E5E737 /* PopulatingNextRightPointersInEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0F12805A63A00E5E737 /* PopulatingNextRightPointersInEachNode.cpp */; };
 		CB61B0F62805A71800E5E737 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0F42805A71800E5E737 /* Node.cpp */; };
 		CB624D78280ED77C00BED7B6 /* BackspaceStringCompare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB624D76280ED77C00BED7B6 /* BackspaceStringCompare.cpp */; };
+		CB624D7C280EE37800BED7B6 /* IntervalListIntersections.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB624D7A280EE37800BED7B6 /* IntervalListIntersections.cpp */; };
 		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 		CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */; };
 		CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFE2431280830EC00B191C1 /* Permutations.cpp */; };
@@ -449,6 +450,8 @@
 		CB61B0F52805A71800E5E737 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		CB624D76280ED77C00BED7B6 /* BackspaceStringCompare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BackspaceStringCompare.cpp; sourceTree = "<group>"; };
 		CB624D77280ED77C00BED7B6 /* BackspaceStringCompare.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BackspaceStringCompare.hpp; sourceTree = "<group>"; };
+		CB624D7A280EE37800BED7B6 /* IntervalListIntersections.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntervalListIntersections.cpp; sourceTree = "<group>"; };
+		CB624D7B280EE37800BED7B6 /* IntervalListIntersections.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntervalListIntersections.hpp; sourceTree = "<group>"; };
 		CB8C3C2827D7515E00576C6D /* RotateImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
 		CB8C3C2927D7515E00576C6D /* RotateImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateImage.hpp; sourceTree = "<group>"; };
 		CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
@@ -1630,6 +1633,7 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				CB624D79280EE36C00BED7B6 /* 986. Interval List Intersections  */,
 				CB624D75280ED76C00BED7B6 /* 844. Backspace String Compare  */,
 				C4ABA58D27FFC39700E64BA2 /* 19. Remove Nth Node From End of List  */,
 				C4ABA58927FF46CB00E64BA2 /* 876. Middle of the Linked List  */,
@@ -2282,6 +2286,15 @@
 			path = "844. Backspace String Compare ";
 			sourceTree = "<group>";
 		};
+		CB624D79280EE36C00BED7B6 /* 986. Interval List Intersections  */ = {
+			isa = PBXGroup;
+			children = (
+				CB624D7B280EE37800BED7B6 /* IntervalListIntersections.hpp */,
+				CB624D7A280EE37800BED7B6 /* IntervalListIntersections.cpp */,
+			);
+			path = "986. Interval List Intersections ";
+			sourceTree = "<group>";
+		};
 		CB8C3C2727D7514B00576C6D /* 48. Rotate Image  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2386,6 +2399,7 @@
 				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
 				C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */,
 				C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */,
+				CB624D7C280EE37800BED7B6 /* IntervalListIntersections.cpp in Sources */,
 				C402A06327EAAD050083C036 /* ConvertSortedArrayToBinarySearchTree.cpp in Sources */,
 				C4C9D35F27E7867D007067BB /* ReorderList.cpp in Sources */,
 				CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */,
