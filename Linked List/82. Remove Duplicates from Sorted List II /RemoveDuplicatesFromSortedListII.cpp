@@ -57,6 +57,42 @@ ListNode *_deleteDuplicatesII_set(ListNode *head) {
     return result->next;
 }
 
+/// soluton by use three pointers and no alloc new node
+ListNode* _deleteDuplicatesII_two_pointer(ListNode *head) {
+    if (!head || !head->next) {
+        return head;
+    }
+    ListNode *newHead = new ListNode(INT_MIN);
+    newHead->next = head;
+    
+    ListNode *slow = newHead, *mid = slow->next, *fast = mid->next;
+    bool findDuplicate = false;
+    while (fast) {
+        if (mid->val != fast->val) {
+            if (findDuplicate) {
+                slow->next = fast;
+                mid = slow->next;
+                fast = mid->next;
+                findDuplicate = false;
+            } else {
+                fast = fast->next;
+                mid = mid->next;
+                slow = slow->next;
+            }
+        } else {
+            fast = fast->next;
+            findDuplicate = true;
+        }
+    }
+    if (findDuplicate) {
+        slow->next = fast;
+        mid = slow->next;
+        fast = mid ? mid->next : NULL;
+    }
+    
+    return newHead->next;
+}
+
 // solution by use three pointer
 ListNode *Solution::deleteDuplicatesII(ListNode *head) {
     if (!head || !head->next) {
