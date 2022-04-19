@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "FindMinimumInRotatedSortedArray.hpp"
+#include "FindPeakElement.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFindMinimumInRotatedSortedArray();
+    testFindPeakElement();
     
     return 0;
 }
