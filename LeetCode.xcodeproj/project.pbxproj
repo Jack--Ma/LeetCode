@@ -44,6 +44,7 @@
 		C49BE788280D554A008ACB59 /* SearchInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE786280D554A008ACB59 /* SearchInRotatedSortedArray.cpp */; };
 		C49BE78C280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE78A280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp */; };
 		C49BE790280DAEBE008ACB59 /* FindPeakElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE78E280DAEBE008ACB59 /* FindPeakElement.cpp */; };
+		C49BE794280F0FB9008ACB59 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE792280F0FB9008ACB59 /* ContainerWithMostWater.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -255,6 +256,8 @@
 		C49BE78B280DA426008ACB59 /* FindMinimumInRotatedSortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindMinimumInRotatedSortedArray.hpp; sourceTree = "<group>"; };
 		C49BE78E280DAEBE008ACB59 /* FindPeakElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindPeakElement.cpp; sourceTree = "<group>"; };
 		C49BE78F280DAEBE008ACB59 /* FindPeakElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindPeakElement.hpp; sourceTree = "<group>"; };
+		C49BE792280F0FB9008ACB59 /* ContainerWithMostWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainerWithMostWater.cpp; sourceTree = "<group>"; };
+		C49BE793280F0FB9008ACB59 /* ContainerWithMostWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContainerWithMostWater.hpp; sourceTree = "<group>"; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043141D890B2000551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0431F1D89164400551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1108,6 +1111,15 @@
 			path = "162. Find Peak Element ";
 			sourceTree = "<group>";
 		};
+		C49BE791280F0FA4008ACB59 /* 11. Container With Most Water  */ = {
+			isa = PBXGroup;
+			children = (
+				C49BE793280F0FB9008ACB59 /* ContainerWithMostWater.hpp */,
+				C49BE792280F0FB9008ACB59 /* ContainerWithMostWater.cpp */,
+			);
+			path = "11. Container With Most Water ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1633,6 +1645,7 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				C49BE791280F0FA4008ACB59 /* 11. Container With Most Water  */,
 				CB624D79280EE36C00BED7B6 /* 986. Interval List Intersections  */,
 				CB624D75280ED76C00BED7B6 /* 844. Backspace String Compare  */,
 				C4ABA58D27FFC39700E64BA2 /* 19. Remove Nth Node From End of List  */,
@@ -2396,6 +2409,7 @@
 				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
 				C402A06B27EB4D840083C036 /* BinaryTreeZigzagLevelOrderTraversal.cpp in Sources */,
 				CB624D78280ED77C00BED7B6 /* BackspaceStringCompare.cpp in Sources */,
+				C49BE794280F0FB9008ACB59 /* ContainerWithMostWater.cpp in Sources */,
 				C4A9458327D98B2E00E452DC /* IncreasingTripletSubsequence.cpp in Sources */,
 				C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */,
 				C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */,

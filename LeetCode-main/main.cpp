@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "IntervalListIntersections.hpp"
+#include "ContainerWithMostWater.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testIntervalListIntersections();
+    testContainerWithMostWater();
     
     return 0;
 }
