@@ -28,7 +28,36 @@
  */
 
 void testFindAllAnagramsInAString() {
-    printVector(Solution().findAnagrams("aaaaaaaaaa", "aaaaaaaaaaaaa"));
+    printVector(Solution().findAnagrams("cbaebabacd", "abc"));
+}
+
+vector<int> _findAnagrams_sliding_window(string s, string p) {
+    vector<int> result;
+    if (s.length() < p.length()) {
+        return result;
+    }
+    vector<int> sMap(26,0), pMap(26,0);
+    for (int i = 0; i < p.length(); i++) {
+        sMap[s[i] - 'a']++;
+        pMap[p[i] - 'a']++;
+    }
+    
+    int left = 0, right = (int)p.length() - 1;
+    while (right < s.length() - 1) {
+        if (sMap == pMap) {
+            result.push_back(left);
+        }
+        sMap[s[left] - 'a']--;
+        left++;
+        right++;
+        sMap[s[right] - 'a']++;
+    }
+    // judge last left-right index
+    if (sMap == pMap) {
+        result.push_back(left);
+    }
+    
+    return result;
 }
 
 vector<int> Solution::findAnagrams(string s, string p) {

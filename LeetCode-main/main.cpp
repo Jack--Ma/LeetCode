@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "ContainerWithMostWater.hpp"
+#include "FindAllAnagramsInAString.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testContainerWithMostWater();
+    testFindAllAnagramsInAString();
     
     return 0;
 }
