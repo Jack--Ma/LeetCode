@@ -45,6 +45,7 @@
 		C49BE78C280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE78A280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp */; };
 		C49BE790280DAEBE008ACB59 /* FindPeakElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE78E280DAEBE008ACB59 /* FindPeakElement.cpp */; };
 		C49BE794280F0FB9008ACB59 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE792280F0FB9008ACB59 /* ContainerWithMostWater.cpp */; };
+		C49BE79828105624008ACB59 /* SubarrayProductLessThanK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE79628105624008ACB59 /* SubarrayProductLessThanK.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -258,6 +259,8 @@
 		C49BE78F280DAEBE008ACB59 /* FindPeakElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindPeakElement.hpp; sourceTree = "<group>"; };
 		C49BE792280F0FB9008ACB59 /* ContainerWithMostWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainerWithMostWater.cpp; sourceTree = "<group>"; };
 		C49BE793280F0FB9008ACB59 /* ContainerWithMostWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContainerWithMostWater.hpp; sourceTree = "<group>"; };
+		C49BE79628105624008ACB59 /* SubarrayProductLessThanK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubarrayProductLessThanK.cpp; sourceTree = "<group>"; };
+		C49BE79728105624008ACB59 /* SubarrayProductLessThanK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubarrayProductLessThanK.hpp; sourceTree = "<group>"; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043141D890B2000551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0431F1D89164400551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1120,6 +1123,15 @@
 			path = "11. Container With Most Water ";
 			sourceTree = "<group>";
 		};
+		C49BE795281054E4008ACB59 /* 713. Subarray Product Less Than K  */ = {
+			isa = PBXGroup;
+			children = (
+				C49BE79728105624008ACB59 /* SubarrayProductLessThanK.hpp */,
+				C49BE79628105624008ACB59 /* SubarrayProductLessThanK.cpp */,
+			);
+			path = "713. Subarray Product Less Than K ";
+			sourceTree = "<group>";
+		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1744,6 +1756,7 @@
 		C4AC28FB2801E7F00036E6DB /* Sliding Window */ = {
 			isa = PBXGroup;
 			children = (
+				C49BE795281054E4008ACB59 /* 713. Subarray Product Less Than K  */,
 				C481ECFE28047D2A0022DEEC /* 438. Find All Anagrams in a String  */,
 				C481ECFA2802B7480022DEEC /* 567. Permutation in String  */,
 				C4AC28FC2801E8020036E6DB /* 3. Longest Substring Without Repeating Characters  */,
@@ -2455,6 +2468,7 @@
 				C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */,
 				C4A511F027CC516F0004D026 /* BinaryTreePreorderTraversal.cpp in Sources */,
 				C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */,
+				C49BE79828105624008ACB59 /* SubarrayProductLessThanK.cpp in Sources */,
 				C4A885A127C670F900EC168C /* FirstUniqueCharacterInAString.cpp in Sources */,
 				C4A511E727CA68300004D026 /* ValidParentheses.cpp in Sources */,
 				C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */,
