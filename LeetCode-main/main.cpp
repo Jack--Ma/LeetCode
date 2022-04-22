@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "NumberOfIslands.hpp"
+#include "NumberOfProvinces.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testNumberOfIslands();
+    testNumberOfProvinces();
     
     return 0;
 }
