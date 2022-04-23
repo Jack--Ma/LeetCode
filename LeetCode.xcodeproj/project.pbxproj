@@ -47,6 +47,7 @@
 		C49BE794280F0FB9008ACB59 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE792280F0FB9008ACB59 /* ContainerWithMostWater.cpp */; };
 		C49BE79828105624008ACB59 /* SubarrayProductLessThanK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE79628105624008ACB59 /* SubarrayProductLessThanK.cpp */; };
 		C49BE79F28123D0E008ACB59 /* NumberOfIslands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE79D28123D0E008ACB59 /* NumberOfIslands.cpp */; };
+		C49BE7A32812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE7A12812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -266,6 +267,8 @@
 		C49BE79728105624008ACB59 /* SubarrayProductLessThanK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubarrayProductLessThanK.hpp; sourceTree = "<group>"; };
 		C49BE79D28123D0E008ACB59 /* NumberOfIslands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOfIslands.cpp; sourceTree = "<group>"; };
 		C49BE79E28123D0E008ACB59 /* NumberOfIslands.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOfIslands.hpp; sourceTree = "<group>"; };
+		C49BE7A12812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersInEachNodeII.cpp; sourceTree = "<group>"; };
+		C49BE7A22812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PopulatingNextRightPointersInEachNodeII.hpp; sourceTree = "<group>"; };
 		C49F2FF61D8C39EA004E8E43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A043141D890B2000551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0431F1D89164400551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -844,6 +847,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C49BE7A02812FB75008ACB59 /* 117. Populating Next Right Pointers in Each Node II  */,
 				CB761DB52812A47C0075CA1B /* 547. Number of Provinces  */,
 				C49BE79928123CE3008ACB59 /* 200. Number of Islands  */,
 				C4B684442807115B00B41B2F /* 994. Rotting Oranges  */,
@@ -1150,6 +1154,15 @@
 				C49BE79D28123D0E008ACB59 /* NumberOfIslands.cpp */,
 			);
 			path = "200. Number of Islands ";
+			sourceTree = "<group>";
+		};
+		C49BE7A02812FB75008ACB59 /* 117. Populating Next Right Pointers in Each Node II  */ = {
+			isa = PBXGroup;
+			children = (
+				C49BE7A22812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.hpp */,
+				C49BE7A12812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp */,
+			);
+			path = "117. Populating Next Right Pointers in Each Node II ";
 			sourceTree = "<group>";
 		};
 		C49F2FF51D8C39EA004E8E43 /* 24-Swap_Nodes_in_Pairs */ = {
@@ -2583,6 +2596,7 @@
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
 				C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
+				C49BE7A32812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp in Sources */,
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
 				C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */,

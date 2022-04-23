@@ -26,4 +26,6 @@ public:
 
 Node* buildNodeTree(vector<int> nums);
 
+void outputNodeTreeByRight(Node* root);
+
 #endif /* Node_hpp */

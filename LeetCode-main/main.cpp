@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "NumberOfProvinces.hpp"
+#include "PopulatingNextRightPointersInEachNodeII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testNumberOfProvinces();
+    testPopulatingNextRightPointersInEachNodeII();
     
     return 0;
 }
