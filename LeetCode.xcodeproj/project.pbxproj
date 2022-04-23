@@ -20,6 +20,7 @@
 		C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */; };
 		C481ED06280482730022DEEC /* FloodFill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED04280482730022DEEC /* FloodFill.cpp */; };
 		C481ED0A2805CFF50022DEEC /* 01Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED082805CFF50022DEEC /* 01Matrix.cpp */; };
+		C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -213,6 +214,8 @@
 		C481ED05280482730022DEEC /* FloodFill.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FloodFill.hpp; sourceTree = "<group>"; };
 		C481ED082805CFF50022DEEC /* 01Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01Matrix.cpp; sourceTree = "<group>"; };
 		C481ED092805CFF50022DEEC /* 01Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 01Matrix.hpp; sourceTree = "<group>"; };
+		C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubtreeOfAnotherTree.cpp; sourceTree = "<group>"; };
+		C484BA772813C46E00CF92BD /* SubtreeOfAnotherTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubtreeOfAnotherTree.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -847,6 +850,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA752813C45F00CF92BD /* 572. Subtree of Another Tree  */,
 				C49BE7A02812FB75008ACB59 /* 117. Populating Next Right Pointers in Each Node II  */,
 				CB761DB52812A47C0075CA1B /* 547. Number of Provinces  */,
 				C49BE79928123CE3008ACB59 /* 200. Number of Islands  */,
@@ -876,6 +880,15 @@
 				C481ED082805CFF50022DEEC /* 01Matrix.cpp */,
 			);
 			path = "542. 01 Matrix ";
+			sourceTree = "<group>";
+		};
+		C484BA752813C45F00CF92BD /* 572. Subtree of Another Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BA772813C46E00CF92BD /* SubtreeOfAnotherTree.hpp */,
+				C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */,
+			);
+			path = "572. Subtree of Another Tree ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -2600,6 +2613,7 @@
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
 				C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */,
+				C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */,
 				C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
 				C4AC28F628015A1D0036E6DB /* LargestRectangleInHistogram.cpp in Sources */,

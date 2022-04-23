@@ -46,6 +46,27 @@ bool isLeafNode(TreeNode *node) {
     return !node->left && !node->right;
 }
 
+bool isSameTree(TreeNode *root1, TreeNode *root2) {
+    if (!root1 && !root2) {
+        return true;
+    } else if (!root1 || !root2) {
+        return false;
+    }
+    // current value is equal or not
+    if (root1->val != root2->val) {
+        return false;
+    }
+    // left subTree is equal or not
+    if (!isSameTree(root1->left, root2->left)) {
+        return false;
+    }
+    // right subTree is equal or not
+    if (!isSameTree(root1->right, root2->right)) {
+        return false;
+    }
+    return true;
+}
+
 void outputTree(TreeNode *root) {
     // level order traverse tree and print node
     int depth = _findTreeDepth(root, 0);

@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "PopulatingNextRightPointersInEachNodeII.hpp"
+#include "SubtreeOfAnotherTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPopulatingNextRightPointersInEachNodeII();
+    testSubtreeOfAnotherTree();
     
     return 0;
 }
