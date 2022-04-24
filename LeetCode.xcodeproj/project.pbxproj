@@ -21,6 +21,7 @@
 		C481ED06280482730022DEEC /* FloodFill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED04280482730022DEEC /* FloodFill.cpp */; };
 		C481ED0A2805CFF50022DEEC /* 01Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED082805CFF50022DEEC /* 01Matrix.cpp */; };
 		C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */; };
+		C484BA7C281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA7A281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -216,6 +217,8 @@
 		C481ED092805CFF50022DEEC /* 01Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 01Matrix.hpp; sourceTree = "<group>"; };
 		C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubtreeOfAnotherTree.cpp; sourceTree = "<group>"; };
 		C484BA772813C46E00CF92BD /* SubtreeOfAnotherTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubtreeOfAnotherTree.hpp; sourceTree = "<group>"; };
+		C484BA7A281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestPathInBinaryMatrix.cpp; sourceTree = "<group>"; };
+		C484BA7B281401C400CF92BD /* ShortestPathInBinaryMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShortestPathInBinaryMatrix.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -850,6 +853,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA79281401B700CF92BD /* 1091. Shortest Path in Binary Matrix  */,
 				C484BA752813C45F00CF92BD /* 572. Subtree of Another Tree  */,
 				C49BE7A02812FB75008ACB59 /* 117. Populating Next Right Pointers in Each Node II  */,
 				CB761DB52812A47C0075CA1B /* 547. Number of Provinces  */,
@@ -889,6 +893,15 @@
 				C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */,
 			);
 			path = "572. Subtree of Another Tree ";
+			sourceTree = "<group>";
+		};
+		C484BA79281401B700CF92BD /* 1091. Shortest Path in Binary Matrix  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BA7B281401C400CF92BD /* ShortestPathInBinaryMatrix.hpp */,
+				C484BA7A281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp */,
+			);
+			path = "1091. Shortest Path in Binary Matrix ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -2512,6 +2525,7 @@
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
+				C484BA7C281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp in Sources */,
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
 				C49BE788280D554A008ACB59 /* SearchInRotatedSortedArray.cpp in Sources */,
 				CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */,

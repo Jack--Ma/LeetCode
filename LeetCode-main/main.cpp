@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "SubtreeOfAnotherTree.hpp"
+#include "ShortestPathInBinaryMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSubtreeOfAnotherTree();
+    testShortestPathInBinaryMatrix();
     
     return 0;
 }
