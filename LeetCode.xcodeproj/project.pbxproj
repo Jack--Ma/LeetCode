@@ -141,6 +141,7 @@
 		CB624D7C280EE37800BED7B6 /* IntervalListIntersections.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB624D7A280EE37800BED7B6 /* IntervalListIntersections.cpp */; };
 		CB625F1428115E6700BED7B6 /* MinimumSizeSubarraySum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB625F1228115E6700BED7B6 /* MinimumSizeSubarraySum.cpp */; };
 		CB761DB82812A48A0075CA1B /* NumberOfProvinces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB761DB62812A48A0075CA1B /* NumberOfProvinces.cpp */; };
+		CB761DF3281554C90075CA1B /* SurroundedRegions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB761DF1281554C90075CA1B /* SurroundedRegions.cpp */; };
 		CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2827D7515E00576C6D /* RotateImage.cpp */; };
 		CB8C3C2E27D77CA000576C6D /* SpiralMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */; };
 		CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFE2431280830EC00B191C1 /* Permutations.cpp */; };
@@ -476,6 +477,8 @@
 		CB625F1328115E6700BED7B6 /* MinimumSizeSubarraySum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumSizeSubarraySum.hpp; sourceTree = "<group>"; };
 		CB761DB62812A48A0075CA1B /* NumberOfProvinces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOfProvinces.cpp; sourceTree = "<group>"; };
 		CB761DB72812A48A0075CA1B /* NumberOfProvinces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOfProvinces.hpp; sourceTree = "<group>"; };
+		CB761DF1281554C90075CA1B /* SurroundedRegions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SurroundedRegions.cpp; sourceTree = "<group>"; };
+		CB761DF2281554C90075CA1B /* SurroundedRegions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SurroundedRegions.hpp; sourceTree = "<group>"; };
 		CB8C3C2827D7515E00576C6D /* RotateImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RotateImage.cpp; sourceTree = "<group>"; };
 		CB8C3C2927D7515E00576C6D /* RotateImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateImage.hpp; sourceTree = "<group>"; };
 		CB8C3C2C27D77C9F00576C6D /* SpiralMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpiralMatrixII.cpp; sourceTree = "<group>"; };
@@ -853,6 +856,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				CB761DF0281554BD0075CA1B /* 130. Surrounded Regions  */,
 				C484BA79281401B700CF92BD /* 1091. Shortest Path in Binary Matrix  */,
 				C484BA752813C45F00CF92BD /* 572. Subtree of Another Tree  */,
 				C49BE7A02812FB75008ACB59 /* 117. Populating Next Right Pointers in Each Node II  */,
@@ -2399,6 +2403,15 @@
 			path = "547. Number of Provinces ";
 			sourceTree = "<group>";
 		};
+		CB761DF0281554BD0075CA1B /* 130. Surrounded Regions  */ = {
+			isa = PBXGroup;
+			children = (
+				CB761DF2281554C90075CA1B /* SurroundedRegions.hpp */,
+				CB761DF1281554C90075CA1B /* SurroundedRegions.cpp */,
+			);
+			path = "130. Surrounded Regions ";
+			sourceTree = "<group>";
+		};
 		CB8C3C2727D7514B00576C6D /* 48. Rotate Image  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2583,6 +2596,7 @@
 				C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */,
 				C49BE790280DAEBE008ACB59 /* FindPeakElement.cpp in Sources */,
 				C4C9D34F27E4ECB7007067BB /* RemoveDuplicatesFromSortedListII.cpp in Sources */,
+				CB761DF3281554C90075CA1B /* SurroundedRegions.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C481ED06280482730022DEEC /* FloodFill.cpp in Sources */,
 				CBFE24372808500D00B191C1 /* LetterCasePermutation.cpp in Sources */,

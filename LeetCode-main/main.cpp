@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "ShortestPathInBinaryMatrix.hpp"
+#include "SurroundedRegions.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testShortestPathInBinaryMatrix();
+    testSurroundedRegions();
     
     return 0;
 }
