@@ -23,6 +23,7 @@
 		C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA762813C46E00CF92BD /* SubtreeOfAnotherTree.cpp */; };
 		C484BA7C281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA7A281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp */; };
 		C484BA802815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA7E2815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp */; };
+		C484BA84281631AE00CF92BD /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA82281631AE00CF92BD /* Subsets.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -223,6 +224,8 @@
 		C484BA7B281401C400CF92BD /* ShortestPathInBinaryMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShortestPathInBinaryMatrix.hpp; sourceTree = "<group>"; };
 		C484BA7E2815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllPathsFromSourceToTarget.cpp; sourceTree = "<group>"; };
 		C484BA7F2815A2AE00CF92BD /* AllPathsFromSourceToTarget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllPathsFromSourceToTarget.hpp; sourceTree = "<group>"; };
+		C484BA82281631AE00CF92BD /* Subsets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Subsets.cpp; sourceTree = "<group>"; };
+		C484BA83281631AE00CF92BD /* Subsets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subsets.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -919,6 +922,15 @@
 				C484BA7E2815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp */,
 			);
 			path = "797. All Paths From Source to Target ";
+			sourceTree = "<group>";
+		};
+		C484BA81281631A500CF92BD /* 78. Subsets  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BA83281631AE00CF92BD /* Subsets.hpp */,
+				C484BA82281631AE00CF92BD /* Subsets.cpp */,
+			);
+			path = "78. Subsets ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -1950,6 +1962,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA81281631A500CF92BD /* 78. Subsets  */,
 				CBFE24342808500100B191C1 /* 784. Letter Case Permutation  */,
 				CBFE2430280830E100B191C1 /* 46. Permutations  */,
 				C4B6844C2807B40300B41B2F /* 77. Combinations  */,
@@ -2642,6 +2655,7 @@
 				C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
 				C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */,
+				C484BA84281631AE00CF92BD /* Subsets.cpp in Sources */,
 				C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */,
 				C4E3857927F0150A0024DDFF /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
 				C4E3858627F2AAE10024DDFF /* KeysAndRooms.cpp in Sources */,
