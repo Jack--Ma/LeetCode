@@ -24,7 +24,7 @@
  4
  */
 
-class Solution {
+class LongestSwipe {
 private:
     int direction[8][2] = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
     vector<vector<int>> nums;
@@ -95,5 +95,5 @@ void testLongestSwipe() {
             data[i][j] = num;
         }
     }
-    cout << Solution().longestSwipe(data) << endl;
+    cout << LongestSwipe().longestSwipe(data) << endl;
 }

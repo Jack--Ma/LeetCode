@@ -35,7 +35,7 @@
  NO
  */
 
-class Solution {
+class EscapeFromTheGame {
 private:
     int k = 4;
     // step[0~3] mean right-bottom-left-up
@@ -82,7 +82,7 @@ public:
 };
 
 void testEscapeFromTheGame() {
-    Solution solution = Solution();
+    EscapeFromTheGame solution = EscapeFromTheGame();
     cin >> solution.height >> solution.width;
     for (int i = 0; i < solution.height; i++) {
         for (int j = 0; j < solution.width; j++) {
