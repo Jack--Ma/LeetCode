@@ -135,6 +135,7 @@
 		CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */; };
 		CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C412E27FF10EE00A3658A /* ReverseString.cpp */; };
 		CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */; };
+		CB50F9872816CBC90097E359 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB50F9852816CBC90097E359 /* SubsetsII.cpp */; };
 		CB619F7328051C6500E5E737 /* MaxAreaOfIsland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB619F7128051C6500E5E737 /* MaxAreaOfIsland.cpp */; };
 		CB61B0EF28056F9D00E5E737 /* MergeTwoBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0ED28056F9A00E5E737 /* MergeTwoBinaryTrees.cpp */; };
 		CB61B0F32805A63A00E5E737 /* PopulatingNextRightPointersInEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0F12805A63A00E5E737 /* PopulatingNextRightPointersInEachNode.cpp */; };
@@ -467,6 +468,8 @@
 		CB2C412F27FF10EE00A3658A /* ReverseString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseString.hpp; sourceTree = "<group>"; };
 		CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsInAStringIII.cpp; sourceTree = "<group>"; };
 		CB2C413327FF145D00A3658A /* ReverseWordsInAStringIII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseWordsInAStringIII.hpp; sourceTree = "<group>"; };
+		CB50F9852816CBC90097E359 /* SubsetsII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubsetsII.cpp; sourceTree = "<group>"; };
+		CB50F9862816CBC90097E359 /* SubsetsII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubsetsII.hpp; sourceTree = "<group>"; };
 		CB619F7128051C6500E5E737 /* MaxAreaOfIsland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxAreaOfIsland.cpp; sourceTree = "<group>"; };
 		CB619F7228051C6500E5E737 /* MaxAreaOfIsland.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxAreaOfIsland.hpp; sourceTree = "<group>"; };
 		CB61B0ED28056F9A00E5E737 /* MergeTwoBinaryTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoBinaryTrees.cpp; sourceTree = "<group>"; };
@@ -1962,6 +1965,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				CB50F9842816CBB70097E359 /* 90. Subsets II  */,
 				C484BA81281631A500CF92BD /* 78. Subsets  */,
 				CBFE24342808500100B191C1 /* 784. Letter Case Permutation  */,
 				CBFE2430280830E100B191C1 /* 46. Permutations  */,
@@ -2366,6 +2370,15 @@
 			path = "557. Reverse Words in a String III ";
 			sourceTree = "<group>";
 		};
+		CB50F9842816CBB70097E359 /* 90. Subsets II  */ = {
+			isa = PBXGroup;
+			children = (
+				CB50F9862816CBC90097E359 /* SubsetsII.hpp */,
+				CB50F9852816CBC90097E359 /* SubsetsII.cpp */,
+			);
+			path = "90. Subsets II ";
+			sourceTree = "<group>";
+		};
 		CB619F7028051C4800E5E737 /* 695. Max Area of Island  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2576,6 +2589,7 @@
 				CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */,
 				C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */,
 				C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */,
+				CB50F9872816CBC90097E359 /* SubsetsII.cpp in Sources */,
 				C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */,
 				CB619F7328051C6500E5E737 /* MaxAreaOfIsland.cpp in Sources */,
 				C489C5E927D10DD6002A6D34 /* SearchInABinarySearchTree.cpp in Sources */,
