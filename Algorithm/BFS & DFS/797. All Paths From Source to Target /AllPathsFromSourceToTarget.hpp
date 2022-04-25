@@ -13,7 +13,13 @@
 
 // https://leetcode.com/problems/all-paths-from-source-to-target/
 class Solution {
+private:
+    vector<vector<int>> graph;
+    int target;
+    void _allPathsSourceTarget(int level, vector<int> path);
+    
 public:
+    vector<vector<int>> result;
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph);
 };
 

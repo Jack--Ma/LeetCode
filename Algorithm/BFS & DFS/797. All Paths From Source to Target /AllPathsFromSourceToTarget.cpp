@@ -31,9 +31,7 @@ void testAllPathsFromSourceToTarget() {
     printVector(Solution().allPathsSourceTarget(graph));
 }
 
-vector<vector<int>> result;
-int target;
-void _allPathsSourceTarget(vector<vector<int>> &graph, int level, vector<int> path) {
+void Solution::_allPathsSourceTarget(int level, vector<int> path) {
     path.push_back(level);
     if (level == target) {
         result.push_back(path);
@@ -41,12 +39,13 @@ void _allPathsSourceTarget(vector<vector<int>> &graph, int level, vector<int> pa
     }
     vector<int> nums = graph[level];
     for (int num : nums) {
-        _allPathsSourceTarget(graph, num, path);
+        _allPathsSourceTarget(num, path);
     }
 }
 
 vector<vector<int>> Solution::allPathsSourceTarget(vector<vector<int>> &graph) {
-    target = (int)graph.size() - 1;
-    _allPathsSourceTarget(graph, 0, {});
+    this->graph = graph;
+    this->target = (int)graph.size() - 1;
+    _allPathsSourceTarget(0, {});
     return result;
 }
