@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "SurroundedRegions.hpp"
+#include "AllPathsFromSourceToTarget.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSurroundedRegions();
+    testAllPathsFromSourceToTarget();
     
     return 0;
 }
