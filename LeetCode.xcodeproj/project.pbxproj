@@ -24,7 +24,9 @@
 		C484BA7C281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA7A281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp */; };
 		C484BA802815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA7E2815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp */; };
 		C484BA84281631AE00CF92BD /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA82281631AE00CF92BD /* Subsets.cpp */; };
-		C484BA882816F08C00CF92BD /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA862816F08C00CF92BD /* PermutationsII.cpp */; };
+		C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA862816F08C00CF92BD /* PermutationsII.cpp */; };
+		C484BA8E2818408400CF92BD /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB50F9852816CBC90097E359 /* SubsetsII.cpp */; };
+		C484BA8F281844F400CF92BD /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA8A28182A2100CF92BD /* CombinationSum.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -136,7 +138,6 @@
 		CB15D99627CF0AB400B4AFA1 /* SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15D99427CF0AB400B4AFA1 /* SymmetricTree.cpp */; };
 		CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C412E27FF10EE00A3658A /* ReverseString.cpp */; };
 		CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2C413227FF145D00A3658A /* ReverseWordsInAStringIII.cpp */; };
-		CB50F9872816CBC90097E359 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB50F9852816CBC90097E359 /* SubsetsII.cpp */; };
 		CB619F7328051C6500E5E737 /* MaxAreaOfIsland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB619F7128051C6500E5E737 /* MaxAreaOfIsland.cpp */; };
 		CB61B0EF28056F9D00E5E737 /* MergeTwoBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0ED28056F9A00E5E737 /* MergeTwoBinaryTrees.cpp */; };
 		CB61B0F32805A63A00E5E737 /* PopulatingNextRightPointersInEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB61B0F12805A63A00E5E737 /* PopulatingNextRightPointersInEachNode.cpp */; };
@@ -230,6 +231,8 @@
 		C484BA83281631AE00CF92BD /* Subsets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subsets.hpp; sourceTree = "<group>"; };
 		C484BA862816F08C00CF92BD /* PermutationsII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationsII.cpp; sourceTree = "<group>"; };
 		C484BA872816F08C00CF92BD /* PermutationsII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermutationsII.hpp; sourceTree = "<group>"; };
+		C484BA8A28182A2100CF92BD /* CombinationSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSum.cpp; sourceTree = "<group>"; };
+		C484BA8B28182A2100CF92BD /* CombinationSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CombinationSum.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -946,6 +949,15 @@
 				C484BA862816F08C00CF92BD /* PermutationsII.cpp */,
 			);
 			path = "47. Permutations II ";
+			sourceTree = "<group>";
+		};
+		C484BA8928182A1800CF92BD /* 39. Combination Sum  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BA8B28182A2100CF92BD /* CombinationSum.hpp */,
+				C484BA8A28182A2100CF92BD /* CombinationSum.cpp */,
+			);
+			path = "39. Combination Sum ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -1977,6 +1989,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA8928182A1800CF92BD /* 39. Combination Sum  */,
 				C484BA852816F08300CF92BD /* 47. Permutations II  */,
 				CB50F9842816CBB70097E359 /* 90. Subsets II  */,
 				C484BA81281631A500CF92BD /* 78. Subsets  */,
@@ -2602,7 +2615,6 @@
 				CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */,
 				C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */,
 				C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */,
-				CB50F9872816CBC90097E359 /* SubsetsII.cpp in Sources */,
 				C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */,
 				CB619F7328051C6500E5E737 /* MaxAreaOfIsland.cpp in Sources */,
 				C489C5E927D10DD6002A6D34 /* SearchInABinarySearchTree.cpp in Sources */,
@@ -2665,6 +2677,7 @@
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
 				CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */,
 				C4E3858227F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp in Sources */,
+				C484BA8E2818408400CF92BD /* SubsetsII.cpp in Sources */,
 				C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */,
 				C48E9E7127DCE6690063E280 /* PartitionLabels.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
@@ -2675,13 +2688,14 @@
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
 				C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */,
 				C4B684472807116500B41B2F /* RottingOranges.cpp in Sources */,
-				C484BA882816F08C00CF92BD /* PermutationsII.cpp in Sources */,
 				CB761DB82812A48A0075CA1B /* NumberOfProvinces.cpp in Sources */,
+				C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
 				C4ABA58C27FF46E500E64BA2 /* MiddleOfTheLinkedList.cpp in Sources */,
 				C489C5ED27D11719002A6D34 /* InsertIntoABinarySearchTree.cpp in Sources */,
+				C484BA8F281844F400CF92BD /* CombinationSum.cpp in Sources */,
 				C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */,
 				C484BA84281631AE00CF92BD /* Subsets.cpp in Sources */,
 				C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */,
