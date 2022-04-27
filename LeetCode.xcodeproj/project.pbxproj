@@ -27,6 +27,7 @@
 		C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA862816F08C00CF92BD /* PermutationsII.cpp */; };
 		C484BA8E2818408400CF92BD /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB50F9852816CBC90097E359 /* SubsetsII.cpp */; };
 		C484BA8F281844F400CF92BD /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA8A28182A2100CF92BD /* CombinationSum.cpp */; };
+		C484BA9328184A0D00CF92BD /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9128184A0D00CF92BD /* CombinationSumII.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -233,6 +234,8 @@
 		C484BA872816F08C00CF92BD /* PermutationsII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermutationsII.hpp; sourceTree = "<group>"; };
 		C484BA8A28182A2100CF92BD /* CombinationSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSum.cpp; sourceTree = "<group>"; };
 		C484BA8B28182A2100CF92BD /* CombinationSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CombinationSum.hpp; sourceTree = "<group>"; };
+		C484BA9128184A0D00CF92BD /* CombinationSumII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationSumII.cpp; sourceTree = "<group>"; };
+		C484BA9228184A0D00CF92BD /* CombinationSumII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CombinationSumII.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -958,6 +961,15 @@
 				C484BA8A28182A2100CF92BD /* CombinationSum.cpp */,
 			);
 			path = "39. Combination Sum ";
+			sourceTree = "<group>";
+		};
+		C484BA9028184A0400CF92BD /* 40. Combination Sum II  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BA9228184A0D00CF92BD /* CombinationSumII.hpp */,
+				C484BA9128184A0D00CF92BD /* CombinationSumII.cpp */,
+			);
+			path = "40. Combination Sum II ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -1989,6 +2001,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA9028184A0400CF92BD /* 40. Combination Sum II  */,
 				C484BA8928182A1800CF92BD /* 39. Combination Sum  */,
 				C484BA852816F08300CF92BD /* 47. Permutations II  */,
 				CB50F9842816CBB70097E359 /* 90. Subsets II  */,
@@ -2608,6 +2621,7 @@
 				C49BE788280D554A008ACB59 /* SearchInRotatedSortedArray.cpp in Sources */,
 				CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */,
 				C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */,
+				C484BA9328184A0D00CF92BD /* CombinationSumII.cpp in Sources */,
 				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
 				C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,

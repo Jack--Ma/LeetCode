@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "CombinationSum.hpp"
+#include "CombinationSumII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testCombinationSum();
+    testCombinationSumII();
     
     return 0;
 }
