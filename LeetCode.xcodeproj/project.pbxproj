@@ -28,8 +28,9 @@
 		C484BA8E2818408400CF92BD /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB50F9852816CBC90097E359 /* SubsetsII.cpp */; };
 		C484BA8F281844F400CF92BD /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA8A28182A2100CF92BD /* CombinationSum.cpp */; };
 		C484BA97281985AE00CF92BD /* LetterCombinationsOfAPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA95281985AE00CF92BD /* LetterCombinationsOfAPhoneNumber.cpp */; };
-		C484BA9C2819988B00CF92BD /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */; };
 		C484BA9D281A312C00CF92BD /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9128184A0D00CF92BD /* CombinationSumII.cpp */; };
+		C484BAA1281A323400CF92BD /* WordSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9F281A323400CF92BD /* WordSearch.cpp */; };
+		C484BAA3281ADD8E00CF92BD /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -243,6 +244,9 @@
 		C484BA982819868400CF92BD /* 200px-Telephone-keypad2.svg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "200px-Telephone-keypad2.svg.webp"; sourceTree = "<group>"; };
 		C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenerateParentheses.cpp; sourceTree = "<group>"; };
 		C484BA9B2819988B00CF92BD /* GenerateParentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenerateParentheses.hpp; sourceTree = "<group>"; };
+		C484BA9F281A323400CF92BD /* WordSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WordSearch.cpp; sourceTree = "<group>"; };
+		C484BAA0281A323400CF92BD /* WordSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WordSearch.hpp; sourceTree = "<group>"; };
+		C484BAA2281A32F000CF92BD /* word2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = word2.jpeg; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -996,6 +1000,16 @@
 				C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */,
 			);
 			path = "22. Generate Parentheses ";
+			sourceTree = "<group>";
+		};
+		C484BA9E281A322B00CF92BD /* 79. Word Search  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BAA0281A323400CF92BD /* WordSearch.hpp */,
+				C484BA9F281A323400CF92BD /* WordSearch.cpp */,
+				C484BAA2281A32F000CF92BD /* word2.jpeg */,
+			);
+			path = "79. Word Search ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -2027,6 +2041,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA9E281A322B00CF92BD /* 79. Word Search  */,
 				C484BA992819987900CF92BD /* 22. Generate Parentheses  */,
 				C484BA942819859F00CF92BD /* 17. Letter Combinations of a Phone Number  */,
 				C484BA9028184A0400CF92BD /* 40. Combination Sum II  */,
@@ -2613,7 +2628,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C484BA9C2819988B00CF92BD /* GenerateParentheses.cpp in Sources */,
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
 				C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */,
@@ -2718,6 +2732,7 @@
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */,
+				C484BAA1281A323400CF92BD /* WordSearch.cpp in Sources */,
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
 				CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */,
 				C4E3858227F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp in Sources */,
@@ -2734,6 +2749,7 @@
 				C4B684472807116500B41B2F /* RottingOranges.cpp in Sources */,
 				CB761DB82812A48A0075CA1B /* NumberOfProvinces.cpp in Sources */,
 				C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */,
+				C484BAA3281ADD8E00CF92BD /* GenerateParentheses.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
