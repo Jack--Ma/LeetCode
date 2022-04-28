@@ -27,8 +27,9 @@
 		C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA862816F08C00CF92BD /* PermutationsII.cpp */; };
 		C484BA8E2818408400CF92BD /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB50F9852816CBC90097E359 /* SubsetsII.cpp */; };
 		C484BA8F281844F400CF92BD /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA8A28182A2100CF92BD /* CombinationSum.cpp */; };
-		C484BA9328184A0D00CF92BD /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9128184A0D00CF92BD /* CombinationSumII.cpp */; };
 		C484BA97281985AE00CF92BD /* LetterCombinationsOfAPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA95281985AE00CF92BD /* LetterCombinationsOfAPhoneNumber.cpp */; };
+		C484BA9C2819988B00CF92BD /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */; };
+		C484BA9D281A312C00CF92BD /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9128184A0D00CF92BD /* CombinationSumII.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -240,6 +241,8 @@
 		C484BA95281985AE00CF92BD /* LetterCombinationsOfAPhoneNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LetterCombinationsOfAPhoneNumber.cpp; sourceTree = "<group>"; };
 		C484BA96281985AE00CF92BD /* LetterCombinationsOfAPhoneNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LetterCombinationsOfAPhoneNumber.hpp; sourceTree = "<group>"; };
 		C484BA982819868400CF92BD /* 200px-Telephone-keypad2.svg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "200px-Telephone-keypad2.svg.webp"; sourceTree = "<group>"; };
+		C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenerateParentheses.cpp; sourceTree = "<group>"; };
+		C484BA9B2819988B00CF92BD /* GenerateParentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenerateParentheses.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -984,6 +987,15 @@
 				C484BA982819868400CF92BD /* 200px-Telephone-keypad2.svg.webp */,
 			);
 			path = "17. Letter Combinations of a Phone Number ";
+			sourceTree = "<group>";
+		};
+		C484BA992819987900CF92BD /* 22. Generate Parentheses  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BA9B2819988B00CF92BD /* GenerateParentheses.hpp */,
+				C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */,
+			);
+			path = "22. Generate Parentheses ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -2015,6 +2027,7 @@
 		C4B684482807256100B41B2F /* Recursion */ = {
 			isa = PBXGroup;
 			children = (
+				C484BA992819987900CF92BD /* 22. Generate Parentheses  */,
 				C484BA942819859F00CF92BD /* 17. Letter Combinations of a Phone Number  */,
 				C484BA9028184A0400CF92BD /* 40. Combination Sum II  */,
 				C484BA8928182A1800CF92BD /* 39. Combination Sum  */,
@@ -2600,6 +2613,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C484BA9C2819988B00CF92BD /* GenerateParentheses.cpp in Sources */,
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
 				C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */,
@@ -2631,12 +2645,12 @@
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
+				C484BA9D281A312C00CF92BD /* CombinationSumII.cpp in Sources */,
 				C484BA7C281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp in Sources */,
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
 				C49BE788280D554A008ACB59 /* SearchInRotatedSortedArray.cpp in Sources */,
 				CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */,
 				C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */,
-				C484BA9328184A0D00CF92BD /* CombinationSumII.cpp in Sources */,
 				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
 				C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */,
 				C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */,

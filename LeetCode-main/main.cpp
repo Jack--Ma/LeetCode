@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "LetterCombinationsOfAPhoneNumber.hpp"
+#include "GenerateParentheses.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLetterCombinationsOfAPhoneNumber();
+    testGenerateParentheses();
     
     return 0;
 }
