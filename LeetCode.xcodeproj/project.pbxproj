@@ -32,6 +32,7 @@
 		C484BAA1281A323400CF92BD /* WordSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9F281A323400CF92BD /* WordSearch.cpp */; };
 		C484BAA3281ADD8E00CF92BD /* GenerateParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BA9A2819988B00CF92BD /* GenerateParentheses.cpp */; };
 		C484BAA7281ADE2100CF92BD /* HouseRobberII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BAA5281ADE2100CF92BD /* HouseRobberII.cpp */; };
+		C484BAAB281B7CB000CF92BD /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BAA9281B7CB000CF92BD /* JumpGame.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -250,6 +251,8 @@
 		C484BAA2281A32F000CF92BD /* word2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = word2.jpeg; sourceTree = "<group>"; };
 		C484BAA5281ADE2100CF92BD /* HouseRobberII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HouseRobberII.cpp; sourceTree = "<group>"; };
 		C484BAA6281ADE2100CF92BD /* HouseRobberII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HouseRobberII.hpp; sourceTree = "<group>"; };
+		C484BAA9281B7CB000CF92BD /* JumpGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
+		C484BAAA281B7CB000CF92BD /* JumpGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JumpGame.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -1022,6 +1025,15 @@
 				C484BAA5281ADE2100CF92BD /* HouseRobberII.cpp */,
 			);
 			path = "213. House Robber II ";
+			sourceTree = "<group>";
+		};
+		C484BAA8281B7CA400CF92BD /* 55. Jump Game  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BAAA281B7CB000CF92BD /* JumpGame.hpp */,
+				C484BAA9281B7CB000CF92BD /* JumpGame.cpp */,
+			);
+			path = "55. Jump Game ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -2080,6 +2092,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C484BAA8281B7CA400CF92BD /* 55. Jump Game  */,
 				C484BAA4281ADE0F00CF92BD /* 213. House Robber II  */,
 				C4C107E1280BE0E500326A66 /* 120. Triangle  */,
 				C4B684522809B2AF00B41B2F /* 198. House Robber  */,
@@ -2736,6 +2749,7 @@
 				CB761DF3281554C90075CA1B /* SurroundedRegions.cpp in Sources */,
 				C4A9454E27D3303B00E452DC /* TwoSumIV.cpp in Sources */,
 				C481ED06280482730022DEEC /* FloodFill.cpp in Sources */,
+				C484BAAB281B7CB000CF92BD /* JumpGame.cpp in Sources */,
 				CBFE24372808500D00B191C1 /* LetterCasePermutation.cpp in Sources */,
 				C4A885A527C9169200EC168C /* RemoveLinkedListElements.cpp in Sources */,
 				C4ABA59027FFC3A400E64BA2 /* RemoveNthNodeFromEndOfList.cpp in Sources */,
