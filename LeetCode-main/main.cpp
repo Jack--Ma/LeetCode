@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "JumpGame.hpp"
+#include "JumpGameII.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testJumpGame();
+    testJumpGameII();
     
     return 0;
 }
