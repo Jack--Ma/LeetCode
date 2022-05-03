@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "UniquePaths.hpp"
+#include "LongestPalindromicSubstring.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testUniquePaths();
+    testLongestPalindromeSubstring();
     
     return 0;
 }

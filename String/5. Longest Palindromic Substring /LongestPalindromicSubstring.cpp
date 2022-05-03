@@ -21,7 +21,7 @@ void testLongestPalindromeSubstring() {
 }
 
 // time out solution by use recursion
-static inline string _findLongestPalindromeSubstring(string s, bool isLeft, bool isRight) {
+string _findLongestPalindromeSubstring(string s, bool isLeft, bool isRight) {
     int i = 0, j = (int)s.length() - 1;
     bool isPalindrome = true;
     while (i <= j) {
@@ -114,6 +114,49 @@ string _longestPalindromeSubstring_DP(string s) {
     return result;
 }
 
+/**
+ DP method after optimize space complexity
+ Reduce space from O(n^2) to O(n)
+ */
+string _longestPalindromeSubstring_DP_optimize(string s) {
+    int start = 0, len = 1;
+    const int N = (int)s.length();
+    /**
+     current DP
+        b a b a d  (j)
+     b  1 0 _ _ _   |
+     a    1 0 _ _   |
+     b      1 0 _   |
+     a        1 0   |
+     d          1   ↓
+     
+    (i)  - - - - →
+     */
+    bool map[1000] = {false};
+    // map 0 index always be 1
+    map[0] = true;
+    for (int i = 1; i < N; i++) {
+        // from tail to head
+        // i=4, j=4, this time mean subStr range is [0, 4], and map[4]=map[2]&&(s[0]==s[4])
+        for (int j = i; j >= 1; j--) {
+            // current string range is from [i-j] to [i]
+            if (j > 1) {
+                // map[j] = (map[j-2]) && (s[x]==s[y])
+                map[j] = map[j-2] && (s[i-j] == s[i]);
+            } else {
+                // map[1] mean two adjacent char are palindrom or not
+                map[j] = (s[i-j] == s[i]);
+            }
+            if (map[j] && (j+1) > len) {
+                start = i-j;
+                len = j+1;
+            }
+        }
+    }
+    
+    return s.substr(start, len);
+}
+
 // better solution by use manacher algorithm
 string _longestPalindromeSubstring_manacher(string s) {
     
@@ -130,5 +173,5 @@ string _longestPalindromeSubstring_manacher(string s) {
 }
 
 string Solution::longestPalindromeSubstring(string s)  {
-    return _longestPalindromeSubstring_manacher(s);
+    return _longestPalindromeSubstring_DP_optimize(s);
 }
