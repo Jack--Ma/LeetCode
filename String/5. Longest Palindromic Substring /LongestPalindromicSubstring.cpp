@@ -157,6 +157,35 @@ string _longestPalindromeSubstring_DP_optimize(string s) {
     return s.substr(start, len);
 }
 
+/// Use search
+string _longestPalindromeSubstring_search(string s, int i, int j) {
+    const int N = (int)s.length();
+    /**
+     current DP
+        b a b a d
+     b  1 0 1 4 6
+     a    1 0 2 5
+     b      1 0 3
+     a        1 0
+     d          1
+     
+     Begin from: DP(0,0) ...... DP(n-1,n-1) DP(0,1) ...... DP(n-2,n-1)
+     
+     Because: DP[i][j] = (DP[i+1][j-1]) && (s[i]==s[j])
+     So: DP[i-1][j+1] = DP[i][j] && (s[i-1]==s[j+1])
+     */
+    
+    // find the longest palindrome
+    // eg. (i,j) is (3,3)->(2,4)->(1,5), subStr is b->aba->babad
+    while (i >= 0 && j < N && s[i] == s[j]) {
+        i--;
+        j++;
+    }
+    int start = i + 1;
+    int len = j - i - 1;
+    return s.substr(start, len);
+}
+
 // better solution by use manacher algorithm
 string _longestPalindromeSubstring_manacher(string s) {
     
@@ -173,5 +202,21 @@ string _longestPalindromeSubstring_manacher(string s) {
 }
 
 string Solution::longestPalindromeSubstring(string s)  {
-    return _longestPalindromeSubstring_DP_optimize(s);
+//    return _longestPalindromeSubstring_DP_optimize(s);
+    
+    const int N = (int)s.length();
+    string result = s.substr(0,1);
+    // start from DP(0,0)......DP(n-1,n-1)
+    // and DP(0,1) DP(1,2) ...... DP(n-2,n-1)
+    for (int i = 0; i < N; i++) {
+        string subStr1 = _longestPalindromeSubstring_search(s, i, i);
+        if (subStr1.length() > result.length()) {
+            result = subStr1;
+        }
+        string subStr2 = _longestPalindromeSubstring_search(s, i, i+1);
+        if (subStr2.length() > result.length()) {
+            result = subStr2;
+        }
+    }
+    return result;
 }
