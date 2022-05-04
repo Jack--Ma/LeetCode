@@ -64,6 +64,7 @@
 		C49BE79828105624008ACB59 /* SubarrayProductLessThanK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE79628105624008ACB59 /* SubarrayProductLessThanK.cpp */; };
 		C49BE79F28123D0E008ACB59 /* NumberOfIslands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE79D28123D0E008ACB59 /* NumberOfIslands.cpp */; };
 		C49BE7A32812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE7A12812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp */; };
+		C4A0B01728223454003EECAF /* DecodeWays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A0B01528223454003EECAF /* DecodeWays.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -325,6 +326,8 @@
 		C4A043241D8916C000551755 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode.cpp; sourceTree = "<group>"; };
 		C4A043251D8916C000551755 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		C4A043301D89233A00551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4A0B01528223454003EECAF /* DecodeWays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecodeWays.cpp; sourceTree = "<group>"; };
+		C4A0B01628223454003EECAF /* DecodeWays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DecodeWays.hpp; sourceTree = "<group>"; };
 		C4A18EC91D98A5D500FF6791 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		C4A337CF27BD561D00B1DBAD /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
@@ -1393,6 +1396,15 @@
 			path = "23-Merge_k_Sorted_Lists";
 			sourceTree = "<group>";
 		};
+		C4A0B01428223448003EECAF /* 91. Decode Ways  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A0B01628223454003EECAF /* DecodeWays.hpp */,
+				C4A0B01528223454003EECAF /* DecodeWays.cpp */,
+			);
+			path = "91. Decode Ways ";
+			sourceTree = "<group>";
+		};
 		C4A18EC81D98A5D500FF6791 /* 12-Integer_to_Roman */ = {
 			isa = PBXGroup;
 			children = (
@@ -2130,6 +2142,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C4A0B01428223448003EECAF /* 91. Decode Ways  */,
 				C484BAB62820E27A00CF92BD /* 413. Arithmetic Slices  */,
 				C484BAB1281FAE0700CF92BD /* 62. Unique Paths  */,
 				C484BAAC281C345000CF92BD /* 45. Jump Game II  */,
@@ -2814,6 +2827,7 @@
 				C49391A127FC783300E2CF01 /* EscapeFromTheGame.cpp in Sources */,
 				C4A9457727D6E5E300E452DC /* Pascal'sTriangleII.cpp in Sources */,
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,
+				C4A0B01728223454003EECAF /* DecodeWays.cpp in Sources */,
 				C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */,
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
 				C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */,
