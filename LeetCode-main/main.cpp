@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "DecodeWays.hpp"
+#include "WordBreak.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testDecodeWays();
+    testWordBreak();
     
     return 0;
 }

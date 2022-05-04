@@ -65,6 +65,7 @@
 		C49BE79F28123D0E008ACB59 /* NumberOfIslands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE79D28123D0E008ACB59 /* NumberOfIslands.cpp */; };
 		C49BE7A32812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE7A12812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp */; };
 		C4A0B01728223454003EECAF /* DecodeWays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A0B01528223454003EECAF /* DecodeWays.cpp */; };
+		C4A0B01B2822675A003EECAF /* WordBreak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A0B0192822675A003EECAF /* WordBreak.cpp */; };
 		C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */; };
 		C4A337D427BDDA9000B1DBAD /* MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D227BDDA9000B1DBAD /* MergeSortedArray.cpp */; };
 		C4A337D827BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A337D627BE947F00B1DBAD /* IntersectionOfTwoArraysII.cpp */; };
@@ -328,6 +329,8 @@
 		C4A043301D89233A00551755 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A0B01528223454003EECAF /* DecodeWays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecodeWays.cpp; sourceTree = "<group>"; };
 		C4A0B01628223454003EECAF /* DecodeWays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DecodeWays.hpp; sourceTree = "<group>"; };
+		C4A0B0192822675A003EECAF /* WordBreak.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WordBreak.cpp; sourceTree = "<group>"; };
+		C4A0B01A2822675A003EECAF /* WordBreak.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WordBreak.hpp; sourceTree = "<group>"; };
 		C4A18EC91D98A5D500FF6791 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4A337CE27BD561D00B1DBAD /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		C4A337CF27BD561D00B1DBAD /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
@@ -1405,6 +1408,15 @@
 			path = "91. Decode Ways ";
 			sourceTree = "<group>";
 		};
+		C4A0B01828226751003EECAF /* 139. Word Break  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A0B01A2822675A003EECAF /* WordBreak.hpp */,
+				C4A0B0192822675A003EECAF /* WordBreak.cpp */,
+			);
+			path = "139. Word Break ";
+			sourceTree = "<group>";
+		};
 		C4A18EC81D98A5D500FF6791 /* 12-Integer_to_Roman */ = {
 			isa = PBXGroup;
 			children = (
@@ -2142,6 +2154,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C4A0B01828226751003EECAF /* 139. Word Break  */,
 				C4A0B01428223448003EECAF /* 91. Decode Ways  */,
 				C484BAB62820E27A00CF92BD /* 413. Arithmetic Slices  */,
 				C484BAB1281FAE0700CF92BD /* 62. Unique Paths  */,
@@ -2814,6 +2827,7 @@
 				C484BAB4281FAE1100CF92BD /* UniquePaths.cpp in Sources */,
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
+				C4A0B01B2822675A003EECAF /* WordBreak.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
 				C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */,
 				C484BAA1281A323400CF92BD /* WordSearch.cpp in Sources */,
