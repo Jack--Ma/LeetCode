@@ -35,6 +35,7 @@
 		C484BAAB281B7CB000CF92BD /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BAA9281B7CB000CF92BD /* JumpGame.cpp */; };
 		C484BAB0281C345E00CF92BD /* JumpGameII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BAAE281C345E00CF92BD /* JumpGameII.cpp */; };
 		C484BAB4281FAE1100CF92BD /* UniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BAB2281FAE1100CF92BD /* UniquePaths.cpp */; };
+		C484BAB92820E28600CF92BD /* ArithmeticSlices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C484BAB72820E28600CF92BD /* ArithmeticSlices.cpp */; };
 		C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */; };
 		C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */; };
 		C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */; };
@@ -260,6 +261,8 @@
 		C484BAB2281FAE1100CF92BD /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		C484BAB3281FAE1100CF92BD /* UniquePaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UniquePaths.hpp; sourceTree = "<group>"; };
 		C484BAB5281FD35B00CF92BD /* robot_maze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot_maze.png; sourceTree = "<group>"; };
+		C484BAB72820E28600CF92BD /* ArithmeticSlices.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArithmeticSlices.cpp; sourceTree = "<group>"; };
+		C484BAB82820E28600CF92BD /* ArithmeticSlices.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArithmeticSlices.hpp; sourceTree = "<group>"; };
 		C489C5D327CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeInorderTraversal.cpp; sourceTree = "<group>"; };
 		C489C5D427CD173D002A6D34 /* BinaryTreeInorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInorderTraversal.hpp; sourceTree = "<group>"; };
 		C489C5D727CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreePostorderTraversal.cpp; sourceTree = "<group>"; };
@@ -1060,6 +1063,15 @@
 				C484BAB5281FD35B00CF92BD /* robot_maze.png */,
 			);
 			path = "62. Unique Paths ";
+			sourceTree = "<group>";
+		};
+		C484BAB62820E27A00CF92BD /* 413. Arithmetic Slices  */ = {
+			isa = PBXGroup;
+			children = (
+				C484BAB82820E28600CF92BD /* ArithmeticSlices.hpp */,
+				C484BAB72820E28600CF92BD /* ArithmeticSlices.cpp */,
+			);
+			path = "413. Arithmetic Slices ";
 			sourceTree = "<group>";
 		};
 		C489C5D227CD172E002A6D34 /* 94. Binary Tree Inorder Traversal  */ = {
@@ -2118,6 +2130,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C484BAB62820E27A00CF92BD /* 413. Arithmetic Slices  */,
 				C484BAB1281FAE0700CF92BD /* 62. Unique Paths  */,
 				C484BAAC281C345000CF92BD /* 45. Jump Game II  */,
 				C484BAA8281B7CA400CF92BD /* 55. Jump Game  */,
@@ -2829,6 +2842,7 @@
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
 				C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */,
 				C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */,
+				C484BAB92820E28600CF92BD /* ArithmeticSlices.cpp in Sources */,
 				C484BA802815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp in Sources */,
 				C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
