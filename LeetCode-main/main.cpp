@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "WordBreak.hpp"
+#include "LongestIncreasingSubsequence.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testWordBreak();
+    testLongestIncreasingSubsequence();
     
     return 0;
 }

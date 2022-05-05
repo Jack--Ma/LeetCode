@@ -53,6 +53,7 @@
 		C49391A127FC783300E2CF01 /* EscapeFromTheGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A027FC783300E2CF01 /* EscapeFromTheGame.cpp */; };
 		C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A327FC7C6D00E2CF01 /* FirstBadVersion.cpp */; };
 		C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */; };
+		C49664F3282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F1282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp */; };
 		C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */; };
 		C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */; };
 		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
@@ -299,6 +300,8 @@
 		C49391A427FC7C6D00E2CF01 /* FirstBadVersion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstBadVersion.hpp; sourceTree = "<group>"; };
 		C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInsertPosition.cpp; sourceTree = "<group>"; };
 		C49391A827FC8E0900E2CF01 /* SearchInsertPosition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchInsertPosition.hpp; sourceTree = "<group>"; };
+		C49664F1282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestIncreasingSubsequence.cpp; sourceTree = "<group>"; };
+		C49664F2282383BB00E6FB57 /* LongestIncreasingSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestIncreasingSubsequence.hpp; sourceTree = "<group>"; };
 		C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfTwo.cpp; sourceTree = "<group>"; };
 		C49BE773280C2F29008ACB59 /* PowerOfTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwo.hpp; sourceTree = "<group>"; };
 		C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
@@ -1258,6 +1261,15 @@
 			path = "35. Search Insert Position ";
 			sourceTree = "<group>";
 		};
+		C49664F0282383AC00E6FB57 /* 300. Longest Increasing Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+				C49664F2282383BB00E6FB57 /* LongestIncreasingSubsequence.hpp */,
+				C49664F1282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp */,
+			);
+			path = "300. Longest Increasing Subsequence";
+			sourceTree = "<group>";
+		};
 		C49BE770280C2F11008ACB59 /* Bit Manipulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -2154,6 +2166,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C49664F0282383AC00E6FB57 /* 300. Longest Increasing Subsequence */,
 				C4A0B01828226751003EECAF /* 139. Word Break  */,
 				C4A0B01428223448003EECAF /* 91. Decode Ways  */,
 				C484BAB62820E27A00CF92BD /* 413. Arithmetic Slices  */,
@@ -2863,6 +2876,7 @@
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
 				C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */,
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
+				C49664F3282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp in Sources */,
 				C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				C49BE7A32812FB88008ACB59 /* PopulatingNextRightPointersInEachNodeII.cpp in Sources */,
