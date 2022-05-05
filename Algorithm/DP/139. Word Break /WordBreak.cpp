@@ -90,6 +90,26 @@ bool _wordBreak_DP(string s, vector<string> &wordDict) {
     return DP[n];
 }
 
+/// solution by DP after optimize
+bool _wordBreak_DP2(string s, vector<string> &wordDict) {
+    size_t n = s.size();
+    vector<int> DP(n+1, 0);
+    DP[0] = 1;
+    for (int index = 0; index < n; ++index) {
+        if (DP[index] == 1) {
+            for (auto word: wordDict) {
+                if (s.find(word, index) == index) {
+                    DP[index + word.size()] = 1;
+                }
+                if (DP[n]) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
+
 bool Solution::wordBreak(string s, vector<string> &wordDict) {
-    return _wordBreak_DP(s, wordDict);
+    return _wordBreak_DP2(s, wordDict);
 }
