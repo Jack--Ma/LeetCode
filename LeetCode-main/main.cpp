@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "LongestIncreasingSubsequence.hpp"
+#include "NumberOfLongestIncreasingSubsequence.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLongestIncreasingSubsequence();
+    testNumberOfLongestIncreasingSubsequence();
     
     return 0;
 }
