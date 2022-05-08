@@ -55,6 +55,7 @@
 		C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49391A727FC8E0900E2CF01 /* SearchInsertPosition.cpp */; };
 		C49664F3282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F1282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp */; };
 		C49664F72824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F52824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp */; };
+		C49664FB282581CD00E6FB57 /* LongestCommonSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F9282581CD00E6FB57 /* LongestCommonSubsequence.cpp */; };
 		C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */; };
 		C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */; };
 		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
@@ -305,6 +306,8 @@
 		C49664F2282383BB00E6FB57 /* LongestIncreasingSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestIncreasingSubsequence.hpp; sourceTree = "<group>"; };
 		C49664F52824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOfLongestIncreasingSubsequence.cpp; sourceTree = "<group>"; };
 		C49664F62824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOfLongestIncreasingSubsequence.hpp; sourceTree = "<group>"; };
+		C49664F9282581CD00E6FB57 /* LongestCommonSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonSubsequence.cpp; sourceTree = "<group>"; };
+		C49664FA282581CD00E6FB57 /* LongestCommonSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestCommonSubsequence.hpp; sourceTree = "<group>"; };
 		C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfTwo.cpp; sourceTree = "<group>"; };
 		C49BE773280C2F29008ACB59 /* PowerOfTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwo.hpp; sourceTree = "<group>"; };
 		C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
@@ -1282,6 +1285,15 @@
 			path = "673. Number of Longest Increasing Subsequence ";
 			sourceTree = "<group>";
 		};
+		C49664F8282581C400E6FB57 /* 1143. Longest Common Subsequence  */ = {
+			isa = PBXGroup;
+			children = (
+				C49664FA282581CD00E6FB57 /* LongestCommonSubsequence.hpp */,
+				C49664F9282581CD00E6FB57 /* LongestCommonSubsequence.cpp */,
+			);
+			path = "1143. Longest Common Subsequence ";
+			sourceTree = "<group>";
+		};
 		C49BE770280C2F11008ACB59 /* Bit Manipulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -2178,6 +2190,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C49664F8282581C400E6FB57 /* 1143. Longest Common Subsequence  */,
 				C49664F4282424F400E6FB57 /* 673. Number of Longest Increasing Subsequence  */,
 				C49664F0282383AC00E6FB57 /* 300. Longest Increasing Subsequence */,
 				C4A0B01828226751003EECAF /* 139. Word Break  */,
@@ -2776,6 +2789,7 @@
 				C489C5E127D04687002A6D34 /* InvertBinaryTree.cpp in Sources */,
 				CB625F1428115E6700BED7B6 /* MinimumSizeSubarraySum.cpp in Sources */,
 				C4ABA58027FCA0B900E64BA2 /* RotateArray.cpp in Sources */,
+				C49664FB282581CD00E6FB57 /* LongestCommonSubsequence.cpp in Sources */,
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				C484BAB0281C345E00CF92BD /* JumpGameII.cpp in Sources */,
 				C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */,
