@@ -56,6 +56,7 @@
 		C49664F3282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F1282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp */; };
 		C49664F72824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F52824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp */; };
 		C49664FB282581CD00E6FB57 /* LongestCommonSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F9282581CD00E6FB57 /* LongestCommonSubsequence.cpp */; };
+		C49664FF28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664FD28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp */; };
 		C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */; };
 		C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */; };
 		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
@@ -308,6 +309,8 @@
 		C49664F62824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOfLongestIncreasingSubsequence.hpp; sourceTree = "<group>"; };
 		C49664F9282581CD00E6FB57 /* LongestCommonSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonSubsequence.cpp; sourceTree = "<group>"; };
 		C49664FA282581CD00E6FB57 /* LongestCommonSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestCommonSubsequence.hpp; sourceTree = "<group>"; };
+		C49664FD28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteOperationForTwoStrings.cpp; sourceTree = "<group>"; };
+		C49664FE28276A5100E6FB57 /* DeleteOperationForTwoStrings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteOperationForTwoStrings.hpp; sourceTree = "<group>"; };
 		C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfTwo.cpp; sourceTree = "<group>"; };
 		C49BE773280C2F29008ACB59 /* PowerOfTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwo.hpp; sourceTree = "<group>"; };
 		C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
@@ -1294,6 +1297,15 @@
 			path = "1143. Longest Common Subsequence ";
 			sourceTree = "<group>";
 		};
+		C49664FC28276A3E00E6FB57 /* 583. Delete Operation for Two Strings  */ = {
+			isa = PBXGroup;
+			children = (
+				C49664FE28276A5100E6FB57 /* DeleteOperationForTwoStrings.hpp */,
+				C49664FD28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp */,
+			);
+			path = "583. Delete Operation for Two Strings ";
+			sourceTree = "<group>";
+		};
 		C49BE770280C2F11008ACB59 /* Bit Manipulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -2190,6 +2202,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C49664FC28276A3E00E6FB57 /* 583. Delete Operation for Two Strings  */,
 				C49664F8282581C400E6FB57 /* 1143. Longest Common Subsequence  */,
 				C49664F4282424F400E6FB57 /* 673. Number of Longest Increasing Subsequence  */,
 				C49664F0282383AC00E6FB57 /* 300. Longest Increasing Subsequence */,
@@ -2911,6 +2924,7 @@
 				C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */,
 				C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */,
 				C49BE784280C55C5008ACB59 /* FindFirstandLastPositionOfElementInSortedArray.cpp in Sources */,
+				C49664FF28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp in Sources */,
 				C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */,
 				C484BAB92820E28600CF92BD /* ArithmeticSlices.cpp in Sources */,
 				C484BA802815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp in Sources */,
