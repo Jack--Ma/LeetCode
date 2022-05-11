@@ -57,6 +57,7 @@
 		C49664F72824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F52824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp */; };
 		C49664FB282581CD00E6FB57 /* LongestCommonSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664F9282581CD00E6FB57 /* LongestCommonSubsequence.cpp */; };
 		C49664FF28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49664FD28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp */; };
+		C49665032827F5C100E6FB57 /* EditDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49665012827F5C100E6FB57 /* EditDistance.cpp */; };
 		C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */; };
 		C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */; };
 		C49BE77C280C46AB008ACB59 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C49BE77A280C46AB008ACB59 /* ReverseBits.cpp */; };
@@ -311,6 +312,8 @@
 		C49664FA282581CD00E6FB57 /* LongestCommonSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestCommonSubsequence.hpp; sourceTree = "<group>"; };
 		C49664FD28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteOperationForTwoStrings.cpp; sourceTree = "<group>"; };
 		C49664FE28276A5100E6FB57 /* DeleteOperationForTwoStrings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteOperationForTwoStrings.hpp; sourceTree = "<group>"; };
+		C49665012827F5C100E6FB57 /* EditDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EditDistance.cpp; sourceTree = "<group>"; };
+		C49665022827F5C100E6FB57 /* EditDistance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EditDistance.hpp; sourceTree = "<group>"; };
 		C49BE772280C2F29008ACB59 /* PowerOfTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfTwo.cpp; sourceTree = "<group>"; };
 		C49BE773280C2F29008ACB59 /* PowerOfTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwo.hpp; sourceTree = "<group>"; };
 		C49BE776280C366C008ACB59 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
@@ -1306,6 +1309,15 @@
 			path = "583. Delete Operation for Two Strings ";
 			sourceTree = "<group>";
 		};
+		C49665002827F5B900E6FB57 /* 72. Edit Distance  */ = {
+			isa = PBXGroup;
+			children = (
+				C49665022827F5C100E6FB57 /* EditDistance.hpp */,
+				C49665012827F5C100E6FB57 /* EditDistance.cpp */,
+			);
+			path = "72. Edit Distance ";
+			sourceTree = "<group>";
+		};
 		C49BE770280C2F11008ACB59 /* Bit Manipulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -2202,6 +2214,7 @@
 		C4B6844D2809012200B41B2F /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				C49665002827F5B900E6FB57 /* 72. Edit Distance  */,
 				C49664FC28276A3E00E6FB57 /* 583. Delete Operation for Two Strings  */,
 				C49664F8282581C400E6FB57 /* 1143. Longest Common Subsequence  */,
 				C49664F4282424F400E6FB57 /* 673. Number of Longest Increasing Subsequence  */,
@@ -2887,6 +2900,7 @@
 				C484BAA1281A323400CF92BD /* WordSearch.cpp in Sources */,
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
 				CB2C413427FF145D00A3658A /* ReverseWordsInAStringIII.cpp in Sources */,
+				C49665032827F5C100E6FB57 /* EditDistance.cpp in Sources */,
 				C4E3858227F20BD40024DDFF /* MinimumNumberOfVerticesToReachAllNodes.cpp in Sources */,
 				C484BA8E2818408400CF92BD /* SubsetsII.cpp in Sources */,
 				C4E3857E27F1F28F0024DDFF /* FindTheTownJudge.cpp in Sources */,
