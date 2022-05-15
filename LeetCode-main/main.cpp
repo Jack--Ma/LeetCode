@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "CoinChange.hpp"
+#include "IntegerBreak.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testCoinChange();
+    testIntegerBreak();
     
     return 0;
 }
