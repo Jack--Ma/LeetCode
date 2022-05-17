@@ -137,6 +137,7 @@
 		C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36127E8B2E9007067BB /* MinStack.cpp */; };
 		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */; };
+		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
 		C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */; };
 		C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */; };
@@ -495,6 +496,8 @@
 		C4D85DD01D438B610092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DD51D43D0B50092E613 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4D85DDC1D443F430092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShuffleAnArray.cpp; sourceTree = "<group>"; };
+		C4D97F182833D26200D889A0 /* ShuffleAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShuffleAnArray.hpp; sourceTree = "<group>"; };
 		C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthSmallestElementInABST.cpp; sourceTree = "<group>"; };
 		C4E3856C27EE2A820024DDFF /* KthSmallestElementInABST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthSmallestElementInABST.hpp; sourceTree = "<group>"; };
 		C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTreeIterator.cpp; sourceTree = "<group>"; };
@@ -1215,6 +1218,7 @@
 		C493918D27FB4A7700E2CF01 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C4D97F152833D24400D889A0 /* Others */,
 				C49BE770280C2F11008ACB59 /* Bit Manipulation */,
 				C4B6844D2809012200B41B2F /* DP */,
 				C4B684482807256100B41B2F /* Recursion */,
@@ -2430,6 +2434,23 @@
 			path = "18-4Sum";
 			sourceTree = "<group>";
 		};
+		C4D97F152833D24400D889A0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C4D97F162833D24E00D889A0 /* 384. Shuffle an Array  */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C4D97F162833D24E00D889A0 /* 384. Shuffle an Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4D97F182833D26200D889A0 /* ShuffleAnArray.hpp */,
+				C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */,
+			);
+			path = "384. Shuffle an Array ";
+			sourceTree = "<group>";
+		};
 		C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2879,6 +2900,7 @@
 				C49BE774280C2F29008ACB59 /* PowerOfTwo.cpp in Sources */,
 				C4A9457B27D82BD000E452DC /* SearchA2DMatrixII.cpp in Sources */,
 				C49BE778280C366C008ACB59 /* NumberOf1Bits.cpp in Sources */,
+				C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */,
 				C4B684552809B2C100B41B2F /* HouseRobber.cpp in Sources */,
 				C4A9456827D513AB00E452DC /* SortColors.cpp in Sources */,
 				C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */,
