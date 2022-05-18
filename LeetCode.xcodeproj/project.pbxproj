@@ -138,6 +138,7 @@
 		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
+		C4D97F1D2833E18400D889A0 /* HappyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F1B2833E18400D889A0 /* HappyNumber.cpp */; };
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
 		C4E3857127EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */; };
 		C4E3857527EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3857327EF2C060024DDFF /* LowestCommonAncestorOfABinaryTree.cpp */; };
@@ -498,6 +499,8 @@
 		C4D85DDC1D443F430092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShuffleAnArray.cpp; sourceTree = "<group>"; };
 		C4D97F182833D26200D889A0 /* ShuffleAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShuffleAnArray.hpp; sourceTree = "<group>"; };
+		C4D97F1B2833E18400D889A0 /* HappyNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HappyNumber.cpp; sourceTree = "<group>"; };
+		C4D97F1C2833E18400D889A0 /* HappyNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HappyNumber.hpp; sourceTree = "<group>"; };
 		C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthSmallestElementInABST.cpp; sourceTree = "<group>"; };
 		C4E3856C27EE2A820024DDFF /* KthSmallestElementInABST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthSmallestElementInABST.hpp; sourceTree = "<group>"; };
 		C4E3856F27EEBBDC0024DDFF /* BinarySearchTreeIterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTreeIterator.cpp; sourceTree = "<group>"; };
@@ -2437,6 +2440,7 @@
 		C4D97F152833D24400D889A0 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C4D97F1A2833E17B00D889A0 /* 202. Happy Number  */,
 				C4D97F162833D24E00D889A0 /* 384. Shuffle an Array  */,
 			);
 			path = Others;
@@ -2449,6 +2453,15 @@
 				C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */,
 			);
 			path = "384. Shuffle an Array ";
+			sourceTree = "<group>";
+		};
+		C4D97F1A2833E17B00D889A0 /* 202. Happy Number  */ = {
+			isa = PBXGroup;
+			children = (
+				C4D97F1C2833E18400D889A0 /* HappyNumber.hpp */,
+				C4D97F1B2833E18400D889A0 /* HappyNumber.cpp */,
+			);
+			path = "202. Happy Number ";
 			sourceTree = "<group>";
 		};
 		C4E3856A27EE2A6F0024DDFF /* 230. Kth Smallest Element in a BST  */ = {
@@ -2970,6 +2983,7 @@
 				C48E9E7127DCE6690063E280 /* PartitionLabels.cpp in Sources */,
 				C4A337D027BD561D00B1DBAD /* TwoSum.cpp in Sources */,
 				C49391A127FC783300E2CF01 /* EscapeFromTheGame.cpp in Sources */,
+				C4D97F1D2833E18400D889A0 /* HappyNumber.cpp in Sources */,
 				C4A9457727D6E5E300E452DC /* Pascal'sTriangleII.cpp in Sources */,
 				C4AC723128314DAC006412A7 /* BitwiseAndOfNumbersRange.cpp in Sources */,
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,

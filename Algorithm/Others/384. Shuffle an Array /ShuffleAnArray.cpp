@@ -8,6 +8,22 @@
 
 #include "ShuffleAnArray.hpp"
 
+/**
+ Given an integer array nums, design an algorithm to randomly shuffle the array. All permutations of the array should be equally likely as a result of the shuffling.
+ 
+ Implement the Solution class:
+ 
+ Solution(int[] nums) Initializes the object with the integer array nums.
+ int[] reset() Resets the array to its original configuration and returns it.
+ int[] shuffle() Returns a random shuffling of the array.
+ 
+ Input
+ ["Solution", "shuffle", "reset", "shuffle"]
+ [[[1, 2, 3]], [], [], []]
+ Output
+ [null, [3, 1, 2], [1, 2, 3], [1, 3, 2]]
+ */
+
 void testShuffleAnArray() {
     vector<int> nums = {1,2,3};
     Solution_384 sol = Solution_384(nums);
