@@ -10,3 +10,4 @@
 | 2022 4.5 | Begin Algorithm I |
 | 2022 4.17 | Finish Algorithm I (31 tasks) |
 | 2022 4.18 | Begin Algorithm II |
+| 2022 5.19 | Finish Algorithm II (47 tasks) |
