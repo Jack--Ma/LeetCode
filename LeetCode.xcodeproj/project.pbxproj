@@ -150,6 +150,7 @@
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
 		C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */; };
+		C4F60AD028352F10006B990F /* MaxPointsOnALine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -523,6 +524,10 @@
 		C4E610FB27DFA2CD00B56DED /* RepeatedDNASequences.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedDNASequences.hpp; sourceTree = "<group>"; };
 		C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSubstring.cpp; sourceTree = "<group>"; };
 		C4E610FF27E0F8F000B56DED /* LongestPalindromicSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindromicSubstring.hpp; sourceTree = "<group>"; };
+		C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsOnALine.cpp; sourceTree = "<group>"; };
+		C4F60ACF28352F10006B990F /* MaxPointsOnALine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxPointsOnALine.hpp; sourceTree = "<group>"; };
+		C4F60AD128352FB9006B990F /* plane2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane2.jpeg; sourceTree = "<group>"; };
+		C4F60AD228352FB9006B990F /* plane1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane1.jpeg; sourceTree = "<group>"; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
@@ -2440,6 +2445,7 @@
 		C4D97F152833D24400D889A0 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C4F60ACD28352F00006B990F /* 149. Max Points on a Line  */,
 				C4D97F1A2833E17B00D889A0 /* 202. Happy Number  */,
 				C4D97F162833D24E00D889A0 /* 384. Shuffle an Array  */,
 			);
@@ -2571,6 +2577,17 @@
 				C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */,
 			);
 			path = "5. Longest Palindromic Substring ";
+			sourceTree = "<group>";
+		};
+		C4F60ACD28352F00006B990F /* 149. Max Points on a Line  */ = {
+			isa = PBXGroup;
+			children = (
+				C4F60ACF28352F10006B990F /* MaxPointsOnALine.hpp */,
+				C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */,
+				C4F60AD228352FB9006B990F /* plane1.jpeg */,
+				C4F60AD128352FB9006B990F /* plane2.jpeg */,
+			);
+			path = "149. Max Points on a Line ";
 			sourceTree = "<group>";
 		};
 		C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */ = {
@@ -3019,6 +3036,7 @@
 				C49664FF28276A5100E6FB57 /* DeleteOperationForTwoStrings.cpp in Sources */,
 				C484BA782813C46E00CF92BD /* SubtreeOfAnotherTree.cpp in Sources */,
 				C484BAB92820E28600CF92BD /* ArithmeticSlices.cpp in Sources */,
+				C4F60AD028352F10006B990F /* MaxPointsOnALine.cpp in Sources */,
 				C484BA802815A2AE00CF92BD /* AllPathsFromSourceToTarget.cpp in Sources */,
 				C49391A527FC7C6D00E2CF01 /* FirstBadVersion.cpp in Sources */,
 				CB15B67F27C7B33300B4AFA1 /* ListNode.cpp in Sources */,
