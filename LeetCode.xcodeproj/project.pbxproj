@@ -151,6 +151,7 @@
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
 		C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */; };
 		C4F60AD028352F10006B990F /* MaxPointsOnALine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */; };
+		C4F60AD628392E7F006B990F /* GuessNumberHigherOrLower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -528,6 +529,8 @@
 		C4F60ACF28352F10006B990F /* MaxPointsOnALine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxPointsOnALine.hpp; sourceTree = "<group>"; };
 		C4F60AD128352FB9006B990F /* plane2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane2.jpeg; sourceTree = "<group>"; };
 		C4F60AD228352FB9006B990F /* plane1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane1.jpeg; sourceTree = "<group>"; };
+		C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GuessNumberHigherOrLower.cpp; sourceTree = "<group>"; };
+		C4F60AD528392E7F006B990F /* GuessNumberHigherOrLower.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GuessNumberHigherOrLower.hpp; sourceTree = "<group>"; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
@@ -1987,6 +1990,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4F60AD328392E70006B990F /* 374. Guess Number Higher or Lower  */,
 				C49BE78D280DAEB4008ACB59 /* 162. Find Peak Element  */,
 				C49BE789280DA41A008ACB59 /* 153. Find Minimum in Rotated Sorted Array  */,
 				C49BE785280D553E008ACB59 /* 33. Search in Rotated Sorted Array  */,
@@ -2590,6 +2594,15 @@
 			path = "149. Max Points on a Line ";
 			sourceTree = "<group>";
 		};
+		C4F60AD328392E70006B990F /* 374. Guess Number Higher or Lower  */ = {
+			isa = PBXGroup;
+			children = (
+				C4F60AD528392E7F006B990F /* GuessNumberHigherOrLower.hpp */,
+				C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */,
+			);
+			path = "374. Guess Number Higher or Lower ";
+			sourceTree = "<group>";
+		};
 		C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */ = {
 			isa = PBXGroup;
 			children = (
@@ -2986,6 +2999,7 @@
 				C4AC722D282EB399006412A7 /* IntegerBreak.cpp in Sources */,
 				C484BAB4281FAE1100CF92BD /* UniquePaths.cpp in Sources */,
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
+				C4F60AD628392E7F006B990F /* GuessNumberHigherOrLower.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A0B01B2822675A003EECAF /* WordBreak.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
