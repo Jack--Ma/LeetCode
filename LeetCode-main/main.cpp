@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "GuessNumberHigherOrLower.hpp"
+#include "PeakIndexInAMountainArray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testGuessNumberHigherOrLower();
+    testPeakIndexInAMountainArray();
     
     return 0;
 }

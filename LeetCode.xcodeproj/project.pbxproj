@@ -152,6 +152,7 @@
 		C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */; };
 		C4F60AD028352F10006B990F /* MaxPointsOnALine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */; };
 		C4F60AD628392E7F006B990F /* GuessNumberHigherOrLower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */; };
+		C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD828393581006B990F /* PeakIndexInAMountainArray.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -531,6 +532,8 @@
 		C4F60AD228352FB9006B990F /* plane1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane1.jpeg; sourceTree = "<group>"; };
 		C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GuessNumberHigherOrLower.cpp; sourceTree = "<group>"; };
 		C4F60AD528392E7F006B990F /* GuessNumberHigherOrLower.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GuessNumberHigherOrLower.hpp; sourceTree = "<group>"; };
+		C4F60AD828393581006B990F /* PeakIndexInAMountainArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PeakIndexInAMountainArray.cpp; sourceTree = "<group>"; };
+		C4F60AD928393581006B990F /* PeakIndexInAMountainArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PeakIndexInAMountainArray.hpp; sourceTree = "<group>"; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
@@ -1990,6 +1993,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4F60AD72839356D006B990F /* 852. Peak Index in a Mountain Array  */,
 				C4F60AD328392E70006B990F /* 374. Guess Number Higher or Lower  */,
 				C49BE78D280DAEB4008ACB59 /* 162. Find Peak Element  */,
 				C49BE789280DA41A008ACB59 /* 153. Find Minimum in Rotated Sorted Array  */,
@@ -2603,6 +2607,15 @@
 			path = "374. Guess Number Higher or Lower ";
 			sourceTree = "<group>";
 		};
+		C4F60AD72839356D006B990F /* 852. Peak Index in a Mountain Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4F60AD928393581006B990F /* PeakIndexInAMountainArray.hpp */,
+				C4F60AD828393581006B990F /* PeakIndexInAMountainArray.cpp */,
+			);
+			path = "852. Peak Index in a Mountain Array ";
+			sourceTree = "<group>";
+		};
 		C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */ = {
 			isa = PBXGroup;
 			children = (
@@ -3026,6 +3039,7 @@
 				CB761DB82812A48A0075CA1B /* NumberOfProvinces.cpp in Sources */,
 				C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */,
 				C484BAA3281ADD8E00CF92BD /* GenerateParentheses.cpp in Sources */,
+				C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
