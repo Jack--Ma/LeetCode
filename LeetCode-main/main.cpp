@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "PeakIndexInAMountainArray.hpp"
+#include "ValidPerfectSquare.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testPeakIndexInAMountainArray();
+    testValidPerfectSquare();
     
     return 0;
 }
