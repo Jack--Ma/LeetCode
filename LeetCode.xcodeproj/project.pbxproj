@@ -154,6 +154,7 @@
 		C4F60AD628392E7F006B990F /* GuessNumberHigherOrLower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */; };
 		C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD828393581006B990F /* PeakIndexInAMountainArray.cpp */; };
 		C4F60ADE283A1302006B990F /* ValidPerfectSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60ADC283A1302006B990F /* ValidPerfectSquare.cpp */; };
+		C4F60AE2283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AE0283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -537,6 +538,8 @@
 		C4F60AD928393581006B990F /* PeakIndexInAMountainArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PeakIndexInAMountainArray.hpp; sourceTree = "<group>"; };
 		C4F60ADC283A1302006B990F /* ValidPerfectSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidPerfectSquare.cpp; sourceTree = "<group>"; };
 		C4F60ADD283A1302006B990F /* ValidPerfectSquare.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidPerfectSquare.hpp; sourceTree = "<group>"; };
+		C4F60AE0283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheDistanceValueBetweenTwoArrays.cpp; sourceTree = "<group>"; };
+		C4F60AE1283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheDistanceValueBetweenTwoArrays.hpp; sourceTree = "<group>"; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
@@ -1996,6 +1999,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4F60ADF283BDDB5006B990F /* 1385. Find the Distance Value Between Two Arrays  */,
 				C4F60ADB283A12F7006B990F /* 367. Valid Perfect Square  */,
 				C4F60AD72839356D006B990F /* 852. Peak Index in a Mountain Array  */,
 				C4F60AD328392E70006B990F /* 374. Guess Number Higher or Lower  */,
@@ -2629,6 +2633,15 @@
 			path = "367. Valid Perfect Square ";
 			sourceTree = "<group>";
 		};
+		C4F60ADF283BDDB5006B990F /* 1385. Find the Distance Value Between Two Arrays  */ = {
+			isa = PBXGroup;
+			children = (
+				C4F60AE1283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.hpp */,
+				C4F60AE0283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp */,
+			);
+			path = "1385. Find the Distance Value Between Two Arrays ";
+			sourceTree = "<group>";
+		};
 		C4FC33C31D52C115001B5F2F /* 36-Valid_Sudoku */ = {
 			isa = PBXGroup;
 			children = (
@@ -3068,6 +3081,7 @@
 				C4C9D35B27E62FBD007067BB /* ReverseNodesInK-Group.cpp in Sources */,
 				C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */,
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
+				C4F60AE2283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp in Sources */,
 				C49664F3282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp in Sources */,
 				C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
