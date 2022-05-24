@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "FindTheDistanceValueBetweenTwoArrays.hpp"
+#include "Sqrt(x).hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFindTheDistanceValueBetweenTwoArrays();
+    testSqrt();
     
     return 0;
 }

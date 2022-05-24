@@ -137,6 +137,7 @@
 		C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36127E8B2E9007067BB /* MinStack.cpp */; };
 		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */; };
+		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
 		C4D97F1D2833E18400D889A0 /* HappyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F1B2833E18400D889A0 /* HappyNumber.cpp */; };
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
@@ -497,6 +498,8 @@
 		C4C9D36627E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumRemoveToMakeValidParentheses.hpp; sourceTree = "<group>"; };
 		C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheWinnerOfTheCircularGame.cpp; sourceTree = "<group>"; };
 		C4C9D36A27E9A817007067BB /* FindTheWinnerOfTheCircularGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheWinnerOfTheCircularGame.hpp; sourceTree = "<group>"; };
+		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
+		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC51D41ED7A0092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DD01D438B610092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1999,6 +2002,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */,
 				C4F60ADF283BDDB5006B990F /* 1385. Find the Distance Value Between Two Arrays  */,
 				C4F60ADB283A12F7006B990F /* 367. Valid Perfect Square  */,
 				C4F60AD72839356D006B990F /* 852. Peak Index in a Mountain Array  */,
@@ -2424,6 +2428,15 @@
 				C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */,
 			);
 			path = "1823. Find the Winner of the Circular Game ";
+			sourceTree = "<group>";
+		};
+		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */,
+				C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */,
+			);
+			path = "69. Sqrt(x) ";
 			sourceTree = "<group>";
 		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
@@ -2968,6 +2981,7 @@
 				C48E9E6527DC41D40063E280 /* AddStrings.cpp in Sources */,
 				C49BE788280D554A008ACB59 /* SearchInRotatedSortedArray.cpp in Sources */,
 				CBFE2433280830EC00B191C1 /* Permutations.cpp in Sources */,
+				C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */,
 				C402A06F27EB70270083C036 /* BinaryTreeRightSideView.cpp in Sources */,
 				C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */,
 				C4AC28FA2801D2310036E6DB /* MaximalRectangle.cpp in Sources */,
