@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "Sqrt(x).hpp"
+#include "FindSmallestLetterGreaterThanTarget.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSqrt();
+    testFindSmallestLetterGreaterThanTarget();
     
     return 0;
 }

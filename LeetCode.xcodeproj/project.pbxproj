@@ -138,6 +138,7 @@
 		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
+		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
 		C4D97F1D2833E18400D889A0 /* HappyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F1B2833E18400D889A0 /* HappyNumber.cpp */; };
 		C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E3856B27EE2A820024DDFF /* KthSmallestElementInABST.cpp */; };
@@ -500,6 +501,8 @@
 		C4C9D36A27E9A817007067BB /* FindTheWinnerOfTheCircularGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheWinnerOfTheCircularGame.hpp; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
+		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
+		C4CF8F26283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindSmallestLetterGreaterThanTarget.hpp; sourceTree = "<group>"; };
 		C4D85DBA1D41DF540092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DC51D41ED7A0092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4D85DD01D438B610092E613 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -2002,6 +2005,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4CF8F24283D2DDC00FB1118 /* 744. Find Smallest Letter Greater Than Target  */,
 				C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */,
 				C4F60ADF283BDDB5006B990F /* 1385. Find the Distance Value Between Two Arrays  */,
 				C4F60ADB283A12F7006B990F /* 367. Valid Perfect Square  */,
@@ -2437,6 +2441,15 @@
 				C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */,
 			);
 			path = "69. Sqrt(x) ";
+			sourceTree = "<group>";
+		};
+		C4CF8F24283D2DDC00FB1118 /* 744. Find Smallest Letter Greater Than Target  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CF8F26283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.hpp */,
+				C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */,
+			);
+			path = "744. Find Smallest Letter Greater Than Target ";
 			sourceTree = "<group>";
 		};
 		C4D85DB91D41DF540092E613 /* 11-Container_With_Most_Water */ = {
@@ -2975,6 +2988,7 @@
 				C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */,
 				C484BAB0281C345E00CF92BD /* JumpGameII.cpp in Sources */,
 				C4B2524727F73CE90040706B /* SortAnArray.cpp in Sources */,
+				C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */,
 				CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */,
 				C484BA9D281A312C00CF92BD /* CombinationSumII.cpp in Sources */,
 				C484BA7C281401C400CF92BD /* ShortestPathInBinaryMatrix.cpp in Sources */,
