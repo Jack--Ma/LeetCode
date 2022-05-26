@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "FindSmallestLetterGreaterThanTarget.hpp"
+#include "ArrangingCoins.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testFindSmallestLetterGreaterThanTarget();
+    testArrangingCoins();
     
     return 0;
 }
