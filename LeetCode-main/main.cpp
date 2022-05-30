@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "SpecialArrayWithXElementsGreaterThanOrEqualX.hpp"
+#include "CountNegativeNumbersInASortedMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testSpecialArrayWithXElementsGreaterThanOrEqualX();
+    testCountNegativeNumbersInASortedMatrix();
     
     return 0;
 }
