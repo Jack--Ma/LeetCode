@@ -81,6 +81,7 @@
 		C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A511E927CB25280004D026 /* ImplementQueueUsingStacks.cpp */; };
 		C4A511F027CC516F0004D026 /* BinaryTreePreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A511EE27CC516F0004D026 /* BinaryTreePreorderTraversal.cpp */; };
 		C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A511F227CC51C30004D026 /* TreeNode.cpp */; };
+		C4A62F102843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F0E2843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -381,6 +382,8 @@
 		C4A511EF27CC516F0004D026 /* BinaryTreePreorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreePreorderTraversal.hpp; sourceTree = "<group>"; };
 		C4A511F227CC51C30004D026 /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		C4A511F327CC51C30004D026 /* TreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
+		C4A62F0E2843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpecialArrayWithXElementsGreaterThanOrEqualX.cpp; sourceTree = "<group>"; };
+		C4A62F0F2843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpecialArrayWithXElementsGreaterThanOrEqualX.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1674,6 +1677,15 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
+		C4A62F0D2843AE0200F404D6 /* 1608. Special Array With X Elements Greater Than or Equal X  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F0F2843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.hpp */,
+				C4A62F0E2843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp */,
+			);
+			path = "1608. Special Array With X Elements Greater Than or Equal X ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2033,6 +2045,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F0D2843AE0200F404D6 /* 1608. Special Array With X Elements Greater Than or Equal X  */,
 				C4A70759283FC38B007F1A43 /* 1539. Kth Missing Positive Number  */,
 				C4A70753283FC008007F1A43 /* 441. Arranging Coins  */,
 				C4CF8F24283D2DDC00FB1118 /* 744. Find Smallest Letter Greater Than Target  */,
@@ -2985,6 +2998,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A8859427C3E37F00EC168C /* Pascal'sTriangle.cpp in Sources */,
+				C4A62F102843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp in Sources */,
 				C4A8859827C471EC00EC168C /* ValidSudoku.cpp in Sources */,
 				C4ABA594280090A000E64BA2 /* LongestSwipe.cpp in Sources */,
 				C489C5F127D19ADF002A6D34 /* ValidateBinarySearchTree.cpp in Sources */,
