@@ -12,3 +12,4 @@
 | 2022 4.18 | Begin Algorithm II |
 | 2022 5.19 | Finish Algorithm II (47 tasks) |
 | 2022 5.21 | Begin Binary Search I |
+| 2022 6.1 | Finish Binary Search I (23 tasks) |
