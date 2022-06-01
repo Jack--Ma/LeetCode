@@ -85,6 +85,7 @@
 		C4A62F142845032300F404D6 /* CountNegativeNumbersInASortedMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F122845032300F404D6 /* CountNegativeNumbersInASortedMatrix.cpp */; };
 		C4A62F18284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F16284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp */; };
 		C4A62F1C284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */; };
+		C4A62F2028475BF900F404D6 /* SumOfSquareNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -393,6 +394,8 @@
 		C4A62F17284514F300F404D6 /* TheKWeakestRowsInAMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TheKWeakestRowsInAMatrix.hpp; sourceTree = "<group>"; };
 		C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckIfNAndItsDoubleExist.cpp; sourceTree = "<group>"; };
 		C4A62F1B284735CC00F404D6 /* CheckIfNAndItsDoubleExist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CheckIfNAndItsDoubleExist.hpp; sourceTree = "<group>"; };
+		C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfSquareNumbers.cpp; sourceTree = "<group>"; };
+		C4A62F1F28475BF900F404D6 /* SumOfSquareNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SumOfSquareNumbers.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1722,6 +1725,15 @@
 			path = "1346. Check If N and Its Double Exist ";
 			sourceTree = "<group>";
 		};
+		C4A62F1D28475BEE00F404D6 /* 633. Sum of Square Numbers  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F1F28475BF900F404D6 /* SumOfSquareNumbers.hpp */,
+				C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */,
+			);
+			path = "633. Sum of Square Numbers ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2081,6 +2093,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F1D28475BEE00F404D6 /* 633. Sum of Square Numbers  */,
 				C4A62F19284735AF00F404D6 /* 1346. Check If N and Its Double Exist  */,
 				C4A62F15284514DC00F404D6 /* 1337. The K Weakest Rows in a Matrix  */,
 				C4A62F112845031400F404D6 /* 1351. Count Negative Numbers in a Sorted Matrix  */,
@@ -3198,6 +3211,7 @@
 				C402A06727EABFFB0083C036 /* ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp in Sources */,
 				C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */,
 				C4F60AE2283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp in Sources */,
+				C4A62F2028475BF900F404D6 /* SumOfSquareNumbers.cpp in Sources */,
 				C49664F3282383BB00E6FB57 /* LongestIncreasingSubsequence.cpp in Sources */,
 				C4B2524B27F995F00040706B /* TopKFrequentElements.cpp in Sources */,
 				C4A337DC27BF8F6D00B1DBAD /* BestTimeToBuyAndSellStock.cpp in Sources */,
