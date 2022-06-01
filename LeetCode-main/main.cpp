@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "TheKWeakestRowsInAMatrix.hpp"
+#include "CheckIfNAndItsDoubleExist.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testTheKWeakestRowsInAMatrix();
+    testCheckIfNAndItsDoubleExist();
     
     return 0;
 }

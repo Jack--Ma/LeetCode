@@ -84,6 +84,7 @@
 		C4A62F102843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F0E2843AE1200F404D6 /* SpecialArrayWithXElementsGreaterThanOrEqualX.cpp */; };
 		C4A62F142845032300F404D6 /* CountNegativeNumbersInASortedMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F122845032300F404D6 /* CountNegativeNumbersInASortedMatrix.cpp */; };
 		C4A62F18284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F16284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp */; };
+		C4A62F1C284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -390,6 +391,8 @@
 		C4A62F132845032300F404D6 /* CountNegativeNumbersInASortedMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CountNegativeNumbersInASortedMatrix.hpp; sourceTree = "<group>"; };
 		C4A62F16284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TheKWeakestRowsInAMatrix.cpp; sourceTree = "<group>"; };
 		C4A62F17284514F300F404D6 /* TheKWeakestRowsInAMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TheKWeakestRowsInAMatrix.hpp; sourceTree = "<group>"; };
+		C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckIfNAndItsDoubleExist.cpp; sourceTree = "<group>"; };
+		C4A62F1B284735CC00F404D6 /* CheckIfNAndItsDoubleExist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CheckIfNAndItsDoubleExist.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1710,6 +1713,15 @@
 			path = "1337. The K Weakest Rows in a Matrix ";
 			sourceTree = "<group>";
 		};
+		C4A62F19284735AF00F404D6 /* 1346. Check If N and Its Double Exist  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F1B284735CC00F404D6 /* CheckIfNAndItsDoubleExist.hpp */,
+				C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */,
+			);
+			path = "1346. Check If N and Its Double Exist ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2069,6 +2081,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F19284735AF00F404D6 /* 1346. Check If N and Its Double Exist  */,
 				C4A62F15284514DC00F404D6 /* 1337. The K Weakest Rows in a Matrix  */,
 				C4A62F112845031400F404D6 /* 1351. Count Negative Numbers in a Sorted Matrix  */,
 				C4A62F0D2843AE0200F404D6 /* 1608. Special Array With X Elements Greater Than or Equal X  */,
@@ -3119,6 +3132,7 @@
 				C48E9E6927DC74880063E280 /* LongestPalindrome.cpp in Sources */,
 				C4A9457327D665FC00E452DC /* DesignHashMap.cpp in Sources */,
 				C4A9458727DA4FA000E452DC /* ProductOfArrayExceptSelf.cpp in Sources */,
+				C4A62F1C284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp in Sources */,
 				C4E3856D27EE2A820024DDFF /* KthSmallestElementInABST.cpp in Sources */,
 				C484BAA7281ADE2100CF92BD /* HouseRobberII.cpp in Sources */,
 				C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */,
