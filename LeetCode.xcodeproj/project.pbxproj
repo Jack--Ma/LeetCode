@@ -86,6 +86,7 @@
 		C4A62F18284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F16284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp */; };
 		C4A62F1C284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */; };
 		C4A62F2028475BF900F404D6 /* SumOfSquareNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */; };
+		C4A62F24284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -396,6 +397,8 @@
 		C4A62F1B284735CC00F404D6 /* CheckIfNAndItsDoubleExist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CheckIfNAndItsDoubleExist.hpp; sourceTree = "<group>"; };
 		C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfSquareNumbers.cpp; sourceTree = "<group>"; };
 		C4A62F1F28475BF900F404D6 /* SumOfSquareNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SumOfSquareNumbers.hpp; sourceTree = "<group>"; };
+		C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDistanceBetweenAPairOfValues.cpp; sourceTree = "<group>"; };
+		C4A62F23284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumDistanceBetweenAPairOfValues.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1734,6 +1737,15 @@
 			path = "633. Sum of Square Numbers ";
 			sourceTree = "<group>";
 		};
+		C4A62F21284792DB00F404D6 /* 1855. Maximum Distance Between a Pair of Values  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F23284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.hpp */,
+				C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */,
+			);
+			path = "1855. Maximum Distance Between a Pair of Values ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2093,6 +2105,7 @@
 		C4ABA57B27FCA00E00E64BA2 /* Binary Search */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F21284792DB00F404D6 /* 1855. Maximum Distance Between a Pair of Values  */,
 				C4A62F1D28475BEE00F404D6 /* 633. Sum of Square Numbers  */,
 				C4A62F19284735AF00F404D6 /* 1346. Check If N and Its Double Exist  */,
 				C4A62F15284514DC00F404D6 /* 1337. The K Weakest Rows in a Matrix  */,
@@ -3170,6 +3183,7 @@
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A0B01B2822675A003EECAF /* WordBreak.cpp in Sources */,
 				C4A8859C27C5C4D900EC168C /* SearchA2DMatrix.cpp in Sources */,
+				C4A62F24284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp in Sources */,
 				C49391A927FC8E0900E2CF01 /* SearchInsertPosition.cpp in Sources */,
 				C484BAA1281A323400CF92BD /* WordSearch.cpp in Sources */,
 				CB8C3C2A27D7515F00576C6D /* RotateImage.cpp in Sources */,
