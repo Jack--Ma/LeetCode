@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "MaximumDistanceBetweenAPairOfValues.hpp"
+#include "MonotonicArray.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testMaximumDistanceBetweenAPairOfValues();
+    testMonotonicArray();
     
     return 0;
 }

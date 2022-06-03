@@ -87,6 +87,7 @@
 		C4A62F1C284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1A284735CC00F404D6 /* CheckIfNAndItsDoubleExist.cpp */; };
 		C4A62F2028475BF900F404D6 /* SumOfSquareNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */; };
 		C4A62F24284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */; };
+		C4A62F282849D22A00F404D6 /* MonotonicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -399,6 +400,8 @@
 		C4A62F1F28475BF900F404D6 /* SumOfSquareNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SumOfSquareNumbers.hpp; sourceTree = "<group>"; };
 		C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDistanceBetweenAPairOfValues.cpp; sourceTree = "<group>"; };
 		C4A62F23284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumDistanceBetweenAPairOfValues.hpp; sourceTree = "<group>"; };
+		C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonotonicArray.cpp; sourceTree = "<group>"; };
+		C4A62F272849D22A00F404D6 /* MonotonicArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MonotonicArray.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1746,6 +1749,15 @@
 			path = "1855. Maximum Distance Between a Pair of Values ";
 			sourceTree = "<group>";
 		};
+		C4A62F252849D22100F404D6 /* 896. Monotonic Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F272849D22A00F404D6 /* MonotonicArray.hpp */,
+				C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */,
+			);
+			path = "896. Monotonic Array ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -1926,6 +1938,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F252849D22100F404D6 /* 896. Monotonic Array  */,
 				C4B2524427F7399E0040706B /* 912. Sort an Array  */,
 				C4A9458827DA592300E452DC /* 560. Subarray Sum Equals K */,
 				C4A9458427DA4F9100E452DC /* 238. Product of Array Except Self  */,
@@ -3200,6 +3213,7 @@
 				C4AC723128314DAC006412A7 /* BitwiseAndOfNumbersRange.cpp in Sources */,
 				CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */,
 				C4A0B01728223454003EECAF /* DecodeWays.cpp in Sources */,
+				C4A62F282849D22A00F404D6 /* MonotonicArray.cpp in Sources */,
 				C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */,
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
 				C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */,
