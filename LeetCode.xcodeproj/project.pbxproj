@@ -88,6 +88,7 @@
 		C4A62F2028475BF900F404D6 /* SumOfSquareNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F1E28475BF900F404D6 /* SumOfSquareNumbers.cpp */; };
 		C4A62F24284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */; };
 		C4A62F282849D22A00F404D6 /* MonotonicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */; };
+		C4A62F2C2849FB5800F404D6 /* ImplementStrStr().cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -402,6 +403,8 @@
 		C4A62F23284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumDistanceBetweenAPairOfValues.hpp; sourceTree = "<group>"; };
 		C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonotonicArray.cpp; sourceTree = "<group>"; };
 		C4A62F272849D22A00F404D6 /* MonotonicArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MonotonicArray.hpp; sourceTree = "<group>"; };
+		C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ImplementStrStr().cpp"; sourceTree = "<group>"; };
+		C4A62F2B2849FB5800F404D6 /* ImplementStrStr().hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "ImplementStrStr().hpp"; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1758,6 +1761,15 @@
 			path = "896. Monotonic Array ";
 			sourceTree = "<group>";
 		};
+		C4A62F292849EF8600F404D6 /* 28. Implement strStr()  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F2B2849FB5800F404D6 /* ImplementStrStr().hpp */,
+				C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */,
+			);
+			path = "28. Implement strStr() ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2146,6 +2158,7 @@
 		C4ABA57C27FCA01900E64BA2 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F292849EF8600F404D6 /* 28. Implement strStr()  */,
 				C49BE791280F0FA4008ACB59 /* 11. Container With Most Water  */,
 				CB624D79280EE36C00BED7B6 /* 986. Interval List Intersections  */,
 				CB624D75280ED76C00BED7B6 /* 844. Backspace String Compare  */,
@@ -3099,6 +3112,7 @@
 				C4A9456F27D595AE00E452DC /* MergeIntervals.cpp in Sources */,
 				C402A07727ECB3500083C036 /* DeleteNodeInABST.cpp in Sources */,
 				C4ABA58427FDE69900E64BA2 /* MoveZeroes.cpp in Sources */,
+				C4A62F2C2849FB5800F404D6 /* ImplementStrStr().cpp in Sources */,
 				C49664F72824250000E6FB57 /* NumberOfLongestIncreasingSubsequence.cpp in Sources */,
 				C489C5DD27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				C49BE78C280DA426008ACB59 /* FindMinimumInRotatedSortedArray.cpp in Sources */,
