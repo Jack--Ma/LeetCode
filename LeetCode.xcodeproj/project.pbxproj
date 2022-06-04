@@ -89,6 +89,7 @@
 		C4A62F24284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F22284792EC00F404D6 /* MaximumDistanceBetweenAPairOfValues.cpp */; };
 		C4A62F282849D22A00F404D6 /* MonotonicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */; };
 		C4A62F2C2849FB5800F404D6 /* ImplementStrStr().cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */; };
+		C4A62F30284B01BA00F404D6 /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F2E284B01BA00F404D6 /* BalancedBinaryTree.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -405,6 +406,10 @@
 		C4A62F272849D22A00F404D6 /* MonotonicArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MonotonicArray.hpp; sourceTree = "<group>"; };
 		C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ImplementStrStr().cpp"; sourceTree = "<group>"; };
 		C4A62F2B2849FB5800F404D6 /* ImplementStrStr().hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "ImplementStrStr().hpp"; sourceTree = "<group>"; };
+		C4A62F2E284B01BA00F404D6 /* BalancedBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BalancedBinaryTree.cpp; sourceTree = "<group>"; };
+		C4A62F2F284B01BA00F404D6 /* BalancedBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BalancedBinaryTree.hpp; sourceTree = "<group>"; };
+		C4A62F31284B253500F404D6 /* balance_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balance_1.jpeg; sourceTree = "<group>"; };
+		C4A62F32284B253500F404D6 /* balance_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balance_2.jpeg; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -992,6 +997,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F2D284B01B000F404D6 /* 110. Balanced Binary Tree  */,
 				C484BA7D2815A28300CF92BD /* 797. All Paths From Source to Target  */,
 				CB761DF0281554BD0075CA1B /* 130. Surrounded Regions  */,
 				C484BA79281401B700CF92BD /* 1091. Shortest Path in Binary Matrix  */,
@@ -1768,6 +1774,17 @@
 				C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */,
 			);
 			path = "28. Implement strStr() ";
+			sourceTree = "<group>";
+		};
+		C4A62F2D284B01B000F404D6 /* 110. Balanced Binary Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F2F284B01BA00F404D6 /* BalancedBinaryTree.hpp */,
+				C4A62F2E284B01BA00F404D6 /* BalancedBinaryTree.cpp */,
+				C4A62F31284B253500F404D6 /* balance_1.jpeg */,
+				C4A62F32284B253500F404D6 /* balance_2.jpeg */,
+			);
+			path = "110. Balanced Binary Tree ";
 			sourceTree = "<group>";
 		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
@@ -3230,6 +3247,7 @@
 				C4A62F282849D22A00F404D6 /* MonotonicArray.cpp in Sources */,
 				C4ABA57927FC979A00E64BA2 /* SquaresOfASortedArray.cpp in Sources */,
 				C4A885A927C9269900EC168C /* ReverseLinkedList.cpp in Sources */,
+				C4A62F30284B01BA00F404D6 /* BalancedBinaryTree.cpp in Sources */,
 				C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */,
 				C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */,
 				C4B684472807116500B41B2F /* RottingOranges.cpp in Sources */,
