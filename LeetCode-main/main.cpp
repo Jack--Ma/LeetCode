@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "RepeatedSubstringPattern.hpp"
+#include "EvaluateReversePolishNotation.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testRepeatedSubstringPattern();
+    testEvaluateReversePolishNotation();
     
     return 0;
 }

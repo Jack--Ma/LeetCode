@@ -91,6 +91,7 @@
 		C4A62F2C2849FB5800F404D6 /* ImplementStrStr().cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */; };
 		C4A62F30284B01BA00F404D6 /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F2E284B01BA00F404D6 /* BalancedBinaryTree.cpp */; };
 		C4A62F36284B443D00F404D6 /* RepeatedSubstringPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F34284B443D00F404D6 /* RepeatedSubstringPattern.cpp */; };
+		C4A62F3A284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F38284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -413,6 +414,8 @@
 		C4A62F32284B253500F404D6 /* balance_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balance_2.jpeg; sourceTree = "<group>"; };
 		C4A62F34284B443D00F404D6 /* RepeatedSubstringPattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatedSubstringPattern.cpp; sourceTree = "<group>"; };
 		C4A62F35284B443D00F404D6 /* RepeatedSubstringPattern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedSubstringPattern.hpp; sourceTree = "<group>"; };
+		C4A62F38284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
+		C4A62F39284C78CA00F404D6 /* EvaluateReversePolishNotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EvaluateReversePolishNotation.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1623,6 +1626,7 @@
 		C4A511E327CA68100004D026 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F37284C78C000F404D6 /* 150. Evaluate Reverse Polish Notation  */,
 				C4AC28F72801D21F0036E6DB /* 85. Maximal Rectangle  */,
 				C4AC28F328015A110036E6DB /* 84. Largest Rectangle in Histogram  */,
 				C4C9D36827E9A7E8007067BB /* 1823. Find the Winner of the Circular Game  */,
@@ -1797,6 +1801,15 @@
 				C4A62F34284B443D00F404D6 /* RepeatedSubstringPattern.cpp */,
 			);
 			path = "459. Repeated Substring Pattern ";
+			sourceTree = "<group>";
+		};
+		C4A62F37284C78C000F404D6 /* 150. Evaluate Reverse Polish Notation  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F39284C78CA00F404D6 /* EvaluateReversePolishNotation.hpp */,
+				C4A62F38284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp */,
+			);
+			path = "150. Evaluate Reverse Polish Notation ";
 			sourceTree = "<group>";
 		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
@@ -3270,6 +3283,7 @@
 				C484BAA3281ADD8E00CF92BD /* GenerateParentheses.cpp in Sources */,
 				C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */,
 				C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */,
+				C4A62F3A284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
 				C4A511F427CC51C30004D026 /* TreeNode.cpp in Sources */,
 				CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */,
