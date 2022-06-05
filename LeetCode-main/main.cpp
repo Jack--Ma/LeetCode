@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "BalancedBinaryTree.hpp"
+#include "RepeatedSubstringPattern.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testBalancedBinaryTree();
+    testRepeatedSubstringPattern();
     
     return 0;
 }
