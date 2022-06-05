@@ -92,6 +92,8 @@
 		C4A62F30284B01BA00F404D6 /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F2E284B01BA00F404D6 /* BalancedBinaryTree.cpp */; };
 		C4A62F36284B443D00F404D6 /* RepeatedSubstringPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F34284B443D00F404D6 /* RepeatedSubstringPattern.cpp */; };
 		C4A62F3A284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F38284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp */; };
+		C4A62F3E284C81AE00F404D6 /* PlusOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F3C284C81AD00F404D6 /* PlusOne.cpp */; };
+		C4A62F42284C904E00F404D6 /* LinkedListInBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F40284C904E00F404D6 /* LinkedListInBinaryTree.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -416,6 +418,11 @@
 		C4A62F35284B443D00F404D6 /* RepeatedSubstringPattern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedSubstringPattern.hpp; sourceTree = "<group>"; };
 		C4A62F38284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
 		C4A62F39284C78CA00F404D6 /* EvaluateReversePolishNotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EvaluateReversePolishNotation.hpp; sourceTree = "<group>"; };
+		C4A62F3C284C81AD00F404D6 /* PlusOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlusOne.cpp; sourceTree = "<group>"; };
+		C4A62F3D284C81AD00F404D6 /* PlusOne.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlusOne.hpp; sourceTree = "<group>"; };
+		C4A62F40284C904E00F404D6 /* LinkedListInBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListInBinaryTree.cpp; sourceTree = "<group>"; };
+		C4A62F41284C904E00F404D6 /* LinkedListInBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListInBinaryTree.hpp; sourceTree = "<group>"; };
+		C4A62F43284C90BD00F404D6 /* sample_1_1720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_1_1720.png; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1003,6 +1010,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F3F284C902F00F404D6 /* 1367. Linked List in Binary Tree  */,
 				C4A62F2D284B01B000F404D6 /* 110. Balanced Binary Tree  */,
 				C484BA7D2815A28300CF92BD /* 797. All Paths From Source to Target  */,
 				CB761DF0281554BD0075CA1B /* 130. Surrounded Regions  */,
@@ -1812,6 +1820,25 @@
 			path = "150. Evaluate Reverse Polish Notation ";
 			sourceTree = "<group>";
 		};
+		C4A62F3B284C819B00F404D6 /* 66. Plus One  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F3D284C81AD00F404D6 /* PlusOne.hpp */,
+				C4A62F3C284C81AD00F404D6 /* PlusOne.cpp */,
+			);
+			path = "66. Plus One ";
+			sourceTree = "<group>";
+		};
+		C4A62F3F284C902F00F404D6 /* 1367. Linked List in Binary Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F41284C904E00F404D6 /* LinkedListInBinaryTree.hpp */,
+				C4A62F40284C904E00F404D6 /* LinkedListInBinaryTree.cpp */,
+				C4A62F43284C90BD00F404D6 /* sample_1_1720.png */,
+			);
+			path = "1367. Linked List in Binary Tree ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -1993,6 +2020,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F3B284C819B00F404D6 /* 66. Plus One  */,
 				C4A62F252849D22100F404D6 /* 896. Monotonic Array  */,
 				C4B2524427F7399E0040706B /* 912. Sort an Array  */,
 				C4A9458827DA592300E452DC /* 560. Subarray Sum Equals K */,
@@ -3213,6 +3241,7 @@
 				C4A9456027D4676E00E452DC /* MajorityElement.cpp in Sources */,
 				C4A9457F27D8BA8C00E452DC /* Non-overlappingIntervals.cpp in Sources */,
 				CB15D99227CE563400B4AFA1 /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				C4A62F3E284C81AE00F404D6 /* PlusOne.cpp in Sources */,
 				C4B684502809013700B41B2F /* ClimbingStairs.cpp in Sources */,
 				C402A07327EB7C460083C036 /* PathSumII.cpp in Sources */,
 				C4C107E4280BE10C00326A66 /* Triangle.cpp in Sources */,
@@ -3250,6 +3279,7 @@
 				C4AC722D282EB399006412A7 /* IntegerBreak.cpp in Sources */,
 				C484BAB4281FAE1100CF92BD /* UniquePaths.cpp in Sources */,
 				C4A9456B27D586F100E452DC /* Helper.cpp in Sources */,
+				C4A62F42284C904E00F404D6 /* LinkedListInBinaryTree.cpp in Sources */,
 				C4F60AD628392E7F006B990F /* GuessNumberHigherOrLower.cpp in Sources */,
 				C42241DD27BC5EF300E5B034 /* main.cpp in Sources */,
 				C4A0B01B2822675A003EECAF /* WordBreak.cpp in Sources */,

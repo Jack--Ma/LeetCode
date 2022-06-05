@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "EvaluateReversePolishNotation.hpp"
+#include "LinkedListInBinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testEvaluateReversePolishNotation();
+    testLinkedListInBinaryTree();
     
     return 0;
 }
