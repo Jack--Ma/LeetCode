@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "AddBinary.hpp"
+#include "AddToArrayFormOfInteger.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testAddBinary();
+    testAddToArrayFormOfInteger();
     
     return 0;
 }
