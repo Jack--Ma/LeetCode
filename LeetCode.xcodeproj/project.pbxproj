@@ -96,6 +96,7 @@
 		C4A62F42284C904E00F404D6 /* LinkedListInBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F40284C904E00F404D6 /* LinkedListInBinaryTree.cpp */; };
 		C4A62F47284D111F00F404D6 /* AddBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F45284D111F00F404D6 /* AddBinary.cpp */; };
 		C4A62F4B284E536800F404D6 /* AddToArrayFormOfInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F49284E536800F404D6 /* AddToArrayFormOfInteger.cpp */; };
+		C4A62F4F284FAD3900F404D6 /* LengthOfLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F4D284FAD3900F404D6 /* LengthOfLastWord.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -429,6 +430,8 @@
 		C4A62F46284D111F00F404D6 /* AddBinary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddBinary.hpp; sourceTree = "<group>"; };
 		C4A62F49284E536800F404D6 /* AddToArrayFormOfInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddToArrayFormOfInteger.cpp; sourceTree = "<group>"; };
 		C4A62F4A284E536800F404D6 /* AddToArrayFormOfInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddToArrayFormOfInteger.hpp; sourceTree = "<group>"; };
+		C4A62F4D284FAD3900F404D6 /* LengthOfLastWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLastWord.cpp; sourceTree = "<group>"; };
+		C4A62F4E284FAD3900F404D6 /* LengthOfLastWord.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLastWord.hpp; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1864,6 +1867,15 @@
 			path = "989. Add to Array-Form of Integer ";
 			sourceTree = "<group>";
 		};
+		C4A62F4C284FAD2900F404D6 /* 58. Length of Last Word */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F4E284FAD3900F404D6 /* LengthOfLastWord.hpp */,
+				C4A62F4D284FAD3900F404D6 /* LengthOfLastWord.cpp */,
+			);
+			path = "58. Length of Last Word";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -1955,6 +1967,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F4C284FAD2900F404D6 /* 58. Length of Last Word */,
 				C4A62F33284B443300F404D6 /* 459. Repeated Substring Pattern  */,
 				C4E610FD27E0F8DF00B56DED /* 5. Longest Palindromic Substring  */,
 				C4E610F927DFA2C100B56DED /* 187. Repeated DNA Sequences  */,
@@ -3239,6 +3252,7 @@
 				CB2C413027FF10EF00A3658A /* ReverseString.cpp in Sources */,
 				C4A9458B27DA593100E452DC /* SubarraySumEqualsK.cpp in Sources */,
 				C4C9D35327E5D1EA007067BB /* SwapNodesInPairs.cpp in Sources */,
+				C4A62F4F284FAD3900F404D6 /* LengthOfLastWord.cpp in Sources */,
 				C4B2525327FAE9B60040706B /* KClosestPointsToOrigin.cpp in Sources */,
 				C4A62F36284B443D00F404D6 /* RepeatedSubstringPattern.cpp in Sources */,
 				C4F60ADE283A1302006B990F /* ValidPerfectSquare.cpp in Sources */,
