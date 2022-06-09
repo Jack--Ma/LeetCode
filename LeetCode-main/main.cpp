@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "LengthOfLastWord.hpp"
+#include "DetermineWhetherMatrixCanBeObtainedByRotation.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    testLengthOfLastWord();
+    testDetermineWhetherMatrixCanBeObtainedByRotation();
     
     return 0;
 }

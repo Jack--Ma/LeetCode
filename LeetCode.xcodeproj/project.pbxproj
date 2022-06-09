@@ -97,6 +97,7 @@
 		C4A62F47284D111F00F404D6 /* AddBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F45284D111F00F404D6 /* AddBinary.cpp */; };
 		C4A62F4B284E536800F404D6 /* AddToArrayFormOfInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F49284E536800F404D6 /* AddToArrayFormOfInteger.cpp */; };
 		C4A62F4F284FAD3900F404D6 /* LengthOfLastWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F4D284FAD3900F404D6 /* LengthOfLastWord.cpp */; };
+		C4A62F532850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A62F512850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp */; };
 		C4A70756283FC015007F1A43 /* ArrangingCoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */; };
 		C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A7075A283FC398007F1A43 /* KthMissingPositiveNumber.cpp */; };
 		C4A8859027C13E6600EC168C /* ReshapeTheMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */; };
@@ -432,6 +433,10 @@
 		C4A62F4A284E536800F404D6 /* AddToArrayFormOfInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddToArrayFormOfInteger.hpp; sourceTree = "<group>"; };
 		C4A62F4D284FAD3900F404D6 /* LengthOfLastWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLastWord.cpp; sourceTree = "<group>"; };
 		C4A62F4E284FAD3900F404D6 /* LengthOfLastWord.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLastWord.hpp; sourceTree = "<group>"; };
+		C4A62F512850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DetermineWhetherMatrixCanBeObtainedByRotation.cpp; sourceTree = "<group>"; };
+		C4A62F522850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DetermineWhetherMatrixCanBeObtainedByRotation.hpp; sourceTree = "<group>"; };
+		C4A62F542850F1D700F404D6 /* grid3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid3.png; sourceTree = "<group>"; };
+		C4A62F552850F1D700F404D6 /* grid4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid4.png; sourceTree = "<group>"; };
 		C4A70754283FC015007F1A43 /* ArrangingCoins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrangingCoins.cpp; sourceTree = "<group>"; };
 		C4A70755283FC015007F1A43 /* ArrangingCoins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrangingCoins.hpp; sourceTree = "<group>"; };
 		C4A70757283FC08D007F1A43 /* arrangecoins2-grid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrangecoins2-grid.jpeg"; sourceTree = "<group>"; };
@@ -1876,6 +1881,17 @@
 			path = "58. Length of Last Word";
 			sourceTree = "<group>";
 		};
+		C4A62F502850F0FA00F404D6 /* 1886. Determine Whether Matrix Can Be Obtained By Rotation  */ = {
+			isa = PBXGroup;
+			children = (
+				C4A62F522850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.hpp */,
+				C4A62F512850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp */,
+				C4A62F542850F1D700F404D6 /* grid3.png */,
+				C4A62F552850F1D700F404D6 /* grid4.png */,
+			);
+			path = "1886. Determine Whether Matrix Can Be Obtained By Rotation ";
+			sourceTree = "<group>";
+		};
 		C4A70753283FC008007F1A43 /* 441. Arranging Coins  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2058,6 +2074,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4A62F502850F0FA00F404D6 /* 1886. Determine Whether Matrix Can Be Obtained By Rotation  */,
 				C4A62F48284E52AE00F404D6 /* 989. Add to Array-Form of Integer  */,
 				C4A62F3B284C819B00F404D6 /* 66. Plus One  */,
 				C4A62F252849D22100F404D6 /* 896. Monotonic Array  */,
@@ -3274,6 +3291,7 @@
 				C493919E27FC782D00E2CF01 /* ClimbTheStairs.cpp in Sources */,
 				CB61B0F62805A71800E5E737 /* Node.cpp in Sources */,
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
+				C4A62F532850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp in Sources */,
 				C481ED0A2805CFF50022DEEC /* 01Matrix.cpp in Sources */,
 				C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */,
 				C4A62F18284514F300F404D6 /* TheKWeakestRowsInAMatrix.cpp in Sources */,
