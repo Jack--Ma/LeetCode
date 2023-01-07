@@ -171,6 +171,7 @@
 		C4E610F827DF7B1A00B56DED /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610F627DF7B1A00B56DED /* MultiplyStrings.cpp */; };
 		C4E610FC27DFA2CD00B56DED /* RepeatedDNASequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FA27DFA2CD00B56DED /* RepeatedDNASequences.cpp */; };
 		C4E6110027E0F8F000B56DED /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */; };
+		C4EB183D296964580069717E /* B096.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4EB183B296964580069717E /* B096.cpp */; };
 		C4F60AD028352F10006B990F /* MaxPointsOnALine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */; };
 		C4F60AD628392E7F006B990F /* GuessNumberHigherOrLower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD428392E7F006B990F /* GuessNumberHigherOrLower.cpp */; };
 		C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD828393581006B990F /* PeakIndexInAMountainArray.cpp */; };
@@ -598,6 +599,8 @@
 		C4E610FB27DFA2CD00B56DED /* RepeatedDNASequences.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedDNASequences.hpp; sourceTree = "<group>"; };
 		C4E610FE27E0F8F000B56DED /* LongestPalindromicSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSubstring.cpp; sourceTree = "<group>"; };
 		C4E610FF27E0F8F000B56DED /* LongestPalindromicSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindromicSubstring.hpp; sourceTree = "<group>"; };
+		C4EB183B296964580069717E /* B096.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B096.cpp; sourceTree = "<group>"; };
+		C4EB183C296964580069717E /* B096.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = B096.hpp; sourceTree = "<group>"; };
 		C4F60ACE28352F10006B990F /* MaxPointsOnALine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxPointsOnALine.cpp; sourceTree = "<group>"; };
 		C4F60ACF28352F10006B990F /* MaxPointsOnALine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxPointsOnALine.hpp; sourceTree = "<group>"; };
 		C4F60AD128352FB9006B990F /* plane2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plane2.jpeg; sourceTree = "<group>"; };
@@ -1334,6 +1337,7 @@
 		C493919227FBE30900E2CF01 /* Paiza */ = {
 			isa = PBXGroup;
 			children = (
+				C4EB183A296964010069717E /* B096 */,
 				C4ABA5952801232300E64BA2 /* S039 */,
 				C4ABA5912800906800E64BA2 /* A057 */,
 				C493919827FBE86E00E2CF01 /* A052 */,
@@ -2882,6 +2886,15 @@
 			path = "5. Longest Palindromic Substring ";
 			sourceTree = "<group>";
 		};
+		C4EB183A296964010069717E /* B096 */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB183C296964580069717E /* B096.hpp */,
+				C4EB183B296964580069717E /* B096.cpp */,
+			);
+			path = B096;
+			sourceTree = "<group>";
+		};
 		C4F60ACD28352F00006B990F /* 149. Max Points on a Line  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3372,6 +3385,7 @@
 				C484BA8D28183FE300CF92BD /* PermutationsII.cpp in Sources */,
 				C484BAA3281ADD8E00CF92BD /* GenerateParentheses.cpp in Sources */,
 				C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */,
+				C4EB183D296964580069717E /* B096.cpp in Sources */,
 				C4A7075C283FC398007F1A43 /* KthMissingPositiveNumber.cpp in Sources */,
 				C4A62F3A284C78CA00F404D6 /* EvaluateReversePolishNotation.cpp in Sources */,
 				C489C5D527CD173D002A6D34 /* BinaryTreeInorderTraversal.cpp in Sources */,
