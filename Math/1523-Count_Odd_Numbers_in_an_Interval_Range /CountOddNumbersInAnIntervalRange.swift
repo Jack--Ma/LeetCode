@@ -18,8 +18,8 @@ import Foundation
  Explanation: The odd numbers between 3 and 7 are [3,5,7].
  */
 
-class Solution {
-    func countOdds(_ low: Int, _ high: Int) -> Int {
+extension Solution {
+    func CountOddNumbersInAnIntervalRange(_ low: Int, _ high: Int) -> Int {
         var result = 0
         let low_odd = low % 2, high_odd = high % 2
         switch (low_odd|high_odd) {

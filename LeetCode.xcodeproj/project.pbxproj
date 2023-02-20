@@ -179,6 +179,7 @@
 		C4F60AE2283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AE0283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp */; };
 		C4FC5ED729A384FA001CDED1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5ED629A384FA001CDED1 /* main.swift */; };
 		C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5ECE29A38410001CDED1 /* CountOddNumbersInAnIntervalRange.swift */; };
+		C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF229A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -629,6 +630,7 @@
 		C4FC5ECE29A38410001CDED1 /* CountOddNumbersInAnIntervalRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOddNumbersInAnIntervalRange.swift; sourceTree = "<group>"; };
 		C4FC5ED429A384FA001CDED1 /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FC5ED629A384FA001CDED1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C4FC5EF229A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AverageSalaryExcludingTheMinimumAndMaximumSalary .swift"; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -2103,6 +2105,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5EF129A3C395001CDED1 /* 1491. Average Salary Excluding the Minimum and Maximum Salary  */,
 				C4A62F502850F0FA00F404D6 /* 1886. Determine Whether Matrix Can Be Obtained By Rotation  */,
 				C4A62F48284E52AE00F404D6 /* 989. Add to Array-Form of Integer  */,
 				C4A62F3B284C819B00F404D6 /* 66. Plus One  */,
@@ -2992,6 +2995,14 @@
 			path = "LeetCode-Swift";
 			sourceTree = "<group>";
 		};
+		C4FC5EF129A3C395001CDED1 /* 1491. Average Salary Excluding the Minimum and Maximum Salary  */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5EF229A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift */,
+			);
+			path = "1491. Average Salary Excluding the Minimum and Maximum Salary ";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3496,6 +3507,7 @@
 			files = (
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
+				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
