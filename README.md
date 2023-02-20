@@ -13,4 +13,4 @@
 | 2022 5.19 | Finish Algorithm II (47 tasks) |
 | 2022 5.21 | Begin Binary Search I |
 | 2022 6.1 | Finish Binary Search I (23 tasks) |
-| 2022 6.3 | Programming Skills II |
+| 2023 2.20 | Begin Programming Skills I |

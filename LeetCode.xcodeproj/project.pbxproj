@@ -177,6 +177,8 @@
 		C4F60ADA28393581006B990F /* PeakIndexInAMountainArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AD828393581006B990F /* PeakIndexInAMountainArray.cpp */; };
 		C4F60ADE283A1302006B990F /* ValidPerfectSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60ADC283A1302006B990F /* ValidPerfectSquare.cpp */; };
 		C4F60AE2283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4F60AE0283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp */; };
+		C4FC5ED729A384FA001CDED1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5ED629A384FA001CDED1 /* main.swift */; };
+		C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5ECE29A38410001CDED1 /* CountOddNumbersInAnIntervalRange.swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -203,6 +205,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C42241D827BC5EF300E5B034 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C4FC5ED229A384FA001CDED1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -614,6 +625,10 @@
 		C4F60AE0283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheDistanceValueBetweenTwoArrays.cpp; sourceTree = "<group>"; };
 		C4F60AE1283BDDC5006B990F /* FindTheDistanceValueBetweenTwoArrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheDistanceValueBetweenTwoArrays.hpp; sourceTree = "<group>"; };
 		C4FC33C41D52C115001B5F2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4FC5ECD29A38410001CDED1 /* LeetCode-main-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeetCode-main-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4FC5ECE29A38410001CDED1 /* CountOddNumbersInAnIntervalRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOddNumbersInAnIntervalRange.swift; sourceTree = "<group>"; };
+		C4FC5ED429A384FA001CDED1 /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FC5ED629A384FA001CDED1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -662,6 +677,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		C42241D727BC5EF300E5B034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FC5ED129A384FA001CDED1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -729,6 +751,7 @@
 			isa = PBXGroup;
 			children = (
 				C4D85DD51D43D0B50092E613 /* README.md */,
+				C4FC5ED529A384FA001CDED1 /* LeetCode-Swift */,
 				C42241DB27BC5EF300E5B034 /* LeetCode-main */,
 				C4A511F127CC51A10004D026 /* Library */,
 				C493918D27FB4A7700E2CF01 /* Algorithm */,
@@ -750,6 +773,7 @@
 			isa = PBXGroup;
 			children = (
 				C42241DA27BC5EF300E5B034 /* LeetCode-main */,
+				C4FC5ED429A384FA001CDED1 /* LeetCode-Swift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -840,6 +864,7 @@
 			children = (
 				C42241DC27BC5EF300E5B034 /* main.cpp */,
 				C42241E427BC601F00E5B034 /* PrefixHeader.pch */,
+				C4FC5ECD29A38410001CDED1 /* LeetCode-main-Bridging-Header.h */,
 			);
 			path = "LeetCode-main";
 			sourceTree = "<group>";
@@ -2131,6 +2156,7 @@
 		C4A9455727D3AEB400E452DC /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5EC929A380EB001CDED1 /* 1523-Count_Odd_Numbers_in_an_Interval_Range  */,
 				C4B643DC1D9260AC00056FEC /* 7-Reverse_Integer */,
 				C4B643E81D9279D800056FEC /* 8-String_to_Integer */,
 				C45620F11D94C50D008F81B9 /* 9-Palindrome_Number */,
@@ -2950,6 +2976,22 @@
 			path = "36-Valid_Sudoku";
 			sourceTree = "<group>";
 		};
+		C4FC5EC929A380EB001CDED1 /* 1523-Count_Odd_Numbers_in_an_Interval_Range  */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5ECE29A38410001CDED1 /* CountOddNumbersInAnIntervalRange.swift */,
+			);
+			path = "1523-Count_Odd_Numbers_in_an_Interval_Range ";
+			sourceTree = "<group>";
+		};
+		C4FC5ED529A384FA001CDED1 /* LeetCode-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5ED629A384FA001CDED1 /* main.swift */,
+			);
+			path = "LeetCode-Swift";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3189,17 +3231,41 @@
 			productReference = C42241DA27BC5EF300E5B034 /* LeetCode-main */;
 			productType = "com.apple.product-type.tool";
 		};
+		C4FC5ED329A384FA001CDED1 /* LeetCode-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FC5ED829A384FA001CDED1 /* Build configuration list for PBXNativeTarget "LeetCode-Swift" */;
+			buildPhases = (
+				C4FC5ED029A384FA001CDED1 /* Sources */,
+				C4FC5ED129A384FA001CDED1 /* Frameworks */,
+				C4FC5ED229A384FA001CDED1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetCode-Swift";
+			productName = "LeetCode-Swift";
+			productReference = C4FC5ED429A384FA001CDED1 /* LeetCode-Swift */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C4130D931D40AA9600AB673F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = JackMa;
 				TargetAttributes = {
 					C42241D927BC5EF300E5B034 = {
 						CreatedOnToolsVersion = 12.5.1;
+						DevelopmentTeam = 2658KK4JZ7;
+						LastSwiftMigration = 1420;
+						ProvisioningStyle = Automatic;
+					};
+					C4FC5ED329A384FA001CDED1 = {
+						CreatedOnToolsVersion = 14.2;
 						DevelopmentTeam = 2658KK4JZ7;
 						ProvisioningStyle = Automatic;
 					};
@@ -3219,6 +3285,7 @@
 			projectRoot = "";
 			targets = (
 				C42241D927BC5EF300E5B034 /* LeetCode-main */,
+				C4FC5ED329A384FA001CDED1 /* LeetCode-Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -3423,6 +3490,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4FC5ED029A384FA001CDED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
+				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -3516,6 +3592,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
@@ -3534,10 +3611,14 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LeetCode-main/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Math/1523-Count_Odd_Numbers_in_an_Interval_Range /LeetCode-main-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3546,6 +3627,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
@@ -3564,9 +3646,72 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LeetCode-main/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Math/1523-Count_Odd_Numbers_in_an_Interval_Range /LeetCode-main-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C4FC5ED929A384FA001CDED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2658KK4JZ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C4FC5EDA29A384FA001CDED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2658KK4JZ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3587,6 +3732,15 @@
 			buildConfigurations = (
 				C42241DF27BC5EF300E5B034 /* Debug */,
 				C42241E027BC5EF300E5B034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FC5ED829A384FA001CDED1 /* Build configuration list for PBXNativeTarget "LeetCode-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FC5ED929A384FA001CDED1 /* Debug */,
+				C4FC5EDA29A384FA001CDED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
