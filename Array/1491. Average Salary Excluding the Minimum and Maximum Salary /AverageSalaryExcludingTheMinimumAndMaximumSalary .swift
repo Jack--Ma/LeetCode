@@ -9,7 +9,7 @@
 import Foundation
 
 /**
- https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/?envType=study-plan&id=programming-skills-i
+ https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary
  
  You are given an array of unique integers salary where salary[i] is the salary of the ith employee.
 
