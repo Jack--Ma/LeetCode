@@ -181,6 +181,7 @@
 		C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5ECE29A38410001CDED1 /* CountOddNumbersInAnIntervalRange.swift */; };
 		C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF229A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift */; };
 		C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF429A497EC001CDED1 /* NumberOf1Bits.swift */; };
+		C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -633,6 +634,7 @@
 		C4FC5ED629A384FA001CDED1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C4FC5EF229A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AverageSalaryExcludingTheMinimumAndMaximumSalary .swift"; sourceTree = "<group>"; };
 		C4FC5EF429A497EC001CDED1 /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
+		C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubtractTheProductAndSumOfDigitsOfAnInteger .swift"; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -2162,6 +2164,7 @@
 		C4A9455727D3AEB400E452DC /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5EF629A4A264001CDED1 /* 1281. Subtract the Product and Sum of Digits of an Integer  */,
 				C4FC5EC929A380EB001CDED1 /* 1523-Count_Odd_Numbers_in_an_Interval_Range  */,
 				C4B643DC1D9260AC00056FEC /* 7-Reverse_Integer */,
 				C4B643E81D9279D800056FEC /* 8-String_to_Integer */,
@@ -3006,6 +3009,14 @@
 			path = "1491. Average Salary Excluding the Minimum and Maximum Salary ";
 			sourceTree = "<group>";
 		};
+		C4FC5EF629A4A264001CDED1 /* 1281. Subtract the Product and Sum of Digits of an Integer  */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */,
+			);
+			path = "1281. Subtract the Product and Sum of Digits of an Integer ";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3509,6 +3520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
+				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,

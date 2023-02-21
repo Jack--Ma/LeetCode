@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.NumberOf1Bits(0))
+    print(solution.SubtractTheProductAndSumOfDigitsOfAnInteger(100000))
 }
 
 testSolution()
