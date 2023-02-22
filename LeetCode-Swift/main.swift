@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.SubtractTheProductAndSumOfDigitsOfAnInteger(100000))
+    print(solution.LargestPerimeterTriangle([3,2,3,4]))
 }
 
 testSolution()
