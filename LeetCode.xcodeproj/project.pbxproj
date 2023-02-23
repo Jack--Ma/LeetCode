@@ -183,6 +183,7 @@
 		C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF429A497EC001CDED1 /* NumberOf1Bits.swift */; };
 		C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */; };
 		C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EFA29A4B509001CDED1 /* LargestPerimeterTriangle .swift */; };
+		C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -637,6 +638,7 @@
 		C4FC5EF429A497EC001CDED1 /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
 		C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubtractTheProductAndSumOfDigitsOfAnInteger .swift"; sourceTree = "<group>"; };
 		C4FC5EFA29A4B509001CDED1 /* LargestPerimeterTriangle .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LargestPerimeterTriangle .swift"; sourceTree = "<group>"; };
+		C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearestPointThatHasTheSameXOrYCoordinate.swift; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -2112,6 +2114,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5EFC29A6656D001CDED1 /* 1779. Find Nearest Point That Has the Same X or Y Coordinate */,
 				C4FC5EF129A3C395001CDED1 /* 1491. Average Salary Excluding the Minimum and Maximum Salary  */,
 				C4A62F502850F0FA00F404D6 /* 1886. Determine Whether Matrix Can Be Obtained By Rotation  */,
 				C4A62F48284E52AE00F404D6 /* 989. Add to Array-Form of Integer  */,
@@ -3028,6 +3031,14 @@
 			path = "976. Largest Perimeter Triangle ";
 			sourceTree = "<group>";
 		};
+		C4FC5EFC29A6656D001CDED1 /* 1779. Find Nearest Point That Has the Same X or Y Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */,
+			);
+			path = "1779. Find Nearest Point That Has the Same X or Y Coordinate";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3533,6 +3544,7 @@
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
+				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,

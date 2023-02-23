@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.LargestPerimeterTriangle([3,2,3,4]))
+    print(solution.FindNearestPointThatHasTheSameXOrYCoordinate(3, 4, [[1,2],[3,1],[2,4],[2,3],[4,4]]))
 }
 
 testSolution()
