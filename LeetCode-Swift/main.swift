@@ -14,7 +14,8 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.FindNearestPointThatHasTheSameXOrYCoordinate(3, 4, [[1,2],[3,1],[2,4],[2,3],[4,4]]))
+    print(solution.SignOfTheProductOfAnArray([9,72,34,29,-49,-22,-77,-17,-66,-75,-44,-30,-24]
+))
 }
 
 testSolution()

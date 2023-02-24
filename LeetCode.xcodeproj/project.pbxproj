@@ -184,6 +184,7 @@
 		C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */; };
 		C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EFA29A4B509001CDED1 /* LargestPerimeterTriangle .swift */; };
 		C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */; };
+		C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -639,6 +640,7 @@
 		C4FC5EF729A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubtractTheProductAndSumOfDigitsOfAnInteger .swift"; sourceTree = "<group>"; };
 		C4FC5EFA29A4B509001CDED1 /* LargestPerimeterTriangle .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LargestPerimeterTriangle .swift"; sourceTree = "<group>"; };
 		C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearestPointThatHasTheSameXOrYCoordinate.swift; sourceTree = "<group>"; };
+		C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignOfTheProductOfAnArray .swift"; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -2169,6 +2171,7 @@
 		C4A9455727D3AEB400E452DC /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5EFF29A900C1001CDED1 /* 1822. Sign of the Product of an Array  */,
 				C4FC5EF929A4B4FC001CDED1 /* 976. Largest Perimeter Triangle  */,
 				C4FC5EF629A4A264001CDED1 /* 1281. Subtract the Product and Sum of Digits of an Integer  */,
 				C4FC5EC929A380EB001CDED1 /* 1523-Count_Odd_Numbers_in_an_Interval_Range  */,
@@ -3039,6 +3042,14 @@
 			path = "1779. Find Nearest Point That Has the Same X or Y Coordinate";
 			sourceTree = "<group>";
 		};
+		C4FC5EFF29A900C1001CDED1 /* 1822. Sign of the Product of an Array  */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */,
+			);
+			path = "1822. Sign of the Product of an Array ";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3545,6 +3556,7 @@
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
 				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
+				C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
