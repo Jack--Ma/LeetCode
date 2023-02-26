@@ -14,8 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.CanMakeArithmeticProgressionFromSequence([3,5,1,7,-1]
-))
+    print(solution.HappyNumber(23))
 }
 
 testSolution()

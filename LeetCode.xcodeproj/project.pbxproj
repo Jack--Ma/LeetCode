@@ -186,6 +186,7 @@
 		C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */; };
 		C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */; };
 		C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0329AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift */; };
+		C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -643,6 +644,7 @@
 		C4FC5EFD29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearestPointThatHasTheSameXOrYCoordinate.swift; sourceTree = "<group>"; };
 		C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignOfTheProductOfAnArray .swift"; sourceTree = "<group>"; };
 		C4FC5F0329AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanMakeArithmeticProgressionFromSequence .swift"; sourceTree = "<group>"; };
+		C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyNumber .swift"; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -2820,6 +2822,7 @@
 			children = (
 				C4D97F1C2833E18400D889A0 /* HappyNumber.hpp */,
 				C4D97F1B2833E18400D889A0 /* HappyNumber.cpp */,
+				C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */,
 			);
 			path = "202. Happy Number ";
 			sourceTree = "<group>";
@@ -3563,6 +3566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */,
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
