@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.SignOfTheProductOfAnArray([9,72,34,29,-49,-22,-77,-17,-66,-75,-44,-30,-24]
+    print(solution.CanMakeArithmeticProgressionFromSequence([3,5,1,7,-1]
 ))
 }
 
