@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.HappyNumber(23))
+    print(solution.CheckIfOneStringSwapCanMakeStringsEqual("aa", "ac"))
 }
 
 testSolution()

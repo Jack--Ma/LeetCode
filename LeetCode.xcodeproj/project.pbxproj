@@ -187,6 +187,7 @@
 		C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */; };
 		C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0329AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift */; };
 		C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */; };
+		C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0829AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -645,6 +646,7 @@
 		C4FC5F0029A900D5001CDED1 /* SignOfTheProductOfAnArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignOfTheProductOfAnArray .swift"; sourceTree = "<group>"; };
 		C4FC5F0329AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanMakeArithmeticProgressionFromSequence .swift"; sourceTree = "<group>"; };
 		C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyNumber .swift"; sourceTree = "<group>"; };
+		C4FC5F0829AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckIfOneStringSwapCanMakeStringsEqual .swift"; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -2029,6 +2031,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5F0729AD0957001CDED1 /* 1790. Check if One String Swap Can Make Strings Equal  */,
 				C4A62F4C284FAD2900F404D6 /* 58. Length of Last Word */,
 				C4A62F33284B443300F404D6 /* 459. Repeated Substring Pattern  */,
 				C4E610FD27E0F8DF00B56DED /* 5. Longest Palindromic Substring  */,
@@ -3064,6 +3067,14 @@
 			path = "1502. Can Make Arithmetic Progression From Sequence 1502. Can Make Arithmetic Progression From Sequence ";
 			sourceTree = "<group>";
 		};
+		C4FC5F0729AD0957001CDED1 /* 1790. Check if One String Swap Can Make Strings Equal  */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5F0829AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift */,
+			);
+			path = "1790. Check if One String Swap Can Make Strings Equal ";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3574,6 +3585,7 @@
 				C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
+				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
 			);
