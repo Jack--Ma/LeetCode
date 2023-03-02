@@ -188,6 +188,8 @@
 		C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0329AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift */; };
 		C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */; };
 		C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0829AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift */; };
+		C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0B29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift */; };
+		C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC5F0D29AE5B9D001CDED1 /* Node.swift */; };
 		CB15A52B27C730A900B4AFA1 /* RansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15A52927C730A900B4AFA1 /* RansomNote.cpp */; };
 		CB15B67727C7A94B00B4AFA1 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */; };
 		CB15B67E27C7B2FC00B4AFA1 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB15B67C27C7B2FB00B4AFA1 /* LinkedListCycle.cpp */; };
@@ -647,6 +649,9 @@
 		C4FC5F0329AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanMakeArithmeticProgressionFromSequence .swift"; sourceTree = "<group>"; };
 		C4FC5F0529ABAF09001CDED1 /* HappyNumber .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyNumber .swift"; sourceTree = "<group>"; };
 		C4FC5F0829AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckIfOneStringSwapCanMakeStringsEqual .swift"; sourceTree = "<group>"; };
+		C4FC5F0B29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-aryTreePreorderTraversal .swift"; sourceTree = "<group>"; };
+		C4FC5F0D29AE5B9D001CDED1 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C4FC5F0F29AFB7EA001CDED1 /* sample_4_964.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_4_964.png; sourceTree = "<group>"; };
 		CB15A52927C730A900B4AFA1 /* RansomNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansomNote.cpp; sourceTree = "<group>"; };
 		CB15A52A27C730A900B4AFA1 /* RansomNote.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RansomNote.hpp; sourceTree = "<group>"; };
 		CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidAnagram.cpp; sourceTree = "<group>"; };
@@ -1730,6 +1735,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC5F0A29AE5B5B001CDED1 /* 589. N-ary Tree Preorder Traversal  */,
 				C4E3857627F014FE0024DDFF /* 297. Serialize and Deserialize Binary Tree  */,
 				C4E3857227EF2BF30024DDFF /* 236. Lowest Common Ancestor of a Binary Tree  */,
 				C4E3856E27EEBBC90024DDFF /* 173. Binary Search Tree Iterator  */,
@@ -1778,6 +1784,8 @@
 				CB61B0F42805A71800E5E737 /* Node.cpp */,
 				C4A9456A27D586F100E452DC /* Helper.hpp */,
 				C4A9456927D586F100E452DC /* Helper.cpp */,
+				C4FC5F0D29AE5B9D001CDED1 /* Node.swift */,
+				C4FC5F0F29AFB7EA001CDED1 /* sample_4_964.png */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -3075,6 +3083,14 @@
 			path = "1790. Check if One String Swap Can Make Strings Equal ";
 			sourceTree = "<group>";
 		};
+		C4FC5F0A29AE5B5B001CDED1 /* 589. N-ary Tree Preorder Traversal  */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC5F0B29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift */,
+			);
+			path = "589. N-ary Tree Preorder Traversal ";
+			sourceTree = "<group>";
+		};
 		CB15A52827C7309300B4AFA1 /* 383. Ransom Note  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3582,11 +3598,13 @@
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
 				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
+				C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */,
 				C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,
+				C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
