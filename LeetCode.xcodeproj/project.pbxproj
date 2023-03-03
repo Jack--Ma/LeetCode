@@ -156,6 +156,7 @@
 		C4C9D36327E8B2E9007067BB /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36127E8B2E9007067BB /* MinStack.cpp */; };
 		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */; };
+		C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D4E29B08B5800ECEF6B /* CheckIfItIsAStraightLine .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -586,6 +587,7 @@
 		C4C9D36627E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumRemoveToMakeValidParentheses.hpp; sourceTree = "<group>"; };
 		C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheWinnerOfTheCircularGame.cpp; sourceTree = "<group>"; };
 		C4C9D36A27E9A817007067BB /* FindTheWinnerOfTheCircularGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheWinnerOfTheCircularGame.hpp; sourceTree = "<group>"; };
+		C4CA0D4E29B08B5800ECEF6B /* CheckIfItIsAStraightLine .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckIfItIsAStraightLine .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2186,6 +2188,7 @@
 		C4A9455727D3AEB400E452DC /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0D4D29B08B4A00ECEF6B /* 1232. Check If It Is a Straight Line  */,
 				C4FC5F0229AA5C6A001CDED1 /* 1502. Can Make Arithmetic Progression From Sequence 1502. Can Make Arithmetic Progression From Sequence  */,
 				C4FC5EFF29A900C1001CDED1 /* 1822. Sign of the Product of an Array  */,
 				C4FC5EF929A4B4FC001CDED1 /* 976. Largest Perimeter Triangle  */,
@@ -2757,6 +2760,14 @@
 				C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */,
 			);
 			path = "1823. Find the Winner of the Circular Game ";
+			sourceTree = "<group>";
+		};
+		C4CA0D4D29B08B4A00ECEF6B /* 1232. Check If It Is a Straight Line  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D4E29B08B5800ECEF6B /* CheckIfItIsAStraightLine .swift */,
+			);
+			path = "1232. Check If It Is a Straight Line ";
 			sourceTree = "<group>";
 		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
@@ -3596,6 +3607,7 @@
 				C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */,
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
+				C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
 				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
 				C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */,
