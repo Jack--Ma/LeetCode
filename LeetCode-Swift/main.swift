@@ -14,7 +14,9 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.SumOfAllOddLengthSubarrays([1,4,2,5,3]))
+    var nums = [1,0]
+    print(solution.MoveZeroes(&nums))
+    print(nums)
 }
 
 testSolution()
