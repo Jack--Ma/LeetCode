@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.CheckIfItIsAStraightLine([[1,2],[2,3],[3,5]]))
+    print(solution.SumOfAllOddLengthSubarrays([1,4,2,5,3]))
 }
 
 testSolution()

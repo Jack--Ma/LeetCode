@@ -157,6 +157,7 @@
 		C4C9D36727E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36527E8DC71007067BB /* MinimumRemoveToMakeValidParentheses.cpp */; };
 		C4C9D36B27E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */; };
 		C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D4E29B08B5800ECEF6B /* CheckIfItIsAStraightLine .swift */; };
+		C4CA0D5429B24F4800ECEF6B /* SumOfAllOddLengthSubarrays .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5229B24F4200ECEF6B /* SumOfAllOddLengthSubarrays .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -588,6 +589,7 @@
 		C4C9D36927E9A817007067BB /* FindTheWinnerOfTheCircularGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheWinnerOfTheCircularGame.cpp; sourceTree = "<group>"; };
 		C4C9D36A27E9A817007067BB /* FindTheWinnerOfTheCircularGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindTheWinnerOfTheCircularGame.hpp; sourceTree = "<group>"; };
 		C4CA0D4E29B08B5800ECEF6B /* CheckIfItIsAStraightLine .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckIfItIsAStraightLine .swift"; sourceTree = "<group>"; };
+		C4CA0D5229B24F4200ECEF6B /* SumOfAllOddLengthSubarrays .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SumOfAllOddLengthSubarrays .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2133,6 +2135,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0D5129B24F3600ECEF6B /* 1588. Sum of All Odd Length Subarrays  */,
 				C4FC5EFC29A6656D001CDED1 /* 1779. Find Nearest Point That Has the Same X or Y Coordinate */,
 				C4FC5EF129A3C395001CDED1 /* 1491. Average Salary Excluding the Minimum and Maximum Salary  */,
 				C4A62F502850F0FA00F404D6 /* 1886. Determine Whether Matrix Can Be Obtained By Rotation  */,
@@ -2768,6 +2771,14 @@
 				C4CA0D4E29B08B5800ECEF6B /* CheckIfItIsAStraightLine .swift */,
 			);
 			path = "1232. Check If It Is a Straight Line ";
+			sourceTree = "<group>";
+		};
+		C4CA0D5129B24F3600ECEF6B /* 1588. Sum of All Odd Length Subarrays  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D5229B24F4200ECEF6B /* SumOfAllOddLengthSubarrays .swift */,
+			);
+			path = "1588. Sum of All Odd Length Subarrays ";
 			sourceTree = "<group>";
 		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
@@ -3617,6 +3628,7 @@
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,
 				C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */,
+				C4CA0D5429B24F4800ECEF6B /* SumOfAllOddLengthSubarrays .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
