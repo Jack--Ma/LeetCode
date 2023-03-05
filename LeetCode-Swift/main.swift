@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.NextGreaterElementI([4,1,2], [1,3,2,4]))
+    print(solution.RichestCustomerWealth([[2,8,7],[7,1,3],[1,9,5]]))
 }
 
 testSolution()
