@@ -14,9 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    var nums = [1,0]
-    print(solution.MoveZeroes(&nums))
-    print(nums)
+    print(solution.NextGreaterElementI([4,1,2], [1,3,2,4]))
 }
 
 testSolution()
