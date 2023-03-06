@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.ReshapeTheMatrix([[1,2],[3,4]], 4, 1))
+    print(solution.MergeStringsAlternately("ab", "cdef"))
 }
 
 testSolution()
