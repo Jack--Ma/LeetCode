@@ -162,6 +162,7 @@
 		C4CA0D5929B3A83100ECEF6B /* NextGreaterElementI .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5829B3A83100ECEF6B /* NextGreaterElementI .swift */; };
 		C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5B29B4EAE700ECEF6B /* RichestCustomerWealth .swift */; };
 		C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5E29B4F20C00ECEF6B /* MatrixDiagonalSum .swift */; };
+		C4CA0D6129B5DF2200ECEF6B /* ReshapeTheMatrix .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D6029B5DF2200ECEF6B /* ReshapeTheMatrix .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -598,6 +599,7 @@
 		C4CA0D5829B3A83100ECEF6B /* NextGreaterElementI .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NextGreaterElementI .swift"; sourceTree = "<group>"; };
 		C4CA0D5B29B4EAE700ECEF6B /* RichestCustomerWealth .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RichestCustomerWealth .swift"; sourceTree = "<group>"; };
 		C4CA0D5E29B4F20C00ECEF6B /* MatrixDiagonalSum .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatrixDiagonalSum .swift"; sourceTree = "<group>"; };
+		C4CA0D6029B5DF2200ECEF6B /* ReshapeTheMatrix .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReshapeTheMatrix .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2018,6 +2020,7 @@
 			children = (
 				C4A8858F27C13E6600EC168C /* ReshapeTheMatrix.hpp */,
 				C4A8858E27C13E6600EC168C /* ReshapeTheMatrix.cpp */,
+				C4CA0D6029B5DF2200ECEF6B /* ReshapeTheMatrix .swift */,
 			);
 			path = "566. Reshape the Matrix ";
 			sourceTree = "<group>";
@@ -3651,6 +3654,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CA0D6129B5DF2200ECEF6B /* ReshapeTheMatrix .swift in Sources */,
 				C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */,
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */,
