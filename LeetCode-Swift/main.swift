@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.RichestCustomerWealth([[2,8,7],[7,1,3],[1,9,5]]))
+    print(solution.MatrixDiagonalSum([[1]]))
 }
 
 testSolution()

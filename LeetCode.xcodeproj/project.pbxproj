@@ -161,6 +161,7 @@
 		C4CA0D5629B2E26D00ECEF6B /* MoveZeroes .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5529B2E26D00ECEF6B /* MoveZeroes .swift */; };
 		C4CA0D5929B3A83100ECEF6B /* NextGreaterElementI .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5829B3A83100ECEF6B /* NextGreaterElementI .swift */; };
 		C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5B29B4EAE700ECEF6B /* RichestCustomerWealth .swift */; };
+		C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D5E29B4F20C00ECEF6B /* MatrixDiagonalSum .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -596,6 +597,7 @@
 		C4CA0D5529B2E26D00ECEF6B /* MoveZeroes .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoveZeroes .swift"; sourceTree = "<group>"; };
 		C4CA0D5829B3A83100ECEF6B /* NextGreaterElementI .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NextGreaterElementI .swift"; sourceTree = "<group>"; };
 		C4CA0D5B29B4EAE700ECEF6B /* RichestCustomerWealth .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RichestCustomerWealth .swift"; sourceTree = "<group>"; };
+		C4CA0D5E29B4F20C00ECEF6B /* MatrixDiagonalSum .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatrixDiagonalSum .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2142,6 +2144,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0D5D29B4F20200ECEF6B /* 1572. Matrix Diagonal Sum  */,
 				C4CA0D5A29B4EADC00ECEF6B /* 1672. Richest Customer Wealth  */,
 				C4CA0D5129B24F3600ECEF6B /* 1588. Sum of All Odd Length Subarrays  */,
 				C4FC5EFC29A6656D001CDED1 /* 1779. Find Nearest Point That Has the Same X or Y Coordinate */,
@@ -2804,6 +2807,14 @@
 				C4CA0D5B29B4EAE700ECEF6B /* RichestCustomerWealth .swift */,
 			);
 			path = "1672. Richest Customer Wealth ";
+			sourceTree = "<group>";
+		};
+		C4CA0D5D29B4F20200ECEF6B /* 1572. Matrix Diagonal Sum  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D5E29B4F20C00ECEF6B /* MatrixDiagonalSum .swift */,
+			);
+			path = "1572. Matrix Diagonal Sum ";
 			sourceTree = "<group>";
 		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
@@ -3650,6 +3661,7 @@
 				C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */,
 				C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
+				C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4CA0D5929B3A83100ECEF6B /* NextGreaterElementI .swift in Sources */,
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
