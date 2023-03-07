@@ -165,6 +165,7 @@
 		C4CA0D6129B5DF2200ECEF6B /* ReshapeTheMatrix .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D6029B5DF2200ECEF6B /* ReshapeTheMatrix .swift */; };
 		C4CA0D6429B63D5F00ECEF6B /* MergeStringsAlternately .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D6329B63D5F00ECEF6B /* MergeStringsAlternately .swift */; };
 		C4CA0D6729B6460D00ECEF6B /* GoalParserInterpretation .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D6629B6460D00ECEF6B /* GoalParserInterpretation .swift */; };
+		C4CA0D6A29B7094B00ECEF6B /* FindTheDifference .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D6929B7094B00ECEF6B /* FindTheDifference .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -604,6 +605,7 @@
 		C4CA0D6029B5DF2200ECEF6B /* ReshapeTheMatrix .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReshapeTheMatrix .swift"; sourceTree = "<group>"; };
 		C4CA0D6329B63D5F00ECEF6B /* MergeStringsAlternately .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MergeStringsAlternately .swift"; sourceTree = "<group>"; };
 		C4CA0D6629B6460D00ECEF6B /* GoalParserInterpretation .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoalParserInterpretation .swift"; sourceTree = "<group>"; };
+		C4CA0D6929B7094B00ECEF6B /* FindTheDifference .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindTheDifference .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -1505,6 +1507,7 @@
 		C49BE770280C2F11008ACB59 /* Bit Manipulation */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0D6829B7094000ECEF6B /* 389. Find the Difference  */,
 				C4A62F44284D111500F404D6 /* 67. Add Binary  */,
 				C4AC722E28314D9C006412A7 /* 201. Bitwise AND of Numbers Range  */,
 				C49BE779280C46A3008ACB59 /* 190. Reverse Bits  */,
@@ -2842,6 +2845,14 @@
 			path = "1678. Goal Parser Interpretation ";
 			sourceTree = "<group>";
 		};
+		C4CA0D6829B7094000ECEF6B /* 389. Find the Difference  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D6929B7094B00ECEF6B /* FindTheDifference .swift */,
+			);
+			path = "389. Find the Difference ";
+			sourceTree = "<group>";
+		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3688,6 +3699,7 @@
 				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
 				C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */,
 				C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */,
+				C4CA0D6A29B7094B00ECEF6B /* FindTheDifference .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
 				C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,

@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.GoalParserInterpretation("GGGGGGG"))
+    print(solution.FindTheDifference("a", "aa"))
 }
 
 testSolution()
