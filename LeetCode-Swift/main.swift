@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.ToLowerCase("Hello"))
+    print(solution.DecryptStringFromAlphabetToIntegerMapping("1326#"))
 }
 
 testSolution()
