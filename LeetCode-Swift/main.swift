@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.FindTheDifference("a", "aa"))
+    print(solution.ToLowerCase("Hello"))
 }
 
 testSolution()
