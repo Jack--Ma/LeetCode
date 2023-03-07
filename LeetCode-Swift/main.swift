@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.MergeStringsAlternately("ab", "cdef"))
+    print(solution.GoalParserInterpretation("GGGGGGG"))
 }
 
 testSolution()
