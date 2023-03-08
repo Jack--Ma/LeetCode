@@ -14,7 +14,7 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.DecryptStringFromAlphabetToIntegerMapping("1326#"))
+    print(solution.VerifyingAnAlienDictionary(["hello","leetcode"], "hlabcdefgijkmnopqrstuvwxyz"))
 }
 
 testSolution()
