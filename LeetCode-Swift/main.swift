@@ -14,7 +14,8 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    print(solution.VerifyingAnAlienDictionary(["hello","leetcode"], "hlabcdefgijkmnopqrstuvwxyz"))
+    let node = ListNode.buildListNode([0])
+    print(solution.ConvertBinaryNumberInALinkedListToInteger(node))
 }
 
 testSolution()
