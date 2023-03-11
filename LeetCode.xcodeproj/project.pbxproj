@@ -172,6 +172,8 @@
 		C4CA0D7629B8BD3800ECEF6B /* ConvertBinaryNumberInALinkedListToInteger .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D7529B8BD3800ECEF6B /* ConvertBinaryNumberInALinkedListToInteger .swift */; };
 		C4CA0D7829B8DE6700ECEF6B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D7729B8DE6700ECEF6B /* ListNode.swift */; };
 		C4CA0D7B29B8E47100ECEF6B /* MiddleOfTheLinkedList .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D7A29B8E47100ECEF6B /* MiddleOfTheLinkedList .swift */; };
+		C4CA0D7D29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D7C29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift */; };
+		C4CA0D7F29BC401900ECEF6B /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D7E29BC401900ECEF6B /* TreeNode.swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -618,6 +620,9 @@
 		C4CA0D7529B8BD3800ECEF6B /* ConvertBinaryNumberInALinkedListToInteger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConvertBinaryNumberInALinkedListToInteger .swift"; sourceTree = "<group>"; };
 		C4CA0D7729B8DE6700ECEF6B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		C4CA0D7A29B8E47100ECEF6B /* MiddleOfTheLinkedList .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiddleOfTheLinkedList .swift"; sourceTree = "<group>"; };
+		C4CA0D7C29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
+		C4CA0D7E29BC401900ECEF6B /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		C4CA0D8029BC424E00ECEF6B /* TreeNode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TreeNode.jpg; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -1305,6 +1310,7 @@
 			children = (
 				C489C5DC27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.hpp */,
 				C489C5DB27CEF8C3002A6D34 /* MaximumDepthOfBinaryTree.cpp */,
+				C4CA0D7C29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift */,
 			);
 			path = "104. Maximum Depth of Binary Tree ";
 			sourceTree = "<group>";
@@ -1818,9 +1824,11 @@
 				CB61B0F42805A71800E5E737 /* Node.cpp */,
 				C4A9456A27D586F100E452DC /* Helper.hpp */,
 				C4A9456927D586F100E452DC /* Helper.cpp */,
-				C4FC5F0D29AE5B9D001CDED1 /* Node.swift */,
 				C4CA0D7729B8DE6700ECEF6B /* ListNode.swift */,
+				C4CA0D7E29BC401900ECEF6B /* TreeNode.swift */,
+				C4FC5F0D29AE5B9D001CDED1 /* Node.swift */,
 				C4FC5F0F29AFB7EA001CDED1 /* sample_4_964.png */,
+				C4CA0D8029BC424E00ECEF6B /* TreeNode.jpg */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -3745,6 +3753,7 @@
 				C4CA0D6D29B7110500ECEF6B /* ToLowerCase .swift in Sources */,
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
 				C4CA0D7829B8DE6700ECEF6B /* ListNode.swift in Sources */,
+				C4CA0D7D29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift in Sources */,
 				C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
 				C4CA0D6429B63D5F00ECEF6B /* MergeStringsAlternately .swift in Sources */,
@@ -3760,6 +3769,7 @@
 				C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4CA0D5929B3A83100ECEF6B /* NextGreaterElementI .swift in Sources */,
+				C4CA0D7F29BC401900ECEF6B /* TreeNode.swift in Sources */,
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
 				C4CA0D5629B2E26D00ECEF6B /* MoveZeroes .swift in Sources */,
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,

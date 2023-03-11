@@ -14,8 +14,9 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    let node = ListNode.buildListNode([1,2,3,4,5])
-    solution.MiddleOfTheLinkedList(node)?.printListNode()
+//    let node = ListNode.buildListNode([1,2,3,4,5])
+    let treeNode = TreeNode.buildTree([1,2,3,TreeNode.Null,TreeNode.Null,4,5])
+    print(solution.MaximumDepthOfBinaryTree(treeNode))
 }
 
 testSolution()
