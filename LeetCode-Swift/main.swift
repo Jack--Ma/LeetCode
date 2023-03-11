@@ -14,8 +14,8 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-    let node = ListNode.buildListNode([0])
-    print(solution.ConvertBinaryNumberInALinkedListToInteger(node))
+    let node = ListNode.buildListNode([1,2,3,4,5])
+    solution.MiddleOfTheLinkedList(node)?.printListNode()
 }
 
 testSolution()

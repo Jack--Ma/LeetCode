@@ -32,7 +32,7 @@ extension ListNode {
     /// - Parameter nums: nums
     /// - Returns: list head
     static func buildListNode(_ nums: [Int]) -> ListNode? {
-        var root = ListNode()
+        let root = ListNode()
         
         var curr = root
         for num in nums {
@@ -46,4 +46,12 @@ extension ListNode {
         return root.next
     }
     
+    func printListNode() {
+        var curr: Optional = self
+        while let _curr = curr {
+            print("\(_curr.val) ", terminator: "")
+            curr = _curr.next
+        }
+        print("")
+    }
 }
