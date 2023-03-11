@@ -57,6 +57,13 @@ extension TreeNode {
         return max(leftDepth, rightDepth)
     }
     
+    func isLeafNode() -> Bool {
+        if self.left != nil || self.right != nil {
+            return false
+        }
+        return true
+    }
+    
     func printTree() {
         
     }
