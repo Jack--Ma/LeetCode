@@ -16,7 +16,7 @@ func testSolution() {
     let solution = Solution()
 //    let node = ListNode.buildListNode([1,2,3,4,5])
 //    let treeNode = TreeNode.buildTree([1,2,3,TreeNode.Null,TreeNode.Null,4,5])
-    print(solution.SortIntegersByTheNumberOf1Bits([1024,512,256,128,64,32,16,8,4,2,1]))
+    print(solution.ValidAnagram("anagram", "nagaram"))
 }
 
 testSolution()

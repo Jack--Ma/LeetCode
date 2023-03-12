@@ -177,6 +177,7 @@
 		C4CA0D8529BC4F0500ECEF6B /* SumOfLeftLeaves .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8429BC4F0500ECEF6B /* SumOfLeftLeaves .swift */; };
 		C4CA0D8929BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8829BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift */; };
 		C4CA0D8B29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8A29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift */; };
+		C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -630,6 +631,7 @@
 		C4CA0D8629BC4F5200ECEF6B /* leftsum-tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "leftsum-tree.jpg"; sourceTree = "<group>"; };
 		C4CA0D8829BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortIntegersByTheNumberOf1Bits .swift"; sourceTree = "<group>"; };
 		C4CA0D8A29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplementQueueUsingStacks .swift"; sourceTree = "<group>"; };
+		C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidAnagram .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -3283,6 +3285,7 @@
 			children = (
 				CB15B67627C7A94A00B4AFA1 /* ValidAnagram.hpp */,
 				CB15B67527C7A94A00B4AFA1 /* ValidAnagram.cpp */,
+				C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */,
 			);
 			path = "242. Valid Anagram ";
 			sourceTree = "<group>";
@@ -3803,6 +3806,7 @@
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
 				C4CA0D5629B2E26D00ECEF6B /* MoveZeroes .swift in Sources */,
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,
+				C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */,
 				C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */,
 				C4CA0D5429B24F4800ECEF6B /* SumOfAllOddLengthSubarrays .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
