@@ -178,6 +178,7 @@
 		C4CA0D8929BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8829BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift */; };
 		C4CA0D8B29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8A29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift */; };
 		C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */; };
+		C4CA0D8F29BDDAF100ECEF6B /* ContainsDuplicate .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -632,6 +633,7 @@
 		C4CA0D8829BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortIntegersByTheNumberOf1Bits .swift"; sourceTree = "<group>"; };
 		C4CA0D8A29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplementQueueUsingStacks .swift"; sourceTree = "<group>"; };
 		C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidAnagram .swift"; sourceTree = "<group>"; };
+		C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainsDuplicate .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -924,6 +926,7 @@
 			children = (
 				C42241E227BC5F4100E5B034 /* ContainsDuplicate.hpp */,
 				C42241E127BC5F4100E5B034 /* ContainsDuplicate.cpp */,
+				C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */,
 			);
 			path = "217. Contains Duplicate";
 			sourceTree = "<group>";
@@ -3792,6 +3795,7 @@
 				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
 				C4CA0D7329B89C0900ECEF6B /* VerifyingAnAlienDictionary .swift in Sources */,
 				C4CA0D7029B715E600ECEF6B /* DecryptStringFromAlphabetToIntegerMapping .swift in Sources */,
+				C4CA0D8F29BDDAF100ECEF6B /* ContainsDuplicate .swift in Sources */,
 				C4CA0D7B29B8E47100ECEF6B /* MiddleOfTheLinkedList .swift in Sources */,
 				C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */,
 				C4FC5F0129A900D5001CDED1 /* SignOfTheProductOfAnArray .swift in Sources */,
