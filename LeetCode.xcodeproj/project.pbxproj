@@ -179,6 +179,7 @@
 		C4CA0D8B29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8A29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift */; };
 		C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */; };
 		C4CA0D8F29BDDAF100ECEF6B /* ContainsDuplicate .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */; };
+		C4CA0D9329BE2DD000ECEF6B /* DesignParkingSystem .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -634,6 +635,7 @@
 		C4CA0D8A29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplementQueueUsingStacks .swift"; sourceTree = "<group>"; };
 		C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidAnagram .swift"; sourceTree = "<group>"; };
 		C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainsDuplicate .swift"; sourceTree = "<group>"; };
+		C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignParkingSystem .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -835,6 +837,7 @@
 				C4A511EC27CC51490004D026 /* Tree */,
 				C4E3857A27F1F2770024DDFF /* Graph */,
 				C4B2523F27F4B3070040706B /* Heap */,
+				C4CA0D9029BE2DAE00ECEF6B /* Design */,
 				C493919227FBE30900E2CF01 /* Paiza */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
@@ -2942,6 +2945,22 @@
 			path = "1356. Sort Integers by The Number of 1 Bits ";
 			sourceTree = "<group>";
 		};
+		C4CA0D9029BE2DAE00ECEF6B /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D9129BE2DC100ECEF6B /* 1603. Design Parking System  */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		C4CA0D9129BE2DC100ECEF6B /* 1603. Design Parking System  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */,
+			);
+			path = "1603. Design Parking System ";
+			sourceTree = "<group>";
+		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3789,6 +3808,7 @@
 				C4CA0D7829B8DE6700ECEF6B /* ListNode.swift in Sources */,
 				C4CA0D7D29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift in Sources */,
 				C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */,
+				C4CA0D9329BE2DD000ECEF6B /* DesignParkingSystem .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
 				C4CA0D6429B63D5F00ECEF6B /* MergeStringsAlternately .swift in Sources */,
 				C4CA0D7629B8BD3800ECEF6B /* ConvertBinaryNumberInALinkedListToInteger .swift in Sources */,
