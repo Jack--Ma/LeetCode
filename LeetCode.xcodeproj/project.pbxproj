@@ -180,6 +180,7 @@
 		C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */; };
 		C4CA0D8F29BDDAF100ECEF6B /* ContainsDuplicate .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */; };
 		C4CA0D9329BE2DD000ECEF6B /* DesignParkingSystem .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */; };
+		C4CA0D9629BE32C000ECEF6B /* RangeSumQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9529BE32C000ECEF6B /* RangeSumQuery.swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -636,6 +637,7 @@
 		C4CA0D8C29BCDBAF00ECEF6B /* ValidAnagram .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidAnagram .swift"; sourceTree = "<group>"; };
 		C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainsDuplicate .swift"; sourceTree = "<group>"; };
 		C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignParkingSystem .swift"; sourceTree = "<group>"; };
+		C4CA0D9529BE32C000ECEF6B /* RangeSumQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumQuery.swift; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2948,6 +2950,7 @@
 		C4CA0D9029BE2DAE00ECEF6B /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0D9429BE32B100ECEF6B /* 303. Range Sum Query - Immutable  */,
 				C4CA0D9129BE2DC100ECEF6B /* 1603. Design Parking System  */,
 			);
 			path = Design;
@@ -2959,6 +2962,14 @@
 				C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */,
 			);
 			path = "1603. Design Parking System ";
+			sourceTree = "<group>";
+		};
+		C4CA0D9429BE32B100ECEF6B /* 303. Range Sum Query - Immutable  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D9529BE32C000ECEF6B /* RangeSumQuery.swift */,
+			);
+			path = "303. Range Sum Query - Immutable ";
 			sourceTree = "<group>";
 		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
@@ -3825,6 +3836,7 @@
 				C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4CA0D5929B3A83100ECEF6B /* NextGreaterElementI .swift in Sources */,
+				C4CA0D9629BE32C000ECEF6B /* RangeSumQuery.swift in Sources */,
 				C4CA0D8929BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift in Sources */,
 				C4CA0D7F29BC401900ECEF6B /* TreeNode.swift in Sources */,
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
