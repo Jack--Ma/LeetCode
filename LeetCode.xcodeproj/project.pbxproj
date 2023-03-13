@@ -181,6 +181,7 @@
 		C4CA0D8F29BDDAF100ECEF6B /* ContainsDuplicate .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */; };
 		C4CA0D9329BE2DD000ECEF6B /* DesignParkingSystem .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */; };
 		C4CA0D9629BE32C000ECEF6B /* RangeSumQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9529BE32C000ECEF6B /* RangeSumQuery.swift */; };
+		C4CA0D9929BF6A8E00ECEF6B /* LongestCommonPrefix .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9829BF6A8E00ECEF6B /* LongestCommonPrefix .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -638,6 +639,7 @@
 		C4CA0D8E29BDDAF100ECEF6B /* ContainsDuplicate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainsDuplicate .swift"; sourceTree = "<group>"; };
 		C4CA0D9229BE2DD000ECEF6B /* DesignParkingSystem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignParkingSystem .swift"; sourceTree = "<group>"; };
 		C4CA0D9529BE32C000ECEF6B /* RangeSumQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumQuery.swift; sourceTree = "<group>"; };
+		C4CA0D9829BF6A8E00ECEF6B /* LongestCommonPrefix .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestCommonPrefix .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2103,6 +2105,7 @@
 		C4A8859D27C670B500EC168C /* String */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0D9729BF6A8200ECEF6B /* 14. Longest Common Prefix  */,
 				C4CA0D7129B89BFE00ECEF6B /* 953. Verifying an Alien Dictionary  */,
 				C4CA0D6E29B715D900ECEF6B /* 1309. Decrypt String from Alphabet to Integer Mapping  */,
 				C4CA0D6B29B710F800ECEF6B /* 709. To Lower Case  */,
@@ -2972,6 +2975,14 @@
 			path = "303. Range Sum Query - Immutable ";
 			sourceTree = "<group>";
 		};
+		C4CA0D9729BF6A8200ECEF6B /* 14. Longest Common Prefix  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0D9829BF6A8E00ECEF6B /* LongestCommonPrefix .swift */,
+			);
+			path = "14. Longest Common Prefix ";
+			sourceTree = "<group>";
+		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3816,6 +3827,7 @@
 				C4CA0D6D29B7110500ECEF6B /* ToLowerCase .swift in Sources */,
 				C4CA0D8529BC4F0500ECEF6B /* SumOfLeftLeaves .swift in Sources */,
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
+				C4CA0D9929BF6A8E00ECEF6B /* LongestCommonPrefix .swift in Sources */,
 				C4CA0D7829B8DE6700ECEF6B /* ListNode.swift in Sources */,
 				C4CA0D7D29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift in Sources */,
 				C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */,
