@@ -16,7 +16,7 @@ func testSolution() {
     let solution = Solution()
 //    let node = ListNode.buildListNode([1,2,3,4,5])
 //    let treeNode = TreeNode.buildTree([1,2,3,TreeNode.Null,TreeNode.Null,4,5])
-    print(solution.LongestCommonPrefix(["",""]))
+    print(solution.PowXN(0.00001, 2147483647))
 }
 
 testSolution()
