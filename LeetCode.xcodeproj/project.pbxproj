@@ -185,6 +185,7 @@
 		C4CA0D9C29C09B1C00ECEF6B /* Pow(x, n) .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9B29C09B1B00ECEF6B /* Pow(x, n) .swift */; };
 		C4CA0D9F29C0CD7D00ECEF6B /* SetMatrixZeroes .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9E29C0CD7D00ECEF6B /* SetMatrixZeroes .swift */; };
 		C4CA0DA429C330B700ECEF6B /* ValidPalindrome .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0DA329C330B700ECEF6B /* ValidPalindrome .swift */; };
+		C4CA0DA729C478C900ECEF6B /* LongestConsecutiveSequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0DA629C478C800ECEF6B /* LongestConsecutiveSequence .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -648,6 +649,7 @@
 		C4CA0DA029C0CDE900ECEF6B /* mat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mat1.jpg; sourceTree = "<group>"; };
 		C4CA0DA129C0CDE900ECEF6B /* mat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mat2.jpg; sourceTree = "<group>"; };
 		C4CA0DA329C330B700ECEF6B /* ValidPalindrome .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidPalindrome .swift"; sourceTree = "<group>"; };
+		C4CA0DA629C478C800ECEF6B /* LongestConsecutiveSequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestConsecutiveSequence .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -2210,6 +2212,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4CA0DA529C478C000ECEF6B /* 128. Longest Consecutive Sequence  */,
 				C4CA0D9D29C0CD6800ECEF6B /* 73. Set Matrix Zeroes  */,
 				C4CA0D5D29B4F20200ECEF6B /* 1572. Matrix Diagonal Sum  */,
 				C4CA0D5A29B4EADC00ECEF6B /* 1672. Richest Customer Wealth  */,
@@ -3018,6 +3021,14 @@
 				C4CA0DA329C330B700ECEF6B /* ValidPalindrome .swift */,
 			);
 			path = "125. Valid Palindrome ";
+			sourceTree = "<group>";
+		};
+		C4CA0DA529C478C000ECEF6B /* 128. Longest Consecutive Sequence  */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA0DA629C478C800ECEF6B /* LongestConsecutiveSequence .swift */,
+			);
+			path = "128. Longest Consecutive Sequence ";
 			sourceTree = "<group>";
 		};
 		C4CF8F20283D2A0C00FB1118 /* 69. Sqrt(x)  */ = {
@@ -3858,6 +3869,7 @@
 			files = (
 				C4CA0D6129B5DF2200ECEF6B /* ReshapeTheMatrix .swift in Sources */,
 				C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */,
+				C4CA0DA729C478C900ECEF6B /* LongestConsecutiveSequence .swift in Sources */,
 				C4CA0D6729B6460D00ECEF6B /* GoalParserInterpretation .swift in Sources */,
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */,
