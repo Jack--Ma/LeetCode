@@ -186,6 +186,7 @@
 		C4CA0D9F29C0CD7D00ECEF6B /* SetMatrixZeroes .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0D9E29C0CD7D00ECEF6B /* SetMatrixZeroes .swift */; };
 		C4CA0DA429C330B700ECEF6B /* ValidPalindrome .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0DA329C330B700ECEF6B /* ValidPalindrome .swift */; };
 		C4CA0DA729C478C900ECEF6B /* LongestConsecutiveSequence .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0DA629C478C800ECEF6B /* LongestConsecutiveSequence .swift */; };
+		C4CA0DA929C4C64500ECEF6B /* MonotonicArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA0DA829C4C64500ECEF6B /* MonotonicArray .swift */; };
 		C4CF8F23283D2A1600FB1118 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */; };
 		C4CF8F27283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */; };
 		C4D97F192833D26200D889A0 /* ShuffleAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4D97F172833D26200D889A0 /* ShuffleAnArray.cpp */; };
@@ -650,6 +651,7 @@
 		C4CA0DA129C0CDE900ECEF6B /* mat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mat2.jpg; sourceTree = "<group>"; };
 		C4CA0DA329C330B700ECEF6B /* ValidPalindrome .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidPalindrome .swift"; sourceTree = "<group>"; };
 		C4CA0DA629C478C800ECEF6B /* LongestConsecutiveSequence .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestConsecutiveSequence .swift"; sourceTree = "<group>"; };
+		C4CA0DA829C4C64500ECEF6B /* MonotonicArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MonotonicArray .swift"; sourceTree = "<group>"; };
 		C4CF8F21283D2A1600FB1118 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		C4CF8F22283D2A1600FB1118 /* Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Sqrt(x).hpp"; sourceTree = "<group>"; };
 		C4CF8F25283D2DF200FB1118 /* FindSmallestLetterGreaterThanTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindSmallestLetterGreaterThanTarget.cpp; sourceTree = "<group>"; };
@@ -1924,6 +1926,7 @@
 			children = (
 				C4A62F272849D22A00F404D6 /* MonotonicArray.hpp */,
 				C4A62F262849D22A00F404D6 /* MonotonicArray.cpp */,
+				C4CA0DA829C4C64500ECEF6B /* MonotonicArray .swift */,
 			);
 			path = "896. Monotonic Array ";
 			sourceTree = "<group>";
@@ -3908,6 +3911,7 @@
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,
 				C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */,
 				C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */,
+				C4CA0DA929C4C64500ECEF6B /* MonotonicArray .swift in Sources */,
 				C4CA0D5429B24F4800ECEF6B /* SumOfAllOddLengthSubarrays .swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
 			);
