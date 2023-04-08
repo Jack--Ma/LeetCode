@@ -16,6 +16,7 @@
 		C42241DD27BC5EF300E5B034 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241DC27BC5EF300E5B034 /* main.cpp */; };
 		C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E127BC5F4100E5B034 /* ContainsDuplicate.cpp */; };
 		C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */; };
+		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFB2802B7540022DEEC /* PermutationInString.cpp */; };
 		C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */; };
 		C481ED06280482730022DEEC /* FloodFill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED04280482730022DEEC /* FloodFill.cpp */; };
@@ -312,6 +313,7 @@
 		C44BB8981D4887D80058B979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C452371B1D5848BE00205120 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C4635AEA1D7BC5830012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4635AF51D7C17EE0012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C481ECFB2802B7540022DEEC /* PermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationInString.cpp; sourceTree = "<group>"; };
@@ -1934,6 +1936,7 @@
 		C4A62F292849EF8600F404D6 /* 28. Implement strStr()  */ = {
 			isa = PBXGroup;
 			children = (
+				C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */,
 				C4A62F2B2849FB5800F404D6 /* ImplementStrStr().hpp */,
 				C4A62F2A2849FB5800F404D6 /* ImplementStrStr().cpp */,
 			);
@@ -3874,6 +3877,7 @@
 				C4FC5F0629ABAF09001CDED1 /* HappyNumber .swift in Sources */,
 				C4CA0DA729C478C900ECEF6B /* LongestConsecutiveSequence .swift in Sources */,
 				C4CA0D6729B6460D00ECEF6B /* GoalParserInterpretation .swift in Sources */,
+				C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */,
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */,
 				C4CA0D6D29B7110500ECEF6B /* ToLowerCase .swift in Sources */,
