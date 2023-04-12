@@ -18,6 +18,7 @@
 		C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
+		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
 		C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFB2802B7540022DEEC /* PermutationInString.cpp */; };
 		C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */; };
 		C481ED06280482730022DEEC /* FloodFill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED04280482730022DEEC /* FloodFill.cpp */; };
@@ -316,6 +317,8 @@
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
+		C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MinimumDepthOfBinaryTree .swift"; sourceTree = "<group>"; };
+		C461DD4029E3F1D400FB7CC0 /* ex_depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ex_depth.jpg; sourceTree = "<group>"; };
 		C4635AEA1D7BC5830012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4635AF51D7C17EE0012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C481ECFB2802B7540022DEEC /* PermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationInString.cpp; sourceTree = "<group>"; };
@@ -1110,6 +1113,15 @@
 			path = "9-Palindrome_Number";
 			sourceTree = "<group>";
 		};
+		C461DD3D29E3E44100FB7CC0 /* 111. Minimum Depth of Binary Tree  */ = {
+			isa = PBXGroup;
+			children = (
+				C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */,
+				C461DD4029E3F1D400FB7CC0 /* ex_depth.jpg */,
+			);
+			path = "111. Minimum Depth of Binary Tree ";
+			sourceTree = "<group>";
+		};
 		C4635AE91D7BC5830012CD4B /* 85-Maximal_Rectangle */ = {
 			isa = PBXGroup;
 			children = (
@@ -1812,6 +1824,7 @@
 		C4A511EC27CC51490004D026 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C461DD3D29E3E44100FB7CC0 /* 111. Minimum Depth of Binary Tree  */,
 				C4CA0D8329BC4EFA00ECEF6B /* 404. Sum of Left Leaves  */,
 				C4FC5F0A29AE5B5B001CDED1 /* 589. N-ary Tree Preorder Traversal  */,
 				C4E3857627F014FE0024DDFF /* 297. Serialize and Deserialize Binary Tree  */,
@@ -3920,6 +3933,7 @@
 				C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */,
 				C4CA0DA929C4C64500ECEF6B /* MonotonicArray .swift in Sources */,
 				C4CA0D5429B24F4800ECEF6B /* SumOfAllOddLengthSubarrays .swift in Sources */,
+				C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */,
 				C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */,
 				C4FC5EF529A497EC001CDED1 /* NumberOf1Bits.swift in Sources */,
 			);
