@@ -19,6 +19,7 @@
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
+		C461DD4229E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD4129E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift */; };
 		C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFB2802B7540022DEEC /* PermutationInString.cpp */; };
 		C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */; };
 		C481ED06280482730022DEEC /* FloodFill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED04280482730022DEEC /* FloodFill.cpp */; };
@@ -319,6 +320,7 @@
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MinimumDepthOfBinaryTree .swift"; sourceTree = "<group>"; };
 		C461DD4029E3F1D400FB7CC0 /* ex_depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ex_depth.jpg; sourceTree = "<group>"; };
+		C461DD4129E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedSubstringPattern.swift; sourceTree = "<group>"; };
 		C4635AEA1D7BC5830012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4635AF51D7C17EE0012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C481ECFB2802B7540022DEEC /* PermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationInString.cpp; sourceTree = "<group>"; };
@@ -1975,6 +1977,7 @@
 			children = (
 				C4A62F35284B443D00F404D6 /* RepeatedSubstringPattern.hpp */,
 				C4A62F34284B443D00F404D6 /* RepeatedSubstringPattern.cpp */,
+				C461DD4129E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift */,
 			);
 			path = "459. Repeated Substring Pattern ";
 			sourceTree = "<group>";
@@ -3907,6 +3910,7 @@
 				C4CA0D9F29C0CD7D00ECEF6B /* SetMatrixZeroes .swift in Sources */,
 				C4CA0D9329BE2DD000ECEF6B /* DesignParkingSystem .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
+				C461DD4229E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift in Sources */,
 				C4CA0D6429B63D5F00ECEF6B /* MergeStringsAlternately .swift in Sources */,
 				C4CA0D7629B8BD3800ECEF6B /* ConvertBinaryNumberInALinkedListToInteger .swift in Sources */,
 				C4FC5EFE29A66583001CDED1 /* FindNearestPointThatHasTheSameXOrYCoordinate.swift in Sources */,
