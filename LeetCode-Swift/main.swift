@@ -14,11 +14,11 @@ class Solution {
 
 func testSolution() {
     let solution = Solution()
-//    let node = ListNode.buildListNode([1,2,3,4,5])
-//    var treeNode = TreeNode.buildTree([1,2,2,3,3,TreeNode.Null,TreeNode.Null,4,4])
-//    treeNode = TreeNode.buildTree([1,TreeNode.Null,2,TreeNode.Null,3,TreeNode.Null,4,TreeNode.Null,5])
+    let node = ListNode.buildListNode([1,4,2,6,8])
+    let treeNode = TreeNode.buildTree([1,4,4,TreeNode.Null,2,2,TreeNode.Null,1,TreeNode.Null,6,8,TreeNode.Null,TreeNode.Null,TreeNode.Null,TreeNode.Null,1,3])
 //    var matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
-    print(solution.PlusOne([9,9]))
+    
+    print(solution.LinkedListInBinaryTree(node, treeNode))
 }
 
 testSolution()

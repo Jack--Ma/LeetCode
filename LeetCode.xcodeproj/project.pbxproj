@@ -22,6 +22,7 @@
 		C461DD4229E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD4129E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift */; };
 		C461DD4429E858D100FB7CC0 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD4329E858D100FB7CC0 /* EvaluateReversePolishNotation.swift */; };
 		C461DD4629E99E7100FB7CC0 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD4529E99E7100FB7CC0 /* PlusOne.swift */; };
+		C461DD4829EAF2BC00FB7CC0 /* LinkedListInBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD4729EAF2BC00FB7CC0 /* LinkedListInBinaryTree.swift */; };
 		C481ECFD2802B7540022DEEC /* PermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFB2802B7540022DEEC /* PermutationInString.cpp */; };
 		C481ED0128047D380022DEEC /* FindAllAnagramsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ECFF28047D380022DEEC /* FindAllAnagramsInAString.cpp */; };
 		C481ED06280482730022DEEC /* FloodFill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C481ED04280482730022DEEC /* FloodFill.cpp */; };
@@ -325,6 +326,7 @@
 		C461DD4129E6F5CA00FB7CC0 /* RepeatedSubstringPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedSubstringPattern.swift; sourceTree = "<group>"; };
 		C461DD4329E858D100FB7CC0 /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotation.swift; sourceTree = "<group>"; };
 		C461DD4529E99E7100FB7CC0 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		C461DD4729EAF2BC00FB7CC0 /* LinkedListInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListInBinaryTree.swift; sourceTree = "<group>"; };
 		C4635AEA1D7BC5830012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4635AF51D7C17EE0012CD4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C481ECFB2802B7540022DEEC /* PermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermutationInString.cpp; sourceTree = "<group>"; };
@@ -2011,6 +2013,7 @@
 			children = (
 				C4A62F41284C904E00F404D6 /* LinkedListInBinaryTree.hpp */,
 				C4A62F40284C904E00F404D6 /* LinkedListInBinaryTree.cpp */,
+				C461DD4729EAF2BC00FB7CC0 /* LinkedListInBinaryTree.swift */,
 				C4A62F43284C90BD00F404D6 /* sample_1_1720.png */,
 			);
 			path = "1367. Linked List in Binary Tree ";
@@ -3931,6 +3934,7 @@
 				C4CA0D8B29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift in Sources */,
 				C4CA0D6A29B7094B00ECEF6B /* FindTheDifference .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
+				C461DD4829EAF2BC00FB7CC0 /* LinkedListInBinaryTree.swift in Sources */,
 				C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */,
 				C461DD4429E858D100FB7CC0 /* EvaluateReversePolishNotation.swift in Sources */,
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
