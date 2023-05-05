@@ -16,6 +16,7 @@
 		C42241DD27BC5EF300E5B034 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241DC27BC5EF300E5B034 /* main.cpp */; };
 		C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E127BC5F4100E5B034 /* ContainsDuplicate.cpp */; };
 		C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */; };
+		C4549C4E2A053711006BB982 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C4D2A053711006BB982 /* AddBinary.swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -319,6 +320,7 @@
 		C44BB8821D4856A50058B979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C44BB8981D4887D80058B979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C452371B1D5848BE00205120 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4549C4D2A053711006BB982 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -2026,6 +2028,7 @@
 			children = (
 				C4A62F46284D111F00F404D6 /* AddBinary.hpp */,
 				C4A62F45284D111F00F404D6 /* AddBinary.cpp */,
+				C4549C4D2A053711006BB982 /* AddBinary.swift */,
 			);
 			path = "67. Add Binary ";
 			sourceTree = "<group>";
@@ -3911,6 +3914,7 @@
 				C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */,
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */,
+				C4549C4E2A053711006BB982 /* AddBinary.swift in Sources */,
 				C4CA0D6D29B7110500ECEF6B /* ToLowerCase .swift in Sources */,
 				C4CA0DA429C330B700ECEF6B /* ValidPalindrome .swift in Sources */,
 				C4CA0D8529BC4F0500ECEF6B /* SumOfLeftLeaves .swift in Sources */,

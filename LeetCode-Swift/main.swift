@@ -18,7 +18,7 @@ func testSolution() {
     let treeNode = TreeNode.buildTree([1,4,4,TreeNode.Null,2,2,TreeNode.Null,1,TreeNode.Null,6,8,TreeNode.Null,TreeNode.Null,TreeNode.Null,TreeNode.Null,1,3])
 //    var matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
     
-    print(solution.MultiplyStrings("0", "0"))
+    print(solution.AddBinary("0", "0"))
 }
 
 testSolution()
