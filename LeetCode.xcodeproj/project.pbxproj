@@ -17,6 +17,7 @@
 		C42241E327BC5F4100E5B034 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E127BC5F4100E5B034 /* ContainsDuplicate.cpp */; };
 		C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */; };
 		C4549C4E2A053711006BB982 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C4D2A053711006BB982 /* AddBinary.swift */; };
+		C4549C502A0549DB006BB982 /* AddToArrayFormOfInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -321,6 +322,7 @@
 		C44BB8981D4887D80058B979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C452371B1D5848BE00205120 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4549C4D2A053711006BB982 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToArrayFormOfInteger.swift; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -2038,6 +2040,7 @@
 			children = (
 				C4A62F4A284E536800F404D6 /* AddToArrayFormOfInteger.hpp */,
 				C4A62F49284E536800F404D6 /* AddToArrayFormOfInteger.cpp */,
+				C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */,
 			);
 			path = "989. Add to Array-Form of Integer ";
 			sourceTree = "<group>";
@@ -3953,6 +3956,7 @@
 				C461DD9229F172C900FB7CC0 /* MultiplyStrings.swift in Sources */,
 				C4CA0D5629B2E26D00ECEF6B /* MoveZeroes .swift in Sources */,
 				C4FC5F0429AA5C77001CDED1 /* CanMakeArithmeticProgressionFromSequence .swift in Sources */,
+				C4549C502A0549DB006BB982 /* AddToArrayFormOfInteger.swift in Sources */,
 				C4CA0D8D29BCDBAF00ECEF6B /* ValidAnagram .swift in Sources */,
 				C4FC5F0C29AE5B66001CDED1 /* N-aryTreePreorderTraversal .swift in Sources */,
 				C4CA0DA929C4C64500ECEF6B /* MonotonicArray .swift in Sources */,
