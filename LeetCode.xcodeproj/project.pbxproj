@@ -18,6 +18,7 @@
 		C42241E827BC6CA900E5B034 /* MaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C42241E627BC6CA900E5B034 /* MaximumSubarray.cpp */; };
 		C4549C4E2A053711006BB982 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C4D2A053711006BB982 /* AddBinary.swift */; };
 		C4549C502A0549DB006BB982 /* AddToArrayFormOfInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */; };
+		C4549C532A06998E006BB982 /* DailyTemperatures .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C522A06998E006BB982 /* DailyTemperatures .swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -323,6 +324,7 @@
 		C452371B1D5848BE00205120 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4549C4D2A053711006BB982 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToArrayFormOfInteger.swift; sourceTree = "<group>"; };
+		C4549C522A06998E006BB982 /* DailyTemperatures .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyTemperatures .swift"; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -1119,6 +1121,14 @@
 			path = "76-Minimum_Window_Substring";
 			sourceTree = "<group>";
 		};
+		C4549C512A06997C006BB982 /* 739. Daily Temperatures  */ = {
+			isa = PBXGroup;
+			children = (
+				C4549C522A06998E006BB982 /* DailyTemperatures .swift */,
+			);
+			path = "739. Daily Temperatures ";
+			sourceTree = "<group>";
+		};
 		C45620F11D94C50D008F81B9 /* 9-Palindrome_Number */ = {
 			isa = PBXGroup;
 			children = (
@@ -1803,6 +1813,7 @@
 		C4A511E327CA68100004D026 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				C4549C512A06997C006BB982 /* 739. Daily Temperatures  */,
 				C4CA0D5729B3A82600ECEF6B /* 496. Next Greater Element I  */,
 				C4A62F37284C78C000F404D6 /* 150. Evaluate Reverse Polish Notation  */,
 				C4AC28F72801D21F0036E6DB /* 85. Maximal Rectangle  */,
@@ -3926,6 +3937,7 @@
 				C4CA0D7829B8DE6700ECEF6B /* ListNode.swift in Sources */,
 				C4CA0D7D29BC3FDA00ECEF6B /* MaximumDepthOfBinaryTree.swift in Sources */,
 				C4CA0D5029B2333100ECEF6B /* CheckIfItIsAStraightLine .swift in Sources */,
+				C4549C532A06998E006BB982 /* DailyTemperatures .swift in Sources */,
 				C4CA0D9F29C0CD7D00ECEF6B /* SetMatrixZeroes .swift in Sources */,
 				C4CA0D9329BE2DD000ECEF6B /* DesignParkingSystem .swift in Sources */,
 				C4FC5EF829A4A380001CDED1 /* SubtractTheProductAndSumOfDigitsOfAnInteger .swift in Sources */,
