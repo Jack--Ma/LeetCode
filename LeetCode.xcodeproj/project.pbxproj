@@ -20,6 +20,7 @@
 		C4549C502A0549DB006BB982 /* AddToArrayFormOfInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */; };
 		C4549C532A06998E006BB982 /* DailyTemperatures .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C522A06998E006BB982 /* DailyTemperatures .swift */; };
 		C4549C552A06BB9B006BB982 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C542A06BB9B006BB982 /* LengthOfLastWord.swift */; };
+		C4549C572A07F062006BB982 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C562A07F062006BB982 /* RotateImage.swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -327,6 +328,7 @@
 		C4549C4F2A0549DB006BB982 /* AddToArrayFormOfInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToArrayFormOfInteger.swift; sourceTree = "<group>"; };
 		C4549C522A06998E006BB982 /* DailyTemperatures .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyTemperatures .swift"; sourceTree = "<group>"; };
 		C4549C542A06BB9B006BB982 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
+		C4549C562A07F062006BB982 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -3610,6 +3612,7 @@
 			children = (
 				CB8C3C2927D7515E00576C6D /* RotateImage.hpp */,
 				CB8C3C2827D7515E00576C6D /* RotateImage.cpp */,
+				C4549C562A07F062006BB982 /* RotateImage.swift */,
 			);
 			path = "48. Rotate Image ";
 			sourceTree = "<group>";
@@ -3960,6 +3963,7 @@
 				C4CA0D8B29BCD9BD00ECEF6B /* ImplementQueueUsingStacks .swift in Sources */,
 				C4CA0D6A29B7094B00ECEF6B /* FindTheDifference .swift in Sources */,
 				C4FC5ED729A384FA001CDED1 /* main.swift in Sources */,
+				C4549C572A07F062006BB982 /* RotateImage.swift in Sources */,
 				C461DD4829EAF2BC00FB7CC0 /* LinkedListInBinaryTree.swift in Sources */,
 				C4CA0D5F29B4F20C00ECEF6B /* MatrixDiagonalSum .swift in Sources */,
 				C461DD4429E858D100FB7CC0 /* EvaluateReversePolishNotation.swift in Sources */,
