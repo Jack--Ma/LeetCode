@@ -18,7 +18,7 @@ func testSolution() {
     let treeNode = TreeNode.buildTree([1,4,4,TreeNode.Null,2,2,TreeNode.Null,1,TreeNode.Null,6,8,TreeNode.Null,TreeNode.Null,TreeNode.Null,TreeNode.Null,1,3])
 //    var matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
     
-    print(solution.DailyTemperatures([73,74,75,71,69,72,76,73]))
+    print(solution.LengthOfLastWord("   fly me   to   the moon  "))
 }
 
 testSolution()
