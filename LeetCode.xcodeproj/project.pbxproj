@@ -21,6 +21,7 @@
 		C4549C532A06998E006BB982 /* DailyTemperatures .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C522A06998E006BB982 /* DailyTemperatures .swift */; };
 		C4549C552A06BB9B006BB982 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C542A06BB9B006BB982 /* LengthOfLastWord.swift */; };
 		C4549C572A07F062006BB982 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C562A07F062006BB982 /* RotateImage.swift */; };
+		C4549C592A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C582A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -329,6 +330,7 @@
 		C4549C522A06998E006BB982 /* DailyTemperatures .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyTemperatures .swift"; sourceTree = "<group>"; };
 		C4549C542A06BB9B006BB982 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		C4549C562A07F062006BB982 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		C4549C582A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineWhetherMatrixCanBeObtainedByRotation.swift; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -2075,6 +2077,7 @@
 			children = (
 				C4A62F522850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.hpp */,
 				C4A62F512850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp */,
+				C4549C582A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift */,
 				C4A62F542850F1D700F404D6 /* grid3.png */,
 				C4A62F552850F1D700F404D6 /* grid4.png */,
 			);
@@ -3956,6 +3959,7 @@
 				C4CA0D7329B89C0900ECEF6B /* VerifyingAnAlienDictionary .swift in Sources */,
 				C4CA0D7029B715E600ECEF6B /* DecryptStringFromAlphabetToIntegerMapping .swift in Sources */,
 				C4CA0D8F29BDDAF100ECEF6B /* ContainsDuplicate .swift in Sources */,
+				C4549C592A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift in Sources */,
 				C4CA0D9C29C09B1C00ECEF6B /* Pow(x, n) .swift in Sources */,
 				C4CA0D7B29B8E47100ECEF6B /* MiddleOfTheLinkedList .swift in Sources */,
 				C4FC5F0E29AE5B9D001CDED1 /* Node.swift in Sources */,
