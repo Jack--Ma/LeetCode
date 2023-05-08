@@ -22,6 +22,7 @@
 		C4549C552A06BB9B006BB982 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C542A06BB9B006BB982 /* LengthOfLastWord.swift */; };
 		C4549C572A07F062006BB982 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C562A07F062006BB982 /* RotateImage.swift */; };
 		C4549C592A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C582A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift */; };
+		C4549C5C2A0933E4006BB982 /* SpiralMatrix .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C5B2A0933E4006BB982 /* SpiralMatrix .swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -331,6 +332,9 @@
 		C4549C542A06BB9B006BB982 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		C4549C562A07F062006BB982 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		C4549C582A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineWhetherMatrixCanBeObtainedByRotation.swift; sourceTree = "<group>"; };
+		C4549C5B2A0933E4006BB982 /* SpiralMatrix .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpiralMatrix .swift"; sourceTree = "<group>"; };
+		C4549C5D2A093566006BB982 /* spiral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiral.jpg; sourceTree = "<group>"; };
+		C4549C5E2A093566006BB982 /* spiral1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiral1.jpg; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -1133,6 +1137,16 @@
 				C4549C522A06998E006BB982 /* DailyTemperatures .swift */,
 			);
 			path = "739. Daily Temperatures ";
+			sourceTree = "<group>";
+		};
+		C4549C5A2A0933DA006BB982 /* 54. Spiral Matrix  */ = {
+			isa = PBXGroup;
+			children = (
+				C4549C5B2A0933E4006BB982 /* SpiralMatrix .swift */,
+				C4549C5D2A093566006BB982 /* spiral.jpg */,
+				C4549C5E2A093566006BB982 /* spiral1.jpg */,
+			);
+			path = "54. Spiral Matrix ";
 			sourceTree = "<group>";
 		};
 		C45620F11D94C50D008F81B9 /* 9-Palindrome_Number */ = {
@@ -2273,6 +2287,7 @@
 		C4A9455427D3AD2F00E452DC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C4549C5A2A0933DA006BB982 /* 54. Spiral Matrix  */,
 				C4CA0DA529C478C000ECEF6B /* 128. Longest Consecutive Sequence  */,
 				C4CA0D9D29C0CD6800ECEF6B /* 73. Set Matrix Zeroes  */,
 				C4CA0D5D29B4F20200ECEF6B /* 1572. Matrix Diagonal Sum  */,
@@ -3938,6 +3953,7 @@
 				C4FC5EF029A3858E001CDED1 /* CountOddNumbersInAnIntervalRange.swift in Sources */,
 				C4CA0D5C29B4EAE700ECEF6B /* RichestCustomerWealth .swift in Sources */,
 				C4549C4E2A053711006BB982 /* AddBinary.swift in Sources */,
+				C4549C5C2A0933E4006BB982 /* SpiralMatrix .swift in Sources */,
 				C4549C552A06BB9B006BB982 /* LengthOfLastWord.swift in Sources */,
 				C4CA0D6D29B7110500ECEF6B /* ToLowerCase .swift in Sources */,
 				C4CA0DA429C330B700ECEF6B /* ValidPalindrome .swift in Sources */,
