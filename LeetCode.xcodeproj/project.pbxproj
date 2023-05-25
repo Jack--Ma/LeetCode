@@ -25,6 +25,7 @@
 		C4549C5C2A0933E4006BB982 /* SpiralMatrix .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C5B2A0933E4006BB982 /* SpiralMatrix .swift */; };
 		C4549C602A0A1550006BB982 /* KClosestPointsToOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C5F2A0A1550006BB982 /* KClosestPointsToOrigin.swift */; };
 		C454CE892A1F945D006BB982 /* ArithmeticSubarrays .swift in Sources */ = {isa = PBXBuildFile; fileRef = C454CE882A1F945D006BB982 /* ArithmeticSubarrays .swift */; };
+		C454CE8C2A1F9B50006BB982 /* N-aryTreeLevelOrderTraversal .swift in Sources */ = {isa = PBXBuildFile; fileRef = C454CE8B2A1F9B50006BB982 /* N-aryTreeLevelOrderTraversal .swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -339,6 +340,8 @@
 		C4549C5E2A093566006BB982 /* spiral1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiral1.jpg; sourceTree = "<group>"; };
 		C4549C5F2A0A1550006BB982 /* KClosestPointsToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KClosestPointsToOrigin.swift; sourceTree = "<group>"; };
 		C454CE882A1F945D006BB982 /* ArithmeticSubarrays .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArithmeticSubarrays .swift"; sourceTree = "<group>"; };
+		C454CE8B2A1F9B50006BB982 /* N-aryTreeLevelOrderTraversal .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-aryTreeLevelOrderTraversal .swift"; sourceTree = "<group>"; };
+		C454CE8D2A1F9BB8006BB982 /* narytreeexample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = narytreeexample.png; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -1161,6 +1164,15 @@
 			path = "1630. Arithmetic Subarrays ";
 			sourceTree = "<group>";
 		};
+		C454CE8A2A1F9B42006BB982 /* 429. N-ary Tree Level Order Traversal  */ = {
+			isa = PBXGroup;
+			children = (
+				C454CE8B2A1F9B50006BB982 /* N-aryTreeLevelOrderTraversal .swift */,
+				C454CE8D2A1F9BB8006BB982 /* narytreeexample.png */,
+			);
+			path = "429. N-ary Tree Level Order Traversal ";
+			sourceTree = "<group>";
+		};
 		C45620F11D94C50D008F81B9 /* 9-Palindrome_Number */ = {
 			isa = PBXGroup;
 			children = (
@@ -1215,6 +1227,7 @@
 		C481ED022804825D0022DEEC /* BFS & DFS */ = {
 			isa = PBXGroup;
 			children = (
+				C454CE8A2A1F9B42006BB982 /* 429. N-ary Tree Level Order Traversal  */,
 				C4A62F3F284C902F00F404D6 /* 1367. Linked List in Binary Tree  */,
 				C4A62F2D284B01B000F404D6 /* 110. Balanced Binary Tree  */,
 				C484BA7D2815A28300CF92BD /* 797. All Paths From Source to Target  */,
@@ -3972,6 +3985,7 @@
 				C4CA0D6D29B7110500ECEF6B /* ToLowerCase .swift in Sources */,
 				C4CA0DA429C330B700ECEF6B /* ValidPalindrome .swift in Sources */,
 				C4CA0D8529BC4F0500ECEF6B /* SumOfLeftLeaves .swift in Sources */,
+				C454CE8C2A1F9B50006BB982 /* N-aryTreeLevelOrderTraversal .swift in Sources */,
 				C4FC5EFB29A4B509001CDED1 /* LargestPerimeterTriangle .swift in Sources */,
 				C4CA0D9929BF6A8E00ECEF6B /* LongestCommonPrefix .swift in Sources */,
 				C4CA0D7829B8DE6700ECEF6B /* ListNode.swift in Sources */,
