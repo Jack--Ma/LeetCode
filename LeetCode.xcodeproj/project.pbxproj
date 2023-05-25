@@ -23,6 +23,7 @@
 		C4549C572A07F062006BB982 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C562A07F062006BB982 /* RotateImage.swift */; };
 		C4549C592A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C582A092836006BB982 /* DetermineWhetherMatrixCanBeObtainedByRotation.swift */; };
 		C4549C5C2A0933E4006BB982 /* SpiralMatrix .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C5B2A0933E4006BB982 /* SpiralMatrix .swift */; };
+		C4549C602A0A1550006BB982 /* KClosestPointsToOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4549C5F2A0A1550006BB982 /* KClosestPointsToOrigin.swift */; };
 		C461DD3A29E18A9C00FB7CC0 /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */; };
 		C461DD3C29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */; };
 		C461DD3F29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift in Sources */ = {isa = PBXBuildFile; fileRef = C461DD3E29E3E45200FB7CC0 /* MinimumDepthOfBinaryTree .swift */; };
@@ -335,6 +336,7 @@
 		C4549C5B2A0933E4006BB982 /* SpiralMatrix .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpiralMatrix .swift"; sourceTree = "<group>"; };
 		C4549C5D2A093566006BB982 /* spiral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiral.jpg; sourceTree = "<group>"; };
 		C4549C5E2A093566006BB982 /* spiral1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiral1.jpg; sourceTree = "<group>"; };
+		C4549C5F2A0A1550006BB982 /* KClosestPointsToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KClosestPointsToOrigin.swift; sourceTree = "<group>"; };
 		C45620F21D94C50D008F81B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C461DD3929E18A9C00FB7CC0 /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		C461DD3B29E1AC7A00FB7CC0 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -2712,6 +2714,7 @@
 			children = (
 				C4B2525227FAE9B60040706B /* KClosestPointsToOrigin.hpp */,
 				C4B2525127FAE9B60040706B /* KClosestPointsToOrigin.cpp */,
+				C4549C5F2A0A1550006BB982 /* KClosestPointsToOrigin.swift */,
 			);
 			path = "973. K Closest Points to Origin ";
 			sourceTree = "<group>";
@@ -3992,6 +3995,7 @@
 				C4CA0D9629BE32C000ECEF6B /* RangeSumQuery.swift in Sources */,
 				C4CA0D8929BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift in Sources */,
 				C4CA0D7F29BC401900ECEF6B /* TreeNode.swift in Sources */,
+				C4549C602A0A1550006BB982 /* KClosestPointsToOrigin.swift in Sources */,
 				C4FC5F0929AD0975001CDED1 /* CheckIfOneStringSwapCanMakeStringsEqual .swift in Sources */,
 				C461DD9229F172C900FB7CC0 /* MultiplyStrings.swift in Sources */,
 				C4CA0D5629B2E26D00ECEF6B /* MoveZeroes .swift in Sources */,
