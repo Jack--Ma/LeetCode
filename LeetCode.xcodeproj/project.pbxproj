@@ -163,6 +163,8 @@
 		C4B684502809013700B41B2F /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B6844E2809013700B41B2F /* ClimbingStairs.cpp */; };
 		C4B684552809B2C100B41B2F /* HouseRobber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4B684532809B2C100B41B2F /* HouseRobber.cpp */; };
 		C4C107E4280BE10C00326A66 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C107E2280BE10C00326A66 /* Triangle.cpp */; };
+		C4C19DED2A2C38B900DD292D /* Company1Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C19DEC2A2C38B900DD292D /* Company1Code.swift */; };
+		C4C19DEF2A2C395E00DD292D /* Company1Code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C19DEE2A2C395E00DD292D /* Company1Code.cpp */; };
 		C4C9D34327E36B37007067BB /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */; };
 		C4C9D34727E380BC007067BB /* LinkedListCycleII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */; };
 		C4C9D34B27E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D34927E4204D007067BB /* IntersectionOfTwoLinkedLists.cpp */; };
@@ -635,6 +637,8 @@
 		C4B684542809B2C100B41B2F /* HouseRobber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HouseRobber.hpp; sourceTree = "<group>"; };
 		C4C107E2280BE10C00326A66 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		C4C107E3280BE10C00326A66 /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
+		C4C19DEC2A2C38B900DD292D /* Company1Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1Code.swift; sourceTree = "<group>"; };
+		C4C19DEE2A2C395E00DD292D /* Company1Code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Company1Code.cpp; sourceTree = "<group>"; };
 		C4C9D34127E36B37007067BB /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		C4C9D34227E36B37007067BB /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
 		C4C9D34527E380BC007067BB /* LinkedListCycleII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycleII.cpp; sourceTree = "<group>"; };
@@ -895,6 +899,7 @@
 				C4B2523F27F4B3070040706B /* Heap */,
 				C4CA0D9029BE2DAE00ECEF6B /* Design */,
 				C493919227FBE30900E2CF01 /* Paiza */,
+				C4C19DEA2A2C388000DD292D /* Interview */,
 				C4130D9C1D40AA9600AB673F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2855,6 +2860,23 @@
 			path = "120. Triangle ";
 			sourceTree = "<group>";
 		};
+		C4C19DEA2A2C388000DD292D /* Interview */ = {
+			isa = PBXGroup;
+			children = (
+				C4C19DEB2A2C389B00DD292D /* company1 */,
+			);
+			path = Interview;
+			sourceTree = "<group>";
+		};
+		C4C19DEB2A2C389B00DD292D /* company1 */ = {
+			isa = PBXGroup;
+			children = (
+				C4C19DEC2A2C38B900DD292D /* Company1Code.swift */,
+				C4C19DEE2A2C395E00DD292D /* Company1Code.cpp */,
+			);
+			path = company1;
+			sourceTree = "<group>";
+		};
 		C4C9D34027E36B22007067BB /* 2. Add Two Numbers  */ = {
 			isa = PBXGroup;
 			children = (
@@ -3847,6 +3869,7 @@
 				C4A511E727CA68300004D026 /* ValidParentheses.cpp in Sources */,
 				C489C5D927CD26A2002A6D34 /* BinaryTreePostorderTraversal.cpp in Sources */,
 				C493919E27FC782D00E2CF01 /* ClimbTheStairs.cpp in Sources */,
+				C4C19DEF2A2C395E00DD292D /* Company1Code.cpp in Sources */,
 				CB61B0F62805A71800E5E737 /* Node.cpp in Sources */,
 				C4A511EB27CB25280004D026 /* ImplementQueueUsingStacks.cpp in Sources */,
 				C4A62F532850F10700F404D6 /* DetermineWhetherMatrixCanBeObtainedByRotation.cpp in Sources */,
@@ -4019,6 +4042,7 @@
 				C4FC5EF329A3C3B6001CDED1 /* AverageSalaryExcludingTheMinimumAndMaximumSalary .swift in Sources */,
 				C4CA0D5929B3A83100ECEF6B /* NextGreaterElementI .swift in Sources */,
 				C4CA0D9629BE32C000ECEF6B /* RangeSumQuery.swift in Sources */,
+				C4C19DED2A2C38B900DD292D /* Company1Code.swift in Sources */,
 				C4CA0D8929BC7B2A00ECEF6B /* SortIntegersByTheNumberOf1Bits .swift in Sources */,
 				C4CA0D7F29BC401900ECEF6B /* TreeNode.swift in Sources */,
 				C4549C602A0A1550006BB982 /* KClosestPointsToOrigin.swift in Sources */,
